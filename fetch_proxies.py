@@ -5,7 +5,7 @@
 # Modified by Coder (AI Assistant)
 # - Fetches location from geonode
 # - Fetches HTTP, HTTPS, SOCKS4, SOCKS5
-# - Saves output as JSON
+# - Saves output to proxies.txt with location and type
 # -----
 import aiohttp
 import asyncio
@@ -18,10 +18,7 @@ logger = logging.getLogger(__name__)
 
 class ProxyFetcher:
     def __init__(self):
-        # Cấu trúc: { "1.2.3.4:8080": {"location": "City, Country", "source": "geonode"} }
         self.proxies = {}
-        
-        # THAY ĐỔI: Mở rộng sources để lấy SOCKS
         self.sources = [
             # API Sources (geonode CÓ cung cấp vị trí, thêm socks4, socks5)
             'https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=lastChecked&sort_type=desc&protocols=http%2Chttps%2Csocks4%2Csocks5',
@@ -77,7 +74,6 @@ class ProxyFetcher:
                                 'location': location, 
                                 'country': country or 'Unknown', 
                                 'city': city or 'Unknown',
-                                # Lấy protocol từ item để biết nó là loại gì
                                 'protocols': item.get('protocols', []),
                                 'source': 'geonode'
                             }
@@ -89,7 +85,6 @@ class ProxyFetcher:
             lines = content.split('\n')
             source_name = url.split('//')[1].split('/')[0]
             
-            # Xác định loại proxy từ URL (cho nguồn proxy-list.download)
             proxy_type = "unknown"
             if 'type=http' in url:
                 proxy_type = "http"
@@ -114,7 +109,7 @@ class ProxyFetcher:
                                     'location': 'Unknown', 
                                     'country': 'Unknown',
                                     'city': 'Unknown',
-                                    'protocols': [proxy_type], # Lưu loại proxy
+                                    'protocols': [proxy_type], 
                                     'source': source_name
                                 }
                     except Exception:
@@ -133,12 +128,12 @@ class ProxyFetcher:
                     self.parse_proxy_list(content, url)
 
     def save_proxies(self):
-        # Lưu file JSON
+        # THAY ĐỔI: Chuyển hoàn toàn sang lưu .txt với đầy đủ thông tin
         if not self.proxies:
             logger.warning("No proxies found to save!")
             return
 
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        timestamp = datetime.now().strftime("%Y-m-d %H:%M:%S")
         
         try:
             sorted_proxy_keys = sorted(
@@ -148,50 +143,51 @@ class ProxyFetcher:
         except Exception:
             sorted_proxy_keys = list(self.proxies.keys())
 
-        output_data = []
-        for proxy_key in sorted_proxy_keys:
-            info = self.proxies[proxy_key]
-            output_data.append({
-                "proxy": proxy_key,
-                "location": info.get('location'),
-                "country": info.get('country'),
-                "city": info.get('city'),
-                "protocols": info.get('protocols', []), # Thêm loại proxy
-                "source": info.get('source')
-            })
-
-        output_filename = 'proxies_all_types.json'
+        # THAY ĐỔI: Tên file
+        output_filename = 'proxies.txt'
         
         try:
-            with open(output_filename, 'w', encoding='utf-8') as f:
-                json.dump(output_data, f, indent=4)
-            
-            logger.info(f"Saved {len(self.proxies)} proxies to {output_filename}")
-            
-            # (Optional) Ghi tóm tắt
-            self.save_txt_summary(output_filename, timestamp)
+            # Tìm độ dài lề động để căn chỉnh
+            max_proxy_len = 22 # Tối thiểu 22 (cho 1.1.1.1:65535)
+            max_loc_len = 25   # Tối thiểu 25
+            if sorted_proxy_keys:
+                try:
+                    max_proxy_len = max(len(p) for p in sorted_proxy_keys) + 2
+                    max_loc_len = max(len(self.proxies[p].get('location', 'Unknown')) for p in sorted_proxy_keys) + 2
+                except ValueError:
+                    # Xử lý nếu self.proxies rỗng
+                    pass
 
-        except Exception as e:
-            logger.error(f"Failed to save JSON file: {e}")
-            
-    def save_txt_summary(self, json_filename, timestamp):
-        # Hàm ghi tóm tắt ra file txt
-        summary_filename = 'proxies_summary.txt'
-        try:
-            with open(summary_filename, 'w', encoding='utf-8') as f:
+            with open(output_filename, 'w', encoding='utf-8') as f:
                 f.write(f"# Proxy List - Updated: {timestamp}\n")
                 f.write(f"# Total proxies: {len(self.proxies)}\n")
-                f.write(f"# Data saved to: {json_filename}\n\n")
-                
-                f.write("--- First 50 proxies (example) ---\n")
-                for proxy_key, info in list(self.proxies.items())[:50]:
-                    protocols = ','.join(info.get('protocols', []))
-                    f.write(f"{proxy_key.ljust(22)} # {info.get('location', 'Unknown').ljust(30)} # {protocols}\n")
-            
-            logger.info(f"Saved summary to {summary_filename}")
-        except Exception as e:
-            logger.warning(f"Could not save summary file: {e}")
+                f.write(f"# Sources used: {len(self.sources)}\n\n")
 
+                # Viết header
+                header_proxy = 'Proxy'.ljust(max_proxy_len)
+                header_loc = 'Location'.ljust(max_loc_len)
+                f.write(f"# {header_proxy} # {header_loc} # Protocols\n")
+                f.write(f"#{'-' * (max_proxy_len + max_loc_len + 25)}\n\n")
+
+                # Ghi dữ liệu
+                for proxy_key in sorted_proxy_keys:
+                    info = self.proxies[proxy_key]
+                    
+                    location_str = info.get('location', 'Unknown')
+                    protocols_list = info.get('protocols', [])
+                    # Chuyển list ['http', 'https'] -> 'http,https'
+                    protocols_str = ','.join(protocols_list) 
+
+                    # Căn lề
+                    proxy_part = proxy_key.ljust(max_proxy_len)
+                    location_part = location_str.ljust(max_loc_len)
+
+                    f.write(f"{proxy_part} # {location_part} # {protocols_str}\n")
+            
+            logger.info(f"Saved {len(self.proxies)} proxies to {output_filename}")
+
+        except Exception as e:
+            logger.error(f"Failed to save TXT file: {e}")
 
 async def main():
     fetcher = ProxyFetcher()
