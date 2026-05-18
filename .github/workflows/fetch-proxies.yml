@@ -2,17 +2,18 @@ name: Auto Proxy Fetch
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Läuft alle 6 Stunden
-  workflow_dispatch:        # Manueller Trigger
+    - cron: '0 */6 * * *'  # Chạy tự động mỗi 6 tiếng
+  workflow_dispatch:        # Trigger bằng tay qua giao diện GitHub
   push:
     paths:
-      - 'fetch_proxies.py' # Läuft wenn das Script geändert wird
+      - 'fetch_proxies.py' # Tự chạy khi script Python thay đổi
+      - 'sources.txt'      # THÊM DÒNG NÀY: Tự chạy khi bạn chỉnh sửa file nguồn proxy
 
 jobs:
   fetch-and-update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write     # Erlaubt das Pushen von Änderungen
+      contents: write     # Cấp quyền push file proxies.txt ngược lại repo
       
     steps:
       - name: Checkout repository
