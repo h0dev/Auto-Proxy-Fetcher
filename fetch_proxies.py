@@ -141,10 +141,12 @@ class ProxyFetcher:
                 async with aiohttp.ClientSession(connector=connector) as socks_session:
                     async with socks_session.get(TEST_URL, timeout=CHECK_TIMEOUT, ssl=False) as resp:
                         if resp.status == 200:
+                            proxy_data['type'] = target_proto  # Đã thêm dòng này
                             return proxy_data
             else:
                 async with http_session.get(TEST_URL, proxy=proxy_url, timeout=CHECK_TIMEOUT, ssl=False) as resp:
                     if resp.status == 200:
+                        proxy_data['type'] = target_proto  # Đã thêm dòng này
                         return proxy_data
         except Exception:
             return None
