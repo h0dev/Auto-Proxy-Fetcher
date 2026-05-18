@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CezDev - Advanced Proxy Manager</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        [v-cloak] { display: none; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+
+    <div id="app" v-cloak class="container mx-auto px-4 py-8">
+        <header class="mb-8 border-b border-slate-800 pb-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div>
+                <h1 class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 flex items-center gap-3">
+                    <i class="fa-solid fa-shield-halved"></i> CezDev Proxy Station
+                </h1>
+                <p class="text-slate-400 mt-1 text-sm">Bộ xử lý và phân loại dữ liệu proxy nâng cao</p>
+            </div>
+            <div class="flex flex-wrap gap-3 w-full md:w-auto">
+                <input type="text" v-model="remoteUrl" placeholder="Nhập URL proxies.txt từ GitHub..." 
+                       class="bg-slate-900 border border-slate-700 rounded-lg px-4 py-2 text-sm text-slate-200 focus:outline-none focus:border-cyan-500 flex-1 md:w-80">
+                <button @click="fetchRemoteProxy" :disabled="loading" class="bg-cyan-600 hover:bg-cyan-500 disabled:bg-slate-800 text-white font-medium text-sm px-4 py-2 rounded-lg transition flex items-center gap-2 cursor-pointer">
+                    <i class="fa-solid" :class="loading ? 'fa-spinner animate-spin' : 'fa-cloud-download'"></i> Tải từ URL
+                </button>
+                <label class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium text-sm px-4 py-2 rounded-lg transition flex items-center gap-2 cursor-pointer border border-slate-700">
+                    <i class="fa-solid fa-file-import"></i> Upload File
+                    <input type="file" @change="handleFileUpload" accept=".txt" class="hidden">
+                </label>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
+            <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl">
+                <div class="text-xs text-slate-400 uppercase font-semibold">Tổng số nạp</div>
+                <div class="text-2xl font-bold text-slate-100 mt-1">{{ proxies.length }}</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl">
+                <div class="text-xs text-slate-400 uppercase font-semibold">Đã lọc (Hiển thị)</div>
+                <div class="text-2xl font-bold text-cyan-400 mt-1">{{ filteredProxies.length }}</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl border-l-4 border-l-emerald-500">
+                <div class="text-xs text-slate-400 uppercase font-semibold">Mobile IP (4G)</div>
+                <div class="text-2xl font-bold text-emerald-400 mt-1">{{ countStats.mobile }}</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl border-l-4 border-l-amber-500">
+                <div class="text-xs text-slate-400 uppercase font-semibold">Public Proxy</div>
+                <div class="text-2xl font-bold text-amber-400 mt-1">{{ countStats.proxy }}</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl border-l-4 border-l-purple-500">
+                <div class="text-xs text-slate-400 uppercase font-semibold">Hosting/Cloud</div>
+                <div class="text-2xl font-bold text-purple-400 mt-1">{{ countStats.hosting }}</div>
+            </div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl mb-8 flex flex-col gap-4">
+            <div class="flex flex-col md:flex-row gap-4 justify-between items-start md:items-center">
+                <div class="relative w-full md:w-72">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3 top-3 text-slate-500 text-sm"></i>
+                    <input type="text" v-model="searchQuery" placeholder="Tìm kiếm Quốc gia, Code..." 
+                           class="w-full bg-slate-950 border border-slate-700 rounded-lg pl-9 pr-4 py-2 text-sm text-slate-200 focus:outline-none focus:border-cyan-500">
+                </div>
+                <div class="flex gap-3 w-full md:w-auto">
+                    <button @click="copyToClipboard" :disabled="!filteredProxies.length" class="flex-1 md:flex-initial bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 disabled:from-slate-800 disabled:to-slate-800 text-white font-medium text-sm px-5 py-2.減 rounded-lg transition flex items-center justify-center gap-2 cursor-pointer">
+                        <i class="fa-solid fa-copy"></i> Copy List Đã Lọc
+                    </button>
+                    <button @click="downloadFiltered" :disabled="!filteredProxies.length" class="flex-1 md:flex-initial bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-medium text-sm px-5 py-2 rounded-lg transition flex items-center justify-center gap-2 cursor-pointer">
+                        <i class="fa-solid fa-download"></i> Tải File (.txt)
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap gap-6 mt-2 pt-4 border-t border-slate-800/60 text-sm text-slate-300">
+                <label class="flex items-center gap-2 cursor-pointer select-none">
+                    <input type="checkbox" v-model="filters.onlyMobile" class="w-4 h-4 rounded border-slate-700 text-cyan-600 focus:ring-cyan-500 bg-slate-950">
+                    <span>Chỉ lấy <span class="text-emerald-400 font-semibold">Mobile (4G)</span></span>
+                </label>
+                <label class="flex items-center gap-2 cursor-pointer select-none">
+                    <input type="checkbox" v-model="filters.excludeProxy" class="w-4 h-4 rounded border-slate-700 text-cyan-600 focus:ring-cyan-500 bg-slate-950">
+                    <span>Loại bỏ <span class="text-amber-400 font-semibold">Public Proxy</span></span>
+                </label>
+                <label class="flex items-center gap-2 cursor-pointer select-none">
+                    <input type="checkbox" v-model="filters.excludeHosting" class="w-4 h-4 rounded border-slate-700 text-cyan-600 focus:ring-cyan-500 bg-slate-950">
+                    <span>Loại bỏ <span class="text-purple-400 font-semibold">Hosting/Datacenter</span></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-slate-950 text-slate-400 text-xs font-semibold border-b border-slate-800 uppercase tracking-wider">
+                            <th class="px-6 py-4">STT</th>
+                            <th class="px-6 py-4">Proxy URI</th>
+                            <th class="px-6 py-4">Quốc gia</th>
+                            <th class="px-6 py-4 text-center">Mobile</th>
+                            <th class="px-6 py-4 text-center">Public Proxy</th>
+                            <th class="px-6 py-4 text-center">Hosting</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800/50 text-sm text-slate-300">
+                        <tr v-for="(p, idx) in filteredProxies" :key="idx" class="hover:bg-slate-850/40 transition">
+                            <td class="px-6 py-4 text-slate-500 font-mono text-xs">{{ idx + 1 }}</td>
+                            <td class="px-6 py-4 font-mono font-medium text-cyan-400 select-all">{{ p.uri }}</td>
+                            <td class="px-6 py-4">
+                                <span class="bg-slate-950 border border-slate-800 px-2.5 py-1 rounded text-xs font-medium text-slate-200">
+                                    {{ p.country }}
+                                </span>
+                            </td>
+                            <td class="px-6 py-4 text-center">
+                                <i v-if="p.mobile" class="fa-solid fa-circle-check text-emerald-500 text-base"></i>
+                                <i v-else class="fa-solid fa-circle-xmark text-slate-700"></i>
+                            </td>
+                            <td class="px-6 py-4 text-center">
+                                <span v-if="p.proxy" class="bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs px-2 py-0.5 rounded font-medium">Yes</span>
+                                <span v-else class="text-slate-600 text-xs">-</span>
+                            </td>
+                            <td class="px-6 py-4 text-center">
+                                <span v-if="p.hosting" class="bg-purple-500/10 text-purple-400 border border-purple-500/20 text-xs px-2 py-0.5 rounded font-medium">Datacenter</span>
+                                <span v-else class="text-slate-600 text-xs">-</span>
+                            </td>
+                        </tr>
+                        <tr v-if="filteredProxies.length === 0">
+                            <td colspan="6" class="px-6 py-12 text-center text-slate-500">
+                                <i class="fa-solid fa-folder-open text-3xl mb-3 block"></i>
+                                Không tìm thấy dữ liệu proxy phù hợp. Vui lòng tải file hoặc cấu hình lại bộ lọc.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const { createApp, ref, computed } = Vue;
+
+        createApp({
+            setup() {
+                const proxies = ref([]);
+                const searchQuery = ref('');
+                const remoteUrl = ref('');
+                const loading = ref(false);
+                
+                const filters = ref({
+                    onlyMobile: false,
+                    excludeProxy: false,
+                    excludeHosting: false
+                });
+
+                // Hàm Parse cấu hình text từ file proxies.txt của bạn sang JSON Object
+                const parseProxyText = (text) => {
+                    const lines = text.split('\n');
+                    const parsedList = [];
+
+                    lines.forEach(line => {
+                        line = line.strip ? line.strip() : line.trim();
+                        if (!line || line.startsWith('#') || !line.includes('|')) return;
+
+                        const parts = line.split('|').map(p => p.trim());
+                        if (parts.length < 5) return;
+
+                        // Bóc tách dữ liệu theo format: URI | Country (Code) | Mob: True/False | Prx: True/False | Hst: True/False
+                        const uri = parts[0];
+                        const country = parts[1];
+                        const mobile = parts[2].toLowerCase().includes('true');
+                        const proxy = parts[3].toLowerCase().includes('true');
+                        const hosting = parts[4].toLowerCase().includes('true');
+
+                        parsedList.push({ uri, country, mobile, proxy, hosting });
+                    });
+
+                    proxies.value = parsedList;
+                };
+
+                // Xử lý upload file nội bộ (.txt)
+                const handleFileUpload = (event) => {
+                    const file = event.target.files[0];
+                    if (!file) return;
+
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        parseProxyText(e.target.result);
+                    };
+                    reader.readAsText(file);
+                };
+
+                // Xử lý kéo trực tiếp file proxies.txt từ url GitHub qua API
+                const fetchRemoteProxy = async () => {
+                    if (!remoteUrl.value.trim()) return;
+                    loading.value = true;
+                    try {
+                        let cleanUrl = remoteUrl.value.trim();
+                        // Chuyển link GitHub thường thành link raw nếu người dùng copy nhầm link giao diện
+                        if (cleanUrl.includes('github.com') && !cleanUrl.includes('raw.githubusercontent.com')) {
+                            cleanUrl = cleanUrl.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
+                        }
+                        const response = await fetch(cleanUrl);
+                        if (!response.ok) throw new Error('Không thể tải file từ URL được chỉ định');
+                        const text = await response.text();
+                        parseProxyText(text);
+                        alert('Đồng bộ dữ liệu thành công!');
+                    } catch (error) {
+                        alert('Lỗi fetch: ' + error.message);
+                    } finally {
+                        loading.value = false;
+                    }
+                };
+
+                // Thống kê đếm các thuộc tính mạng
+                const countStats = computed(() => {
+                    return proxies.value.reduce((acc, curr) => {
+                        if (curr.mobile) acc.mobile++;
+                        if (curr.proxy) acc.proxy++;
+                        if (curr.hosting) acc.hosting++;
+                        return acc;
+                    }, { mobile: 0, proxy: 0, hosting: 0 });
+                });
+
+                // Luồng logic bộ lọc kết hợp đa thông số (Lọc Real-time)
+                const filteredProxies = computed(() => {
+                    return proxies.value.filter(p => {
+                        // 1. Tìm kiếm theo từ khóa tên quốc gia hoặc mã nước
+                        const matchesSearch = p.country.toLowerCase().includes(searchQuery.value.toLowerCase());
+                        
+                        // 2. Kiểm tra cờ chỉ lấy Mobile
+                        const matchesMobile = !filters.value.onlyMobile || p.mobile;
+                        
+                        // 3. Kiểm tra cờ loại trừ Public Proxy
+                        const matchesProxy = !filters.value.excludeProxy || !p.proxy;
+                        
+                        // 4. Kiểm tra cờ loại trừ Server Cloud / Hosting
+                        const matchesHosting = !filters.value.excludeHosting || !p.hosting;
+
+                        return matchesSearch && matchesMobile && matchesProxy && matchesHosting;
+                    });
+                });
+
+                // Copy danh sách sau lọc vào bộ nhớ tạm
+                const copyToClipboard = () => {
+                    const textToCopy = filteredProxies.value.map(p => p.uri).join('\n');
+                    navigator.clipboard.writeText(textToCopy).then(() => {
+                        alert(`Đã copy thành công ${filteredProxies.value.length} proxy vào Clipboard!`);
+                    }).catch(() => {
+                        alert('Không thể thực thi lệnh copy tự động.');
+                    });
+                };
+
+                // Xuất file text danh sách proxy đã lọc sạch
+                const downloadFiltered = () => {
+                    const text = filteredProxies.value.map(p => p.uri).join('\n');
+                    const blob = new Blob([text], { type: 'text/plain' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `cleaned_proxies_${new Date().toISOString().slice(0,10)}.txt`;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url);
+                };
+
+                return {
+                    proxies, searchQuery, remoteUrl, loading, filters,
+                    handleFileUpload, fetchRemoteProxy, countStats,
+                    filteredProxies, copyToClipboard, downloadFiltered
+                };
+            }
+        }).mount('#app');
+    </script>
+</body>
+</html>
