@@ -38,4 +38,16 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add proxies.txt
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Update proxy list [skip ci]" && git push)
+          
+          # Kiểm tra nếu file proxies.txt có sự thay đổi thì mới xử lý tiếp
+          if ! git diff --staged --quiet; then
+            git commit -m "🤖 Update proxy list [skip ci]"
+            
+            # Kéo code mới nhất từ remote về và đặt commit của bot lên trên cùng
+            git pull --rebase origin main
+            
+            # Đẩy dữ liệu an toàn lên nhánh main
+            git push origin main
+          else
+            echo "Không có thay đổi nào trong danh sách proxy."
+          fi
