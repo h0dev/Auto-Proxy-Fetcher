@@ -1,5 +1,6 @@
 import re
 import sys
+import os
 import json
 import asyncio
 import logging
@@ -13,6 +14,7 @@ MAX_CONCURRENT_CHECKS = 300
 CHECK_TIMEOUT = 8
 TEST_URL = 'http://www.google.com'
 OUTPUT_FILE = 'proxies.txt'
+SOURCES_FILE = 'sources.txt'  # Nguồn cấu hình duy nhất
 
 logging.basicConfig(
     level=logging.INFO,
@@ -22,7 +24,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("ProxyUpdater")
 
-# Regex vạn năng: Parse mọi định dạng text chứa proxy
+# Regex vạn năng: Parse mọi định dạng text chứa proxy (ip:port, user:pass@ip:port, protocol://...)
 PROXY_RE = re.compile(
     r'(?:(?P<protocol>http|https|socks4|socks5)://)?'
     r'(?:(?P<username>[^:@\s]+):(?P<password>[^:@\s]+)@)?'
@@ -34,15 +36,43 @@ class ProxyFetcher:
     def __init__(self):
         self.raw_proxies: Dict[str, Dict[str, Any]] = {}
         self.live_proxies: List[Dict[str, Any]] = []
-        self.sources = [
-            'https://proxylist.geonode.com/api/proxy-list?limit=500&page=1&sort_by=lastChecked&sort_type=desc&protocols=http%2Chttps%2Csocks4%2Csocks5',
-            'https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/all/data.json',
-            'https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/socks5.txt',
-            'https://raw.githubusercontent.com/TheSpeedX/SOCKS-List/master/http.txt'
-        ]
+        # Tải danh sách nguồn từ file bên ngoài, nếu lỗi sẽ dừng script luôn
+        self.sources: List[str] = self.load_sources()
+
+    def load_sources(self) -> List[str]:
+        """Tải danh sách các nguồn proxy từ file sources.txt."""
+        if not os.path.exists(SOURCES_FILE):
+            logger.error(f"Không tìm thấy file cấu hình '{SOURCES_FILE}'!")
+            try:
+                with open(SOURCES_FILE, 'w', encoding='utf-8') as f:
+                    f.write("# Danh sách link nguồn proxy (Mỗi dòng 1 URL)\n")
+                    f.write("# Hãy dán các liên kết proxy vào bên dưới dòng này:\n")
+                logger.info(f"Đã tự động tạo file trống '{SOURCES_FILE}'. Hãy thêm link nguồn vào file này rồi chạy lại.")
+            except IOError as e:
+                logger.error(f"Không thể khởi tạo file {SOURCES_FILE}: {e}")
+            sys.exit(1)
+
+        sources = []
+        try:
+            with open(SOURCES_FILE, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    # Bỏ qua dòng trống hoặc dòng ghi chú bắt đầu bằng dấu #
+                    if line and not line.startswith('#'):
+                        sources.append(line)
+        except IOError as e:
+            logger.error(f"Không thể đọc file {SOURCES_FILE}: {e}")
+            sys.exit(1)
+            
+        if not sources:
+            logger.error(f"File '{SOURCES_FILE}' đang trống! Vui lòng thêm ít nhất 1 link nguồn proxy.")
+            sys.exit(1)
+
+        logger.info(f"Khởi tạo thành công! Đã tải {len(sources)} nguồn proxy từ '{SOURCES_FILE}'")
+        return sources
 
     async def fetch_url(self, session: aiohttp.ClientSession, url: str) -> Optional[str]:
-        headers = {'User-Agent': 'Mozilla/5.0 (Compatible; AutoProxyFetcher/4.0)'}
+        headers = {'User-Agent': 'Mozilla/5.0 (Compatible; AutoProxyFetcher/5.0)'}
         try:
             async with session.get(url, headers=headers, timeout=20) as response:
                 if response.status == 200:
@@ -76,9 +106,8 @@ class ProxyFetcher:
                     'ip': ip, 'port': port, 
                     'protocols': [protocol],
                     'username': username, 'password': password,
-                    # Khởi tạo Schema Metadata trống
-                    'continent': 'Unknown', 'country': 'Unknown', 'countryCode': '??',
-                    'regionName': 'Unknown', 'city': 'Unknown', 'isp': 'Unknown', 'as': 'Unknown'
+                    'country': 'Unknown', 'countryCode': '??',
+                    'mobile': False, 'proxy': False, 'hosting': False
                 }
             else:
                 if protocol not in self.raw_proxies[key]['protocols']:
@@ -88,14 +117,12 @@ class ProxyFetcher:
                     self.raw_proxies[key]['password'] = password
 
     async def enrich_geolocation(self, session: aiohttp.ClientSession):
-        """Gọi API định danh hàng loạt và map sâu các trường dữ liệu ISP, ASN, Vùng miền"""
+        """Gọi API định danh hàng loạt để lấy Country và Security Flags (Mobile, Proxy, Hosting)"""
         logger.info("Starting Deep Network Lookup via ip-api Batch Endpoint...")
         
         unique_ips = list({p['ip'] for p in self.raw_proxies.values()})
         chunk_size = 100 
-        
-        # Cấu hình các trường cần lấy đúng theo format JSON của bạn để tiết kiệm băng thông API
-        fields_param = "status,continent,country,countryCode,regionName,city,isp,as,query"
+        fields_param = "status,country,countryCode,mobile,proxy,hosting,query"
         
         for i in range(0, len(unique_ips), chunk_size):
             chunk = unique_ips[i:i + chunk_size]
@@ -111,13 +138,11 @@ class ProxyFetcher:
                             ip = proxy_data['ip']
                             if ip in geo_map:
                                 info = geo_map[ip]
-                                proxy_data['continent'] = info.get('continent', 'Unknown')
                                 proxy_data['country'] = info.get('country', 'Unknown')
                                 proxy_data['countryCode'] = info.get('countryCode', '??')
-                                proxy_data['regionName'] = info.get('regionName', 'Unknown')
-                                proxy_data['city'] = info.get('city', 'Unknown')
-                                proxy_data['isp'] = info.get('isp', 'Unknown')
-                                proxy_data['as'] = info.get('as', 'Unknown')
+                                proxy_data['mobile'] = info.get('mobile', False)
+                                proxy_data['proxy'] = info.get('proxy', False)
+                                proxy_data['hosting'] = info.get('hosting', False)
                     else:
                         logger.warning(f"Geo Lookup API blocked or limited. Status: {resp.status}")
                         break
@@ -125,7 +150,7 @@ class ProxyFetcher:
                 logger.error(f"Error during network info chunk mapping: {e}")
             
             if i + chunk_size < len(unique_ips):
-                await asyncio.sleep(4.2) # Throttling bảo vệ chính sách 15 req/min
+                await asyncio.sleep(4.2)  # Tránh kích hoạt chặn HTTP 429 Rate Limit
 
     async def verify_single_proxy(self, http_session: aiohttp.ClientSession, proxy_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         ip, port = proxy_data['ip'], proxy_data['port']
@@ -141,12 +166,12 @@ class ProxyFetcher:
                 async with aiohttp.ClientSession(connector=connector) as socks_session:
                     async with socks_session.get(TEST_URL, timeout=CHECK_TIMEOUT, ssl=False) as resp:
                         if resp.status == 200:
-                            proxy_data['type'] = target_proto  # Đã thêm dòng này
+                            proxy_data['type'] = target_proto
                             return proxy_data
             else:
                 async with http_session.get(TEST_URL, proxy=proxy_url, timeout=CHECK_TIMEOUT, ssl=False) as resp:
                     if resp.status == 200:
-                        proxy_data['type'] = target_proto  # Đã thêm dòng này
+                        proxy_data['type'] = target_proto
                         return proxy_data
         except Exception:
             return None
@@ -174,10 +199,9 @@ class ProxyFetcher:
 
             tasks = [safe_check(proxy) for proxy in self.raw_proxies.values()]
             pre_results = await asyncio.gather(*tasks)
-            # Chỉ lấy các proxy thực sự sống để đem đi quét thông tin IP mạng (Tiết kiệm tài nguyên)
             live_unriched = [r for r in pre_results if r]
             
-            # Reset lại raw_proxies chỉ chứa những con còn sống để hàm enrich chạy chuẩn xác
+            # Đồng bộ lại danh sách để chỉ gọi API với các proxy còn hoạt động
             self.raw_proxies = {f"{p['ip']}:{p['port']}": p for p in live_unriched}
             
             logger.info(f"Phase 3: Looking up infrastructure details for {len(self.raw_proxies)} live proxies...")
@@ -191,25 +215,22 @@ class ProxyFetcher:
     def save_to_file(self):
         try:
             with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-                f.write(f"# Auto Proxy List - Generative Infrastructure Report\n")
+                f.write(f"# Auto Proxy List - Network Security Report\n")
                 f.write(f"# Build Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
                 f.write(f"# Live Proxy Count: {len(self.live_proxies)}\n")
-                f.write(f"# Format: URI | Continent | Country (Code) | Region | City | ISP | ASN\n")
-                f.write("-" * 120 + "\n")
+                f.write(f"# Format: URI | Country (Code) | Mobile | Proxy | Hosting\n")
+                f.write("-" * 90 + "\n")
                 
                 for p in self.live_proxies:
                     auth = f"{p['username']}:{p['password']}@" if p['username'] else ""
                     url_format = f"{p['type']}://{auth}{p['ip']}:{p['port']}"
                     
-                    # Format phân tách bằng ký tự | (Pipe) để dễ bóc tách tự động bằng code của bạn sau này
                     line = (
                         f"{url_format:<45} | "
-                        f"{p['continent']:<10} | "
                         f"{p['country']} ({p['countryCode']}) | "
-                        f"{p['regionName']} | "
-                        f"{p['city']} | "
-                        f"{p['isp']} | "
-                        f"{p['as']}\n"
+                        f"Mob: {p['mobile']:<5} | "
+                        f"Prx: {p['proxy']:<5} | "
+                        f"Hst: {p['hosting']}\n"
                     )
                     f.write(line)
             logger.info(f"File stored successfully at: {OUTPUT_FILE}")
