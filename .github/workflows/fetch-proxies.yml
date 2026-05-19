@@ -1,53 +1,45 @@
-name: Auto Proxy Fetch
+name: Auto Fetch Proxies
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Chạy tự động mỗi 6 tiếng
-  workflow_dispatch:        # Trigger bằng tay qua giao diện GitHub
-  push:
-    paths:
-      - 'fetch_proxies.py' # Tự chạy khi script Python thay đổi
-      - 'sources.txt'      # THÊM DÒNG NÀY: Tự chạy khi bạn chỉnh sửa file nguồn proxy
+    - cron: '0 */3 * * *' # 3 tiếng chạy 1 lần
+  workflow_dispatch:
 
 jobs:
-  fetch-and-update:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write     # Cấp quyền push file proxies.txt ngược lại repo
-      
+    # Đã gỡ bỏ dòng timeout-minutes theo ý bác. GitHub sẽ chạy dựa trên cơ chế mặc định của hệ thống.
+
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-          cache: 'pip'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install aiohttp aiohttp-socks
 
-      - name: Run proxy fetcher
+      - name: Run script
         run: python fetch_proxies.py
 
-      - name: Commit and push if changed
+      - name: Commit and push safely
         run: |
+          cp proxies.txt proxies.txt.bak
+          git fetch origin main
+          git reset --hard origin/main
+          mv proxies.txt.bak proxies.txt
+          
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add proxies.txt
           
-          # Kiểm tra nếu file proxies.txt có sự thay đổi thì mới xử lý tiếp
           if ! git diff --staged --quiet; then
             git commit -m "🤖 Update proxy list [skip ci]"
-            
-            # Kéo code mới nhất từ remote về và đặt commit của bot lên trên cùng
-            git pull --rebase origin main
-            
-            # Đẩy dữ liệu an toàn lên nhánh main
             git push origin main
           else
-            echo "Không có thay đổi nào trong danh sách proxy."
+            echo "Không có thay đổi dữ liệu."
           fi
