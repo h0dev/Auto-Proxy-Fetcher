@@ -7,17 +7,18 @@ from datetime import datetime
 from typing import Dict, List, Optional, Any
 import aiohttp
 from aiohttp_socks import ProxyConnector
+import geoip2.database  # Thư viện đọc DB Local
 
-# --- CẤU HÌNH SIÊU TỐC ĐỘ + ĐỊNH DANH GEOIP ---
+# --- CẤU HÌNH SIÊU TỐC ĐỘ ---
 MAX_WORKERS = 1500            
-GEO_CONCURRENCY = 100         
 CHECK_TIMEOUT = 5             
 TEST_URL = 'http://httpbin.org/ip'
 OUTPUT_FILE = 'proxies.txt'
 SOURCES_FILE = 'sources.txt'
 
-# LẤY API TOKEN BẢO MẬT TỪ GITHUB SECRETS
-GEO_TOKEN = os.environ.get('FINDIP_TOKEN', '').strip()
+# Đường dẫn Database Local
+DB_COUNTRY = 'geoip/GeoLite2-Country.mmdb'
+DB_ASN = 'geoip/GeoLite2-ASN.mmdb'
 
 logging.basicConfig(
     level=logging.INFO,
@@ -25,7 +26,7 @@ logging.basicConfig(
     datefmt='%H:%M:%S',
     handlers=[logging.StreamHandler(sys.stdout)]
 )
-logger = logging.getLogger("ProxyGeoFinder")
+logger = logging.getLogger("LocalGeoProxy")
 
 PROXY_RE = re.compile(
     r'(?:(?P<protocol>http|https|socks4|socks5)://)?'
@@ -34,7 +35,7 @@ PROXY_RE = re.compile(
     re.IGNORECASE
 )
 
-class BigDataGeoProxyFetcher:
+class LocalGeoProxyFetcher:
     def __init__(self):
         self.raw_proxies: Dict[str, Dict[str, Any]] = {}
         self.live_proxies: Dict[str, Dict[str, Any]] = {}
@@ -126,57 +127,78 @@ class BigDataGeoProxyFetcher:
             await self.verify_task(session, proxy_data, proto)
             queue.task_done()
 
-    async def fetch_single_geo(self, session: aiohttp.ClientSession, ip: str, sem: asyncio.Semaphore) -> Optional[Dict[str, Any]]:
-        url = f"https://api.findip.net/{ip}/?token={GEO_TOKEN}"
-        async with sem:
-            try:
-                async with session.get(url, timeout=10) as resp:
-                    if resp.status == 200:
-                        return await resp.json()
-            except Exception:
-                pass
-        return None
+    def detect_user_type(self, isp_name: str) -> str:
+        """Engine phân loại User Type thông minh dựa trên tên ISP mạng định danh"""
+        name = isp_name.lower()
+        
+        # Nhóm Hosting / VPS / Data Center
+        hosting_keywords = [
+            'vps', 'hosting', 'server', 'cloud', 'datacenter', 'data center', 'digitalocean', 
+            'amazon', 'google', 'ovh', 'hetzner', 'linode', 'alibaba', 'tencent', 'microsoft', 
+            'azure', 'leaseweb', 'choopa', 'vultr', 'akamai', 'cloudflare', 'fastly', 'contabo'
+        ]
+        if any(kw in name for kw in hosting_keywords):
+            return 'hosting'
+            
+        # Nhóm Mạng Di Động (Cellular)
+        cellular_keywords = ['mobile', 'wireless', 'cellular', 'mobifone', 'vinaphone', 't-mobile', 'verizon wireless', 'vodafone', 'orange']
+        if any(kw in name for kw in cellular_keywords):
+            return 'cellular'
+            
+        # Nhóm Mạng Nhà Dân (Residential)
+        residential_keywords = [
+            'telecom', 'communication', 'viettel', 'fpt', 'vnpt', 'comcast', 'charter', 'at&t', 
+            'broadband', 'dsl', 'cable', 'networks', 'internet'
+        ]
+        if any(kw in name for kw in residential_keywords):
+            return 'residential'
+            
+        return 'business' if 'business' in name else 'residential'
 
-    async def enrich_geolocation(self, session: aiohttp.ClientSession):
-        if not GEO_TOKEN:
-            logger.warning("Không tìm thấy FINDIP_TOKEN trong cấu hình hệ thống. Bỏ qua Phase GeoIP.")
+    def enrich_geolocation_local(self):
+        """Phân tích vị trí & hạ tầng mạng 100% OFFLINE bằng MaxMind DB"""
+        if not os.path.exists(DB_COUNTRY) or not os.path.exists(DB_ASN):
+            logger.error("Thiếu file cơ sở dữ liệu .mmdb cục bộ! Bỏ qua định danh.")
             return
 
-        unique_ips = list({p['ip'] for p in self.live_proxies.values()})
-        if not unique_ips: return
+        logger.info(f"Phase 3: Thực hiện định danh Local siêu tốc cho {len(self.live_proxies)} proxy...")
         
-        logger.info(f"Phase 3: Bắt đầu định danh loại hình IP (user_type) cho {len(unique_ips)} proxy sống...")
-        sem = asyncio.Semaphore(GEO_CONCURRENCY)
-        
-        tasks = [self.fetch_single_geo(session, ip, sem) for ip in unique_ips]
-        results = await asyncio.gather(*tasks)
-        
-        geo_map = {}
-        for ip, res in zip(unique_ips, results):
-            if res and 'country' in res:
-                # ĐỔI THÀNH TRÍCH XUẤT TRƯỜNG USER_TYPE THEO YÊU CẦU CỦA BẠN
-                geo_map[ip] = {
-                    'country': res['country']['names'].get('en', 'Unknown'),
-                    'countryCode': res['country'].get('iso_code', '??'),
-                    'isp': res['traits'].get('isp', 'Unknown'),
-                    'user_type': res['traits'].get('user_type', 'Unknown') 
-                }
-        
-        for proxy_data in self.live_proxies.values():
-            ip = proxy_data['ip']
-            if ip in geo_map:
-                info = geo_map[ip]
-                proxy_data['country'] = info['country']
-                proxy_data['countryCode'] = info['countryCode']
-                proxy_data['isp'] = info['isp']
-                proxy_data['user_type'] = info['user_type']
+        try:
+            reader_country = geoip2.database.Reader(DB_COUNTRY)
+            reader_asn = geoip2.database.Reader(DB_ASN)
+            
+            for key, proxy in self.live_proxies.items():
+                ip = proxy['ip']
+                
+                # 1. Trích xuất Quốc gia
+                try:
+                    c_res = reader_country.country(ip)
+                    proxy['country'] = c_res.country.name or 'Unknown'
+                    proxy['countryCode'] = c_res.country.iso_code or '??'
+                except Exception:
+                    pass
+                    
+                # 2. Trích xuất ISP & Phân loại loại hình IP
+                try:
+                    a_res = reader_asn.asn(ip)
+                    isp = a_res.autonomous_system_organization or 'Unknown'
+                    proxy['isp'] = isp
+                    proxy['user_type'] = self.detect_user_type(isp)
+                except Exception:
+                    pass
+                    
+            reader_country.close()
+            reader_asn.close()
+            logger.info("Hoàn tất bóc tách dữ liệu địa lý cục bộ.")
+        except Exception as e:
+            logger.error(f"Lỗi khi đọc file GeoIP Local: {e}")
 
     async def run(self):
         self.sources = self.load_sources()
         connector = aiohttp.TCPConnector(limit=0, ttl_dns_cache=600, limit_per_host=0)
         
         async with aiohttp.ClientSession(connector=connector) as session:
-            logger.info("Phase 1: Đang tải và giải mã danh sách nguồn proxy thô...")
+            logger.info("Phase 1: Đang tải danh sách nguồn thô...")
             fetch_tasks = [self.fetch_url(session, url) for url in self.sources]
             contents = await asyncio.gather(*fetch_tasks)
             
@@ -184,33 +206,28 @@ class BigDataGeoProxyFetcher:
                 self.parse_proxy_list(content, url)
             
             total_raw = len(self.raw_proxies)
-            if total_raw == 0:
-                logger.error("Không tìm thấy dữ liệu proxy đầu vào.")
-                return
-            logger.info(f"Đã nạp {total_raw} IP:Port riêng biệt từ file nguồn.")
+            if total_raw == 0: return
+            logger.info(f"Đã nạp {total_raw} IP:Port riêng biệt.")
 
-            logger.info("Phase 2: Khởi tạo hàng đợi phân phối công việc...")
+            logger.info("Phase 2: Quét trực tuyến kiểm tra proxy sống...")
             queue = asyncio.Queue()
             for proxy in self.raw_proxies.values():
                 for proto in proxy['protocols']:
                     await queue.put((proxy, proto))
             
-            logger.info(f"Tổng số Connection Tasks trong hàng đợi: {queue.qsize()}")
-            logger.info(f"Kích hoạt {MAX_WORKERS} Workers xử lý song song siêu tốc...")
-            
             workers = [asyncio.create_task(self.worker(queue, session)) for _ in range(MAX_WORKERS)]
             await asyncio.gather(*workers)
+            logger.info(f"Phát hiện {len(self.live_proxies)} proxy hoạt động.")
             
-            logger.info(f"Quét hoàn tất! Phát hiện {len(self.live_proxies)} proxy hoạt động ngon lành.")
-            
-            await self.enrich_geolocation(session)
+            # CHẠY ĐỊNH DANH OFFLINE KHÔNG CẦN CHỜ MẠNG
+            self.enrich_geolocation_local()
             
         self.save_to_file()
 
     def save_to_file(self):
         try:
             with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-                f.write(f"# Auto Proxy List - Secure Built with FindIP\n")
+                f.write(f"# Auto Proxy List - 100% Local GeoIP Engine\n")
                 f.write(f"# Build Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
                 f.write(f"# Total Live Proxies: {len(self.live_proxies)}\n")
                 f.write(f"# Format: Proxy URI | Country (Code) | User Type | ISP\n")
@@ -220,7 +237,6 @@ class BigDataGeoProxyFetcher:
                     auth = f"{p['username']}:{p['password']}@" if p.get('username') else ""
                     url_format = f"{p['type']}://{auth}{p['ip']}:{p['port']}"
                     
-                    # Thay đổi hiển thị cột từ Connection Type sang User Type
                     line = (
                         f"{url_format:<45} | "
                         f"{p['country']} ({p['countryCode']}) | "
@@ -228,12 +244,11 @@ class BigDataGeoProxyFetcher:
                         f"ISP: {p['isp']}\n"
                     )
                     f.write(line)
-                    
-            logger.info(f"Đã xuất file cấu trúc mới bảo mật thành công ra tệp: {OUTPUT_FILE}")
+            logger.info(f"Đã xuất file thành công: {OUTPUT_FILE}")
         except IOError as e:
             logger.error(f"Lỗi ghi file: {e}")
 
 if __name__ == "__main__":
     if sys.platform == 'win32':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-    asyncio.run(BigDataGeoProxyFetcher().run())
+    asyncio.run(LocalGeoProxyFetcher().run())
