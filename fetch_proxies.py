@@ -8,12 +8,16 @@ from typing import Dict, List, Optional, Any
 import aiohttp
 from aiohttp_socks import ProxyConnector
 
-# --- CẤU HÌNH SIÊU TỐC ĐỘ CHO QUY MÔ KHỦNG ---
-MAX_WORKERS = 1200            # Số lượng "công nhân" check song song (Tối ưu cho RAM/Băng thông)
-CHECK_TIMEOUT = 5             # 5 giây cứu vớt proxy chậm theo yêu cầu của bạn
+# --- CẤU HÌNH SIÊU TỐC ĐỘ + ĐỊNH DANH GEOIP ---
+MAX_WORKERS = 1500            
+GEO_CONCURRENCY = 100         
+CHECK_TIMEOUT = 5             
 TEST_URL = 'http://httpbin.org/ip'
 OUTPUT_FILE = 'proxies.txt'
 SOURCES_FILE = 'sources.txt'
+
+# LẤY API TOKEN BẢO MẬT TỪ GITHUB SECRETS
+GEO_TOKEN = os.environ.get('FINDIP_TOKEN', '').strip()
 
 logging.basicConfig(
     level=logging.INFO,
@@ -21,7 +25,7 @@ logging.basicConfig(
     datefmt='%H:%M:%S',
     handlers=[logging.StreamHandler(sys.stdout)]
 )
-logger = logging.getLogger("ProxyBigData")
+logger = logging.getLogger("ProxyGeoFinder")
 
 PROXY_RE = re.compile(
     r'(?:(?P<protocol>http|https|socks4|socks5)://)?'
@@ -30,11 +34,11 @@ PROXY_RE = re.compile(
     re.IGNORECASE
 )
 
-class BigDataProxyFetcher:
+class BigDataGeoProxyFetcher:
     def __init__(self):
         self.raw_proxies: Dict[str, Dict[str, Any]] = {}
         self.live_proxies: Dict[str, Dict[str, Any]] = {}
-        self.sources: List[str] = self.load_sources()
+        self.sources: List[str] = []
 
     def load_sources(self) -> List[str]:
         if not os.path.exists(SOURCES_FILE):
@@ -50,7 +54,7 @@ class BigDataProxyFetcher:
 
     async def fetch_url(self, session: aiohttp.ClientSession, url: str) -> Optional[str]:
         try:
-            async with session.get(url, timeout=20) as response:
+            async with session.get(url, timeout=25) as response:
                 if response.status == 200:
                     return await response.text()
         except Exception:
@@ -61,7 +65,6 @@ class BigDataProxyFetcher:
         if not content: return
         url_lower = url.lower()
 
-        # Dùng finditer để bóc tách cực nhanh hàng vạn dòng text
         for match in PROXY_RE.finditer(content):
             ip, port = match.group('ip'), match.group('port')
             if not ip or not port: continue
@@ -79,8 +82,7 @@ class BigDataProxyFetcher:
                 self.raw_proxies[key] = {
                     'ip': ip, 'port': port, 'protocols': protocols,
                     'username': match.group('username'), 'password': match.group('password'),
-                    'country': 'Unknown', 'countryCode': '??',
-                    'mobile': False, 'proxy': False, 'hosting': False
+                    'country': 'Unknown', 'countryCode': '??', 'isp': 'Unknown', 'user_type': 'Unknown'
                 }
             else:
                 for proto in protocols:
@@ -119,50 +121,59 @@ class BigDataProxyFetcher:
             pass
 
     async def worker(self, queue: asyncio.Queue, session: aiohttp.ClientSession):
-        """Hàm Worker xử lý cuốn chiếu - Tiết kiệm RAM tuyệt đối"""
         while not queue.empty():
             proxy_data, proto = await queue.get()
             await self.verify_task(session, proxy_data, proto)
             queue.task_done()
 
+    async def fetch_single_geo(self, session: aiohttp.ClientSession, ip: str, sem: asyncio.Semaphore) -> Optional[Dict[str, Any]]:
+        url = f"https://api.findip.net/{ip}/?token={GEO_TOKEN}"
+        async with sem:
+            try:
+                async with session.get(url, timeout=10) as resp:
+                    if resp.status == 200:
+                        return await resp.json()
+            except Exception:
+                pass
+        return None
+
     async def enrich_geolocation(self, session: aiohttp.ClientSession):
-        """Định danh Quốc gia/Cơ sở hạ tầng cho các proxy đã xác nhận sống"""
+        if not GEO_TOKEN:
+            logger.warning("Không tìm thấy FINDIP_TOKEN trong cấu hình hệ thống. Bỏ qua Phase GeoIP.")
+            return
+
         unique_ips = list({p['ip'] for p in self.live_proxies.values()})
         if not unique_ips: return
         
-        logger.info(f"Đang thực hiện phân tích sâu hạ tầng IP cho {len(unique_ips)} proxy sống sót...")
-        chunk_size = 100 
-        fields_param = "status,country,countryCode,mobile,proxy,hosting,query"
+        logger.info(f"Phase 3: Bắt đầu định danh loại hình IP (user_type) cho {len(unique_ips)} proxy sống...")
+        sem = asyncio.Semaphore(GEO_CONCURRENCY)
         
-        for i in range(0, len(unique_ips), chunk_size):
-            chunk = unique_ips[i:i + chunk_size]
-            payload = [{"query": ip, "fields": fields_param} for ip in chunk]
-            
-            try:
-                async with session.post('http://ip-api.com/batch', json=payload, timeout=15) as resp:
-                    if resp.status == 200:
-                        geo_map = {res['query']: res for res in await resp.json() if res.get('status') == 'success'}
-                        for proxy_data in self.live_proxies.values():
-                            ip = proxy_data['ip']
-                            if ip in geo_map:
-                                info = geo_map[ip]
-                                proxy_data['country'] = info.get('country', 'Unknown')
-                                proxy_data['countryCode'] = info.get('countryCode', '??')
-                                proxy_data['mobile'] = info.get('mobile', False)
-                                proxy_data['proxy'] = info.get('proxy', False)
-                                proxy_data['hosting'] = info.get('hosting', False)
-                    else:
-                        logger.warning(f"ip-api Rate limit hit (Status {resp.status}). Tạm dừng tra cứu.")
-                        break
-            except Exception as e:
-                logger.error(f"Lỗi phân tích địa lý: {e}")
-            
-            if i + chunk_size < len(unique_ips):
-                await asyncio.sleep(4.2)  # Giãn cách tránh bị API Block Ban IP
+        tasks = [self.fetch_single_geo(session, ip, sem) for ip in unique_ips]
+        results = await asyncio.gather(*tasks)
+        
+        geo_map = {}
+        for ip, res in zip(unique_ips, results):
+            if res and 'country' in res:
+                # ĐỔI THÀNH TRÍCH XUẤT TRƯỜNG USER_TYPE THEO YÊU CẦU CỦA BẠN
+                geo_map[ip] = {
+                    'country': res['country']['names'].get('en', 'Unknown'),
+                    'countryCode': res['country'].get('iso_code', '??'),
+                    'isp': res['traits'].get('isp', 'Unknown'),
+                    'user_type': res['traits'].get('user_type', 'Unknown') 
+                }
+        
+        for proxy_data in self.live_proxies.values():
+            ip = proxy_data['ip']
+            if ip in geo_map:
+                info = geo_map[ip]
+                proxy_data['country'] = info['country']
+                proxy_data['countryCode'] = info['countryCode']
+                proxy_data['isp'] = info['isp']
+                proxy_data['user_type'] = info['user_type']
 
     async def run(self):
-        # Tối ưu hóa bộ kết nối TCP: Bật DNS Cache giúp tăng tốc truy vấn hệ thống
-        connector = aiohttp.TCPConnector(limit=0, ttl_dns_cache=300)
+        self.sources = self.load_sources()
+        connector = aiohttp.TCPConnector(limit=0, ttl_dns_cache=600, limit_per_host=0)
         
         async with aiohttp.ClientSession(connector=connector) as session:
             logger.info("Phase 1: Đang tải và giải mã danh sách nguồn proxy thô...")
@@ -178,7 +189,6 @@ class BigDataProxyFetcher:
                 return
             logger.info(f"Đã nạp {total_raw} IP:Port riêng biệt từ file nguồn.")
 
-            # --- KHỞI TẠO HÀNG ĐỢI ĐỘNG (QUEUE ARHITECTURE) ---
             logger.info("Phase 2: Khởi tạo hàng đợi phân phối công việc...")
             queue = asyncio.Queue()
             for proxy in self.raw_proxies.values():
@@ -188,14 +198,11 @@ class BigDataProxyFetcher:
             logger.info(f"Tổng số Connection Tasks trong hàng đợi: {queue.qsize()}")
             logger.info(f"Kích hoạt {MAX_WORKERS} Workers xử lý song song siêu tốc...")
             
-            # Kích hoạt nhóm Worker chạy đồng thời
             workers = [asyncio.create_task(self.worker(queue, session)) for _ in range(MAX_WORKERS)]
-            await asyncio.gather(*workers) # Đợi hàng đợi xử lý sạch sẽ hoàn toàn
+            await asyncio.gather(*workers)
             
-            logger.info(f"Quét xong! Phát hiện {len(self.live_proxies)} proxy thực sự hoạt động.")
+            logger.info(f"Quét hoàn tất! Phát hiện {len(self.live_proxies)} proxy hoạt động ngon lành.")
             
-            # Phase 3: Chỉ check vị trí địa lý của những con ĐÃ SỐNG -> Tiết kiệm tài nguyên tuyệt đối
-            logger.info("Phase 3: Thực hiện gán nhãn định danh quốc gia mạng...")
             await self.enrich_geolocation(session)
             
         self.save_to_file()
@@ -203,29 +210,30 @@ class BigDataProxyFetcher:
     def save_to_file(self):
         try:
             with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-                f.write(f"# Auto Proxy List - Network Security Report\n")
+                f.write(f"# Auto Proxy List - Secure Built with FindIP\n")
                 f.write(f"# Build Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
-                f.write(f"# Live Proxy Count: {len(self.live_proxies)}\n")
-                f.write(f"# Format: URI | Country (Code) | Mobile | Proxy | Hosting\n")
-                f.write("-" * 90 + "\n")
+                f.write(f"# Total Live Proxies: {len(self.live_proxies)}\n")
+                f.write(f"# Format: Proxy URI | Country (Code) | User Type | ISP\n")
+                f.write("-" * 110 + "\n")
                 
                 for p in self.live_proxies.values():
-                    auth = f"{p['username']}:{p['password']}@" if p['username'] else ""
+                    auth = f"{p['username']}:{p['password']}@" if p.get('username') else ""
                     url_format = f"{p['type']}://{auth}{p['ip']}:{p['port']}"
                     
+                    # Thay đổi hiển thị cột từ Connection Type sang User Type
                     line = (
                         f"{url_format:<45} | "
                         f"{p['country']} ({p['countryCode']}) | "
-                        f"Mob: {p['mobile']:<5} | "
-                        f"Prx: {p['proxy']:<5} | "
-                        f"Hst: {p['hosting']}\n"
+                        f"User: {p['user_type']:<12} | "
+                        f"ISP: {p['isp']}\n"
                     )
                     f.write(line)
-            logger.info(f"Đã xuất file báo cáo hoàn chỉnh ra tệp: {OUTPUT_FILE}")
+                    
+            logger.info(f"Đã xuất file cấu trúc mới bảo mật thành công ra tệp: {OUTPUT_FILE}")
         except IOError as e:
             logger.error(f"Lỗi ghi file: {e}")
 
 if __name__ == "__main__":
     if sys.platform == 'win32':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-    asyncio.run(BigDataProxyFetcher().run())
+    asyncio.run(BigDataGeoProxyFetcher().run())
