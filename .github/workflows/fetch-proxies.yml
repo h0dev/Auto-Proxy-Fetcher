@@ -20,12 +20,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install aiohttp aiohttp-socks
+          pip install aiohttp aiohttp-socks geoip2
+
+      # TỰ ĐỘNG TẢI DATABASE GEOIP VỀ CHẠY LOCAL
+      - name: Download Local GeoIP Databases
+        run: |
+          mkdir -p geoip
+          wget -q https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb -O geoip/GeoLite2-Country.mmdb
+          wget -q https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb -O geoip/GeoLite2-ASN.mmdb
 
       - name: Run script
-        env:
-          # Ép GitHub truyền Secret vào hệ thống bảo mật của máy ảo
-          FINDIP_TOKEN: ${{ secrets.FINDIP_TOKEN }} 
         run: python fetch_proxies.py
 
       - name: Commit and push safely
