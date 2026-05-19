@@ -2,13 +2,12 @@ name: Auto Fetch Proxies
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # 3 tiếng chạy 1 lần
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Đã gỡ bỏ dòng timeout-minutes theo ý bác. GitHub sẽ chạy dựa trên cơ chế mặc định của hệ thống.
 
     steps:
       - name: Checkout code
@@ -24,6 +23,9 @@ jobs:
           pip install aiohttp aiohttp-socks
 
       - name: Run script
+        env:
+          # Ép GitHub truyền Secret vào hệ thống bảo mật của máy ảo
+          FINDIP_TOKEN: ${{ secrets.FINDIP_TOKEN }} 
         run: python fetch_proxies.py
 
       - name: Commit and push safely
