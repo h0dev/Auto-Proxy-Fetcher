@@ -12,7 +12,7 @@ import geoip2.database  # Thư viện đọc DB Local
 # --- CẤU HÌNH SIÊU TỐC ĐỘ ---
 MAX_WORKERS = 1500            
 CHECK_TIMEOUT = 5             
-TEST_URL = 'http://cp.cloudflare.com/'
+TEST_URL = 'https://cp.cloudflare.com/'
 OUTPUT_FILE = 'proxies.txt'
 SOURCES_FILE = 'sources.txt'
 
