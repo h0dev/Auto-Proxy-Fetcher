@@ -15,11 +15,11 @@
                 <h1 class="text-3xl font-extrabold bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">
                     <i class="fa-solid fa-bolt mr-2"></i>PREMIUM PROXY MONITOR
                 </h1>
-                <p class="text-slate-400 text-sm mt-1" id="update-time">Đang tải thời gian cập nhật...</p>
+                <p class="text-slate-400 text-sm mt-1" id="update-time">Đang tải dữ liệu...</p>
             </div>
             <div class="flex gap-3">
                 <button onclick="copyAllVisible()" class="bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-4 py-2 rounded-lg transition-all flex items-center gap-2 text-sm shadow-md cursor-pointer">
-                    <i class="fa-solid fa-copy"></i> Copy Danh Sách Đang Lọc
+                    <i class="fa-solid fa-copy"></i> Copy Toàn Bộ Đang Chọn
                 </button>
                 <a href="proxies.txt" target="_blank" class="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-200 font-semibold px-4 py-2 rounded-lg transition-all flex items-center gap-2 text-sm cursor-pointer">
                     <i class="fa-solid fa-file-arrow-down"></i> Tải File Gốc (.txt)
@@ -37,42 +37,32 @@
                 <span class="text-2xl font-black text-slate-100 mt-2" id="stat-res">0</span>
             </div>
             <div class="bg-slate-800/60 border border-slate-700/50 rounded-xl p-4 flex flex-col justify-between shadow-sm border-l-4 border-l-amber-500">
-                <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">☁️ Hosting / VPS</span>
+                <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">☁️ Hosting</span>
                 <span class="text-2xl font-black text-slate-100 mt-2" id="stat-host">0</span>
             </div>
             <div class="bg-slate-800/60 border border-slate-700/50 rounded-xl p-4 flex flex-col justify-between shadow-sm border-l-4 border-l-purple-500">
-                <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">📱 Cellular (Mobile)</span>
+                <span class="text-xs font-bold text-purple-400 uppercase tracking-wider">📱 Cellular</span>
                 <span class="text-2xl font-black text-slate-100 mt-2" id="stat-cell">0</span>
             </div>
-            <div class="bg-slate-800/60 border border-slate-700/50 rounded-xl p-4 flex flex-col justify-between shadow-sm col-span-2 md:col-span-1">
-                <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">🏢 Khác (Business/...)</span>
+            <div class="bg-slate-800/60 border border-slate-700/50 rounded-xl p-4 flex flex-col justify-between shadow-sm">
+                <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">🏢 Khác</span>
                 <span class="text-2xl font-black text-slate-100 mt-2" id="stat-other">0</span>
             </div>
         </div>
 
         <div class="bg-slate-800/40 border border-slate-800 rounded-xl p-4 mb-6 flex flex-col md:flex-row gap-4 justify-between items-center">
             <div class="flex flex-wrap gap-2 w-full md:w-auto" id="filter-buttons">
-                <button onclick="filterUserType('all')" id="btn-all" class="px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-cyan-600 text-white shadow-md shadow-cyan-900/30">
-                    TẤT CẢ
-                </button>
-                <button onclick="filterUserType('residential')" id="btn-residential" class="px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-slate-800 text-slate-300 hover:bg-slate-700">
-                    🏠 RESIDENTIAL
-                </button>
-                <button onclick="filterUserType('hosting')" id="btn-hosting" class="px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-slate-800 text-slate-300 hover:bg-slate-700">
-                    ☁️ HOSTING
-                </button>
-                <button onclick="filterUserType('cellular')" id="btn-cellular" class="px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-slate-800 text-slate-300 hover:bg-slate-700">
-                    📱 CELLULAR
-                </button>
-                <button onclick="filterUserType('business')" id="btn-business" class="px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-slate-800 text-slate-300 hover:bg-slate-700">
-                    🏢 BUSINESS
-                </button>
+                <button onclick="filterUserType('all')" id="btn-all" class="px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-cyan-600 text-white shadow-md shadow-cyan-900/30">TẤT CẢ</button>
+                <button onclick="filterUserType('residential')" id="btn-residential" class="px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-slate-800 text-slate-300 hover:bg-slate-700">🏠 RESIDENTIAL</button>
+                <button onclick="filterUserType('hosting')" id="btn-hosting" class="px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-slate-800 text-slate-300 hover:bg-slate-700">☁️ HOSTING</button>
+                <button onclick="filterUserType('cellular')" id="btn-cellular" class="px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-slate-800 text-slate-300 hover:bg-slate-700">📱 CELLULAR</button>
+                <button onclick="filterUserType('business')" id="btn-business" class="px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-slate-800 text-slate-300 hover:bg-slate-700">🏢 BUSINESS</button>
             </div>
             <div class="relative w-full md:w-80">
                 <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-slate-500">
                     <i class="fa-solid fa-magnifying-glass text-xs"></i>
                 </span>
-                <input type="text" id="search-input" oninput="handleSearch()" placeholder="Tìm kiếm Quốc gia, ISP..." class="w-full bg-slate-900 border border-slate-700 rounded-lg pl-9 pr-4 py-1.5 text-sm focus:outline-none focus:border-cyan-500 text-slate-200 transition-all">
+                <input type="text" id="search-input" oninput="handleSearch()" placeholder="Tìm kiếm nhanh..." class="w-full bg-slate-900 border border-slate-700 rounded-lg pl-9 pr-4 py-1.5 text-sm focus:outline-none focus:border-cyan-500 text-slate-200 transition-all">
             </div>
         </div>
 
@@ -81,18 +71,27 @@
                 <table class="w-full text-left border-collapse">
                     <thead>
                         <tr class="bg-slate-800/80 border-b border-slate-700/70 text-slate-300 text-xs font-bold uppercase tracking-wider">
-                            <th class="px-6 py-4">STT</th>
+                            <th class="px-6 py-4 w-16">STT</th>
                             <th class="px-6 py-4">Proxy URI Connection</th>
                             <th class="px-6 py-4">Quốc Gia</th>
                             <th class="px-6 py-4">Phân Loại (User Type)</th>
                             <th class="px-6 py-4">Nhà Mạng (ISP)</th>
-                            <th class="px-6 py-4 text-center">Hành Động</th>
+                            <th class="px-6 py-4 text-center w-24">Hành Động</th>
                         </tr>
                     </thead>
-                    <tbody id="proxy-table-body" class="divide-y divide-slate-800/60 text-sm text-slate-300">
+                    <tbody id="proxy-table-body" class="divide-y divide-slate-800/60 text-sm text-slate-300 font-mono">
                         </tbody>
                 </table>
             </div>
+            
+            <div class="bg-slate-800/50 px-6 py-4 flex items-center justify-between border-t border-slate-800">
+                <div class="text-xs text-slate-400" id="page-info">Hiển thị 0 đến 0 của 0 proxy</div>
+                <div class="flex gap-2">
+                    <button onclick="prevPage()" id="btn-prev" class="px-3 py-1 bg-slate-700 hover:bg-slate-600 rounded text-xs font-bold disabled:opacity-40 disabled:cursor-not-allowed transition-all">Trang trước</button>
+                    <button onclick="nextPage()" id="btn-next" class="px-3 py-1 bg-slate-700 hover:bg-slate-600 rounded text-xs font-bold disabled:opacity-40 disabled:cursor-not-allowed transition-all">Trang sau</button>
+                </div>
+            </div>
+
             <div id="no-data" class="hidden text-center py-12 text-slate-500 flex flex-col items-center gap-2">
                 <i class="fa-regular fa-folder-open text-3xl"></i>
                 <span>Không tìm thấy proxy nào khớp với bộ lọc!</span>
@@ -101,7 +100,7 @@
     </div>
 
     <div id="toast" class="fixed bottom-5 right-5 bg-emerald-600 text-white font-semibold text-sm px-4 py-2.5 rounded-lg shadow-xl opacity-0 transform translate-y-2 transition-all duration-300 pointer-events-none flex items-center gap-2">
-        <i class="fa-solid fa-circle-check"></i> <span id="toast-msg">Đã copy!</span>
+        <i class="fa-solid fa-circle-check"></i> <span id="toast-msg">Đã sao chép thành công!</span>
     </div>
 
     <script>
@@ -109,46 +108,34 @@
         let filteredProxies = [];
         let currentTypeFilter = 'all';
         let currentSearchQuery = '';
+        
+        // Cấu hình phân trang chống lag DOM
+        let currentPage = 1;
+        const PAGE_SIZE = 100; 
 
-        // Hàm khởi tạo tải dữ liệu từ tệp proxies.txt
         async function loadProxies() {
             try {
                 const response = await fetch('proxies.txt');
-                if (!response.ok) throw new Error("Không thể đọc tệp proxies.txt");
+                if (!response.ok) throw new Error();
                 const text = await response.text();
-                
                 parseAndRender(text);
             } catch (err) {
-                document.getElementById('proxy-table-body').innerHTML = `
-                    <tr>
-                        <td colspan="6" class="text-center py-8 text-rose-400 font-semibold">
-                            <i class="fa-solid fa-triangle-exclamation mr-2"></i> Lỗi: Không thể tải danh sách proxy công khai. Vui lòng kiểm tra lại đường dẫn file!
-                        </td>
-                    </tr>
-                `;
+                document.getElementById('proxy-table-body').innerHTML = `<tr><td colspan="6" class="text-center py-8 text-rose-400">⚠️ Lỗi: Không thể tải danh sách proxy!</td></tr>`;
             }
         }
 
-        // Xử lý chuỗi text thô sang Object cấu trúc
         function parseAndRender(text) {
             const lines = text.split('\n');
             allProxies = [];
-            
             let total = 0, resCount = 0, hostCount = 0, cellCount = 0, otherCount = 0;
             let buildTime = "Không rõ";
 
             lines.forEach(line => {
                 line = line.trim();
                 if (!line) return;
-
-                // Đọc Metadata metadata cấu hình thời gian chạy
-                if (line.startsWith('# Build Time:')) {
-                    buildTime = line.replace('# Build Time:', '').trim();
-                    return;
-                }
+                if (line.startsWith('# Build Time:')) { buildTime = line.replace('# Build Time:', '').trim(); return; }
                 if (line.startsWith('#') || line.startsWith('-')) return;
 
-                // Định dạng dòng: Proxy URI | Country (Code) | User: type | ISP: Name
                 const parts = line.split('|');
                 if (parts.length >= 4) {
                     const proxy = parts[0].trim();
@@ -156,7 +143,6 @@
                     const userType = parts[2].replace('User:', '').trim().toLowerCase();
                     const isp = parts[3].replace('ISP:', '').trim();
 
-                    // Thống kê phân loại bộ đếm
                     total++;
                     if (userType === 'residential') resCount++;
                     else if (userType === 'hosting') hostCount++;
@@ -167,7 +153,6 @@
                 }
             });
 
-            // Cập nhật giao diện khối thẻ đếm Thống Kê
             document.getElementById('update-time').innerText = `🤖 Hệ thống tự động cập nhật: ${buildTime}`;
             document.getElementById('stat-total').innerText = total;
             document.getElementById('stat-res').innerText = resCount;
@@ -178,11 +163,10 @@
             applyFilters();
         }
 
-        // Lọc dữ liệu kết hợp Search + Category button
         function applyFilters() {
             filteredProxies = allProxies.filter(p => {
                 const matchesType = (currentTypeFilter === 'all' || p.userType === currentTypeFilter);
-                const matchesSearch = (
+                const matchesSearch = !currentSearchQuery || (
                     p.proxy.toLowerCase().includes(currentSearchQuery) ||
                     p.country.toLowerCase().includes(currentSearchQuery) ||
                     p.isp.toLowerCase().includes(currentSearchQuery)
@@ -190,102 +174,117 @@
                 return matchesType && matchesSearch;
             });
 
+            currentPage = 1; // Reset về trang đầu tiên sau khi lọc
             renderTable();
         }
 
-        // Đổ dữ liệu ra bảng HTML
+        // TỐI ƯU CHÍ MẠNG: Dùng ép chuỗi (String HTML building) thay vì append từng phần tử một
         function renderTable() {
             const tbody = document.getElementById('proxy-table-body');
             const noData = document.getElementById('no-data');
-            tbody.innerHTML = '';
-
+            
             if (filteredProxies.length === 0) {
+                tbody.innerHTML = '';
                 noData.classList.remove('hidden');
+                updatePaginationControls(0);
                 return;
             }
             noData.classList.add('hidden');
 
-            filteredProxies.forEach((p, index) => {
-                // Định dạng màu badge nhãn User Type cho trực quan
+            // Tính toán vị trí cắt dữ liệu theo trang công khai
+            const startIndex = (currentPage - 1) * PAGE_SIZE;
+            const endIndex = Math.min(startIndex + PAGE_SIZE, filteredProxies.length);
+            const pageData = filteredProxies.slice(startIndex, endIndex);
+
+            let htmlString = '';
+            pageData.forEach((p, index) => {
+                const globalIndex = startIndex + index + 1;
                 let badgeClass = "bg-slate-800 text-slate-400 border-slate-700";
                 let typeIcon = "📁";
+                
                 if (p.userType === 'residential') { badgeClass = "bg-emerald-950/80 text-emerald-400 border-emerald-800/60"; typeIcon = "🏠"; }
                 else if (p.userType === 'hosting') { badgeClass = "bg-amber-950/80 text-amber-400 border-amber-800/60"; typeIcon = "☁️"; }
                 else if (p.userType === 'cellular') { badgeClass = "bg-purple-950/80 text-purple-400 border-purple-800/60"; typeIcon = "📱"; }
                 else if (p.userType === 'business') { badgeClass = "bg-blue-950/80 text-blue-400 border-blue-800/60"; typeIcon = "🏢"; }
 
-                const tr = document.createElement('tr');
-                tr.className = "hover:bg-slate-800/30 transition-colors";
-                tr.innerHTML = `
-                    <td class="px-6 py-3.5 text-xs text-slate-500 font-mono">${index + 1}</td>
-                    <td class="px-6 py-3.5 font-mono text-cyan-300 font-medium select-all">${p.proxy}</td>
-                    <td class="px-6 py-3.5 font-semibold text-slate-200"><i class="fa-solid fa-earth-americas mr-1.5 text-slate-500"></i>${p.country}</td>
-                    <td class="px-6 py-3.5">
-                        <span class="px-2.5 py-1 rounded-md text-xs font-bold border ${badgeClass}">
-                            ${typeIcon} ${p.userType.toUpperCase()}
-                        </span>
-                    </td>
-                    <td class="px-6 py-3.5 text-slate-400 text-xs">${p.isp}</td>
-                    <td class="px-6 py-3.5 text-center">
-                        <button onclick="copyText('${p.proxy}')" class="text-slate-400 hover:text-cyan-400 px-2 py-1 rounded transition-all cursor-pointer" title="Copy proxy link">
-                            <i class="fa-regular fa-copy"></i>
-                        </button>
-                    </td>
+                htmlString += `
+                    <tr class="hover:bg-slate-800/30 transition-colors">
+                        <td class="px-6 py-3 text-xs text-slate-500 font-mono">${globalIndex}</td>
+                        <td class="px-6 py-3 text-cyan-300 font-medium select-all">${p.proxy}</td>
+                        <td class="px-6 py-3 font-sans font-semibold text-slate-200"><i class="fa-solid fa-earth-americas mr-1.5 text-slate-500"></i>${p.country}</td>
+                        <td class="px-6 py-3">
+                            <span class="px-2.5 py-0.5 rounded border text-xs font-bold ${badgeClass}">
+                                ${typeIcon} ${p.userType.toUpperCase()}
+                            </span>
+                        </td>
+                        <td class="px-6 py-3 text-slate-400 font-sans text-xs max-w-xs truncate">${p.isp}</td>
+                        <td class="px-6 py-3 text-center">
+                            <button onclick="copyText('${p.proxy}')" class="text-slate-400 hover:text-cyan-400 p-1 rounded transition-all cursor-pointer">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </td>
+                    </tr>
                 `;
-                tbody.appendChild(tr);
             });
+
+            // Ghi đè cấu trúc DOM đúng 1 lần duy nhất để giải phóng hiệu năng
+            tbody.innerHTML = htmlString;
+            updatePaginationControls(endIndex);
         }
 
-        // Sự kiện click chọn bộ lọc Loại Hình
+        function updatePaginationControls(endIndex) {
+            const total = filteredProxies.length;
+            const startIndex = total === 0 ? 0 : (currentPage - 1) * PAGE_SIZE + 1;
+            
+            document.getElementById('page-info').innerText = `Hiển thị ${startIndex} đến ${endIndex} của ${total} proxy`;
+            document.getElementById('btn-prev').disabled = (currentPage === 1);
+            document.getElementById('btn-next').disabled = (currentPage * PAGE_SIZE >= total);
+        }
+
+        function prevPage() { if (currentPage > 1) { currentPage--; renderTable(); window.scrollTo({top: 0, behavior: 'smooth'}); } }
+        function nextPage() { if (currentPage * PAGE_SIZE < filteredProxies.length) { currentPage++; renderTable(); window.scrollTo({top: 0, behavior: 'smooth'}); } }
+
         function filterUserType(type) {
             currentTypeFilter = type;
-            
-            // Đổi active style class cho các nút bấm
-            const buttons = document.querySelectorAll('#filter-buttons button');
-            buttons.forEach(btn => {
+            document.querySelectorAll('#filter-buttons button').forEach(btn => {
                 btn.className = "px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-slate-800 text-slate-300 hover:bg-slate-700";
             });
-
             const activeBtn = document.getElementById(`btn-${type}`);
-            if (activeBtn) {
-                activeBtn.className = "px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-cyan-600 text-white shadow-md shadow-cyan-900/30";
-            }
-
+            if (activeBtn) activeBtn.className = "px-4 py-1.5 rounded-lg text-xs font-bold cursor-pointer transition-all bg-cyan-600 text-white shadow-md shadow-cyan-900/30";
             applyFilters();
         }
 
-        // Sự kiện gõ tìm kiếm ô Search
+        // Tối ưu nhẹ: Chờ người dùng gõ xong một chút mới lọc (Debounce) giúp nhập text mượt hơn
+        let searchTimeout;
         function handleSearch() {
-            currentSearchQuery = document.getElementById('search-input').value.toLowerCase().trim();
-            applyFilters();
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                currentSearchQuery = document.getElementById('search-input').value.toLowerCase().trim();
+                applyFilters();
+            }, 150);
         }
 
-        // Hàm sao chép chuỗi đơn lẻ kèm thông báo Toast
         function copyText(text) {
             navigator.clipboard.writeText(text);
-            showToast(`Đã sao chép: ${text}`);
+            showToast(`Đã copy: ${text}`);
         }
 
-        // Copy toàn bộ danh sách đang hiển thị sau khi lọc lọc
         function copyAllVisible() {
             if (filteredProxies.length === 0) return;
             const listToCopy = filteredProxies.map(p => p.proxy).join('\n');
             navigator.clipboard.writeText(listToCopy);
-            showToast(`🚀 Đã copy thành công toàn bộ ${filteredProxies.length} proxy đang chọn!`);
+            showToast(`🚀 Đã copy toàn bộ ${filteredProxies.length} proxy theo bộ lọc hiện tại!`);
         }
 
-        // Hiển thị thanh thông báo góc màn hình
         function showToast(message) {
             const toast = document.getElementById('toast');
             document.getElementById('toast-msg').innerText = message;
             toast.className = toast.className.replace('opacity-0 translate-y-2 pointer-events-none', 'opacity-100 translate-y-0 pointer-events-auto');
-            
             setTimeout(() => {
                 toast.className = toast.className.replace('opacity-100 translate-y-0 pointer-events-auto', 'opacity-0 translate-y-2 pointer-events-none');
-            }, 2500);
+            }, 2000);
         }
 
-        // Kích hoạt tiến trình khi khởi chạy trang web
         window.onload = loadProxies;
     </script>
 </body>
