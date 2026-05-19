@@ -9,12 +9,12 @@ from typing import Dict, List, Optional, Any
 import aiohttp
 from aiohttp_socks import ProxyConnector
 
-# --- CONFIGURATIONS ---
-MAX_CONCURRENT_CHECKS = 300
-CHECK_TIMEOUT = 8
-TEST_URL = 'http://www.google.com'
+# --- CONFIGURATIONS CẬP NHẬT CHUẨN ĐÃ TỐI ƯU ---
+MAX_CONCURRENT_CHECKS = 1000  
+CHECK_TIMEOUT = 5             # Đã nâng lên 5 giây theo yêu cầu của bạn
+TEST_URL = 'http://httpbin.org/ip' # Thay đổi Google sang HTTPBin để tránh bị chặn nhầm
 OUTPUT_FILE = 'proxies.txt'
-SOURCES_FILE = 'sources.txt'  # Nguồn cấu hình duy nhất
+SOURCES_FILE = 'sources.txt'
 
 logging.basicConfig(
     level=logging.INFO,
@@ -24,7 +24,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger("ProxyUpdater")
 
-# Regex vạn năng: Parse mọi định dạng text chứa proxy (ip:port, user:pass@ip:port, protocol://...)
 PROXY_RE = re.compile(
     r'(?:(?P<protocol>http|https|socks4|socks5)://)?'
     r'(?:(?P<username>[^:@\s]+):(?P<password>[^:@\s]+)@)?'
@@ -39,13 +38,11 @@ class ProxyFetcher:
         self.sources: List[str] = self.load_sources()
 
     def load_sources(self) -> List[str]:
-        """Tải danh sách các nguồn proxy từ file sources.txt."""
         if not os.path.exists(SOURCES_FILE):
             logger.error(f"Không tìm thấy file cấu hình '{SOURCES_FILE}'!")
             try:
                 with open(SOURCES_FILE, 'w', encoding='utf-8') as f:
                     f.write("# Danh sách link nguồn proxy (Mỗi dòng 1 URL)\n")
-                    f.write("# Hãy dán các liên kết proxy vào bên dưới dòng này:\n")
                 logger.info(f"Đã tự động tạo file trống '{SOURCES_FILE}'. Hãy thêm link nguồn vào file này rồi chạy lại.")
             except IOError as e:
                 logger.error(f"Không thể khởi tạo file {SOURCES_FILE}: {e}")
@@ -63,7 +60,7 @@ class ProxyFetcher:
             sys.exit(1)
             
         if not sources:
-            logger.error(f"File '{SOURCES_FILE}' đang trống! Vui lòng thêm ít nhất 1 link nguồn proxy.")
+            logger.error(f"File '{SOURCES_FILE}' đang trống!")
             sys.exit(1)
 
         logger.info(f"Khởi tạo thành công! Đã tải {len(sources)} nguồn proxy từ '{SOURCES_FILE}'")
@@ -72,7 +69,7 @@ class ProxyFetcher:
     async def fetch_url(self, session: aiohttp.ClientSession, url: str) -> Optional[str]:
         headers = {'User-Agent': 'Mozilla/5.0 (Compatible; AutoProxyFetcher/5.0)'}
         try:
-            async with session.get(url, headers=headers, timeout=20) as response:
+            async with session.get(url, headers=headers, timeout=15) as response:
                 if response.status == 200:
                     return await response.text()
         except Exception as e:
@@ -94,33 +91,24 @@ class ProxyFetcher:
             if not ip or not port:
                 continue
 
-            # --- LUỒNG AUTO-DETECT PROTOCOL ---
             if match.group('protocol'):
-                # Nếu chuỗi text có sẵn protocol:// (Ví dụ: socks5://1.2.3.4:80) -> Dùng luôn loại đó
                 protocols_to_try = [match.group('protocol').lower()]
             else:
-                # Nếu không có protocol://, kiểm tra xem URL nguồn có gợi ý gì không
-                if 'socks5' in url_lower:
-                    protocols_to_try = ['socks5']
-                elif 'socks4' in url_lower:
-                    protocols_to_try = ['socks4']
-                elif 'http' in url_lower:
-                    protocols_to_try = ['http']
-                else:
-                    # Kích hoạt chế độ Quét Vạn Năng: Thử tuần tự cả 3 loại để tự dò tìm
-                    protocols_to_try = ['http', 'socks5', 'socks4']
+                if 'socks5' in url_lower: protocols_to_try = ['socks5']
+                elif 'socks4' in url_lower: protocols_to_try = ['socks4']
+                elif 'http' in url_lower: protocols_to_try = ['http']
+                else: protocols_to_try = ['http', 'socks5', 'socks4']
 
             key = f"{ip}:{port}"
             if key not in self.raw_proxies:
                 self.raw_proxies[key] = {
                     'ip': ip, 'port': port, 
-                    'protocols': protocols_to_try, # Lưu mảng các giao thức cần test
+                    'protocols': protocols_to_try,
                     'username': username, 'password': password,
                     'country': 'Unknown', 'countryCode': '??',
                     'mobile': False, 'proxy': False, 'hosting': False
                 }
             else:
-                # Nếu trùng IP:Port từ nguồn khác, gộp thêm các giao thức cần test nếu chưa có
                 for proto in protocols_to_try:
                     if proto not in self.raw_proxies[key]['protocols']:
                         self.raw_proxies[key]['protocols'].append(proto)
@@ -154,7 +142,7 @@ class ProxyFetcher:
                                 proxy_data['proxy'] = info.get('proxy', False)
                                 proxy_data['hosting'] = info.get('hosting', False)
                     else:
-                        logger.warning(f"Geo Lookup API blocked or limited. Status: {resp.status}")
+                        logger.warning(f"Geo Lookup API limited. Status: {resp.status}")
                         break
             except Exception as e:
                 logger.error(f"Error during network info chunk mapping: {e}")
@@ -162,31 +150,30 @@ class ProxyFetcher:
             if i + chunk_size < len(unique_ips):
                 await asyncio.sleep(4.2)
 
-    async def verify_single_proxy(self, http_session: aiohttp.ClientSession, proxy_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    async def verify_single_protocol_task(self, http_session: aiohttp.ClientSession, proxy_data: Dict[str, Any], proto: str) -> Optional[Dict[str, Any]]:
         ip, port = proxy_data['ip'], proxy_data['port']
         user, pwd = proxy_data['username'], proxy_data['password']
         auth_str = f"{user}:{pwd}@" if user and pwd else ""
+        proxy_url = f"{proto}://{auth_str}{ip}:{port}"
         
-        # Lần lượt kiểm thử từng giao thức được gán cho proxy này
-        for proto in proxy_data['protocols']:
-            proxy_url = f"{proto}://{auth_str}{ip}:{port}"
-            try:
-                if 'socks' in proto:
-                    connector = ProxyConnector.from_url(proxy_url)
-                    async with aiohttp.ClientSession(connector=connector) as socks_session:
-                        async with socks_session.get(TEST_URL, timeout=CHECK_TIMEOUT, ssl=False) as resp:
-                            if resp.status == 200:
-                                proxy_data['type'] = proto  # Đã tìm ra protocol chính xác!
-                                return proxy_data
-                else:
-                    async with http_session.get(TEST_URL, proxy=proxy_url, timeout=CHECK_TIMEOUT, ssl=False) as resp:
+        try:
+            if 'socks' in proto:
+                connector = ProxyConnector.from_url(proxy_url)
+                async with aiohttp.ClientSession(connector=connector) as socks_session:
+                    async with socks_session.get(TEST_URL, timeout=CHECK_TIMEOUT, ssl=False) as resp:
                         if resp.status == 200:
-                            proxy_data['type'] = proto  # Đã tìm ra protocol chính xác!
-                            return proxy_data
-            except Exception:
-                continue # Nếu lỗi, bỏ qua và nhảy sang thử nghiệm protocol tiếp theo trong mảng
-                
-        return None # Nếu thử sạch toàn bộ các protocol mà không thằng nào sống -> Loại bỏ proxy này
+                            res = proxy_data.copy()
+                            res['type'] = proto
+                            return res
+            else:
+                async with http_session.get(TEST_URL, proxy=proxy_url, timeout=CHECK_TIMEOUT, ssl=False) as resp:
+                    if resp.status == 200:
+                        res = proxy_data.copy()
+                        res['type'] = proto
+                        return res
+        except Exception:
+            pass
+        return None
 
     async def run(self):
         async with aiohttp.ClientSession() as session:
@@ -201,18 +188,29 @@ class ProxyFetcher:
                 logger.error("No raw proxy signatures found.")
                 return
 
-            logger.info("Phase 2: Verifying live status & Auto-detecting protocols...")
+            logger.info(f"Phase 2: Verifying live status & Blazing Fast Auto-detecting ({MAX_CONCURRENT_CHECKS} Parallel Workers)...")
             sem = asyncio.Semaphore(MAX_CONCURRENT_CHECKS)
             
-            async def safe_check(proxy):
+            async def safe_check(proxy, proto):
                 async with sem:
-                    return await self.verify_single_proxy(session, proxy)
+                    return await self.verify_single_protocol_task(session, proxy, proto)
 
-            tasks = [safe_check(proxy) for proxy in self.raw_proxies.values()]
-            pre_results = await asyncio.gather(*tasks)
-            live_unriched = [r for r in pre_results if r]
+            flattened_tasks = []
+            for proxy in self.raw_proxies.values():
+                for proto in proxy['protocols']:
+                    flattened_tasks.append(safe_check(proxy, proto))
             
-            self.raw_proxies = {f"{p['ip']}:{p['port']}": p for p in live_unriched}
+            logger.info(f"Tổng số lượng Connection Task được đẩy vào hàng đợi song song: {len(flattened_tasks)}")
+            pre_results = await asyncio.gather(*flattened_tasks)
+            
+            unique_live = {}
+            for r in pre_results:
+                if r:
+                    key = f"{r['ip']}:{r['port']}"
+                    if key not in unique_live:
+                        unique_live[key] = r
+            
+            self.raw_proxies = unique_live
             
             logger.info(f"Phase 3: Looking up infrastructure details for {len(self.raw_proxies)} live proxies...")
             await self.enrich_geolocation(session)
