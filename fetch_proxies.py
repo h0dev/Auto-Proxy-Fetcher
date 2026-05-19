@@ -12,7 +12,7 @@ import geoip2.database  # Thư viện đọc DB Local
 # --- CẤU HÌNH SIÊU TỐC ĐỘ ---
 MAX_WORKERS = 1500            
 CHECK_TIMEOUT = 5             
-TEST_URL = 'http://httpbin.org/ip'
+TEST_URL = 'http://cp.cloudflare.com/'
 OUTPUT_FILE = 'proxies.txt'
 SOURCES_FILE = 'sources.txt'
 
@@ -104,12 +104,12 @@ class LocalGeoProxyFetcher:
                     connector = ProxyConnector.from_url(proxy_url)
                     async with aiohttp.ClientSession(connector=connector, timeout=timeout_cfg) as socks_session:
                         async with socks_session.get(TEST_URL, ssl=False) as resp:
-                            return resp.status == 200
+                            return resp.status == 204
                 is_live = await asyncio.wait_for(do_socks(), timeout=CHECK_TIMEOUT + 1)
             else:
                 async def do_http():
                     async with http_session.get(TEST_URL, proxy=proxy_url, timeout=timeout_cfg, ssl=False) as resp:
-                        return resp.status == 200
+                        return resp.status == 204
                 is_live = await asyncio.wait_for(do_http(), timeout=CHECK_TIMEOUT + 1)
 
             if is_live:
