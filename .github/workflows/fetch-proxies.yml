@@ -3,10 +3,10 @@ name: Auto Fetch and Verify Proxies
 on:
   schedule:
     - cron: '0 */3 * * *' # Tự động chạy quét dọn 2 tiếng một lần
-  workflow_dispatch: # Cho phép bác vào bấm nút "Run workflow" để chạy ngay lập tức khi cần
+  workflow_dispatch: # Cho phép vào bấm nút "Run workflow" chạy thủ công luôn
 
 permissions:
-  contents: write # Cấp quyền cho Bot tự động đẩy file kết quả lên Repo của bác
+  contents: write # Cấp quyền cho Bot đẩy file kết quả lên Repo
 
 jobs:
   proxy-master-job:
@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.12' # THAY ĐỔI: Lên Python 3.12 để tối ưu tốc độ Asyncio chạy bốc hơn
         cache: 'pip'
 
     - name: Install dependencies
@@ -30,7 +30,6 @@ jobs:
     - name: Download GeoIP Databases
       run: |
         mkdir -p geoip
-        # Tải cơ sở dữ liệu quốc gia và nhà mạng mở mới nhất để phân loại IP
         wget -O geoip/GeoLite2-Country.mmdb https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb || true
         wget -O geoip/GeoLite2-ASN.mmdb https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb || true
 
@@ -41,7 +40,6 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        # Gom toàn bộ dữ liệu mới (bao gồm cả thư mục con api) để cập nhật lên Github Pages
         git add proxies.txt sources.txt sub.txt api/
         git commit -m "🤖 [Auto Bot] Updated clean proxies, updated API and sub.txt [skip ci]" || echo "Không có thay đổi mới nào để cập nhật."
         git push
