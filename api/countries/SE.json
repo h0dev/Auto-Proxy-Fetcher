@@ -1,28 +1,46 @@
 {
-  "updated_at": "2026-05-20T16:34:50.221825",
-  "total": 2,
+  "updated_at": "2026-05-20T21:24:05.404138",
+  "total": 3,
   "data": [
     {
-      "ip": "77.232.142.77",
-      "port": "31336",
+      "ip": "171.25.158.95",
+      "port": "1080",
       "protocols": [
-        "socks4",
         "socks5",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Sweden",
       "countryCode": "SE",
-      "isp": "Aeza Group LLC",
+      "isp": "Patrik Lagerman",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "188.150.229.60",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Tele2 SWIPnet",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "193.181.35.104",
+      "ip": "193.181.35.102",
       "port": "8118",
       "protocols": [
+        "https",
         "http"
       ],
       "username": null,

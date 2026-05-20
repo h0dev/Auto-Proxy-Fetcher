@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-05-20T16:34:50.223477",
-  "total": 1,
+  "updated_at": "2026-05-20T21:24:05.405477",
+  "total": 2,
   "data": [
     {
-      "ip": "91.192.25.158",
-      "port": "4145",
+      "ip": "149.62.186.244",
+      "port": "1080",
       "protocols": [
         "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Host SpA",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "149.86.203.217",
+      "port": "8080",
+      "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "T&T Tecnologie e Telecomunicazioni Srl",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "Sirius Technology SRL",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

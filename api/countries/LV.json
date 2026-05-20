@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-20T13:52:21.230785",
-  "total": 1,
+  "updated_at": "2026-05-20T21:24:05.407856",
+  "total": 2,
   "data": [
     {
       "ip": "185.253.61.251",
       "port": "3310",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -18,6 +18,23 @@
       "isp": "Host Sailor Ltd",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "159.148.146.65",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "SIA BITE Latvija",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

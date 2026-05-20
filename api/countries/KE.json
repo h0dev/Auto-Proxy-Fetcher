@@ -1,27 +1,10 @@
 {
-  "updated_at": "2026-05-20T16:34:50.222409",
+  "updated_at": "2026-05-20T21:24:05.411103",
   "total": 2,
   "data": [
     {
       "ip": "102.0.14.42",
       "port": "1080",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "CKL1-ASN",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "102.0.18.120",
-      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -34,7 +17,24 @@
       "countryCode": "KE",
       "isp": "CKL1-ASN",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
+    },
+    {
+      "ip": "102.68.77.3",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Unwired-Communications",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
