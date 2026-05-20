@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-20T21:24:05.383234",
-  "total": 12,
+  "updated_at": "2026-05-20T23:27:53.710765",
+  "total": 10,
   "data": [
     {
       "ip": "103.179.189.15",
@@ -20,21 +20,21 @@
       "type": "socks4"
     },
     {
-      "ip": "45.117.163.134",
-      "port": "3128",
+      "ip": "160.19.78.110",
+      "port": "1080",
       "protocols": [
-        "http",
         "socks5",
-        "socks4",
-        "https"
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "CHT Compamy Ltd",
-      "user_type": "business",
-      "type": "https"
+      "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "socks5"
     },
     {
       "ip": "113.160.132.26",
@@ -54,13 +54,30 @@
       "type": "https"
     },
     {
-      "ip": "160.19.78.110",
+      "ip": "45.117.163.134",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "CHT Compamy Ltd",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "113.176.118.150",
       "port": "1080",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -71,25 +88,8 @@
       "type": "socks5"
     },
     {
-      "ip": "118.71.99.233",
-      "port": "5678",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "FPT Telecom Company",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "103.82.23.118",
-      "port": "5347",
+      "ip": "27.64.73.70",
+      "port": "3010",
       "protocols": [
         "http"
       ],
@@ -97,62 +97,12 @@
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+      "isp": "Viettel Group",
       "user_type": "residential",
       "type": "http"
     },
     {
-      "ip": "14.241.182.44",
-      "port": "5678",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "VNPT Corp",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "103.82.23.118",
-      "port": "6174",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "103.82.23.118",
-      "port": "6212",
-      "protocols": [
-        "http",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "115.75.184.174",
+      "ip": "1.54.186.167",
       "port": "8080",
       "protocols": [
         "http",
@@ -164,43 +114,57 @@
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "Viettel Group",
+      "isp": "FPT Telecom Company",
       "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "160.250.54.4",
+      "port": "9000",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "SANDCLOCK SERVICE TRADING COMPANY LIMITED",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "42.96.19.211",
+      "port": "1314",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Branch of Long Van System Solution JSC - Hanoi",
+      "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "14.241.241.185",
-      "port": "4145",
+      "ip": "103.82.23.118",
+      "port": "6259",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "VNPT Corp",
+      "isp": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
       "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "27.75.153.199",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "Viettel Group",
-      "user_type": "residential",
-      "type": "socks4"
+      "type": "socks5"
     }
   ]
 }
