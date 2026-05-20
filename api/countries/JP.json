@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-05-20T13:52:21.215892",
-  "total": 79,
+  "updated_at": "2026-05-20T16:34:50.211668",
+  "total": 62,
   "data": [
     {
-      "ip": "8.221.138.111",
-      "port": "1081",
+      "ip": "47.91.29.151",
+      "port": "3129",
       "protocols": [
         "socks5",
         "http",
@@ -17,24 +17,7 @@
       "countryCode": "JP",
       "isp": "Alibaba US Technology Co., Ltd.",
       "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "8.221.139.222",
-      "port": "8085",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "103.75.118.84",
@@ -51,11 +34,11 @@
       "countryCode": "JP",
       "isp": "BrainStorm Network, Inc",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
-      "ip": "45.153.246.37",
-      "port": "8890",
+      "ip": "134.122.136.120",
+      "port": "10086",
       "protocols": [
         "socks4",
         "socks5",
@@ -66,8 +49,8 @@
       "password": null,
       "country": "Japan",
       "countryCode": "JP",
-      "isp": "xTom Japan Corporation",
-      "user_type": "business",
+      "isp": "CTG Server Limited",
+      "user_type": "hosting",
       "type": "socks4"
     },
     {
@@ -88,6 +71,23 @@
       "type": "socks4"
     },
     {
+      "ip": "45.76.104.16",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "The Constant Company, LLC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
       "ip": "8.209.255.13",
       "port": "3128",
       "protocols": [
@@ -105,8 +105,8 @@
       "type": "http"
     },
     {
-      "ip": "134.122.136.116",
-      "port": "10086",
+      "ip": "45.153.246.37",
+      "port": "8890",
       "protocols": [
         "socks4",
         "socks5",
@@ -117,77 +117,9 @@
       "password": null,
       "country": "Japan",
       "countryCode": "JP",
-      "isp": "CTG Server Limited",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "116.80.76.254",
-      "port": "7779",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "NTT PC Communications, Inc.",
+      "isp": "xTom Japan Corporation",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "134.122.136.120",
-      "port": "10086",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "CTG Server Limited",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "140.227.61.201",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "NTT PC Communications, Inc.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "45.76.104.16",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "The Constant Company, LLC",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "116.80.76.250",
@@ -204,75 +136,58 @@
       "countryCode": "JP",
       "isp": "NTT PC Communications, Inc.",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "116.80.76.254",
+      "port": "7779",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "NTT PC Communications, Inc.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "116.80.76.253",
+      "port": "7779",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "NTT PC Communications, Inc.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "116.80.76.252",
+      "port": "7779",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "NTT PC Communications, Inc.",
+      "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "20.27.13.35",
-      "port": "8561",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Microsoft Corporation",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "20.27.14.220",
-      "port": "8561",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Microsoft Corporation",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "20.78.26.206",
-      "port": "8561",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Microsoft Corporation",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "20.78.118.91",
-      "port": "8561",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Microsoft Corporation",
-      "user_type": "business",
-      "type": "https"
     },
     {
       "ip": "35.73.28.87",
@@ -293,24 +208,7 @@
     },
     {
       "ip": "47.74.46.81",
-      "port": "10000",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.74.46.81",
-      "port": "102",
+      "port": "37777",
       "protocols": [
         "http",
         "https",
@@ -328,23 +226,6 @@
     {
       "ip": "47.74.46.81",
       "port": "1081",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.74.46.81",
-      "port": "37777",
       "protocols": [
         "http",
         "https",
@@ -411,24 +292,7 @@
     },
     {
       "ip": "47.74.46.81",
-      "port": "45",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.74.46.81",
-      "port": "5060",
+      "port": "10000",
       "protocols": [
         "http",
         "https",
@@ -462,7 +326,7 @@
     },
     {
       "ip": "47.74.46.81",
-      "port": "50",
+      "port": "45",
       "protocols": [
         "http",
         "https",
@@ -496,7 +360,41 @@
     },
     {
       "ip": "47.74.46.81",
-      "port": "8047",
+      "port": "5060",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba US Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "47.74.46.81",
+      "port": "50",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba US Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "47.74.46.81",
+      "port": "9090",
       "protocols": [
         "http",
         "https",
@@ -547,58 +445,41 @@
     },
     {
       "ip": "47.74.46.81",
+      "port": "8047",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba US Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "47.74.46.81",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba US Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "47.74.46.81",
       "port": "9098",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.74.46.81",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.74.46.81",
-      "port": "8093",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.74.46.81",
-      "port": "6379",
       "protocols": [
         "http",
         "https",
@@ -632,26 +513,10 @@
     },
     {
       "ip": "47.74.46.81",
-      "port": "8888",
+      "port": "80",
       "protocols": [
         "http",
         "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.91.29.151",
-      "port": "1080",
-      "protocols": [
-        "http",
         "socks4",
         "socks5"
       ],
@@ -666,57 +531,6 @@
     {
       "ip": "47.91.29.151",
       "port": "41451",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.91.29.151",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.91.29.151",
-      "port": "6969",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.91.29.151",
-      "port": "194",
       "protocols": [
         "http",
         "https",
@@ -750,7 +564,7 @@
     },
     {
       "ip": "47.91.29.151",
-      "port": "3129",
+      "port": "31281",
       "protocols": [
         "http",
         "https",
@@ -783,41 +597,24 @@
     },
     {
       "ip": "47.91.29.151",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba US Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "47.91.29.151",
       "port": "4145",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.91.29.151",
-      "port": "1311",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.91.29.151",
-      "port": "7890",
       "protocols": [
         "http",
         "https",
@@ -851,26 +648,9 @@
     },
     {
       "ip": "47.91.29.151",
-      "port": "6666",
+      "port": "1080",
       "protocols": [
         "http",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "47.91.29.151",
-      "port": "8443",
-      "protocols": [
-        "http",
-        "https",
         "socks4",
         "socks5"
       ],
@@ -901,7 +681,7 @@
     },
     {
       "ip": "47.91.29.151",
-      "port": "8081",
+      "port": "1311",
       "protocols": [
         "http",
         "https",
@@ -918,7 +698,40 @@
     },
     {
       "ip": "47.91.29.151",
-      "port": "8888",
+      "port": "6666",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba US Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "47.91.29.151",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba US Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "47.91.29.151",
+      "port": "8090",
       "protocols": [
         "http",
         "https",
@@ -952,7 +765,24 @@
     },
     {
       "ip": "47.91.29.151",
-      "port": "90",
+      "port": "8443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba US Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "47.91.29.151",
+      "port": "8888",
       "protocols": [
         "http",
         "https",
@@ -986,9 +816,27 @@
     },
     {
       "ip": "47.91.29.151",
-      "port": "8090",
+      "port": "7890",
       "protocols": [
         "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba US Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "47.91.29.151",
+      "port": "31291",
+      "protocols": [
+        "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -1033,74 +881,6 @@
     },
     {
       "ip": "8.221.139.222",
-      "port": "8008",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "8.221.139.222",
-      "port": "4002",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "8.221.139.222",
-      "port": "39",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "8.221.139.222",
-      "port": "17",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "8.221.139.222",
       "port": "6666",
       "protocols": [
         "http",
@@ -1118,58 +898,7 @@
     },
     {
       "ip": "8.221.139.222",
-      "port": "8443",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "8.221.139.222",
-      "port": "8108",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "8.221.139.222",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "8.221.139.222",
-      "port": "3129",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -1203,7 +932,24 @@
     },
     {
       "ip": "8.221.139.222",
-      "port": "8081",
+      "port": "17",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba US Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "8.221.139.222",
+      "port": "8008",
       "protocols": [
         "http",
         "https",
@@ -1237,7 +983,7 @@
     },
     {
       "ip": "8.221.139.222",
-      "port": "8028",
+      "port": "4002",
       "protocols": [
         "http",
         "https",
@@ -1254,29 +1000,10 @@
     },
     {
       "ip": "8.221.139.222",
-      "port": "8889",
+      "port": "9992",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "8.221.139.222",
-      "port": "9080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -1305,24 +1032,7 @@
     },
     {
       "ip": "8.221.139.222",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Alibaba US Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "8.221.139.222",
-      "port": "9992",
+      "port": "9080",
       "protocols": [
         "http",
         "https",

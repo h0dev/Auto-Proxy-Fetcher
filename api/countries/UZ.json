@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-05-20T13:52:21.235293",
-  "total": 1,
+  "updated_at": "2026-05-20T16:34:50.213930",
+  "total": 2,
   "data": [
     {
-      "ip": "195.158.10.99",
-      "port": "8080",
+      "ip": "213.230.121.41",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Uzbekistan",
+      "countryCode": "UZ",
+      "isp": "Uzbektelekom Joint Stock Company",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "83.222.7.205",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -17,7 +34,7 @@
       "countryCode": "UZ",
       "isp": "Uzbektelekom Joint Stock Company",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
