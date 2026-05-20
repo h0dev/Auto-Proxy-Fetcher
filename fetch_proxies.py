@@ -11,10 +11,10 @@ import aiohttp
 from aiohttp_socks import ProxyConnector
 import geoip2.database
 
-# --- CẤU HÌNH HỆ THỐNG ---
-MAX_WORKERS = 1500            # Số luồng check đồng thời (tối ưu cho GitHub Actions)
-CHECK_TIMEOUT = 5             # Thời gian chờ phản hồi tối đa (giây)
-TEST_URL = 'https://cp.cloudflare.com/' # BẮT BUỘC DÙNG HTTPS ĐỂ LỌC PROXY XỊN
+# --- CẤU HÌNH HỆ THỐNG TỐI ƯU HÓA CAO ---
+MAX_WORKERS = 2000            # Số luồng check proxy song song
+CHECK_TIMEOUT = 5             # Thời gian chờ phản hồi tối đa của proxy (giây)
+TEST_URL = 'https://cp.cloudflare.com/' # Ép lọc chuẩn HTTPS
 OUTPUT_FILE = 'proxies.txt'
 SOURCES_FILE = 'sources.txt'
 
@@ -24,7 +24,7 @@ DB_ASN = 'geoip/GeoLite2-ASN.mmdb'
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%H:%M:%S', handlers=[logging.StreamHandler(sys.stdout)])
 logger = logging.getLogger("ProxyMaster")
 
-# Regex nhận diện proxy nâng cao (chấp nhận ip:port, protocol://ip:port, user:pass@ip:port)
+# Regex nhận diện proxy nâng cao
 PROXY_RE = re.compile(r'(?:(?P<protocol>http|https|socks4|socks5)://)?(?:(?P<username>[^:@\s]+):(?P<password>[^:@\s]+)@)?(?P<ip>(?:[0-9]{1,3}\.){3}[0-9]{1,3}):(?P<port>[0-9]{1,5})', re.IGNORECASE)
 
 class ProxyFetcher:
@@ -32,18 +32,30 @@ class ProxyFetcher:
         self.raw_proxies: Dict[str, Dict[str, Any]] = {}
         self.live_proxies: Dict[str, Dict[str, Any]] = {}
         self.sources: List[str] = []
-        self.working_sources: List[str] = [] # Lưu các link nguồn thực sự hoạt động
+        self.working_sources: List[str] = []
+        self.all_source_lines: List[str] = [] # Lưu cấu trúc file gốc để xử lý đóng/mở comment
 
+    # CẬP NHẬT: Đọc cả link DIE để chuẩn bị quét hồi sinh
     def load_sources(self) -> List[str]:
         if not os.path.exists(SOURCES_FILE):
-            logger.error(f"Không tìm thấy file '{SOURCES_FILE}'! Vui lòng tạo file này trước.")
+            logger.error(f"Không tìm thấy file '{SOURCES_FILE}'!")
             sys.exit(1)
         sources = []
         with open(SOURCES_FILE, 'r', encoding='utf-8') as f:
             for line in f:
-                line = line.strip()
-                if line and not line.startswith('#'):
-                    sources.append(line)
+                self.all_source_lines.append(line)
+                line_strip = line.strip()
+                if not line_strip: continue
+                
+                # Nếu là link từng bị đánh dấu DIE, vẫn bốc URL ra để quét thử xem sống lại chưa
+                if line_strip.startswith('# [DIE]'):
+                    url = line_strip.replace('# [DIE]', '').strip()
+                    if url and url not in sources:
+                        sources.append(url)
+                # Nếu là link thường đang hoạt động
+                elif not line_strip.startswith('#'):
+                    if line_strip not in sources:
+                        sources.append(line_strip)
         return sources
 
     async def fetch_url(self, session: aiohttp.ClientSession, url: str) -> Optional[tuple]:
@@ -66,7 +78,6 @@ class ProxyFetcher:
             if not ip or not port: continue
             found = True
 
-            # Xác định giao thức dựa trên link nguồn hoặc mặc định quét hết
             if match.group('protocol'): protocols = [match.group('protocol').lower()]
             else:
                 if 'socks5' in url_lower: protocols = ['socks5']
@@ -91,7 +102,10 @@ class ProxyFetcher:
         ip, port = proxy_data['ip'], proxy_data['port']
         user, pwd = proxy_data['username'], proxy_data['password']
         auth_str = f"{user}:{pwd}@" if user and pwd else ""
-        proxy_url = f"{proto}://{auth_str}{ip}:{port}"
+        
+        # Sửa lỗi TLS-in-TLS bóp băng thông
+        proxy_proto = 'http' if proto == 'https' else proto
+        proxy_url = f"{proxy_proto}://{auth_str}{ip}:{port}"
         
         timeout_cfg = aiohttp.ClientTimeout(total=CHECK_TIMEOUT, connect=CHECK_TIMEOUT, sock_connect=CHECK_TIMEOUT)
         try:
@@ -126,7 +140,7 @@ class ProxyFetcher:
 
     def enrich_geolocation_local(self):
         if not os.path.exists(DB_COUNTRY) or not os.path.exists(DB_ASN): 
-            logger.warning("Không tìm thấy cơ sở dữ liệu GeoIP địa phương. Bỏ qua định vị.")
+            logger.warning("Không thấy file DB GeoIP. Bỏ qua định vị.")
             return
         try:
             reader_country = geoip2.database.Reader(DB_COUNTRY)
@@ -162,7 +176,7 @@ class ProxyFetcher:
         connector = aiohttp.TCPConnector(limit=0, ttl_dns_cache=600, limit_per_host=0)
         
         async with aiohttp.ClientSession(connector=connector) as session:
-            logger.info("Đang cào dữ liệu từ các nguồn...")
+            logger.info("Đang cào dữ liệu từ các nguồn (Bao gồm kiểm tra hồi sinh nguồn DIE)...")
             fetch_tasks = [self.fetch_url(session, url) for url in self.sources]
             results = await asyncio.gather(*fetch_tasks)
             
@@ -172,15 +186,14 @@ class ProxyFetcher:
                     if found:
                         self.working_sources.append(url)
             
-            # TỰ ĐỘNG DỌN RÁC LINK DIE (Nếu có ít nhất 1 nguồn sống để tránh lỗi xóa sạch do mạng sập)
             if self.working_sources:
                 self.clean_dead_sources()
 
             if not self.raw_proxies:
-                logger.warning("Không tìm thấy proxy nào từ các nguồn cung cấp!")
+                logger.warning("Không tìm thấy proxy thô nào!")
                 return
             
-            logger.info(f"Tìm thấy tổng cộng {len(self.raw_proxies)} proxy thô. Bắt đầu kiểm tra chất lượng (HTTPS Only)...")
+            logger.info(f"Tìm thấy tổng cộng {len(self.raw_proxies)} proxy thô. Bắt đầu kiểm tra chất lượng...")
             queue = asyncio.Queue()
             for proxy in self.raw_proxies.values():
                 for proto in proxy['protocols']:
@@ -189,23 +202,39 @@ class ProxyFetcher:
             workers = [asyncio.create_task(self.worker(queue, session)) for _ in range(MAX_WORKERS)]
             await asyncio.gather(*workers)
             
-            logger.info("Đang phân tích quốc gia và loại hình nhà mạng...")
+            logger.info("Đang phân tích nhà mạng và quốc gia...")
             self.enrich_geolocation_local()
             
         self.export_all_formats()
 
+    # CẬP NHẬT: Tự động gỡ bỏ # [DIE] nếu link sống lại, hoặc thêm vào nếu link mới chết
     def clean_dead_sources(self):
         with open(SOURCES_FILE, 'w', encoding='utf-8') as f:
-            f.write("# =========================================================\n")
-            f.write(f"# DANH SÁCH NGUỒN ĐÃ ĐƯỢC TỰ ĐỘNG LỌC SẠCH LINK DIE ({datetime.utcnow().strftime('%Y-%m-%d')})\n")
-            f.write("# =========================================================\n")
-            f.write('\n'.join(self.working_sources) + '\n')
-        logger.info(f"Đã cập nhật sources.txt: Giữ lại {len(self.working_sources)}/{len(self.sources)} link hoạt động.")
+            for line in self.all_source_lines:
+                line_strip = line.strip()
+                if not line_strip:
+                    f.write("\n")
+                    continue
+                
+                current_url = line_strip
+                if line_strip.startswith('# [DIE]'):
+                    current_url = line_strip.replace('# [DIE]', '').strip()
+                elif line_strip.startswith('#'):
+                    f.write(line) # Giữ nguyên các dòng tiêu đề hoặc ghi chú khác của người dùng
+                    continue
+                
+                # Quyết định trạng thái dựa trên kết quả cào thực tế của chu kỳ này
+                if current_url in self.working_sources:
+                    f.write(f"{current_url}\n") # Sống hoặc đã Hồi Sinh -> Ghi link sạch không có dấu #
+                else:
+                    f.write(f"# [DIE] {current_url}\n") # Vẫn chết hoặc vừa mới lăn ra chết
+                    
+        logger.info(f"Đã cập nhật trạng thái nguồn và tự động xử lý hồi sinh link trong sources.txt.")
 
     def export_all_formats(self):
         live_list = list(self.live_proxies.values())
         
-        # 1. XUẤT FILE TXT TRUYỀN THỐNG
+        # 1. XUẤT FILE TXT
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             f.write(f"# Auto Proxy List\n# Build Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
             for p in live_list:
@@ -213,11 +242,10 @@ class ProxyFetcher:
                 uri = f"{p['type']}://{auth}{p['ip']}:{p['port']}"
                 f.write(f"{uri:<45} | {p['country']} ({p['countryCode']}) | User: {p['user_type']:<12} | ISP: {p['isp']}\n")
                 
-        # 2. XUẤT THƯ MỤC STATIC JSON API PHÂN LOẠI CHI TIẾT
+        # 2. XUẤT API JSON TĨNH PHÂN LOẠI
         os.makedirs('api/types', exist_ok=True)
         os.makedirs('api/countries', exist_ok=True)
         
-        # Xuất API tổng
         with open('api/all.json', 'w', encoding='utf-8') as f:
             json.dump({'updated_at': datetime.utcnow().isoformat(), 'total': len(live_list), 'data': live_list}, f, ensure_ascii=False, indent=2)
         
@@ -243,19 +271,17 @@ class ProxyFetcher:
             with open(f'api/countries/{c}.json', 'w', encoding='utf-8') as f:
                 json.dump({'updated_at': datetime.utcnow().isoformat(), 'total': len(data), 'data': data}, f, ensure_ascii=False, indent=2)
                 
-        # 3. TẠO FILE SUB CHO CLIENT (VỚI TÊN ĐƯỢC TÁCH RIÊNG THEO QUỐC GIA)
+        # 3. TẠO FILE SUB (STT RIÊNG THEO QUỐC GIA ĐỂ TRÁNH TRÙNG LẶP)
         sub_uris = []
-        country_counters = {} # Bộ đếm STT riêng biệt cho từng quốc gia
+        country_counters = {}
         
         for p in live_list:
             auth = f"{p['username']}:{p['password']}@" if p.get('username') else ""
             c_code = p['countryCode']
             
-            # Tăng STT lũy tiến cho quốc gia đó để tránh trùng lặp danh sách
             country_counters[c_code] = country_counters.get(c_code, 0) + 1
             stt = country_counters[c_code]
             
-            # Định dạng chuẩn: Country Code [STT] (Ví dụ: VN [1], VN [2], US [1]...)
             remark_name = f"{c_code} [{stt}]"
             uri_with_remark = f"{p['type']}://{auth}{p['ip']}:{p['port']}#{remark_name}"
             sub_uris.append(uri_with_remark)
@@ -266,7 +292,7 @@ class ProxyFetcher:
         with open('sub.txt', 'w', encoding='utf-8') as f:
             f.write(b64_sub)
             
-        logger.info(f"🚀 Thành công! Xuất {len(live_list)} proxy chạy ngon ra file {OUTPUT_FILE}, API JSON, và sub.txt")
+        logger.info(f"🚀 Thành công! Xuất {len(live_list)} proxy ngon ra các định dạng.")
 
 if __name__ == "__main__":
     if sys.platform == 'win32': asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
