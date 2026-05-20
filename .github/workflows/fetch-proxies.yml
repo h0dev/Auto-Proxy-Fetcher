@@ -1,51 +1,47 @@
-name: Auto Fetch Proxies
+name: Auto Fetch and Verify Proxies
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
-  workflow_dispatch:
+    - cron: '0 */3 * * *' # Tự động chạy quét dọn 2 tiếng một lần
+  workflow_dispatch: # Cho phép bác vào bấm nút "Run workflow" để chạy ngay lập tức khi cần
+
+permissions:
+  contents: write # Cấp quyền cho Bot tự động đẩy file kết quả lên Repo của bác
 
 jobs:
-  build:
+  proxy-master-job:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
 
-      - name: Install dependencies
-        run: |
-          pip install aiohttp aiohttp-socks geoip2
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install aiohttp aiohttp-socks geoip2
 
-      # TỰ ĐỘNG TẢI DATABASE GEOIP VỀ CHẠY LOCAL
-      - name: Download Local GeoIP Databases
-        run: |
-          mkdir -p geoip
-          wget -q https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb -O geoip/GeoLite2-Country.mmdb
-          wget -q https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb -O geoip/GeoLite2-ASN.mmdb
+    - name: Download GeoIP Databases
+      run: |
+        mkdir -p geoip
+        # Tải cơ sở dữ liệu quốc gia và nhà mạng mở mới nhất để phân loại IP
+        wget -O geoip/GeoLite2-Country.mmdb https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb || true
+        wget -O geoip/GeoLite2-ASN.mmdb https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb || true
 
-      - name: Run script
-        run: python fetch_proxies.py
+    - name: Run Proxy Fetcher Script
+      run: python fetch_proxies.py
 
-      - name: Commit and push safely
-        run: |
-          cp proxies.txt proxies.txt.bak
-          git fetch origin main
-          git reset --hard origin/main
-          mv proxies.txt.bak proxies.txt
-          
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add proxies.txt
-          
-          if ! git diff --staged --quiet; then
-            git commit -m "🤖 Update proxy list [skip ci]"
-            git push origin main
-          else
-            echo "Không có thay đổi dữ liệu."
-          fi
+    - name: Commit and Push Changes back to GitHub
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        # Gom toàn bộ dữ liệu mới (bao gồm cả thư mục con api) để cập nhật lên Github Pages
+        git add proxies.txt sources.txt sub.txt api/
+        git commit -m "🤖 [Auto Bot] Updated clean proxies, updated API and sub.txt [skip ci]" || echo "Không có thay đổi mới nào để cập nhật."
+        git push
