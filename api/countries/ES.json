@@ -1,9 +1,43 @@
 {
-  "updated_at": "2026-05-21T20:59:50.167715",
-  "total": 5,
+  "updated_at": "2026-05-21T23:24:12.038286",
+  "total": 4,
   "data": [
     {
-      "ip": "79.117.134.12",
+      "ip": "109.167.83.167",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "193.38.224.169",
+      "port": "8081",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Citelia s.a.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "2.139.38.192",
       "port": "3128",
       "protocols": [
         "http",
@@ -15,35 +49,18 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Digi Spain Telecom S.A",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "185.226.195.249",
-      "port": "2222",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Pinkbear Slu",
+      "isp": "Telefonica De Espana S.a.u.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "83.97.79.114",
       "port": "8443",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -51,41 +68,7 @@
       "countryCode": "ES",
       "isp": "BlueVPS OU",
       "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "81.0.49.104",
-      "port": "20500",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Xtra Telecom S.A.",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "185.202.165.1",
-      "port": "53281",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Avatel Telecom, SA",
-      "user_type": "residential",
-      "type": "https"
+      "type": "socks5"
     }
   ]
 }

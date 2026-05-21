@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-21T20:59:50.169267",
-  "total": 7,
+  "updated_at": "2026-05-21T23:24:12.034614",
+  "total": 9,
   "data": [
     {
       "ip": "161.97.118.197",
@@ -37,6 +37,23 @@
       "type": "socks5"
     },
     {
+      "ip": "62.169.28.60",
+      "port": "9091",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Contabo GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
       "ip": "173.212.239.43",
       "port": "1080",
       "protocols": [
@@ -51,11 +68,11 @@
       "countryCode": "FR",
       "isp": "Contabo GmbH",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "91.121.63.51",
-      "port": "1080",
+      "ip": "217.182.195.221",
+      "port": "30000",
       "protocols": [
         "http",
         "https",
@@ -71,24 +88,7 @@
       "type": "http"
     },
     {
-      "ip": "82.64.127.97",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Free SAS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "185.41.152.110",
+      "ip": "173.212.246.157",
       "port": "3128",
       "protocols": [
         "http",
@@ -100,13 +100,13 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Techcrea Solutions SAS",
+      "isp": "Contabo GmbH",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "195.25.20.155",
-      "port": "3128",
+      "ip": "37.187.92.9",
+      "port": "1029",
       "protocols": [
         "http",
         "https",
@@ -117,9 +117,40 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Orange",
-      "user_type": "business",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
       "type": "https"
+    },
+    {
+      "ip": "37.187.92.9",
+      "port": "1024",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "45.13.116.188",
+      "port": "21537",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Abjp Services SAS",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
