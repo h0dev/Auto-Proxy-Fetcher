@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-20T23:27:53.712195",
-  "total": 3,
+  "updated_at": "2026-05-21T05:07:36.168754",
+  "total": 4,
   "data": [
     {
       "ip": "152.53.144.223",
@@ -20,13 +20,13 @@
       "type": "socks5"
     },
     {
-      "ip": "147.45.41.112",
+      "ip": "193.233.161.1",
       "port": "1080",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -34,11 +34,28 @@
       "countryCode": "AT",
       "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
     },
     {
-      "ip": "185.196.178.238",
-      "port": "60606",
+      "ip": "147.45.41.112",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Austria",
+      "countryCode": "AT",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "178.115.230.100",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -49,9 +66,9 @@
       "password": null,
       "country": "Austria",
       "countryCode": "AT",
-      "isp": "Planet Digital Lichtwellenleiternetz Errichtungs- und Betrieb GmbH & Co KG",
+      "isp": "Hutchison Drei Austria GmbH",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
