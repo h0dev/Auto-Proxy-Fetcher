@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-05-21T10:51:08.028609",
-  "total": 3,
+  "updated_at": "2026-05-21T16:36:48.164715",
+  "total": 4,
   "data": [
     {
-      "ip": "170.64.170.204",
-      "port": "1080",
+      "ip": "180.181.215.232",
+      "port": "3128",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Australia",
       "countryCode": "AU",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "socks5"
+      "isp": "Aussie Broadband",
+      "user_type": "residential",
+      "type": "http"
     },
     {
       "ip": "23.230.14.90",
@@ -37,7 +37,7 @@
       "type": "http"
     },
     {
-      "ip": "103.248.47.230",
+      "ip": "170.64.170.204",
       "port": "1080",
       "protocols": [
         "socks5",
@@ -49,9 +49,25 @@
       "password": null,
       "country": "Australia",
       "countryCode": "AU",
-      "isp": "Dicker Data Ltd",
-      "user_type": "business",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "159.13.44.239",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Oracle Corporation",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
