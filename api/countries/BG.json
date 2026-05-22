@@ -1,13 +1,11 @@
 {
-  "updated_at": "2026-05-21T23:24:12.039842",
-  "total": 4,
+  "updated_at": "2026-05-22T05:02:26.313750",
+  "total": 6,
   "data": [
     {
       "ip": "192.145.28.25",
-      "port": "1080",
+      "port": "3128",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
         "https"
       ],
@@ -17,11 +15,11 @@
       "countryCode": "BG",
       "isp": "Baykov Ilya Sergeevich",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     },
     {
-      "ip": "94.139.204.51",
-      "port": "8081",
+      "ip": "213.169.33.7",
+      "port": "8001",
       "protocols": [
         "socks5",
         "socks4",
@@ -32,30 +30,47 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "Lukovitnet Ltd.",
+      "isp": "A1 Bulgaria EAD",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "109.160.97.49",
-      "port": "4145",
+      "ip": "212.50.19.150",
+      "port": "4153",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "Kabelnet Ltd",
+      "isp": "A1 Bulgaria EAD",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "38.180.2.107",
-      "port": "3128",
+      "ip": "93.123.121.3",
+      "port": "8080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "Retel JSC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "46.47.82.16",
+      "port": "4153",
       "protocols": [
         "http",
         "https",
@@ -66,9 +81,26 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "M247 Europe SRL",
+      "isp": "Vivacom Bulgaria EAD",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "93.183.175.6",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "ESCOM Ltd. - Haskovo",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
