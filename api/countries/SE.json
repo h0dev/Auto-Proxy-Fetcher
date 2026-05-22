@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-05-22T15:46:28.519811",
-  "total": 5,
+  "updated_at": "2026-05-22T18:11:55.946957",
+  "total": 8,
   "data": [
+    {
+      "ip": "171.25.158.95",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Patrik Lagerman",
+      "user_type": "business",
+      "type": "socks5"
+    },
     {
       "ip": "185.106.183.85",
       "port": "8080",
@@ -20,30 +37,47 @@
       "type": "http"
     },
     {
-      "ip": "171.25.158.95",
-      "port": "1080",
+      "ip": "45.80.231.251",
+      "port": "3128",
       "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "62.60.149.161",
+      "port": "3128",
+      "protocols": [
+        "http",
         "socks5",
         "socks4",
-        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Sweden",
       "countryCode": "SE",
-      "isp": "Patrik Lagerman",
+      "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     },
     {
-      "ip": "147.45.78.89",
+      "ip": "89.22.228.61",
       "port": "1080",
       "protocols": [
-        "http",
         "socks4",
-        "socks5",
-        "https"
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -54,30 +88,12 @@
       "type": "socks5"
     },
     {
-      "ip": "188.150.229.60",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Tele2 SWIPnet",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "193.181.35.103",
+      "ip": "193.181.35.161",
       "port": "8118",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http"
       ],
       "username": null,
       "password": null,
@@ -85,6 +101,34 @@
       "countryCode": "SE",
       "isp": "PVDataNet AB",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "13.53.139.178",
+      "port": "82",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "13.53.139.178",
+      "port": "43682",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "https"
     }
   ]

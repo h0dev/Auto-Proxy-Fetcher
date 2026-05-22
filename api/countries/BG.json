@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T15:46:28.520666",
+  "updated_at": "2026-05-22T18:11:55.954297",
   "total": 5,
   "data": [
     {
@@ -7,9 +7,9 @@
       "port": "8192",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,42 +20,25 @@
       "type": "socks5"
     },
     {
-      "ip": "93.123.121.3",
-      "port": "9090",
+      "ip": "109.160.97.49",
+      "port": "4145",
       "protocols": [
         "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "Retel JSC",
+      "isp": "Kabelnet Ltd",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "213.169.33.7",
-      "port": "8001",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bulgaria",
-      "countryCode": "BG",
-      "isp": "A1 Bulgaria EAD",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "212.95.167.193",
-      "port": "95",
+      "ip": "31.13.239.4",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -66,13 +49,13 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "A1 Bulgaria EAD",
+      "isp": "Neterra Ltd.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "38.180.2.107",
-      "port": "3128",
+      "ip": "5.188.206.94",
+      "port": "995",
       "protocols": [
         "http",
         "https",
@@ -83,9 +66,26 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "M247 Europe SRL",
+      "isp": "Krez 999 Eood",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
+    },
+    {
+      "ip": "93.183.175.6",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "ESCOM Ltd. - Haskovo",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

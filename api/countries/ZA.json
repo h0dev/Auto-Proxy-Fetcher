@@ -1,43 +1,43 @@
 {
-  "updated_at": "2026-05-22T15:46:28.527370",
-  "total": 5,
+  "updated_at": "2026-05-22T18:11:55.953508",
+  "total": 4,
   "data": [
     {
-      "ip": "41.21.182.179",
-      "port": "5678",
+      "ip": "168.253.92.93",
+      "port": "10808",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "CM-Value-AS",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "105.27.130.22",
+      "port": "9812",
+      "protocols": [
+        "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "Vodacom-VB",
+      "isp": "SEACOM-AS",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
-      "ip": "102.218.41.98",
-      "port": "8082",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "IIL3-AS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "102.209.191.10",
+      "ip": "156.155.51.117",
       "port": "8080",
       "protocols": [
         "http",
@@ -49,12 +49,12 @@
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "Mavoni-Telecoms",
-      "user_type": "residential",
+      "isp": "AFRIHOST-SP",
+      "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "196.251.222.69",
+      "ip": "196.251.222.17",
       "port": "8104",
       "protocols": [
         "http",
@@ -69,23 +69,6 @@
       "isp": "INFOGRO",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "196.251.221.5",
-      "port": "8104",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "INFOGRO",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }
