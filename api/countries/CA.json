@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-22T18:11:55.891515",
-  "total": 3,
+  "updated_at": "2026-05-22T20:53:11.213597",
+  "total": 4,
   "data": [
     {
       "ip": "192.99.8.15",
@@ -34,11 +34,28 @@
       "countryCode": "CA",
       "isp": "Oracle Corporation",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "184.95.235.194",
-      "port": "1080",
+      "ip": "45.73.0.118",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Videotron Ltee",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "51.79.71.106",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -49,9 +66,9 @@
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "Videotron Ltee",
-      "user_type": "business",
-      "type": "socks5"
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "http"
     }
   ]
 }

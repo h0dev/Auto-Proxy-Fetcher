@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-05-22T15:46:28.528055",
-  "total": 1,
+  "updated_at": "2026-05-22T20:53:11.272133",
+  "total": 2,
   "data": [
     {
       "ip": "102.68.83.9",
       "port": "1080",
       "protocols": [
-        "socks5"
+        "socks4",
+        "socks5",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,24 @@
       "countryCode": "GH",
       "isp": "HA-VPS-NET",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "41.189.171.186",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ghana",
+      "countryCode": "GH",
+      "isp": "SCANCOM",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

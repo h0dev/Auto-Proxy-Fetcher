@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-22T15:46:28.497362",
-  "total": 2,
+  "updated_at": "2026-05-22T20:53:11.269516",
+  "total": 6,
   "data": [
     {
       "ip": "149.62.186.244",
       "port": "1080",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -20,8 +20,59 @@
       "type": "socks4"
     },
     {
-      "ip": "149.62.191.202",
-      "port": "3128",
+      "ip": "78.134.20.48",
+      "port": "8080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "EOLO S.p.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "91.192.25.158",
+      "port": "4145",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "T&T Tecnologie e Telecomunicazioni Srl",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "46.21.186.252",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Planetel SPA",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "188.11.179.26",
+      "port": "8443",
       "protocols": [
         "http",
         "https",
@@ -32,9 +83,26 @@
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "Host SpA",
+      "isp": "TIM",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "5.95.121.180",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Fastweb",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
