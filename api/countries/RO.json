@@ -1,10 +1,44 @@
 {
-  "updated_at": "2026-05-22T20:53:11.277423",
-  "total": 1,
+  "updated_at": "2026-05-22T23:13:17.334741",
+  "total": 4,
   "data": [
     {
-      "ip": "46.214.153.223",
+      "ip": "81.12.157.98",
       "port": "5678",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Vodafone Romania S.A.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "92.86.92.126",
+      "port": "42740",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Orange Romania S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "194.117.230.230",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -15,9 +49,26 @@
       "password": null,
       "country": "Romania",
       "countryCode": "RO",
-      "isp": "Nextgen Communications Srl",
+      "isp": "Mondo-Byte SRL",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "92.86.207.198",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Orange Romania S.A.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

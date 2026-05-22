@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T20:53:11.239906",
+  "updated_at": "2026-05-22T23:13:17.324436",
   "total": 3,
   "data": [
     {
@@ -20,12 +20,27 @@
       "type": "socks5"
     },
     {
-      "ip": "62.201.233.59",
-      "port": "4145",
+      "ip": "109.127.82.86",
+      "port": "8080",
       "protocols": [
-        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iraq",
+      "countryCode": "IQ",
+      "isp": "Allay Nawroz Telecom Company for Communication/Ltd.",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "62.201.212.198",
+      "port": "4673",
+      "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -35,23 +50,6 @@
       "isp": "IQ Networks for Data and Internet Services Ltd",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "45.81.146.7",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iraq",
-      "countryCode": "IQ",
-      "isp": "FACT LTD",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }
