@@ -1,11 +1,13 @@
 {
-  "updated_at": "2026-05-22T05:02:26.313750",
+  "updated_at": "2026-05-22T10:37:47.301104",
   "total": 6,
   "data": [
     {
-      "ip": "192.145.28.25",
-      "port": "3128",
+      "ip": "93.123.121.3",
+      "port": "9090",
       "protocols": [
+        "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -13,13 +15,28 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "Baykov Ilya Sergeevich",
+      "isp": "Retel JSC",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "213.169.33.7",
-      "port": "8001",
+      "ip": "79.110.113.18",
+      "port": "8080",
+      "protocols": [
+        "https",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "Rutil Ltd.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "213.149.154.213",
+      "port": "5678",
       "protocols": [
         "socks5",
         "socks4",
@@ -30,60 +47,23 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "A1 Bulgaria EAD",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "212.50.19.150",
-      "port": "4153",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bulgaria",
-      "countryCode": "BG",
-      "isp": "A1 Bulgaria EAD",
+      "isp": "VIM TV LTD",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "93.123.121.3",
+      "ip": "79.110.113.17",
       "port": "8080",
       "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "Retel JSC",
+      "isp": "Rutil Ltd.",
       "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "46.47.82.16",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bulgaria",
-      "countryCode": "BG",
-      "isp": "Vivacom Bulgaria EAD",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "93.183.175.6",
@@ -101,6 +81,23 @@
       "isp": "ESCOM Ltd. - Haskovo",
       "user_type": "business",
       "type": "socks4"
+    },
+    {
+      "ip": "94.139.204.51",
+      "port": "8081",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "Lukovitnet Ltd.",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

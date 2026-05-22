@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-05-22T05:02:26.318153",
-  "total": 2,
+  "updated_at": "2026-05-22T10:37:47.305942",
+  "total": 3,
   "data": [
     {
-      "ip": "46.21.186.252",
+      "ip": "149.62.186.244",
       "port": "1080",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "Planetel SPA",
+      "isp": "Host SpA",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "78.134.20.48",
-      "port": "8080",
+      "ip": "185.191.106.41",
+      "port": "8081",
       "protocols": [
         "http",
         "https",
@@ -32,9 +32,26 @@
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "EOLO S.p.A.",
+      "isp": "HAL Service SpA",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "2.115.212.62",
+      "port": "48293",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "TIM",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
