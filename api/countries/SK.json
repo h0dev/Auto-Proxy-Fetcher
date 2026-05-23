@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-22T23:13:17.334518",
-  "total": 1,
+  "updated_at": "2026-05-23T04:39:02.348491",
+  "total": 2,
   "data": [
     {
       "ip": "5.252.33.13",
       "port": "2025",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,24 @@
       "countryCode": "SK",
       "isp": "StormWall s.r.o.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "185.98.208.98",
+      "port": "28000",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Slovakia",
+      "countryCode": "SK",
+      "isp": "GOLEM TECH s.r.o.",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-05-22T15:46:28.528791",
-  "total": 1,
+  "updated_at": "2026-05-23T04:39:02.349011",
+  "total": 2,
   "data": [
     {
-      "ip": "185.118.51.163",
+      "ip": "109.127.9.99",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Azerbaijan",
+      "countryCode": "AZ",
+      "isp": "Alfanet LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "185.118.51.230",
       "port": "3128",
       "protocols": [
         "http",
@@ -17,7 +34,7 @@
       "countryCode": "AZ",
       "isp": "AzFiberNet LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }

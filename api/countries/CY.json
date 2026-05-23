@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-22T23:13:17.326491",
-  "total": 4,
+  "updated_at": "2026-05-23T04:39:02.288646",
+  "total": 3,
   "data": [
     {
       "ip": "45.89.106.12",
-      "port": "8080",
+      "port": "80",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -21,7 +21,7 @@
     },
     {
       "ip": "45.89.106.12",
-      "port": "80",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -41,7 +41,9 @@
       "port": "3128",
       "protocols": [
         "https",
-        "http"
+        "http",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -50,23 +52,6 @@
       "isp": "WorkTitans B.V.",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "213.7.196.26",
-      "port": "4153",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Cyprus",
-      "countryCode": "CY",
-      "isp": "Cyprus Telecommunications Authority",
-      "user_type": "residential",
-      "type": "socks4"
     }
   ]
 }
