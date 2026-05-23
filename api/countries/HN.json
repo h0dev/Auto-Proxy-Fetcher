@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-05-23T20:18:04.872276",
-  "total": 1,
+  "updated_at": "2026-05-23T22:58:41.232768",
+  "total": 2,
   "data": [
     {
-      "ip": "181.78.45.77",
+      "ip": "45.182.21.165",
       "port": "999",
+      "protocols": [
+        "https",
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "MULTICABLE DE HONDURAS",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "181.115.74.172",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Honduras",
       "countryCode": "HN",
-      "isp": "UFINET PANAMA S.A.",
-      "user_type": "business",
-      "type": "https"
+      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }

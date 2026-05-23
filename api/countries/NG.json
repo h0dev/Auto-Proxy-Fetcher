@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-05-23T14:45:45.826998",
-  "total": 1,
+  "updated_at": "2026-05-23T22:58:41.235505",
+  "total": 2,
   "data": [
     {
-      "ip": "154.113.172.58",
-      "port": "5678",
+      "ip": "41.203.76.166",
+      "port": "8080",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Nigeria",
       "countryCode": "NG",
-      "isp": "MAINONE",
+      "isp": "globacom-as",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "102.36.133.62",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "isp": "SYSCODES-COMMUNICATIONS-AS",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

@@ -1,24 +1,7 @@
 {
-  "updated_at": "2026-05-23T20:18:04.835305",
+  "updated_at": "2026-05-23T22:58:41.230780",
   "total": 4,
   "data": [
-    {
-      "ip": "45.89.106.12",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Cyprus",
-      "countryCode": "CY",
-      "isp": "NETRANEX TECHNOLOGIES INDIA PRIVATE LIMITED",
-      "user_type": "business",
-      "type": "http"
-    },
     {
       "ip": "45.89.106.12",
       "port": "8080",
@@ -34,14 +17,31 @@
       "countryCode": "CY",
       "isp": "NETRANEX TECHNOLOGIES INDIA PRIVATE LIMITED",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.89.106.12",
+      "port": "80",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Cyprus",
+      "countryCode": "CY",
+      "isp": "NETRANEX TECHNOLOGIES INDIA PRIVATE LIMITED",
+      "user_type": "business",
       "type": "http"
     },
     {
       "ip": "2.56.126.204",
       "port": "3128",
       "protocols": [
-        "https",
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -58,9 +58,9 @@
       "port": "3128",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,

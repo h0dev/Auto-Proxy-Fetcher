@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-23T20:18:04.831972",
-  "total": 2,
+  "updated_at": "2026-05-23T22:58:41.231095",
+  "total": 3,
   "data": [
     {
       "ip": "194.135.105.72",
@@ -17,16 +17,36 @@
       "type": "socks5"
     },
     {
-      "ip": "194.87.104.85",
-      "port": "1080",
+      "ip": "194.135.38.144",
+      "port": "3128",
       "protocols": [
-        "socks4"
+        "https",
+        "http",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "Jsc timeweb",
+      "isp": "Timeweb, LLP",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "90.182.147.170",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "O2 Czech Republic, a.s.",
       "user_type": "business",
       "type": "socks4"
     }

@@ -1,10 +1,44 @@
 {
-  "updated_at": "2026-05-23T20:18:04.870916",
-  "total": 1,
+  "updated_at": "2026-05-23T22:58:41.228294",
+  "total": 3,
   "data": [
     {
-      "ip": "188.11.179.26",
-      "port": "8443",
+      "ip": "149.62.186.244",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Host SpA",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "151.241.215.23",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Hostkey B.v.",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "185.195.129.116",
+      "port": "4153",
       "protocols": [
         "http",
         "https",
@@ -15,9 +49,9 @@
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "TIM",
+      "isp": "Wicomm SRLS",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }

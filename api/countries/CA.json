@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-23T20:18:04.829079",
-  "total": 7,
+  "updated_at": "2026-05-23T22:58:41.228422",
+  "total": 6,
   "data": [
     {
       "ip": "192.99.8.15",
@@ -17,7 +17,7 @@
       "countryCode": "CA",
       "isp": "OVH SAS",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "15.235.58.227",
@@ -34,28 +34,62 @@
       "countryCode": "CA",
       "isp": "OVH SAS",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "3.96.191.140",
+      "ip": "35.182.94.69",
       "port": "1080",
       "protocols": [
         "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "205.204.73.60",
+      "port": "8080",
+      "protocols": [
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
+      "isp": "eStruxture Data Centers Inc.",
+      "user_type": "business",
       "type": "https"
     },
     {
-      "ip": "35.183.99.149",
-      "port": "1080",
+      "ip": "192.158.15.201",
+      "port": "50877",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "1651884 Ontario Inc.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "51.79.71.106",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -66,60 +100,9 @@
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
+      "isp": "OVH SAS",
       "user_type": "hosting",
       "type": "http"
-    },
-    {
-      "ip": "35.183.100.172",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "35.183.93.234",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "99.79.62.185",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
     }
   ]
 }
