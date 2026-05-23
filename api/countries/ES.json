@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-05-23T04:39:02.345095",
-  "total": 5,
+  "updated_at": "2026-05-23T09:27:25.657192",
+  "total": 4,
   "data": [
     {
-      "ip": "168.245.197.146",
-      "port": "80",
+      "ip": "83.56.15.57",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Telefonica De Espana S.a.u.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "79.117.37.49",
+      "port": "9050",
       "protocols": [
         "socks5",
         "http",
@@ -15,75 +32,43 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
-      "user_type": "business",
+      "isp": "Digi Spain Telecom S.A",
+      "user_type": "residential",
       "type": "socks5"
     },
     {
-      "ip": "65.20.105.241",
-      "port": "10001",
+      "ip": "178.156.44.128",
+      "port": "4145",
       "protocols": [
         "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "The Constant Company, LLC",
+      "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "90.161.186.147",
-      "port": "3128",
+      "ip": "109.167.83.167",
+      "port": "5678",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Orange Espagne SA",
+      "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "2.139.232.101",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Telefonica De Espana S.a.u.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "79.117.134.12",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Digi Spain Telecom S.A",
-      "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }

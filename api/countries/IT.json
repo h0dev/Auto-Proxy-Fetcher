@@ -1,28 +1,13 @@
 {
-  "updated_at": "2026-05-23T04:39:02.316503",
-  "total": 6,
+  "updated_at": "2026-05-23T09:27:25.633218",
+  "total": 8,
   "data": [
-    {
-      "ip": "151.241.215.23",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Italy",
-      "countryCode": "IT",
-      "isp": "Hostkey B.v.",
-      "user_type": "business",
-      "type": "socks5"
-    },
     {
       "ip": "149.62.186.244",
       "port": "1080",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -32,11 +17,11 @@
       "countryCode": "IT",
       "isp": "Host SpA",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "15.160.132.166",
-      "port": "443",
+      "ip": "15.160.116.45",
+      "port": "59873",
       "protocols": [
         "http",
         "https",
@@ -52,24 +37,13 @@
       "type": "socks4"
     },
     {
-      "ip": "15.160.132.166",
-      "port": "6834",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Italy",
-      "countryCode": "IT",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
       "ip": "15.161.59.54",
       "port": "45905",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -81,9 +55,12 @@
     },
     {
       "ip": "15.161.131.175",
-      "port": "3207",
+      "port": "19780",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -91,7 +68,75 @@
       "countryCode": "IT",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "15.161.59.54",
+      "port": "5348",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "15.161.131.175",
+      "port": "3207",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "15.161.59.54",
+      "port": "45645",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "94.198.211.217",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "LA Wireless Srl",
+      "user_type": "cellular",
+      "type": "socks4"
     }
   ]
 }
