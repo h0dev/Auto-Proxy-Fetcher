@@ -1,23 +1,34 @@
 {
-  "updated_at": "2026-05-23T11:40:05.857113",
-  "total": 1,
+  "updated_at": "2026-05-23T20:18:04.831972",
+  "total": 2,
   "data": [
     {
-      "ip": "77.240.97.77",
-      "port": "8080",
+      "ip": "194.135.105.72",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "Druzstvo EUROSIGNAL",
+      "isp": "Timeweb, LLP",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
+    },
+    {
+      "ip": "194.87.104.85",
+      "port": "1080",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Jsc timeweb",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
