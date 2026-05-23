@@ -1,20 +1,40 @@
 {
-  "updated_at": "2026-05-23T09:27:25.663105",
-  "total": 1,
+  "updated_at": "2026-05-23T11:40:05.803110",
+  "total": 2,
   "data": [
     {
-      "ip": "41.33.219.131",
-      "port": "1976",
+      "ip": "217.52.247.73",
+      "port": "1981",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Egypt",
       "countryCode": "EG",
-      "isp": "TE Data",
+      "isp": "Etisalat Misr",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "197.164.101.13",
+      "port": "1976",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Egypt",
+      "countryCode": "EG",
+      "isp": "LINKdotNET",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

@@ -1,14 +1,31 @@
 {
-  "updated_at": "2026-05-23T09:27:25.661249",
+  "updated_at": "2026-05-23T11:40:05.855888",
   "total": 2,
   "data": [
     {
-      "ip": "124.41.213.174",
-      "port": "5678",
+      "ip": "103.114.25.8",
+      "port": "8088",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nepal",
+      "countryCode": "NP",
+      "isp": "Everest Wireless Network pvt. ltd",
+      "user_type": "cellular",
+      "type": "http"
+    },
+    {
+      "ip": "202.79.35.12",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -16,23 +33,6 @@
       "country": "Nepal",
       "countryCode": "NP",
       "isp": "WorldLink Communications Pvt Ltd",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "103.86.57.9",
-      "port": "4145",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Nepal",
-      "countryCode": "NP",
-      "isp": "Web Networks Pvt. Ltd.",
       "user_type": "business",
       "type": "socks4"
     }
