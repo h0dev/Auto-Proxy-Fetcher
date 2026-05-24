@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-05-24T14:44:06.446863",
-  "total": 5,
+  "updated_at": "2026-05-24T17:03:23.031417",
+  "total": 8,
   "data": [
     {
       "ip": "120.238.66.126",
       "port": "7890",
       "protocols": [
         "socks4",
-        "http",
         "socks5",
+        "http",
         "https"
       ],
       "username": null,
@@ -17,7 +17,7 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "socks5"
+      "type": "http"
     },
     {
       "ip": "120.220.197.195",
@@ -37,7 +37,7 @@
       "type": "socks5"
     },
     {
-      "ip": "162.255.110.24",
+      "ip": "188.164.218.209",
       "port": "8080",
       "protocols": [
         "http",
@@ -47,14 +47,14 @@
       ],
       "username": null,
       "password": null,
-      "country": "United States",
-      "countryCode": "US",
-      "isp": "Desert Winds Wireless Inc",
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Vodafone Albania Sh.A.",
       "user_type": "cellular",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "200.125.169.117",
+      "ip": "200.125.169.51",
       "port": "999",
       "protocols": [
         "http",
@@ -68,11 +68,25 @@
       "countryCode": "DO",
       "isp": "WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",
       "user_type": "cellular",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "81.12.169.254",
-      "port": "4153",
+      "ip": "36.152.150.242",
+      "port": "8081",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile communications corporation",
+      "user_type": "cellular",
+      "type": "http"
+    },
+    {
+      "ip": "162.255.108.5",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -81,11 +95,45 @@
       ],
       "username": null,
       "password": null,
-      "country": "Romania",
-      "countryCode": "RO",
-      "isp": "Vodafone Romania S.A.",
+      "country": "United States",
+      "countryCode": "US",
+      "isp": "Desert Winds Wireless Inc",
       "user_type": "cellular",
       "type": "socks4"
+    },
+    {
+      "ip": "103.172.28.178",
+      "port": "2727",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "Hamid Electronics and Automobiles",
+      "user_type": "cellular",
+      "type": "https"
+    },
+    {
+      "ip": "109.91.247.181",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Vodafone GmbH",
+      "user_type": "cellular",
+      "type": "http"
     }
   ]
 }

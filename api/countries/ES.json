@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-05-24T14:44:06.450751",
-  "total": 2,
+  "updated_at": "2026-05-24T17:03:23.093378",
+  "total": 6,
   "data": [
+    {
+      "ip": "83.56.15.57",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Telefonica De Espana S.a.u.",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "79.117.134.12",
       "port": "3128",
@@ -17,14 +34,14 @@
       "countryCode": "ES",
       "isp": "Digi Spain Telecom S.A",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "83.97.79.114",
-      "port": "8443",
+      "ip": "178.156.44.128",
+      "port": "4145",
       "protocols": [
-        "http",
         "socks4",
+        "http",
         "https",
         "socks5"
       ],
@@ -32,9 +49,60 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "BlueVPS OU",
+      "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "80.78.128.94",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Cloudwifi, Sl",
       "user_type": "hosting",
       "type": "https"
+    },
+    {
+      "ip": "195.189.190.245",
+      "port": "9090",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Verita Networks Sociedad Limitada",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "85.117.248.36",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Connecta 1876 Slu",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }

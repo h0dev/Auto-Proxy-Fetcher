@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-05-24T14:44:06.500744",
-  "total": 1,
+  "updated_at": "2026-05-24T17:03:23.107825",
+  "total": 2,
   "data": [
     {
-      "ip": "165.16.192.81",
-      "port": "1080",
+      "ip": "41.220.135.106",
+      "port": "8080",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Tanzania",
       "countryCode": "TZ",
-      "isp": "Computer-Sales-Services",
+      "isp": "Habari Node",
       "user_type": "business",
-      "type": "socks5"
+      "type": "http"
+    },
+    {
+      "ip": "41.93.63.66",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Tanzania",
+      "countryCode": "TZ",
+      "isp": "TERNET",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
