@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T11:43:45.160060",
+  "updated_at": "2026-05-24T14:44:06.497110",
   "total": 3,
   "data": [
     {
@@ -20,8 +20,25 @@
       "type": "socks4"
     },
     {
-      "ip": "195.158.10.99",
-      "port": "8080",
+      "ip": "195.158.8.123",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Uzbekistan",
+      "countryCode": "UZ",
+      "isp": "Uzbektelekom Joint Stock Company",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "83.222.7.205",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -34,24 +51,7 @@
       "countryCode": "UZ",
       "isp": "Uzbektelekom Joint Stock Company",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "31.135.214.17",
-      "port": "8026",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Uzbekistan",
-      "countryCode": "UZ",
-      "isp": "Inform-Service TV Ltd.",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
