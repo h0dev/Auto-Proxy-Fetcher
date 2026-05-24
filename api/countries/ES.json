@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-24T05:00:36.841172",
+  "updated_at": "2026-05-24T09:34:51.427202",
   "total": 4,
   "data": [
     {
-      "ip": "2.139.38.192",
+      "ip": "79.117.134.12",
       "port": "3128",
       "protocols": [
         "http",
@@ -15,12 +15,29 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Telefonica De Espana S.a.u.",
-      "user_type": "business",
+      "isp": "Digi Spain Telecom S.A",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "83.97.79.114",
+      "port": "8443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "BlueVPS OU",
+      "user_type": "hosting",
       "type": "https"
     },
     {
-      "ip": "109.167.83.167",
+      "ip": "83.56.15.57",
       "port": "5678",
       "protocols": [
         "socks4",
@@ -32,7 +49,7 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
+      "isp": "Telefonica De Espana S.a.u.",
       "user_type": "business",
       "type": "socks4"
     },
@@ -51,22 +68,7 @@
       "countryCode": "ES",
       "isp": "Pinkbear Slu",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "79.117.134.12",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Digi Spain Telecom S.A",
-      "user_type": "residential",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
