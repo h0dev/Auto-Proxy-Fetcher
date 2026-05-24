@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-05-24T05:00:37.018026",
-  "total": 1,
+  "updated_at": "2026-05-24T11:43:45.160199",
+  "total": 2,
   "data": [
     {
-      "ip": "185.82.99.190",
+      "ip": "185.82.99.20",
       "port": "8724",
+      "protocols": [
+        "https",
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Lebanon",
+      "countryCode": "LB",
+      "isp": "Net 360 S.a.r.l",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "85.112.65.130",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Lebanon",
       "countryCode": "LB",
-      "isp": "Net 360 S.a.r.l",
+      "isp": "TerraNet sal",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

@@ -1,25 +1,27 @@
 {
-  "updated_at": "2026-05-24T09:34:51.428637",
-  "total": 2,
+  "updated_at": "2026-05-24T11:43:45.150158",
+  "total": 3,
   "data": [
     {
-      "ip": "2.56.126.204",
-      "port": "3128",
+      "ip": "45.89.106.12",
+      "port": "80",
       "protocols": [
-        "https",
-        "http"
+        "http",
+        "socks5",
+        "socks4",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Cyprus",
       "countryCode": "CY",
-      "isp": "WorkTitans B.V.",
+      "isp": "NETRANEX TECHNOLOGIES INDIA PRIVATE LIMITED",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "45.15.178.39",
-      "port": "3128",
+      "ip": "45.89.106.12",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -30,9 +32,26 @@
       "password": null,
       "country": "Cyprus",
       "countryCode": "CY",
-      "isp": "WorkTitans B.V.",
+      "isp": "NETRANEX TECHNOLOGIES INDIA PRIVATE LIMITED",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "213.7.196.26",
+      "port": "4153",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Cyprus",
+      "countryCode": "CY",
+      "isp": "Cyprus Telecommunications Authority",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }
