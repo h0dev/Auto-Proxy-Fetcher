@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-05-24T17:03:23.105400",
-  "total": 1,
+  "updated_at": "2026-05-24T20:22:28.823502",
+  "total": 3,
   "data": [
     {
-      "ip": "213.6.249.37",
-      "port": "18000",
+      "ip": "46.60.15.72",
+      "port": "8082",
       "protocols": [
         "http",
         "https",
@@ -15,9 +15,43 @@
       "password": null,
       "country": "Palestine",
       "countryCode": "PS",
-      "isp": "Palestine Telecommunications Company (PALTEL)",
+      "isp": "AL Zaytona Company For Communication Ltd.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "93.184.7.217",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Palestine",
+      "countryCode": "PS",
+      "isp": "BCI Telecommunication & Advanced Technology Company",
       "user_type": "residential",
-      "type": "https"
+      "type": "socks4"
+    },
+    {
+      "ip": "93.184.5.121",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Palestine",
+      "countryCode": "PS",
+      "isp": "BCI Telecommunication & Advanced Technology Company",
+      "user_type": "residential",
+      "type": "socks5"
     }
   ]
 }

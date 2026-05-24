@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-24T17:03:23.037352",
-  "total": 10,
+  "updated_at": "2026-05-24T20:22:28.783808",
+  "total": 11,
   "data": [
     {
       "ip": "173.212.239.43",
@@ -20,40 +20,42 @@
       "type": "socks4"
     },
     {
-      "ip": "37.44.238.2",
-      "port": "60796",
+      "ip": "158.178.198.31",
+      "port": "1080",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Fbw Networks SAS",
+      "isp": "Oracle Corporation",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "107.191.47.162",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "The Constant Company, LLC",
       "user_type": "business",
       "type": "socks5"
     },
     {
-      "ip": "82.66.253.131",
-      "port": "9080",
-      "protocols": [
-        "https",
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Free SAS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "158.178.198.31",
-      "port": "1080",
+      "ip": "109.199.96.116",
+      "port": "9050",
       "protocols": [
         "socks4",
         "socks5",
@@ -64,9 +66,26 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Oracle Corporation",
+      "isp": "Contabo GmbH",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "144.91.82.219",
+      "port": "9050",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Contabo GmbH",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "217.182.195.221",
@@ -83,11 +102,11 @@
       "countryCode": "FR",
       "isp": "OVH SAS",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "217.182.195.221",
-      "port": "30000",
+      "port": "30001",
       "protocols": [
         "http",
         "https",
@@ -103,13 +122,13 @@
       "type": "http"
     },
     {
-      "ip": "173.212.245.136",
-      "port": "8888",
+      "ip": "173.249.50.95",
+      "port": "3128",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -120,8 +139,8 @@
       "type": "http"
     },
     {
-      "ip": "15.237.44.147",
-      "port": "1080",
+      "ip": "37.44.238.2",
+      "port": "60796",
       "protocols": [
         "http",
         "https",
@@ -132,26 +151,26 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
+      "isp": "Fbw Networks SAS",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
-      "ip": "95.178.108.189",
-      "port": "5678",
+      "ip": "37.187.92.9",
+      "port": "1025",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Eurofiber France SAS",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "http"
     },
     {
       "ip": "37.187.92.9",
@@ -168,7 +187,7 @@
       "countryCode": "FR",
       "isp": "OVH SAS",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
