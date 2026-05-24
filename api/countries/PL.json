@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-05-24T20:22:28.821366",
-  "total": 5,
+  "updated_at": "2026-05-24T22:58:53.999913",
+  "total": 7,
   "data": [
     {
-      "ip": "45.144.49.156",
-      "port": "1080",
+      "ip": "83.168.101.27",
+      "port": "5678",
       "protocols": [
         "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Newserverlife LLC",
-      "user_type": "hosting",
+      "isp": "Korbank S. A.",
+      "user_type": "business",
       "type": "socks4"
     },
     {
@@ -37,8 +37,23 @@
       "type": "socks4"
     },
     {
-      "ip": "185.32.4.65",
-      "port": "4153",
+      "ip": "185.140.100.0",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Tomasz Naruszewicz",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "185.21.36.249",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -49,29 +64,12 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "AS Consulting Sp. z o. o.",
+      "isp": "Centrum Komputerowe partnet Miroslaw Wolszlegier",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
-      "ip": "37.131.164.102",
-      "port": "59341",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "Provector Sp. z o.o",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "83.168.101.27",
+      "ip": "31.42.6.125",
       "port": "5678",
       "protocols": [
         "http",
@@ -83,9 +81,43 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Korbank S. A.",
+      "isp": "Marcin Malolepszy @alfanet",
       "user_type": "business",
       "type": "socks4"
+    },
+    {
+      "ip": "82.177.252.24",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Exatel S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "84.205.28.220",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Gawex Media Sp. z o. o.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

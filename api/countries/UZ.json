@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-24T20:22:28.823011",
-  "total": 3,
+  "updated_at": "2026-05-24T22:58:53.997392",
+  "total": 4,
   "data": [
     {
       "ip": "195.158.8.123",
@@ -17,11 +17,28 @@
       "countryCode": "UZ",
       "isp": "Uzbektelekom Joint Stock Company",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "195.158.1.187",
-      "port": "8026",
+      "ip": "130.49.171.75",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "socks4",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Uzbekistan",
+      "countryCode": "UZ",
+      "isp": "Servercore Cis LLC",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "195.158.10.99",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -34,13 +51,14 @@
       "countryCode": "UZ",
       "isp": "Uzbektelekom Joint Stock Company",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "83.222.7.205",
       "port": "3128",
       "protocols": [
-        "http"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -48,7 +66,7 @@
       "countryCode": "UZ",
       "isp": "Uzbektelekom Joint Stock Company",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

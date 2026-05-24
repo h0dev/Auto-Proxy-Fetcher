@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-24T20:22:28.784453",
-  "total": 28,
+  "updated_at": "2026-05-24T22:58:53.934349",
+  "total": 37,
   "data": [
     {
       "ip": "186.26.95.249",
       "port": "61445",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,8 +20,8 @@
       "type": "socks5"
     },
     {
-      "ip": "201.218.189.212",
-      "port": "4153",
+      "ip": "187.86.153.254",
+      "port": "30660",
       "protocols": [
         "socks4",
         "http",
@@ -32,7 +32,7 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "NOVA INTERNET E PROVEDOR LTDA",
+      "isp": "VETORIALNET INF. E SERVICOS DE INTERNET LTDA",
       "user_type": "business",
       "type": "socks4"
     },
@@ -51,14 +51,31 @@
       "countryCode": "BR",
       "isp": "CLARO S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "45.4.58.222",
-      "port": "8080",
+      "ip": "189.90.118.105",
+      "port": "4153",
       "protocols": [
+        "socks4",
         "http",
         "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Brasilnet Telecomunicacoes Ltda ME",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "177.22.250.160",
+      "port": "8080",
+      "protocols": [
+        "https",
+        "http",
         "socks4",
         "socks5"
       ],
@@ -66,13 +83,13 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "VN TELECOM PROVEDORES A.R.C EIRELI",
+      "isp": "PROXXIMA TELECOMUNICACOES SA",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "177.19.167.242",
-      "port": "80",
+      "ip": "177.135.190.101",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -85,79 +102,11 @@
       "countryCode": "BR",
       "isp": "TELEFONICA BRASIL S.A",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "177.10.66.14",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "SILVEIRA & ZIQUINATTI LTDA",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "131.161.68.38",
-      "port": "35944",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "MS NUNES INFORMACAO TECNOLOGICA LTDA",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "177.85.65.177",
-      "port": "4153",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "ASE TELECOMUNICACOES LTDA ME",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "138.59.151.162",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Wireless Comm Services LTDA",
-      "user_type": "cellular",
       "type": "http"
     },
     {
-      "ip": "138.255.240.66",
-      "port": "40736",
+      "ip": "185.21.252.234",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -168,128 +117,9 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "DAVID DE SALLES BRASIL JUNIOR - ME",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "167.234.224.70",
-      "port": "7500",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Oracle Corporation",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "168.197.182.222",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Vision Connect Telecomunicacoes Ltda Me",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "170.84.93.122",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "BOMFIM E SOUSA LTDA",
+      "isp": "SRX TECNOLOGIA DA INFORMACAO LTDA",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "177.10.183.216",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "CONECTIVA TECNOLOGIA LTDA",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "177.23.156.0",
-      "port": "18800",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "netstore tecnologia ltda",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "177.190.218.145",
-      "port": "9999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Souza Cortes Elet. Elet. Ltda ME",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "177.67.136.141",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Turbo BSB Tecnologias em Rede Ltda.",
-      "user_type": "business",
-      "type": "socks4"
     },
     {
       "ip": "18.231.122.198",
@@ -306,12 +136,14 @@
       "countryCode": "BR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "186.219.212.243",
-      "port": "8080",
+      "ip": "45.70.188.10",
+      "port": "4153",
       "protocols": [
+        "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -319,46 +151,114 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "MEGAMINAS TELECOMUNICACOES LTDA",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "186.216.195.1",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "YIPI Telecom LTDA.",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "187.87.35.148",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "GD SERVICOS INTERNET LTDA",
+      "isp": "Rapidus Internet Banda larga",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "191.36.128.62",
+      "ip": "45.238.112.229",
+      "port": "56789",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "LINK BARATO.COM TELECOMUNICACOES EIRELI",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "177.184.64.2",
+      "port": "4145",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Multipla Servicos Inteligentes",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "45.4.58.223",
+      "port": "8080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "VN TELECOM PROVEDORES A.R.C EIRELI",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "187.44.211.118",
+      "port": "4153",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "ITS TELECOMUNICACOES LTDA",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "138.0.207.246",
+      "port": "8082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "GARCIA TELECOMUNICACOES LTDA",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "177.85.69.252",
+      "port": "9999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "ASE TELECOMUNICACOES LTDA ME",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "187.62.65.5",
       "port": "8080",
       "protocols": [
         "http",
@@ -370,9 +270,230 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "Netfi servicos de comunicacoes ltda epp",
+      "isp": "GN TELECOM",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "138.117.173.6",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "GLOBALMT TELECOM",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "168.138.147.179",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Oracle Corporation",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "177.10.202.115",
+      "port": "35452",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "ISPTEC Sistemas de Comunicacao Eireli",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "177.136.124.45",
+      "port": "56113",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "ITS TELECOMUNICACOES LTDA",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "177.73.186.12",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "UNIFIQUE TELECOMUNICACOES SA",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "179.48.25.1",
+      "port": "8095",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Viana Telecom LTDA",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "186.208.248.46",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "PBNET TELECOM",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "186.248.87.172",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "AMERICAN TOWER DO BRASIL-COMUNICACAO MULTIMIDIA LT",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "186.251.253.53",
+      "port": "31337",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Seanet Telecom Carazinho Eireli",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "187.103.105.20",
+      "port": "8085",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "BR.Digital Telecom",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "187.102.14.135",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "UNIFIQUE TELECOMUNICACOES SA",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "187.62.241.137",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "METROFLEX TELECOMUNICACOES LTDA",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "189.50.138.10",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "AS28330",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "200.9.221.243",
@@ -404,8 +525,8 @@
       "type": "http"
     },
     {
-      "ip": "201.131.214.1",
-      "port": "5678",
+      "ip": "201.149.100.32",
+      "port": "8085",
       "protocols": [
         "http",
         "https",
@@ -416,60 +537,87 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "VIGORA TELECOM",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "VIBE PROVEDOR DE INTERNET LTDA",
+      "user_type": "business",
+      "type": "https"
     },
     {
-      "ip": "45.160.86.22",
+      "ip": "201.76.9.115",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Contato Internet EIRELI",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.175.171.4",
+      "port": "8085",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Inffotreini Provedores e Informatica LTDA - ME",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.236.112.9",
+      "port": "60399",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "VNTFMAIS LTDA",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "201.140.209.33",
+      "port": "3128",
+      "protocols": [
+        "https",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Norte Line Telecomunicacoes Ltda.",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "177.93.72.82",
       "port": "4153",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "DIGITAL VIRTUAL LTDA - ME",
+      "isp": "JR LINK PROVEDOR DE INTERNET VIA RARIO LTDA",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "45.238.112.229",
-      "port": "56789",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "LINK BARATO.COM TELECOMUNICACOES EIRELI",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "56.124.34.128",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
     }
   ]
 }
