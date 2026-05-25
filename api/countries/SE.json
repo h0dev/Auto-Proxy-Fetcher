@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T22:58:53.987967",
+  "updated_at": "2026-05-25T05:15:13.267641",
   "total": 7,
   "data": [
     {
@@ -7,9 +7,9 @@
       "port": "8080",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,44 +17,10 @@
       "countryCode": "SE",
       "isp": "DataCom Group Nordic AB",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "62.60.149.161",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "socks5",
-        "socks4",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Aeza Group LLC",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "45.80.231.251",
-      "port": "1080",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Aeza Group LLC",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "45.80.231.251",
       "port": "3128",
       "protocols": [
         "http",
@@ -69,23 +35,6 @@
       "isp": "Aeza Group LLC",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "77.232.142.77",
-      "port": "31336",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Aeza Group LLC",
-      "user_type": "business",
-      "type": "socks5"
     },
     {
       "ip": "171.25.158.95",
@@ -105,8 +54,25 @@
       "type": "socks5"
     },
     {
-      "ip": "62.60.230.196",
+      "ip": "147.45.78.89",
       "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "62.60.230.214",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -119,7 +85,39 @@
       "countryCode": "SE",
       "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "45.80.231.251",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "193.181.35.78",
+      "port": "8118",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "PVDataNet AB",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
