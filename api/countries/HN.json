@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-05-25T05:15:13.275521",
-  "total": 1,
+  "updated_at": "2026-05-25T11:17:18.509721",
+  "total": 3,
   "data": [
     {
-      "ip": "181.115.74.172",
+      "ip": "138.59.177.117",
       "port": "5678",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "INET Communication",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "181.78.44.63",
+      "port": "999",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,26 @@
       "password": null,
       "country": "Honduras",
       "countryCode": "HN",
-      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "190.130.6.11",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "Hondutel",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

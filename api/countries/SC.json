@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T05:15:13.272644",
+  "updated_at": "2026-05-25T11:17:18.502227",
   "total": 3,
   "data": [
     {
@@ -20,13 +20,30 @@
       "type": "socks5"
     },
     {
+      "ip": "154.217.249.167",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "AROSSCLOUD INC.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
       "ip": "45.207.215.101",
       "port": "1080",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -34,24 +51,7 @@
       "countryCode": "SC",
       "isp": "cognetcloud INC",
       "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "197.234.13.24",
-      "port": "4145",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Seychelles",
-      "countryCode": "SC",
-      "isp": "ASINTELVISION",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
