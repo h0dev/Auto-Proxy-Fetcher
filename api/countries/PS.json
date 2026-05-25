@@ -1,10 +1,44 @@
 {
-  "updated_at": "2026-05-25T05:15:13.275938",
-  "total": 1,
+  "updated_at": "2026-05-25T16:19:01.283910",
+  "total": 4,
   "data": [
     {
-      "ip": "213.6.68.210",
-      "port": "4145",
+      "ip": "93.184.5.129",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Palestine",
+      "countryCode": "PS",
+      "isp": "BCI Telecommunication & Advanced Technology Company",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "93.184.5.121",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Palestine",
+      "countryCode": "PS",
+      "isp": "BCI Telecommunication & Advanced Technology Company",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "178.214.80.45",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +49,26 @@
       "password": null,
       "country": "Palestine",
       "countryCode": "PS",
-      "isp": "Palestine Telecommunications Company (PALTEL)",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "Gemzo information technology Private Joint-Stock company",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "46.60.15.72",
+      "port": "8082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Palestine",
+      "countryCode": "PS",
+      "isp": "AL Zaytona Company For Communication Ltd.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
