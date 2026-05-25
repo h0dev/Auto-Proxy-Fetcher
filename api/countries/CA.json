@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-25T16:19:01.278485",
-  "total": 4,
+  "updated_at": "2026-05-25T20:50:06.290002",
+  "total": 6,
   "data": [
     {
       "ip": "192.99.8.15",
@@ -37,7 +37,24 @@
       "type": "socks4"
     },
     {
-      "ip": "184.95.235.194",
+      "ip": "24.37.245.42",
+      "port": "51056",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Videotron Ltee",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "89.251.9.135",
       "port": "1080",
       "protocols": [
         "socks5",
@@ -49,13 +66,30 @@
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "Videotron Ltee",
+      "isp": "BitCommand LLC",
       "user_type": "business",
       "type": "socks5"
     },
     {
-      "ip": "68.233.127.229",
-      "port": "1080",
+      "ip": "192.158.15.201",
+      "port": "50877",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "1651884 Ontario Inc.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "15.235.58.227",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -66,9 +100,9 @@
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "Oracle Corporation",
-      "user_type": "business",
-      "type": "socks5"
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }

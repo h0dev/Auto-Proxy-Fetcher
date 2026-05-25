@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-05-25T16:19:01.273411",
-  "total": 16,
+  "updated_at": "2026-05-25T20:50:06.282318",
+  "total": 14,
   "data": [
+    {
+      "ip": "144.31.152.222",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "DpkgSoft International Limited",
+      "user_type": "business",
+      "type": "socks5"
+    },
     {
       "ip": "46.62.214.3",
       "port": "1080",
@@ -34,24 +51,7 @@
       "countryCode": "FI",
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "78.17.65.155",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "socks5",
-        "socks4",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Snowd Security OU",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "157.180.107.168",
@@ -71,40 +71,6 @@
       "type": "http"
     },
     {
-      "ip": "2.26.87.216",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "socks5",
-        "socks4",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Play2go International Limited",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "46.8.233.226",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Cgi Global Limited",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
       "ip": "193.221.203.192",
       "port": "1080",
       "protocols": [
@@ -122,27 +88,12 @@
       "type": "socks5"
     },
     {
-      "ip": "185.125.230.19",
+      "ip": "2.26.87.216",
       "port": "1080",
       "protocols": [
-        "socks4",
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Ihor Hosting Ltd",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "2.26.97.98",
-      "port": "8080",
-      "protocols": [
-        "socks4",
         "http",
         "socks5",
+        "socks4",
         "https"
       ],
       "username": null,
@@ -151,11 +102,28 @@
       "countryCode": "FI",
       "isp": "Play2go International Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "65.108.203.37",
-      "port": "28080",
+      "ip": "185.230.190.195",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Livi Hosting Ltd",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "193.29.224.20",
+      "port": "3128",
       "protocols": [
         "http",
         "socks5",
@@ -166,8 +134,8 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
       "type": "http"
     },
     {
@@ -185,14 +153,31 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "78.17.65.155",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Snowd Security OU",
+      "user_type": "business",
       "type": "https"
     },
     {
-      "ip": "185.230.190.195",
-      "port": "1080",
+      "ip": "65.108.203.35",
+      "port": "18080",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -200,30 +185,13 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Livi Hosting Ltd",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "65.108.216.128",
-      "port": "9050",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "193.29.224.20",
-      "port": "3128",
+      "port": "1080",
       "protocols": [
         "socks5",
         "socks4",
@@ -236,11 +204,11 @@
       "countryCode": "FI",
       "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "65.108.203.36",
-      "port": "28080",
+      "ip": "65.108.159.129",
+      "port": "8081",
       "protocols": [
         "http",
         "https",
@@ -256,8 +224,8 @@
       "type": "https"
     },
     {
-      "ip": "65.108.203.35",
-      "port": "28080",
+      "ip": "185.40.7.206",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -268,7 +236,7 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
+      "isp": "First Server Limited",
       "user_type": "hosting",
       "type": "https"
     }

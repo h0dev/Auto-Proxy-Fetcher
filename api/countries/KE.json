@@ -1,15 +1,32 @@
 {
-  "updated_at": "2026-05-25T16:19:01.274543",
+  "updated_at": "2026-05-25T20:50:06.283603",
   "total": 4,
   "data": [
     {
-      "ip": "102.0.14.42",
-      "port": "1080",
+      "ip": "102.209.79.241",
+      "port": "8080",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "SAFHOME-FIBRE-LIMITED",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "102.0.33.14",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,24 +34,7 @@
       "countryCode": "KE",
       "isp": "CKL1-ASN",
       "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "197.232.43.224",
-      "port": "1080",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "JTL",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "102.0.16.252",
@@ -54,8 +54,8 @@
       "type": "https"
     },
     {
-      "ip": "197.232.158.189",
-      "port": "41890",
+      "ip": "102.213.179.194",
+      "port": "8081",
       "protocols": [
         "http",
         "https",
@@ -66,9 +66,9 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "JTL",
+      "isp": "NEXT-THING-NETWORKS-LTD",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
