@@ -1,18 +1,21 @@
 {
-  "updated_at": "2026-05-25T20:50:06.296242",
+  "updated_at": "2026-05-25T23:14:25.577441",
   "total": 2,
   "data": [
     {
-      "ip": "195.133.40.122",
-      "port": "3128",
+      "ip": "188.119.98.126",
+      "port": "9999",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "Timeweb, LLP",
+      "isp": "O2 Czech Republic, a.s.",
       "user_type": "business",
       "type": "http"
     },
@@ -20,9 +23,9 @@
       "ip": "217.197.151.182",
       "port": "5678",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
