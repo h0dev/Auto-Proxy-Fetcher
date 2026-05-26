@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-05-26T16:51:17.488785",
-  "total": 5,
+  "updated_at": "2026-05-26T21:16:13.689685",
+  "total": 3,
   "data": [
     {
-      "ip": "102.209.76.106",
+      "ip": "102.0.14.42",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "CKL1-ASN",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "102.204.14.6",
       "port": "8080",
       "protocols": [
         "http",
@@ -15,29 +32,13 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "SAFHOME-FIBRE-LIMITED",
+      "isp": "Skysurf",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "197.254.29.214",
-      "port": "32650",
-      "protocols": [
-        "http",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "ACCESSKENYA-KE ACCESSKENYA GROUP LTD is an ISP serving",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "102.0.30.88",
-      "port": "8080",
+      "ip": "154.79.248.156",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -50,41 +51,7 @@
       "countryCode": "KE",
       "isp": "CKL1-ASN",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "102.203.101.130",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "AVITECH_CLOUD_SERVICES",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "41.72.213.182",
-      "port": "8090",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "Liquid Telecommunications Ltd",
-      "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }

@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-05-26T16:51:17.493880",
-  "total": 1,
+  "updated_at": "2026-05-26T21:16:13.690978",
+  "total": 2,
   "data": [
     {
-      "ip": "138.117.231.133",
+      "ip": "186.33.5.13",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Guatemala",
+      "countryCode": "GT",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "200.119.141.114",
       "port": "999",
       "protocols": [
         "http",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Guatemala",
       "countryCode": "GT",
-      "isp": "FIBERNET S.A",
-      "user_type": "business",
-      "type": "http"
+      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "user_type": "residential",
+      "type": "https"
     }
   ]
 }
