@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-05-26T05:01:19.992973",
-  "total": 1,
+  "updated_at": "2026-05-26T23:28:22.259270",
+  "total": 2,
   "data": [
     {
-      "ip": "109.165.199.111",
-      "port": "8181",
+      "ip": "212.39.114.139",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -15,9 +15,26 @@
       "password": null,
       "country": "Bosnia and Herzegovina",
       "countryCode": "BA",
-      "isp": "Telekomunikacije Republike Srpske akcionarsko drustvo Banja Luka",
+      "isp": "JP HT d.d. Mostar",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
+    },
+    {
+      "ip": "80.65.80.230",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bosnia and Herzegovina",
+      "countryCode": "BA",
+      "isp": "BH Telecom d.d. Sarajevo",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }

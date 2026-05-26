@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-26T21:16:13.694618",
-  "total": 1,
+  "updated_at": "2026-05-26T23:28:22.259381",
+  "total": 2,
   "data": [
     {
       "ip": "213.244.95.175",
@@ -17,7 +17,24 @@
       "countryCode": "PS",
       "isp": "Palestine Telecommunications Company (PALTEL)",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "93.184.5.129",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Palestine",
+      "countryCode": "PS",
+      "isp": "BCI Telecommunication & Advanced Technology Company",
+      "user_type": "residential",
+      "type": "socks5"
     }
   ]
 }
