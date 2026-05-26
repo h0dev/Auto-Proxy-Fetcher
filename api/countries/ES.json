@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-25T23:14:25.570402",
-  "total": 2,
+  "updated_at": "2026-05-26T05:01:19.991793",
+  "total": 3,
   "data": [
     {
       "ip": "213.165.85.188",
       "port": "8443",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,7 +20,7 @@
       "type": "socks5"
     },
     {
-      "ip": "195.219.98.27",
+      "ip": "83.56.15.57",
       "port": "5678",
       "protocols": [
         "socks4",
@@ -32,7 +32,24 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "TATA COMMUNICATIONS AMERICA INC",
+      "isp": "Telefonica De Espana S.a.u.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "178.156.44.128",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
       "user_type": "business",
       "type": "socks4"
     }
