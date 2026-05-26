@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-05-26T05:01:19.990227",
+  "updated_at": "2026-05-26T16:51:17.491321",
   "total": 3,
   "data": [
     {
-      "ip": "91.132.140.82",
-      "port": "3128",
+      "ip": "185.234.64.65",
+      "port": "1081",
       "protocols": [
-        "https",
-        "http"
+        "http",
+        "socks4",
+        "socks5",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -15,14 +17,14 @@
       "countryCode": "MD",
       "isp": "WorkTitans B.V.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "94.131.118.129",
-      "port": "1082",
+      "port": "1081",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -35,12 +37,12 @@
       "type": "socks4"
     },
     {
-      "ip": "94.131.122.129",
-      "port": "1081",
+      "ip": "91.132.140.82",
+      "port": "3128",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -49,7 +51,7 @@
       "countryCode": "MD",
       "isp": "WorkTitans B.V.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
