@@ -1,23 +1,26 @@
 {
-  "updated_at": "2026-05-27T11:05:00.477885",
-  "total": 2,
+  "updated_at": "2026-05-27T16:58:04.698482",
+  "total": 3,
   "data": [
     {
-      "ip": "45.184.111.70",
-      "port": "999",
+      "ip": "200.85.52.254",
+      "port": "5678",
       "protocols": [
-        "http"
+        "socks4",
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Paraguay",
       "countryCode": "PY",
-      "isp": "WIND NET S.A.",
+      "isp": "Telecel S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "45.170.128.125",
+      "ip": "37.230.57.120",
       "port": "999",
       "protocols": [
         "http",
@@ -29,7 +32,21 @@
       "password": null,
       "country": "Paraguay",
       "countryCode": "PY",
-      "isp": "GIG@NET SOCIEDAD ANONIMA",
+      "isp": "STARTELECOM S.A.",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "190.128.201.236",
+      "port": "3128",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Paraguay",
+      "countryCode": "PY",
+      "isp": "Telecel S.A.",
       "user_type": "business",
       "type": "http"
     }

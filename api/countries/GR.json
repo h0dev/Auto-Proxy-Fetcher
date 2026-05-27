@@ -1,21 +1,38 @@
 {
-  "updated_at": "2026-05-27T11:05:00.480750",
-  "total": 1,
+  "updated_at": "2026-05-27T16:58:04.684980",
+  "total": 2,
   "data": [
     {
-      "ip": "62.103.186.66",
-      "port": "4153",
+      "ip": "130.43.94.121",
+      "port": "8080",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Greece",
       "countryCode": "GR",
-      "isp": "OTEnet S.A.",
+      "isp": "Nova Telecommunications & Media Single Member S.A",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "94.241.173.165",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Greece",
+      "countryCode": "GR",
+      "isp": "Timeweb, LLP",
       "user_type": "business",
       "type": "socks4"
     }

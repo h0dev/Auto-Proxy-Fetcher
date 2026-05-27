@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-27T05:15:20.123340",
-  "total": 1,
+  "updated_at": "2026-05-27T16:58:04.700414",
+  "total": 2,
   "data": [
     {
-      "ip": "82.209.219.244",
+      "ip": "93.125.3.22",
       "port": "8080",
       "protocols": [
         "http",
@@ -15,9 +15,23 @@
       "password": null,
       "country": "Belarus",
       "countryCode": "BY",
-      "isp": "Republican Unitary Telecommunication Enterprise Beltelecom",
-      "user_type": "residential",
+      "isp": "Unitary enterprise A1",
+      "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "144.31.129.3",
+      "port": "1080",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Belarus",
+      "countryCode": "BY",
+      "isp": "H2nexus Ltd",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }

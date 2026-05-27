@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-27T11:05:00.475298",
+  "updated_at": "2026-05-27T16:58:04.633154",
   "total": 5,
   "data": [
     {
@@ -37,11 +37,28 @@
       "type": "socks5"
     },
     {
+      "ip": "89.169.37.254",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Nls Astana Llp",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
       "ip": "80.90.183.221",
       "port": "1080",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -51,11 +68,11 @@
       "countryCode": "KZ",
       "isp": "Jsc timeweb",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "109.248.236.150",
-      "port": "60606",
+      "ip": "95.182.107.210",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -66,23 +83,9 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Uplink LLC",
+      "isp": "TOO Kainar-Media",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "176.12.73.250",
-      "port": "3128",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "HostLab LLC",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }
