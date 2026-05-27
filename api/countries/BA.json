@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-05-27T16:58:04.683903",
-  "total": 1,
+  "updated_at": "2026-05-27T23:47:52.563818",
+  "total": 2,
   "data": [
     {
       "ip": "109.165.199.46",
       "port": "8181",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -15,6 +18,23 @@
       "isp": "Telekomunikacije Republike Srpske akcionarsko drustvo Banja Luka",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "80.65.80.230",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bosnia and Herzegovina",
+      "countryCode": "BA",
+      "isp": "BH Telecom d.d. Sarajevo",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }

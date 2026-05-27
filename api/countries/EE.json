@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-27T21:30:33.460547",
-  "total": 2,
+  "updated_at": "2026-05-27T23:47:52.565854",
+  "total": 3,
   "data": [
     {
       "ip": "5.45.125.201",
       "port": "1080",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -17,7 +17,7 @@
       "countryCode": "EE",
       "isp": "P.a.g.m. Ou",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "5.45.118.209",
@@ -35,6 +35,23 @@
       "isp": "P.a.g.m. Ou",
       "user_type": "business",
       "type": "socks5"
+    },
+    {
+      "ip": "144.31.170.253",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Estonia",
+      "countryCode": "EE",
+      "isp": "Oc Networks Limited",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

@@ -1,15 +1,30 @@
 {
-  "updated_at": "2026-05-27T16:58:04.699744",
-  "total": 3,
+  "updated_at": "2026-05-27T23:47:52.564168",
+  "total": 2,
   "data": [
     {
-      "ip": "165.16.192.81",
-      "port": "1080",
+      "ip": "41.220.135.34",
+      "port": "8080",
       "protocols": [
         "http",
-        "https",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Tanzania",
+      "countryCode": "TZ",
+      "isp": "Habari Node",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "165.16.192.205",
+      "port": "1080",
+      "protocols": [
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -18,40 +33,6 @@
       "isp": "Computer-Sales-Services",
       "user_type": "business",
       "type": "socks5"
-    },
-    {
-      "ip": "41.59.200.27",
-      "port": "3030",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Tanzania",
-      "countryCode": "TZ",
-      "isp": "TTCLDATA",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "41.93.63.66",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Tanzania",
-      "countryCode": "TZ",
-      "isp": "TERNET",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
