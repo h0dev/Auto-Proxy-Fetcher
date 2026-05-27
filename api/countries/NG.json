@@ -1,21 +1,38 @@
 {
-  "updated_at": "2026-05-27T05:15:20.122293",
-  "total": 1,
+  "updated_at": "2026-05-27T11:05:00.483184",
+  "total": 2,
   "data": [
     {
-      "ip": "105.235.201.234",
-      "port": "32639",
+      "ip": "154.113.196.0",
+      "port": "5678",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Nigeria",
       "countryCode": "NG",
-      "isp": "ICSL",
+      "isp": "MAINONE",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "154.113.170.129",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "isp": "MAINONE",
       "user_type": "business",
       "type": "socks4"
     }
