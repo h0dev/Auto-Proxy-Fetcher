@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-05-27T16:58:04.622430",
-  "total": 1,
+  "updated_at": "2026-05-27T21:30:33.382008",
+  "total": 2,
   "data": [
     {
       "ip": "80.64.31.182",
       "port": "8080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Unknown",
+      "user_type": "Unknown",
+      "type": "https"
+    },
+    {
+      "ip": "37.52.13.164",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -13,11 +30,11 @@
       ],
       "username": null,
       "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
+      "country": "Ukraine",
+      "countryCode": "UA",
       "isp": "Unknown",
       "user_type": "Unknown",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }

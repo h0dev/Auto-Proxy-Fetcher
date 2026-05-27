@@ -1,32 +1,15 @@
 {
-  "updated_at": "2026-05-27T16:58:04.678722",
-  "total": 3,
+  "updated_at": "2026-05-27T21:30:33.463490",
+  "total": 4,
   "data": [
-    {
-      "ip": "169.40.6.114",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Latvia",
-      "countryCode": "LV",
-      "isp": "SIA VEESP",
-      "user_type": "business",
-      "type": "socks4"
-    },
     {
       "ip": "159.148.146.65",
       "port": "5678",
       "protocols": [
         "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -35,6 +18,23 @@
       "isp": "SIA BITE Latvija",
       "user_type": "business",
       "type": "socks4"
+    },
+    {
+      "ip": "45.130.212.97",
+      "port": "8119",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "RETN Limited",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "169.40.6.114",
@@ -51,7 +51,24 @@
       "countryCode": "LV",
       "isp": "SIA VEESP",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "31.170.19.142",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "Sia Netvision",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
