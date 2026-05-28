@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-28T17:10:49.003470",
-  "total": 3,
+  "updated_at": "2026-05-28T21:29:44.575168",
+  "total": 6,
   "data": [
     {
       "ip": "185.191.239.248",
       "port": "3128",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -34,11 +34,11 @@
       "countryCode": "CH",
       "isp": "RouterHosting LLC",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "104.244.78.150",
-      "port": "5555",
+      "ip": "16.18.37.186",
+      "port": "40265",
       "protocols": [
         "http",
         "https",
@@ -49,7 +49,55 @@
       "password": null,
       "country": "Switzerland",
       "countryCode": "CH",
-      "isp": "FranTech Solutions",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "16.62.123.236",
+      "port": "17",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "16.62.123.236",
+      "port": "7585",
+      "protocols": [
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "185.191.239.248",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "GRUPO PANAGLOBAL 15 S.A",
       "user_type": "business",
       "type": "https"
     }

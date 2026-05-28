@@ -1,24 +1,26 @@
 {
-  "updated_at": "2026-05-28T17:10:48.998925",
-  "total": 21,
+  "updated_at": "2026-05-28T21:29:44.540901",
+  "total": 31,
   "data": [
     {
-      "ip": "116.104.252.1",
-      "port": "1080",
+      "ip": "113.160.132.26",
+      "port": "8080",
       "protocols": [
+        "http",
         "socks5",
-        "socks4"
+        "socks4",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "Viettel Group",
+      "isp": "VNPT Corp",
       "user_type": "residential",
-      "type": "socks5"
+      "type": "http"
     },
     {
-      "ip": "116.104.250.118",
+      "ip": "116.104.252.1",
       "port": "1081",
       "protocols": [
         "socks4",
@@ -35,59 +37,8 @@
       "type": "socks4"
     },
     {
-      "ip": "113.160.132.26",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "socks5",
-        "socks4",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "VNPT Corp",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "160.22.17.4",
-      "port": "9988",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "VNPT Corp",
-      "user_type": "residential",
-      "type": "socks5"
-    },
-    {
-      "ip": "203.205.49.2",
-      "port": "10179",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "CMC Telecom Infrastructure Company",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "116.104.252.1",
-      "port": "1082",
+      "ip": "116.104.250.118",
+      "port": "1088",
       "protocols": [
         "socks4",
         "socks5",
@@ -103,13 +54,13 @@
       "type": "socks4"
     },
     {
-      "ip": "116.104.250.118",
-      "port": "1082",
+      "ip": "116.104.252.1",
+      "port": "1088",
       "protocols": [
         "socks4",
+        "socks5",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -138,70 +89,6 @@
     },
     {
       "ip": "116.104.250.118",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "Viettel Group",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "203.205.49.2",
-      "port": "10014",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "CMC Telecom Infrastructure Company",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "103.82.23.118",
-      "port": "6242",
-      "protocols": [
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "137.59.47.73",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "MOBIFONE Corporation",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "116.104.252.1",
       "port": "1081",
       "protocols": [
         "socks5",
@@ -219,7 +106,69 @@
     },
     {
       "ip": "203.205.49.2",
-      "port": "10156",
+      "port": "10091",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "CMC Telecom Infrastructure Company",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "160.22.17.4",
+      "port": "9988",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "128.14.92.89",
+      "port": "22891",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Zenlayer Inc",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "203.205.49.2",
+      "port": "10001",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "CMC Telecom Infrastructure Company",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "203.205.49.2",
+      "port": "10213",
       "protocols": [
         "http",
         "https",
@@ -232,27 +181,10 @@
       "countryCode": "VN",
       "isp": "CMC Telecom Infrastructure Company",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "180.148.4.74",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "Vietnam Technology and Telecommunication JSC",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "103.232.53.48",
+      "ip": "27.65.241.53",
       "port": "1080",
       "protocols": [
         "socks4",
@@ -264,15 +196,67 @@
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "VIETSERVER SERVICES TECHNOLOGY COMPANY LIMITED",
-      "user_type": "hosting",
+      "isp": "Viettel Group",
+      "user_type": "residential",
       "type": "socks4"
     },
     {
-      "ip": "103.82.23.118",
-      "port": "5207",
+      "ip": "103.186.64.72",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "INTERDIGI JOINT STOCK COMPANY",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "113.161.6.170",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "27.72.122.228",
+      "port": "51067",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Viettel Group",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "113.176.92.71",
+      "port": "3128",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -280,9 +264,60 @@
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+      "isp": "VNPT Corp",
       "user_type": "residential",
       "type": "http"
+    },
+    {
+      "ip": "183.80.130.10",
+      "port": "4145",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "FPT Telecom Company",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "123.25.116.228",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "14.232.166.150",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "socks4"
     },
     {
       "ip": "14.241.133.207",
@@ -299,11 +334,27 @@
       "countryCode": "VN",
       "isp": "VNPT Corp",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "202.47.87.5",
-      "port": "9090",
+      "ip": "103.82.23.118",
+      "port": "5175",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "113.160.130.82",
+      "port": "443",
       "protocols": [
         "http",
         "https",
@@ -314,18 +365,118 @@
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "KIENPHONGITS-AS-VN",
-      "user_type": "business",
+      "isp": "VNPT Corp",
+      "user_type": "residential",
       "type": "http"
     },
     {
-      "ip": "203.205.49.2",
-      "port": "10053",
+      "ip": "115.75.184.174",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
         "socks4",
         "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Viettel Group",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "115.79.70.69",
+      "port": "8470",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Viettel Group",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "171.250.222.240",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Viettel Group",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "203.205.49.2",
+      "port": "10236",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "CMC Telecom Infrastructure Company",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "203.205.49.2",
+      "port": "10179",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "CMC Telecom Infrastructure Company",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "203.205.49.2",
+      "port": "10168",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "CMC Telecom Infrastructure Company",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "203.205.49.2",
+      "port": "10066",
+      "protocols": [
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -349,6 +500,23 @@
       "country": "Vietnam",
       "countryCode": "VN",
       "isp": "CMC Telecom Infrastructure Company",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "27.79.138.0",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Viettel Group",
       "user_type": "residential",
       "type": "https"
     }
