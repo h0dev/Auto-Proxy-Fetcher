@@ -1,22 +1,105 @@
 {
-  "updated_at": "2026-05-28T21:29:44.578914",
-  "total": 3,
+  "updated_at": "2026-05-28T23:43:00.082186",
+  "total": 9,
   "data": [
     {
-      "ip": "45.225.205.5",
+      "ip": "45.170.102.17",
       "port": "999",
       "protocols": [
+        "https",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "GRUPO METROWAN TELECOM SPA",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "190.54.100.74",
+      "port": "5678",
+      "protocols": [
+        "socks4",
         "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "Telmex Chile Internet S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "179.57.172.172",
+      "port": "999",
+      "protocols": [
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Chile",
       "countryCode": "CL",
-      "isp": "NETDELSUR TELECOMUNICACIONES SPA",
+      "isp": "Telefonica del Sur S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "179.61.111.209",
+      "port": "999",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "SOC. TELEVISIVA CABLE SANTA JUANA LIMITADA.",
       "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "190.13.147.241",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "Telefonica del Sur S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "128.201.119.238",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "COMERCIAL WASHINGTON ERNESTO OYARCE SAZO E.I.R.L. SENALMAX",
+      "user_type": "business",
       "type": "https"
     },
     {
@@ -35,7 +118,7 @@
       "type": "https"
     },
     {
-      "ip": "38.7.195.11",
+      "ip": "38.7.195.49",
       "port": "999",
       "protocols": [
         "http",
@@ -49,6 +132,23 @@
       "countryCode": "CL",
       "isp": "GRUPO ZGH SPA",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.225.206.248",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "NETDELSUR TELECOMUNICACIONES SPA",
+      "user_type": "residential",
       "type": "http"
     }
   ]
