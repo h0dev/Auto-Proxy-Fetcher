@@ -1,29 +1,32 @@
 {
-  "updated_at": "2026-05-28T11:14:25.320148",
+  "updated_at": "2026-05-28T17:10:49.005603",
   "total": 2,
   "data": [
     {
-      "ip": "78.63.115.20",
-      "port": "8899",
+      "ip": "213.197.136.218",
+      "port": "5678",
       "protocols": [
-        "socks5",
+        "socks4",
         "http",
         "https",
-        "socks4"
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Lithuania",
       "countryCode": "LT",
-      "isp": "Telia Lietuva, AB",
+      "isp": "UAB Baltnetos komunikacijos",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "80.208.225.245",
       "port": "7001",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -31,7 +34,7 @@
       "countryCode": "LT",
       "isp": "UAB Interneto vizija",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

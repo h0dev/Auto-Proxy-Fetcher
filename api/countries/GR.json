@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-28T05:03:10.705779",
-  "total": 2,
+  "updated_at": "2026-05-28T17:10:48.999481",
+  "total": 1,
   "data": [
     {
       "ip": "94.241.173.165",
       "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -17,24 +17,7 @@
       "countryCode": "GR",
       "isp": "Timeweb, LLP",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "91.236.74.11",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Greece",
-      "countryCode": "GR",
-      "isp": "SpeedNet",
-      "user_type": "business",
-      "type": "https"
+      "type": "socks5"
     }
   ]
 }

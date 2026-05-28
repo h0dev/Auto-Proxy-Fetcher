@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-05-28T11:14:25.279059",
-  "total": 2,
+  "updated_at": "2026-05-28T17:10:48.999772",
+  "total": 5,
   "data": [
+    {
+      "ip": "165.154.243.94",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "Scloud Pte Ltd",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
     {
       "ip": "152.32.230.12",
       "port": "7890",
@@ -20,13 +37,13 @@
       "type": "socks5"
     },
     {
-      "ip": "165.154.243.94",
+      "ip": "165.154.227.13",
       "port": "1080",
       "protocols": [
+        "socks4",
         "socks5",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -35,6 +52,40 @@
       "isp": "Scloud Pte Ltd",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "220.128.223.136",
+      "port": "8082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "Data Communication Business Group",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "220.128.223.136",
+      "port": "8083",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "Data Communication Business Group",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

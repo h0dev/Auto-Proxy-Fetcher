@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-05-28T11:14:25.271811",
-  "total": 6,
+  "updated_at": "2026-05-28T17:10:48.957343",
+  "total": 9,
   "data": [
     {
-      "ip": "117.175.168.195",
-      "port": "1080",
+      "ip": "120.220.197.195",
+      "port": "59999",
       "protocols": [
-        "socks4",
+        "socks5",
         "http",
-        "socks5"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -16,11 +17,11 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
-      "ip": "195.87.182.10",
-      "port": "9090",
+      "ip": "81.12.169.254",
+      "port": "4153",
       "protocols": [
         "socks5",
         "socks4",
@@ -29,15 +30,15 @@
       ],
       "username": null,
       "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Vodafone Net Iletisim Hizmetler AS",
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Vodafone Romania S.A.",
       "user_type": "cellular",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "188.164.218.209",
-      "port": "8080",
+      "ip": "80.78.74.8",
+      "port": "65530",
       "protocols": [
         "socks5",
         "socks4",
@@ -50,15 +51,32 @@
       "countryCode": "AL",
       "isp": "Vodafone Albania Sh.A.",
       "user_type": "cellular",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "162.255.108.5",
-      "port": "5678",
+      "ip": "80.78.74.66",
+      "port": "65530",
       "protocols": [
         "socks4",
         "http",
         "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Vodafone Albania Sh.A.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "162.255.110.52",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -70,7 +88,7 @@
       "type": "socks4"
     },
     {
-      "ip": "179.125.61.201",
+      "ip": "66.186.199.33",
       "port": "8080",
       "protocols": [
         "http",
@@ -80,14 +98,14 @@
       ],
       "username": null,
       "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Wconect Wireless Informatica LTDA - ME",
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Vodafone Albania Sh.A.",
       "user_type": "cellular",
       "type": "https"
     },
     {
-      "ip": "81.8.59.178",
+      "ip": "162.255.110.15",
       "port": "8080",
       "protocols": [
         "http",
@@ -97,11 +115,45 @@
       ],
       "username": null,
       "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Vodafone Net Iletisim Hizmetler AS",
+      "country": "United States",
+      "countryCode": "US",
+      "isp": "Desert Winds Wireless Inc",
+      "user_type": "cellular",
+      "type": "http"
+    },
+    {
+      "ip": "200.125.169.117",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Dominican Republic",
+      "countryCode": "DO",
+      "isp": "WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",
       "user_type": "cellular",
       "type": "https"
+    },
+    {
+      "ip": "94.198.213.252",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "LA Wireless Srl",
+      "user_type": "cellular",
+      "type": "socks4"
     }
   ]
 }
