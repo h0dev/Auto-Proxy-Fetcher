@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-05-28T23:43:00.083803",
-  "total": 1,
+  "updated_at": "2026-05-29T05:02:50.874567",
+  "total": 2,
   "data": [
     {
-      "ip": "188.119.98.126",
-      "port": "9999",
+      "ip": "194.58.37.234",
+      "port": "65200",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "GLB Bulut Teknolojisi Limited Sirketi",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "176.98.248.2",
+      "port": "4153",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "O2 Czech Republic, a.s.",
+      "isp": "JM-Networks, s.r.o.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
