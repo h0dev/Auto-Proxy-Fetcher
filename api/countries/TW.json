@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-29T21:30:17.203223",
-  "total": 2,
+  "updated_at": "2026-05-29T23:37:52.518787",
+  "total": 4,
   "data": [
     {
       "ip": "152.32.230.12",
@@ -21,7 +21,38 @@
     },
     {
       "ip": "220.128.223.136",
-      "port": "8083",
+      "port": "8082",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "Data Communication Business Group",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "220.128.223.136",
+      "port": "8087",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "Data Communication Business Group",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "220.132.41.160",
+      "port": "1088",
       "protocols": [
         "http",
         "https",
@@ -34,7 +65,7 @@
       "countryCode": "TW",
       "isp": "Data Communication Business Group",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }

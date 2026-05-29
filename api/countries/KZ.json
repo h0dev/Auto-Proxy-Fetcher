@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-05-29T21:30:17.178874",
+  "updated_at": "2026-05-29T23:37:52.485530",
   "total": 5,
   "data": [
     {
-      "ip": "80.90.183.221",
+      "ip": "195.133.8.226",
       "port": "1080",
       "protocols": [
-        "socks4",
         "socks5",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Jsc timeweb",
-      "user_type": "business",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
       "type": "socks5"
     },
     {
@@ -37,11 +37,45 @@
       "type": "socks5"
     },
     {
-      "ip": "46.8.31.104",
+      "ip": "80.90.183.221",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Jsc timeweb",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "89.169.37.254",
       "port": "1080",
       "protocols": [
         "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Nls Astana Llp",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "80.90.183.221",
+      "port": "1080",
+      "protocols": [
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -49,42 +83,8 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Fedinyak Sergey Vyacheslavovich",
+      "isp": "Jsc timeweb",
       "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "109.248.236.150",
-      "port": "60606",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "Uplink LLC",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "37.221.202.84",
-      "port": "33333",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "OBIT-telecommunications, LLC",
-      "user_type": "residential",
       "type": "socks4"
     }
   ]
