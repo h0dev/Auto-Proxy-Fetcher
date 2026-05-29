@@ -1,23 +1,38 @@
 {
-  "updated_at": "2026-05-29T05:02:50.872976",
-  "total": 1,
+  "updated_at": "2026-05-29T11:00:41.937429",
+  "total": 2,
   "data": [
     {
-      "ip": "85.114.45.210",
-      "port": "4153",
+      "ip": "212.92.204.54",
+      "port": "8080",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Croatia",
       "countryCode": "HR",
-      "isp": "Telemach Hrvatska d.o.o.",
+      "isp": "A1 Hrvatska d.o.o.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
+    },
+    {
+      "ip": "93.142.51.140",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Croatia",
+      "countryCode": "HR",
+      "isp": "Hrvatski Telekom d.d.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

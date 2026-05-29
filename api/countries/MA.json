@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-05-29T05:02:50.871088",
+  "updated_at": "2026-05-29T11:00:41.931824",
   "total": 1,
   "data": [
     {
       "ip": "196.64.96.169",
       "port": "2025",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "MA",
       "isp": "MT-MPLS",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
