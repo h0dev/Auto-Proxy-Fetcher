@@ -1,44 +1,44 @@
 {
-  "updated_at": "2026-05-29T16:49:36.462725",
+  "updated_at": "2026-05-29T21:30:17.204769",
   "total": 3,
   "data": [
     {
-      "ip": "169.40.6.114",
+      "ip": "185.237.219.119",
       "port": "1080",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Latvia",
       "countryCode": "LV",
-      "isp": "SIA VEESP",
+      "isp": "Green Floid LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "159.148.146.65",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "SIA BITE Latvija",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "169.40.6.114",
-      "port": "3128",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Latvia",
-      "countryCode": "LV",
-      "isp": "SIA VEESP",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "31.170.19.4",
-      "port": "4153",
+      "ip": "45.130.212.97",
+      "port": "8119",
       "protocols": [
         "http",
         "https",
@@ -49,9 +49,9 @@
       "password": null,
       "country": "Latvia",
       "countryCode": "LV",
-      "isp": "Sia Netvision",
+      "isp": "RETN Limited",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }

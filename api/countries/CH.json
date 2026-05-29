@@ -1,24 +1,7 @@
 {
-  "updated_at": "2026-05-29T16:49:36.463998",
-  "total": 5,
+  "updated_at": "2026-05-29T21:30:17.205948",
+  "total": 8,
   "data": [
-    {
-      "ip": "185.191.239.248",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "GRUPO PANAGLOBAL 15 S.A",
-      "user_type": "business",
-      "type": "http"
-    },
     {
       "ip": "45.95.232.35",
       "port": "1080",
@@ -37,11 +20,28 @@
       "type": "socks4"
     },
     {
-      "ip": "179.43.180.232",
+      "ip": "185.191.239.248",
       "port": "3128",
       "protocols": [
-        "https",
         "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "GRUPO PANAGLOBAL 15 S.A",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.59.122.132",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -49,17 +49,33 @@
       "password": null,
       "country": "Switzerland",
       "countryCode": "CH",
-      "isp": "Private Layer INC",
+      "isp": "RouterHosting LLC",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "104.244.78.150",
+      "port": "5555",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "FranTech Solutions",
       "user_type": "business",
       "type": "http"
     },
     {
       "ip": "16.18.37.186",
-      "port": "47933",
+      "port": "40265",
       "protocols": [
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -67,15 +83,16 @@
       "countryCode": "CH",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "http"
     },
     {
-      "ip": "16.62.123.236",
-      "port": "51407",
+      "ip": "16.62.229.137",
+      "port": "7949",
       "protocols": [
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -84,6 +101,38 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "16.62.229.137",
+      "port": "28101",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "213.3.34.39",
+      "port": "443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Bluewin",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
