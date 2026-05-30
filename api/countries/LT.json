@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-05-30T11:47:50.534508",
+  "updated_at": "2026-05-30T14:46:06.692254",
   "total": 3,
   "data": [
+    {
+      "ip": "213.197.136.218",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Lithuania",
+      "countryCode": "LT",
+      "isp": "UAB Baltnetos komunikacijos",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "80.208.225.245",
       "port": "7001",
@@ -17,7 +34,7 @@
       "countryCode": "LT",
       "isp": "UAB Interneto vizija",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "86.100.63.246",
@@ -35,23 +52,6 @@
       "isp": "UAB Balticum TV",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "88.119.139.237",
-      "port": "53281",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Lithuania",
-      "countryCode": "LT",
-      "isp": "Telia Lietuva, AB",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }

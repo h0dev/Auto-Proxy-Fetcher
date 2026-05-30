@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-05-30T11:47:50.531972",
-  "total": 7,
+  "updated_at": "2026-05-30T14:46:06.690419",
+  "total": 5,
   "data": [
     {
-      "ip": "102.209.76.106",
+      "ip": "102.0.18.198",
       "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "CKL1-ASN",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "197.232.43.224",
+      "port": "1080",
       "protocols": [
         "socks5",
         "socks4",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "SAFHOME-FIBRE-LIMITED",
+      "isp": "JTL",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "217.199.144.80",
@@ -37,76 +54,8 @@
       "type": "http"
     },
     {
-      "ip": "102.204.153.206",
+      "ip": "102.0.16.226",
       "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "Gawia_Ltd",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "102.219.209.86",
-      "port": "3346",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "VIJIJI-CONNECT-LIMITED",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "102.208.166.30",
-      "port": "8082",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "Alwen-Networks",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "102.219.209.86",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "VIJIJI-CONNECT-LIMITED",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "154.79.248.156",
-      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -119,7 +68,24 @@
       "countryCode": "KE",
       "isp": "CKL1-ASN",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
+    },
+    {
+      "ip": "102.213.179.194",
+      "port": "8081",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "NEXT-THING-NETWORKS-LTD",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
