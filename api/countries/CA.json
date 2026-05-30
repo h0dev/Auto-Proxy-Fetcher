@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-05-30T14:46:06.652998",
-  "total": 5,
+  "updated_at": "2026-05-30T17:05:08.153677",
+  "total": 8,
   "data": [
+    {
+      "ip": "45.73.0.118",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Videotron Ltee",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "24.37.245.42",
+      "port": "51056",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Videotron Ltee",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "192.99.8.15",
       "port": "8850",
@@ -17,7 +51,7 @@
       "countryCode": "CA",
       "isp": "OVH SAS",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "68.183.204.195",
@@ -34,14 +68,29 @@
       "countryCode": "CA",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "184.95.235.194",
-      "port": "1080",
+      "ip": "192.158.15.201",
+      "port": "50877",
       "protocols": [
-        "socks5",
         "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "1651884 Ontario Inc.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "15.223.237.12",
+      "port": "31145",
+      "protocols": [
         "http",
         "https"
       ],
@@ -49,17 +98,16 @@
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "Videotron Ltee",
-      "user_type": "business",
-      "type": "socks5"
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
     },
     {
-      "ip": "35.182.12.78",
-      "port": "20902",
+      "ip": "15.223.237.12",
+      "port": "16620",
       "protocols": [
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -71,19 +119,21 @@
       "type": "http"
     },
     {
-      "ip": "35.182.12.78",
-      "port": "30808",
+      "ip": "50.67.100.178",
+      "port": "8080",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
+      "isp": "Shaw Communications",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
