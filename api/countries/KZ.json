@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-30T17:05:08.140450",
-  "total": 4,
+  "updated_at": "2026-05-30T20:21:19.603544",
+  "total": 7,
   "data": [
     {
       "ip": "88.204.142.108",
@@ -37,29 +37,46 @@
       "type": "socks4"
     },
     {
-      "ip": "194.110.55.211",
-      "port": "3130",
+      "ip": "195.133.8.226",
+      "port": "1080",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "PS Internet Company LLP",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "89.169.37.254",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Nls Astana Llp",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
       "ip": "109.248.236.150",
       "port": "60606",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -69,6 +86,40 @@
       "isp": "Uplink LLC",
       "user_type": "business",
       "type": "socks4"
+    },
+    {
+      "ip": "95.182.107.210",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "TOO Kainar-Media",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "194.58.42.190",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "https"
     }
   ]
 }

@@ -1,20 +1,74 @@
 {
-  "updated_at": "2026-05-30T17:05:08.160666",
-  "total": 12,
+  "updated_at": "2026-05-30T20:21:19.625235",
+  "total": 11,
   "data": [
     {
-      "ip": "102.132.243.174",
-      "port": "3128",
+      "ip": "102.36.127.231",
+      "port": "1080",
       "protocols": [
-        "http"
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "COOL-IDEAS",
+      "isp": "CLEAR-ACCESS",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
+    },
+    {
+      "ip": "105.27.180.194",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "SEACOM-AS",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "41.162.162.142",
+      "port": "4153",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Neotel",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "102.221.40.111",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "SAIX-NET",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "20.164.75.153",
@@ -31,24 +85,7 @@
       "countryCode": "ZA",
       "isp": "Microsoft Corporation",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "41.169.151.154",
-      "port": "4153",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Neotel",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "169.239.45.51",
@@ -68,89 +105,7 @@
       "type": "socks4"
     },
     {
-      "ip": "102.66.104.162",
-      "port": "8865",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Hero-Telecoms",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "105.27.180.194",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "SEACOM-AS",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.245.171.157",
-      "port": "43505",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.245.171.157",
-      "port": "58080",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "13.244.203.188",
-      "port": "37828",
-      "protocols": [
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "196.216.132.35",
+      "ip": "169.239.208.70",
       "port": "8080",
       "protocols": [
         "http",
@@ -162,13 +117,13 @@
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "Hero-Telecoms",
-      "user_type": "residential",
+      "isp": "Interworks-Wireless-Solutions",
+      "user_type": "cellular",
       "type": "http"
     },
     {
-      "ip": "196.251.222.50",
-      "port": "8104",
+      "ip": "169.239.85.121",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -179,23 +134,58 @@
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "INFOGRO",
+      "isp": "MEZOBYTE",
       "user_type": "business",
       "type": "https"
     },
     {
-      "ip": "41.57.63.1",
-      "port": "8104",
+      "ip": "196.251.222.222",
+      "port": "8103",
       "protocols": [
-        "http"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "screamer",
+      "isp": "INFOGRO",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "196.216.133.18",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Hero-Telecoms",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "41.169.151.154",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Neotel",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

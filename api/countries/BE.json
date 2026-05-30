@@ -1,21 +1,23 @@
 {
-  "updated_at": "2026-05-30T09:31:28.229839",
+  "updated_at": "2026-05-30T20:21:19.631179",
   "total": 1,
   "data": [
     {
-      "ip": "185.4.132.222",
-      "port": "3128",
+      "ip": "109.135.16.145",
+      "port": "49879",
       "protocols": [
+        "socks5",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Belgium",
       "countryCode": "BE",
-      "isp": "Signet B.V.",
+      "isp": "Proximus NV",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }

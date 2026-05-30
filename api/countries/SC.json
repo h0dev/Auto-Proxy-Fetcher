@@ -1,13 +1,30 @@
 {
-  "updated_at": "2026-05-30T17:05:08.159500",
+  "updated_at": "2026-05-30T20:21:19.604220",
   "total": 2,
   "data": [
     {
-      "ip": "154.220.66.10",
-      "port": "40043",
+      "ip": "45.194.33.12",
+      "port": "30001",
       "protocols": [
-        "https",
+        "socks5",
         "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "Antbox Networks Limited",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "154.220.66.24",
+      "port": "40195",
+      "protocols": [
+        "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -18,23 +35,6 @@
       "isp": "LUOGELANG FRANCE LIMITED",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "197.234.13.76",
-      "port": "4145",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Seychelles",
-      "countryCode": "SC",
-      "isp": "ASINTELVISION",
-      "user_type": "business",
-      "type": "socks4"
     }
   ]
 }

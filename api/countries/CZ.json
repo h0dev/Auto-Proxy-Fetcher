@@ -1,46 +1,32 @@
 {
-  "updated_at": "2026-05-30T17:05:08.159404",
-  "total": 3,
+  "updated_at": "2026-05-30T20:21:19.635113",
+  "total": 2,
   "data": [
     {
-      "ip": "194.87.76.53",
-      "port": "1080",
+      "ip": "81.162.195.35",
+      "port": "4153",
       "protocols": [
         "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "Jsc timeweb",
+      "isp": "Martin Vicenik",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "194.58.37.234",
-      "port": "65200",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Czechia",
-      "countryCode": "CZ",
-      "isp": "GLB Bulut Teknolojisi Limited Sirketi",
-      "user_type": "business",
-      "type": "socks5"
     },
     {
       "ip": "194.58.57.116",
       "port": "3128",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -48,7 +34,7 @@
       "countryCode": "CZ",
       "isp": "Timeweb, LLP",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
