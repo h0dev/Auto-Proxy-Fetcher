@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-30T20:21:19.629325",
-  "total": 5,
+  "updated_at": "2026-05-30T23:02:13.685713",
+  "total": 6,
   "data": [
     {
-      "ip": "45.89.106.116",
-      "port": "1081",
+      "ip": "45.89.106.12",
+      "port": "80",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -34,7 +34,7 @@
       "countryCode": "CY",
       "isp": "NETRANEX TECHNOLOGIES INDIA PRIVATE LIMITED",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "45.89.106.12",
@@ -51,16 +51,33 @@
       "countryCode": "CY",
       "isp": "NETRANEX TECHNOLOGIES INDIA PRIVATE LIMITED",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "45.89.106.12",
-      "port": "80",
+      "ip": "45.15.178.39",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Cyprus",
+      "countryCode": "CY",
+      "isp": "WorkTitans B.V.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "45.89.106.116",
+      "port": "1081",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -71,19 +88,21 @@
       "type": "http"
     },
     {
-      "ip": "2.56.126.204",
-      "port": "3128",
+      "ip": "212.31.100.138",
+      "port": "4153",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Cyprus",
       "countryCode": "CY",
-      "isp": "WorkTitans B.V.",
-      "user_type": "business",
-      "type": "https"
+      "isp": "Cyprus Telecommunications Authority",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }

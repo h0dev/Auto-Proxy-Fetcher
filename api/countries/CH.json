@@ -1,27 +1,77 @@
 {
-  "updated_at": "2026-05-30T20:21:19.636587",
-  "total": 3,
+  "updated_at": "2026-05-30T23:02:13.635815",
+  "total": 6,
   "data": [
     {
-      "ip": "104.244.78.150",
-      "port": "5555",
+      "ip": "31.6.41.84",
+      "port": "8888",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Switzerland",
       "countryCode": "CH",
-      "isp": "FranTech Solutions",
+      "isp": "Powerhouse Management, Inc.",
       "user_type": "business",
       "type": "https"
     },
     {
+      "ip": "45.95.232.35",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "179.43.180.232",
+      "port": "1081",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Private Layer INC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
       "ip": "16.62.229.137",
-      "port": "53444",
+      "port": "15100",
+      "protocols": [
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "16.62.229.137",
+      "port": "3128",
       "protocols": [
         "http",
         "https"
@@ -32,21 +82,24 @@
       "countryCode": "CH",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "31.6.41.84",
-      "port": "8888",
+      "ip": "51.34.28.236",
+      "port": "3128",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Switzerland",
       "countryCode": "CH",
-      "isp": "Powerhouse Management, Inc.",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }
