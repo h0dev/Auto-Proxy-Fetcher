@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-30T09:31:28.223084",
+  "updated_at": "2026-05-30T11:47:50.529790",
   "total": 7,
   "data": [
     {
@@ -17,16 +17,16 @@
       "countryCode": "CH",
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "179.43.180.232",
       "port": "1081",
       "protocols": [
         "socks4",
+        "socks5",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -34,24 +34,7 @@
       "countryCode": "CH",
       "isp": "Private Layer INC",
       "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "45.95.232.35",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Global Connectivity Solutions Llp",
-      "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "104.244.78.150",
@@ -68,11 +51,11 @@
       "countryCode": "CH",
       "isp": "FranTech Solutions",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "16.18.37.186",
-      "port": "53386",
+      "ip": "16.62.123.236",
+      "port": "1685",
       "protocols": [
         "http",
         "https",
@@ -88,8 +71,25 @@
       "type": "socks4"
     },
     {
-      "ip": "51.34.28.236",
-      "port": "1685",
+      "ip": "16.62.229.137",
+      "port": "15100",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "16.62.229.137",
+      "port": "3128",
       "protocols": [
         "http",
         "https"
@@ -100,15 +100,15 @@
       "countryCode": "CH",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "51.34.28.236",
-      "port": "27642",
+      "port": "28101",
       "protocols": [
         "http",
         "https",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -116,7 +116,7 @@
       "countryCode": "CH",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     }
   ]
 }

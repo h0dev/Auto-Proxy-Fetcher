@@ -1,27 +1,44 @@
 {
-  "updated_at": "2026-05-30T09:31:28.231204",
+  "updated_at": "2026-05-30T11:47:50.524311",
   "total": 4,
   "data": [
     {
-      "ip": "103.248.47.230",
+      "ip": "170.64.170.204",
       "port": "1080",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Australia",
       "countryCode": "AU",
-      "isp": "Dicker Data Ltd",
-      "user_type": "business",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
       "type": "socks5"
     },
     {
-      "ip": "16.51.62.173",
-      "port": "13650",
+      "ip": "180.181.215.232",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Aussie Broadband",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "16.26.154.68",
+      "port": "34363",
       "protocols": [
         "http",
         "https"
@@ -35,8 +52,8 @@
       "type": "https"
     },
     {
-      "ip": "54.206.129.120",
-      "port": "2015",
+      "ip": "16.26.154.68",
+      "port": "40068",
       "protocols": [
         "http",
         "https"
@@ -47,23 +64,7 @@
       "countryCode": "AU",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "54.253.183.151",
-      "port": "42285",
-      "protocols": [
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Australia",
-      "countryCode": "AU",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
+      "type": "https"
     }
   ]
 }
