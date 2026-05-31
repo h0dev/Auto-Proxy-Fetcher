@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-31T09:49:18.727589",
-  "total": 4,
+  "updated_at": "2026-05-31T11:58:26.791289",
+  "total": 9,
   "data": [
     {
       "ip": "88.204.142.108",
@@ -20,11 +20,11 @@
       "type": "socks5"
     },
     {
-      "ip": "89.169.37.254",
+      "ip": "80.90.183.221",
       "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -32,18 +32,18 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Nls Astana Llp",
+      "isp": "Jsc timeweb",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "176.12.73.245",
       "port": "1080",
       "protocols": [
+        "socks4",
         "http",
         "socks5",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -51,11 +51,28 @@
       "countryCode": "KZ",
       "isp": "HostLab LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "91.224.74.107",
+      "ip": "80.90.183.221",
       "port": "3128",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Jsc timeweb",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "89.169.37.254",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -66,9 +83,74 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Newserverlife LLC",
-      "user_type": "hosting",
+      "isp": "Nls Astana Llp",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "95.182.107.210",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "TOO Kainar-Media",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "176.12.74.0",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "HostLab LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "93.185.68.82",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Jusan Mobile JSC",
+      "user_type": "cellular",
       "type": "https"
+    },
+    {
+      "ip": "94.131.95.92",
+      "port": "1080",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Cloud Services Kazakhstan LLP",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }
