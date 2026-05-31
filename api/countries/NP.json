@@ -1,15 +1,32 @@
 {
-  "updated_at": "2026-05-31T17:11:50.979244",
-  "total": 2,
+  "updated_at": "2026-05-31T20:20:29.547676",
+  "total": 5,
   "data": [
+    {
+      "ip": "118.91.175.146",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nepal",
+      "countryCode": "NP",
+      "isp": "Websurfer Nepal Internet Service Provider",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "182.93.75.162",
       "port": "1080",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,7 +37,24 @@
       "type": "socks4"
     },
     {
-      "ip": "118.91.175.146",
+      "ip": "103.86.57.9",
+      "port": "4145",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nepal",
+      "countryCode": "NP",
+      "isp": "Web Networks Pvt. Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "202.70.80.153",
       "port": "5678",
       "protocols": [
         "socks4",
@@ -32,9 +66,26 @@
       "password": null,
       "country": "Nepal",
       "countryCode": "NP",
-      "isp": "Websurfer Nepal Internet Service Provider",
-      "user_type": "business",
+      "isp": "Nepal Telecommunications Corporation, Internet Services",
+      "user_type": "residential",
       "type": "socks4"
+    },
+    {
+      "ip": "182.93.85.225",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nepal",
+      "countryCode": "NP",
+      "isp": "Subisu Cablenet Pvt Ltd, Baluwatar, Kathmandu, Nepal",
+      "user_type": "residential",
+      "type": "http"
     }
   ]
 }
