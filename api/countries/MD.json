@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-05-31T05:13:17.821629",
-  "total": 7,
+  "updated_at": "2026-05-31T09:49:18.728866",
+  "total": 8,
   "data": [
     {
-      "ip": "86.104.74.110",
+      "ip": "94.131.122.125",
       "port": "1082",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -17,15 +17,32 @@
       "countryCode": "MD",
       "isp": "WorkTitans B.V.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "185.234.66.82",
+      "ip": "213.159.68.227",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Moldova",
+      "countryCode": "MD",
+      "isp": "WorkTitans B.V.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "94.131.118.129",
       "port": "1082",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
+        "socks4",
         "https"
       ],
       "username": null,
@@ -34,7 +51,7 @@
       "countryCode": "MD",
       "isp": "WorkTitans B.V.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "91.132.140.82",
@@ -49,23 +66,6 @@
       "countryCode": "MD",
       "isp": "WorkTitans B.V.",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "185.234.66.82",
-      "port": "1081",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Moldova",
-      "countryCode": "MD",
-      "isp": "WorkTitans B.V.",
-      "user_type": "business",
       "type": "http"
     },
     {
@@ -86,8 +86,8 @@
       "type": "http"
     },
     {
-      "ip": "185.234.64.62",
-      "port": "1081",
+      "ip": "86.104.74.110",
+      "port": "1082",
       "protocols": [
         "socks4",
         "socks5",
@@ -100,16 +100,16 @@
       "countryCode": "MD",
       "isp": "WorkTitans B.V.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
-      "ip": "185.234.64.63",
+      "ip": "94.131.118.129",
       "port": "1081",
       "protocols": [
-        "socks4",
         "socks5",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -117,7 +117,24 @@
       "countryCode": "MD",
       "isp": "WorkTitans B.V.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
+    },
+    {
+      "ip": "94.131.122.128",
+      "port": "1082",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Moldova",
+      "countryCode": "MD",
+      "isp": "WorkTitans B.V.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
