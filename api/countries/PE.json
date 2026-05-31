@@ -1,7 +1,22 @@
 {
-  "updated_at": "2026-05-30T23:02:13.712106",
-  "total": 13,
+  "updated_at": "2026-05-31T05:13:17.849734",
+  "total": 7,
   "data": [
+    {
+      "ip": "170.81.242.93",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "INVENTA TELECOMUNICACIONES EIRL",
+      "user_type": "residential",
+      "type": "http"
+    },
     {
       "ip": "170.81.241.226",
       "port": "999",
@@ -15,42 +30,44 @@
       "countryCode": "PE",
       "isp": "INVENTA TELECOMUNICACIONES EIRL",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "177.91.255.35",
-      "port": "5678",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "EMPRESA DE TELECOMUNICACIONES MULTIMEDIA ALFA",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "138.99.176.26",
+      "ip": "170.81.243.58",
       "port": "999",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "NETWIN S.A.C",
+      "isp": "INVENTA TELECOMUNICACIONES EIRL",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "201.230.15.57",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "INTEGRATEL PERU S.A.A.",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "38.19.230.101",
+      "ip": "38.190.100.170",
       "port": "999",
       "protocols": [
         "http",
@@ -67,13 +84,28 @@
       "type": "https"
     },
     {
-      "ip": "190.93.224.32",
+      "ip": "38.252.215.11",
       "port": "999",
       "protocols": [
         "http",
         "https",
         "socks4",
         "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "TELDRA S.A.C.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.166.72.19",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -81,136 +113,6 @@
       "countryCode": "PE",
       "isp": "FICOM TELECOMUNICACIONES S.A.C.",
       "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "170.81.242.93",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "INVENTA TELECOMUNICACIONES EIRL",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "170.81.243.62",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "INVENTA TELECOMUNICACIONES EIRL",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "170.81.243.59",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "INVENTA TELECOMUNICACIONES EIRL",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "200.106.124.137",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "INTEGRATEL PERU S.A.A.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "201.234.53.33",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "Level 3 Parent, LLC",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "38.191.85.108",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "LOA NETWORK JL S.A.C.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "45.166.72.35",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "FICOM TELECOMUNICACIONES S.A.C.",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "8.243.126.136",
-      "port": "8801",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "CORPORACION TARAZONA CATV S.A.C.",
-      "user_type": "business",
       "type": "https"
     }
   ]
