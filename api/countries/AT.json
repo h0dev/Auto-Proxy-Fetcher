@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T11:58:26.793609",
+  "updated_at": "2026-05-31T14:50:40.244360",
   "total": 3,
   "data": [
     {
@@ -20,12 +20,12 @@
       "type": "socks5"
     },
     {
-      "ip": "178.115.236.219",
-      "port": "8080",
+      "ip": "178.115.255.177",
+      "port": "5678",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -34,11 +34,11 @@
       "countryCode": "AT",
       "isp": "Hutchison Drei Austria GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "212.113.106.198",
-      "port": "987",
+      "ip": "83.218.186.22",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -49,9 +49,9 @@
       "password": null,
       "country": "Austria",
       "countryCode": "AT",
-      "isp": "Aeza Group LLC",
+      "isp": "myNet GmbH",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     }
   ]
 }

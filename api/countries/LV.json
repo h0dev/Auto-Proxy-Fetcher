@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-31T11:58:26.810407",
-  "total": 2,
+  "updated_at": "2026-05-31T14:50:40.247319",
+  "total": 5,
   "data": [
     {
       "ip": "159.148.146.65",
@@ -20,8 +20,25 @@
       "type": "socks4"
     },
     {
+      "ip": "185.237.219.119",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "Green Floid LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
       "ip": "169.40.6.114",
-      "port": "3128",
+      "port": "1080",
       "protocols": [
         "socks5",
         "socks4",
@@ -34,7 +51,41 @@
       "countryCode": "LV",
       "isp": "SIA VEESP",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "31.170.19.5",
+      "port": "4153",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "Sia Netvision",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "31.170.19.1",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "Sia Netvision",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

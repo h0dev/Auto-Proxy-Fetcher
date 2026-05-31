@@ -1,20 +1,23 @@
 {
-  "updated_at": "2026-05-30T23:02:13.725399",
+  "updated_at": "2026-05-31T14:50:40.257805",
   "total": 1,
   "data": [
     {
-      "ip": "196.74.221.100",
-      "port": "1639",
+      "ip": "197.230.117.57",
+      "port": "1080",
       "protocols": [
-        "http"
+        "socks4",
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Morocco",
       "countryCode": "MA",
-      "isp": "MT-MPLS",
+      "isp": "ASMedi",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
