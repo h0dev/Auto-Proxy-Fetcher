@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-06-01T18:46:56.988289",
+  "updated_at": "2026-06-01T22:35:16.925360",
   "total": 3,
   "data": [
+    {
+      "ip": "212.113.106.198",
+      "port": "987",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Austria",
+      "countryCode": "AT",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
     {
       "ip": "152.53.144.223",
       "port": "1080",
@@ -20,30 +37,13 @@
       "type": "socks5"
     },
     {
-      "ip": "83.215.25.66",
-      "port": "9050",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Austria",
-      "countryCode": "AT",
-      "isp": "SALZBURG AG fur Energie, Verkehr und Telekommunikation",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
       "ip": "89.58.17.90",
       "port": "9050",
       "protocols": [
-        "socks4",
         "socks5",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -51,7 +51,7 @@
       "countryCode": "AT",
       "isp": "netcup GmbH",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     }
   ]
 }

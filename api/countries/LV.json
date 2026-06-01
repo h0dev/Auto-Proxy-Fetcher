@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-06-01T18:46:57.015099",
+  "updated_at": "2026-06-01T22:35:16.891374",
   "total": 2,
   "data": [
+    {
+      "ip": "169.40.6.114",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "SIA VEESP",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "194.58.34.63",
       "port": "3128",
@@ -17,24 +34,7 @@
       "countryCode": "LV",
       "isp": "Baxet Group Inc.",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "169.40.6.114",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Latvia",
-      "countryCode": "LV",
-      "isp": "SIA VEESP",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
