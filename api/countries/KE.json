@@ -1,15 +1,32 @@
 {
-  "updated_at": "2026-06-01T05:39:41.741375",
-  "total": 4,
+  "updated_at": "2026-06-01T12:41:31.095560",
+  "total": 5,
   "data": [
     {
-      "ip": "102.0.14.38",
+      "ip": "41.139.167.17",
       "port": "8080",
       "protocols": [
         "http",
         "https",
         "socks4",
         "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Safaricom",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "102.0.14.42",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -17,22 +34,22 @@
       "countryCode": "KE",
       "isp": "CKL1-ASN",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "102.209.76.106",
+      "ip": "217.199.144.80",
       "port": "8080",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "SAFHOME-FIBRE-LIMITED",
+      "isp": "KE-NET2000",
       "user_type": "business",
       "type": "https"
     },
@@ -51,7 +68,7 @@
       "countryCode": "KE",
       "isp": "AVITECH_CLOUD_SERVICES",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "41.209.14.123",
@@ -68,7 +85,7 @@
       "countryCode": "KE",
       "isp": "KE-NET2000",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

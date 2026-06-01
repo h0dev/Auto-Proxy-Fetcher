@@ -1,19 +1,38 @@
 {
-  "updated_at": "2026-06-01T05:39:41.742199",
-  "total": 5,
+  "updated_at": "2026-06-01T12:41:31.092781",
+  "total": 6,
   "data": [
     {
-      "ip": "16.18.37.186",
-      "port": "39388",
+      "ip": "45.95.232.35",
+      "port": "3128",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Switzerland",
       "countryCode": "CH",
-      "isp": "Amazon.com, Inc.",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.59.122.132",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "RouterHosting LLC",
       "user_type": "hosting",
       "type": "http"
     },
@@ -30,27 +49,11 @@
       "countryCode": "CH",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "16.62.229.137",
-      "port": "15100",
-      "protocols": [
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "16.62.229.137",
-      "port": "3128",
+      "ip": "16.18.37.186",
+      "port": "39388",
       "protocols": [
         "http",
         "https"
@@ -79,6 +82,21 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "89.127.196.71",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Datasource AG",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
