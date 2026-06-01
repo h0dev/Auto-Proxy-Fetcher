@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-06-01T12:41:31.097201",
-  "total": 1,
+  "updated_at": "2026-06-01T18:46:57.023652",
+  "total": 2,
   "data": [
     {
-      "ip": "217.78.239.5",
-      "port": "4555",
+      "ip": "5.45.125.201",
+      "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
+        "socks5",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Estonia",
       "countryCode": "EE",
-      "isp": "IT-Develop DOO",
+      "isp": "P.a.g.m. Ou",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
+    },
+    {
+      "ip": "37.49.224.243",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Estonia",
+      "countryCode": "EE",
+      "isp": "PUSHPKT OU",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
