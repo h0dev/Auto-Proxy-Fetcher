@@ -1,9 +1,43 @@
 {
-  "updated_at": "2026-05-31T23:01:07.076433",
-  "total": 2,
+  "updated_at": "2026-06-01T05:39:41.740394",
+  "total": 3,
   "data": [
     {
-      "ip": "45.182.21.165",
+      "ip": "181.115.74.172",
+      "port": "5678",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "200.115.96.50",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "HONDUVISION SRL",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.182.21.150",
       "port": "999",
       "protocols": [
         "http",
@@ -18,23 +52,6 @@
       "isp": "MULTICABLE DE HONDURAS",
       "user_type": "residential",
       "type": "http"
-    },
-    {
-      "ip": "181.115.74.172",
-      "port": "5678",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Honduras",
-      "countryCode": "HN",
-      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
-      "user_type": "residential",
-      "type": "socks4"
     }
   ]
 }

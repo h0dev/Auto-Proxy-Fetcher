@@ -1,21 +1,38 @@
 {
-  "updated_at": "2026-05-31T23:01:07.079189",
-  "total": 1,
+  "updated_at": "2026-06-01T05:39:41.738132",
+  "total": 2,
   "data": [
     {
-      "ip": "105.235.201.234",
-      "port": "32639",
+      "ip": "102.69.146.59",
+      "port": "7080",
       "protocols": [
-        "socks4",
+        "socks5",
         "http",
         "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "isp": "IP-Express-Ltd-AS",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "154.113.170.129",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Nigeria",
       "countryCode": "NG",
-      "isp": "ICSL",
+      "isp": "MAINONE",
       "user_type": "business",
       "type": "socks4"
     }
