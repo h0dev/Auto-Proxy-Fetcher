@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-06-02T05:20:40.519127",
-  "total": 5,
+  "updated_at": "2026-06-02T11:42:34.842968",
+  "total": 6,
   "data": [
     {
-      "ip": "102.0.14.42",
-      "port": "1080",
+      "ip": "102.208.166.30",
+      "port": "8082",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "CKL1-ASN",
+      "isp": "Alwen-Networks",
       "user_type": "business",
-      "type": "socks5"
+      "type": "http"
     },
     {
-      "ip": "102.0.30.88",
+      "ip": "102.0.18.120",
       "port": "8080",
       "protocols": [
         "socks5",
@@ -34,24 +34,24 @@
       "countryCode": "KE",
       "isp": "CKL1-ASN",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "197.232.43.224",
-      "port": "1080",
+      "ip": "102.0.30.88",
+      "port": "8080",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "JTL",
+      "isp": "CKL1-ASN",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "102.209.18.28",
@@ -71,8 +71,8 @@
       "type": "https"
     },
     {
-      "ip": "154.79.248.156",
-      "port": "5678",
+      "ip": "197.248.75.221",
+      "port": "8102",
       "protocols": [
         "http",
         "https",
@@ -83,9 +83,26 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "CKL1-ASN",
+      "isp": "Safaricom",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "197.248.75.221",
+      "port": "8105",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Safaricom",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

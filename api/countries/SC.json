@@ -1,33 +1,72 @@
 {
-  "updated_at": "2026-06-02T05:20:40.518151",
-  "total": 2,
+  "updated_at": "2026-06-02T11:42:34.799750",
+  "total": 4,
   "data": [
     {
-      "ip": "45.12.62.218",
-      "port": "8081",
+      "ip": "45.194.33.12",
+      "port": "30001",
       "protocols": [
-        "http"
+        "socks5",
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Seychelles",
       "countryCode": "SC",
-      "isp": "MHost LLC",
+      "isp": "Antbox Networks Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
       "ip": "156.227.236.151",
       "port": "1080",
       "protocols": [
         "socks5",
-        "http"
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Seychelles",
       "countryCode": "SC",
       "isp": "YISU CLOUD LTD",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "154.201.75.64",
+      "port": "1011",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "FASTNET DATA INC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "154.205.145.14",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "Kaopu Cloud HK Limited",
       "user_type": "hosting",
       "type": "socks5"
     }
