@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-01T22:35:16.929942",
-  "total": 4,
+  "updated_at": "2026-06-02T05:20:40.516816",
+  "total": 6,
   "data": [
     {
-      "ip": "41.128.72.142",
+      "ip": "197.164.101.14",
       "port": "1981",
       "protocols": [
         "http",
@@ -20,7 +20,7 @@
       "type": "https"
     },
     {
-      "ip": "217.52.247.83",
+      "ip": "197.164.101.10",
       "port": "1981",
       "protocols": [
         "http",
@@ -32,15 +32,18 @@
       "password": null,
       "country": "Egypt",
       "countryCode": "EG",
-      "isp": "Etisalat Misr",
+      "isp": "LINKdotNET",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "41.196.16.232",
-      "port": "1981",
+      "ip": "197.164.101.10",
+      "port": "1976",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -48,7 +51,24 @@
       "countryCode": "EG",
       "isp": "LINKdotNET",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "197.164.101.14",
+      "port": "1976",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Egypt",
+      "countryCode": "EG",
+      "isp": "LINKdotNET",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "80.75.169.250",
@@ -63,7 +83,24 @@
       "countryCode": "EG",
       "isp": "Etisalat Misr",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "80.75.169.234",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Egypt",
+      "countryCode": "EG",
+      "isp": "Etisalat Misr",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

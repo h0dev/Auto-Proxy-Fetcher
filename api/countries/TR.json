@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-01T22:35:16.928528",
-  "total": 19,
+  "updated_at": "2026-06-02T05:20:40.513786",
+  "total": 17,
   "data": [
     {
       "ip": "78.188.2.119",
@@ -17,14 +17,16 @@
       "countryCode": "TR",
       "isp": "Turk Telekom",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "85.98.92.248",
       "port": "3310",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -39,7 +41,9 @@
       "port": "3310",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -47,10 +51,24 @@
       "countryCode": "TR",
       "isp": "Superonline Iletisim Hizmetleri A.S.",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "95.3.69.222",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Turk Telekom",
+      "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "131.222.251.36",
+      "ip": "131.222.252.72",
       "port": "8080",
       "protocols": [
         "http",
@@ -63,57 +81,6 @@
       "country": "Türkiye",
       "countryCode": "TR",
       "isp": "High Speed For Internet Services L.L.C",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "78.186.40.188",
-      "port": "3310",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Turk Telekom",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "194.124.36.132",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "High Speed Telekomunikasyon ve Hab. Hiz. Ltd. Sti.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "176.88.65.190",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Superonline Iletisim Hizmetleri A.S.",
       "user_type": "business",
       "type": "http"
     },
@@ -135,24 +102,7 @@
       "type": "http"
     },
     {
-      "ip": "131.222.252.106",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "High Speed For Internet Services L.L.C",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "109.224.242.26",
+      "ip": "131.222.252.200",
       "port": "8080",
       "protocols": [
         "http",
@@ -169,144 +119,144 @@
       "type": "https"
     },
     {
-      "ip": "131.222.251.61",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "High Speed For Internet Services L.L.C",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "176.88.166.174",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Superonline Iletisim Hizmetleri A.S.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "149.86.146.215",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Gibirnet Iletisim Hizmetleri Sanayi Ve Ticaret Limited Sirketi",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "131.222.247.59",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "High Speed For Internet Services L.L.C",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "149.34.210.56",
-      "port": "9090",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Gibirnet Iletisim Hizmetleri Sanayi Ve Ticaret Limited Sirketi",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "176.88.65.187",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Superonline Iletisim Hizmetleri A.S.",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "212.156.54.234",
-      "port": "1888",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Turk Telekom",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "31.223.22.26",
+      "ip": "176.236.37.132",
       "port": "1080",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Türkiye",
       "countryCode": "TR",
-      "isp": "TurkNet Iletisim Hizmetleri A.S.",
+      "isp": "Superonline Iletisim Hizmetleri A.S.",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "78.186.116.161",
-      "port": "3310",
+      "ip": "195.62.50.40",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "188.132.150.47",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "139.28.49.43",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "109.224.242.244",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "131.222.252.103",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "139.28.49.226",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "195.62.50.59",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "95.0.100.40",
+      "port": "8085",
       "protocols": [
         "http",
         "https",
@@ -320,6 +270,20 @@
       "isp": "Turk Telekom",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "78.186.167.117",
+      "port": "4145",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Turk Telekom",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

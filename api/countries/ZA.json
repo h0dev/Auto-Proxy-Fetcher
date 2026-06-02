@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-01T22:35:16.925738",
-  "total": 9,
+  "updated_at": "2026-06-02T05:20:40.514262",
+  "total": 12,
   "data": [
     {
       "ip": "4.221.164.109",
       "port": "443",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -24,9 +24,9 @@
       "port": "80",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -37,8 +37,122 @@
       "type": "http"
     },
     {
-      "ip": "41.57.63.1",
+      "ip": "102.36.127.231",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "CLEAR-ACCESS",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "13.246.6.135",
+      "port": "43772",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "102.23.237.121",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "JENNY-INTERNET",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "165.0.100.149",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "RSAWEB Internet Services",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "169.159.128.76",
+      "port": "8865",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Hero-Telecoms",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "196.251.222.242",
       "port": "8104",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "INFOGRO",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "41.21.182.179",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Vodacom-VB",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "41.57.7.190",
+      "port": "6060",
       "protocols": [
         "http",
         "https",
@@ -54,78 +168,9 @@
       "type": "http"
     },
     {
-      "ip": "102.221.120.11",
-      "port": "8080",
+      "ip": "13.246.6.135",
+      "port": "7816",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Level7-AS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "156.155.51.117",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "AFRIHOST-SP",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "102.69.177.108",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "GREENFLASH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "105.22.37.218",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "SEACOM-AS",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "13.245.171.157",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
         "socks4"
       ],
       "username": null,
@@ -137,20 +182,17 @@
       "type": "socks4"
     },
     {
-      "ip": "41.180.70.2",
-      "port": "8080",
+      "ip": "13.246.6.135",
+      "port": "21452",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "X-DSL Networking Solutions",
-      "user_type": "residential",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "http"
     }
   ]
