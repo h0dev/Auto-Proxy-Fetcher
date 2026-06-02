@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-06-02T11:42:34.852492",
-  "total": 1,
+  "updated_at": "2026-06-02T21:52:43.047433",
+  "total": 3,
   "data": [
+    {
+      "ip": "185.43.189.253",
+      "port": "3629",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Azerbaijan",
+      "countryCode": "AZ",
+      "isp": "Caspian Telecom LLC",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "109.127.9.99",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Azerbaijan",
+      "countryCode": "AZ",
+      "isp": "Alfanet LLC",
+      "user_type": "business",
+      "type": "https"
+    },
     {
       "ip": "5.134.48.59",
       "port": "8080",
@@ -17,7 +51,7 @@
       "countryCode": "AZ",
       "isp": "Uninet LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

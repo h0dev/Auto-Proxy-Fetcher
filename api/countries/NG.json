@@ -1,10 +1,24 @@
 {
-  "updated_at": "2026-06-02T17:40:43.994586",
-  "total": 1,
+  "updated_at": "2026-06-02T21:52:43.046569",
+  "total": 3,
   "data": [
     {
-      "ip": "154.113.201.241",
-      "port": "5678",
+      "ip": "154.113.209.164",
+      "port": "8082",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "isp": "MAINONE",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "102.88.13.62",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +29,26 @@
       "password": null,
       "country": "Nigeria",
       "countryCode": "NG",
-      "isp": "MAINONE",
+      "isp": "MTN NIGERIA Communication limited",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "102.69.146.59",
+      "port": "7080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "isp": "IP-Express-Ltd-AS",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
