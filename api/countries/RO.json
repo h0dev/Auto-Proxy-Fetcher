@@ -1,27 +1,44 @@
 {
-  "updated_at": "2026-06-03T00:03:48.194160",
-  "total": 2,
+  "updated_at": "2026-06-03T05:39:41.580983",
+  "total": 3,
   "data": [
     {
-      "ip": "45.142.140.63",
-      "port": "1080",
+      "ip": "81.12.157.98",
+      "port": "5678",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Romania",
       "countryCode": "RO",
-      "isp": "Materialism s.r.l.",
-      "user_type": "business",
-      "type": "socks5"
+      "isp": "Vodafone Romania S.A.",
+      "user_type": "cellular",
+      "type": "socks4"
     },
     {
-      "ip": "185.141.26.131",
-      "port": "3128",
+      "ip": "81.12.169.254",
+      "port": "4153",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Vodafone Romania S.A.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "109.166.207.162",
+      "port": "3629",
       "protocols": [
         "http",
         "https",
@@ -32,9 +49,9 @@
       "password": null,
       "country": "Romania",
       "countryCode": "RO",
-      "isp": "IP Solus Inc",
+      "isp": "Orange Romania S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
