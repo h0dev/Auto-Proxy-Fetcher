@@ -1,48 +1,23 @@
 {
-  "updated_at": "2026-06-03T17:56:45.861526",
-  "total": 3,
+  "updated_at": "2026-06-03T22:18:45.519532",
+  "total": 1,
   "data": [
     {
-      "ip": "196.65.223.31",
-      "port": "1234",
+      "ip": "197.230.117.57",
+      "port": "1080",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Morocco",
       "countryCode": "MA",
-      "isp": "MT-MPLS",
+      "isp": "ASMedi",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "196.75.163.183",
-      "port": "1111",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Morocco",
-      "countryCode": "MA",
-      "isp": "MT-MPLS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "196.65.223.31",
-      "port": "1111",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Morocco",
-      "countryCode": "MA",
-      "isp": "MT-MPLS",
-      "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
