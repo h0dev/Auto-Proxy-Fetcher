@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-06-02T21:52:43.061082",
-  "total": 1,
+  "updated_at": "2026-06-03T00:03:48.189051",
+  "total": 2,
   "data": [
     {
-      "ip": "93.184.4.37",
-      "port": "1080",
+      "ip": "188.161.158.97",
+      "port": "8080",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Palestine",
       "countryCode": "PS",
-      "isp": "BCI Telecommunication & Advanced Technology Company",
+      "isp": "Palestine Telecommunications Company (PALTEL)",
       "user_type": "residential",
-      "type": "socks5"
+      "type": "http"
+    },
+    {
+      "ip": "84.242.58.9",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Palestine",
+      "countryCode": "PS",
+      "isp": "Mada Al-Arab General Services Company",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

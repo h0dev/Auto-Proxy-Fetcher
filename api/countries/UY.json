@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-06-02T21:52:43.060851",
+  "updated_at": "2026-06-03T00:03:48.193184",
   "total": 1,
   "data": [
     {
       "ip": "186.52.137.13",
       "port": "8080",
       "protocols": [
-        "http"
+        "http",
+        "socks5",
+        "socks4",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "UY",
       "isp": "Administracion Nacional de Telecomunicaciones",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

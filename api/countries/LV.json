@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-02T21:52:42.985994",
-  "total": 2,
+  "updated_at": "2026-06-03T00:03:48.188482",
+  "total": 5,
   "data": [
     {
       "ip": "194.58.34.63",
@@ -17,16 +17,33 @@
       "countryCode": "LV",
       "isp": "Baxet Group Inc.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "159.148.146.65",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "SIA BITE Latvija",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "169.40.6.114",
       "port": "3128",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -34,7 +51,41 @@
       "countryCode": "LV",
       "isp": "SIA VEESP",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "155.212.226.251",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "RETN Limited",
+      "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "169.40.6.114",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "SIA VEESP",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
