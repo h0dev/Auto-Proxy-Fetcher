@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-03T12:06:58.515891",
-  "total": 1,
+  "updated_at": "2026-06-03T17:56:45.865802",
+  "total": 3,
   "data": [
     {
-      "ip": "181.174.115.9",
-      "port": "1994",
+      "ip": "190.14.5.164",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Guatemala",
+      "countryCode": "GT",
+      "isp": "Navega.com S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "190.122.185.170",
+      "port": "999",
       "protocols": [
         "http",
         "https",
@@ -15,7 +32,24 @@
       "password": null,
       "country": "Guatemala",
       "countryCode": "GT",
-      "isp": "COMCEL GUATEMALA S.A.",
+      "isp": "CABLECOLOR S.A.",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "190.61.101.72",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Guatemala",
+      "countryCode": "GT",
+      "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
       "type": "http"
     }

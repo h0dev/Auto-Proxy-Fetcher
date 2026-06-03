@@ -1,24 +1,26 @@
 {
-  "updated_at": "2026-06-03T12:06:58.512390",
-  "total": 3,
+  "updated_at": "2026-06-03T17:56:45.864630",
+  "total": 7,
   "data": [
     {
-      "ip": "95.214.123.139",
+      "ip": "176.241.20.70",
       "port": "8080",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Hungary",
       "countryCode": "HU",
-      "isp": "Deltakon Kft.",
+      "isp": "DIGI Tavkozlesi es Szolgaltato Kft.",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "89.43.135.73",
+      "ip": "89.43.135.9",
       "port": "8080",
       "protocols": [
         "http",
@@ -35,11 +37,64 @@
       "type": "http"
     },
     {
-      "ip": "95.214.123.147",
+      "ip": "89.134.125.5",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "One Hungary Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "89.43.133.237",
       "port": "8080",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "89.43.133.101",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "95.214.123.76",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -48,6 +103,20 @@
       "isp": "Deltakon Kft.",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "91.82.115.159",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "Invitech ICT Services Kft.",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
