@@ -1,24 +1,27 @@
 {
-  "updated_at": "2026-06-03T22:18:45.512275",
-  "total": 2,
+  "updated_at": "2026-06-04T05:26:07.487356",
+  "total": 5,
   "data": [
     {
-      "ip": "194.87.26.88",
-      "port": "1080",
+      "ip": "90.182.147.170",
+      "port": "4145",
       "protocols": [
-        "socks5"
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "Timeweb, LLP",
+      "isp": "O2 Czech Republic, a.s.",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "185.82.238.42",
-      "port": "8888",
+      "ip": "84.244.119.36",
+      "port": "23500",
       "protocols": [
         "http",
         "https",
@@ -29,9 +32,60 @@
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "O2 Czech Republic, a.s.",
+      "isp": "RADIOKOMUNIKACE a.s.",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "194.58.57.116",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Timeweb, LLP",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "77.240.97.77",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Druzstvo EUROSIGNAL",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "85.163.43.208",
+      "port": "48293",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "CETIN a.s.",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

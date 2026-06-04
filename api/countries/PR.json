@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-06-03T22:18:45.519218",
-  "total": 1,
+  "updated_at": "2026-06-04T05:26:07.484593",
+  "total": 3,
   "data": [
+    {
+      "ip": "192.203.0.166",
+      "port": "999",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Puerto Rico",
+      "countryCode": "PR",
+      "isp": "BOOM NET",
+      "user_type": "business",
+      "type": "http"
+    },
     {
       "ip": "192.203.0.250",
       "port": "999",
@@ -17,7 +34,24 @@
       "countryCode": "PR",
       "isp": "BOOM NET",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "172.99.187.33",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Puerto Rico",
+      "countryCode": "PR",
+      "isp": "Natural G.C. Inc.",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

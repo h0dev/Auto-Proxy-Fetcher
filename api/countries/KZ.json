@@ -1,41 +1,7 @@
 {
-  "updated_at": "2026-06-03T22:18:45.509684",
-  "total": 5,
+  "updated_at": "2026-06-04T05:26:07.482876",
+  "total": 4,
   "data": [
-    {
-      "ip": "195.133.8.226",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "JSC Transtelecom",
-      "user_type": "residential",
-      "type": "socks5"
-    },
-    {
-      "ip": "94.131.95.92",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "Cloud Services Kazakhstan LLP",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
     {
       "ip": "88.204.142.108",
       "port": "1080",
@@ -55,12 +21,12 @@
     },
     {
       "ip": "89.169.37.254",
-      "port": "8080",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -68,24 +34,41 @@
       "countryCode": "KZ",
       "isp": "Nls Astana Llp",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "91.244.106.26",
-      "port": "1090",
+      "ip": "109.248.236.150",
+      "port": "60606",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Kar-Tel LLC",
+      "isp": "Uplink LLC",
       "user_type": "business",
       "type": "socks4"
+    },
+    {
+      "ip": "195.133.8.226",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "socks5"
     }
   ]
 }

@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-06-03T22:18:45.518227",
-  "total": 2,
+  "updated_at": "2026-06-04T05:26:07.477007",
+  "total": 5,
   "data": [
     {
-      "ip": "102.209.76.109",
-      "port": "8080",
+      "ip": "102.0.14.42",
+      "port": "1080",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "SAFHOME-FIBRE-LIMITED",
+      "isp": "CKL1-ASN",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
     },
     {
-      "ip": "154.79.248.156",
-      "port": "5678",
+      "ip": "102.0.30.88",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -34,7 +34,58 @@
       "countryCode": "KE",
       "isp": "CKL1-ASN",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "102.208.166.30",
+      "port": "8082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Alwen-Networks",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "102.216.85.13",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "SURF-NET-AS",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "41.209.14.123",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "KE-NET2000",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
