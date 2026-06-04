@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-04T11:01:08.061894",
-  "total": 2,
+  "updated_at": "2026-06-04T23:22:57.959366",
+  "total": 1,
   "data": [
     {
       "ip": "109.135.16.145",
       "port": "8789",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,24 +17,7 @@
       "countryCode": "BE",
       "isp": "Proximus NV",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "109.135.16.145",
-      "port": "49879",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Belgium",
-      "countryCode": "BE",
-      "isp": "Proximus NV",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }
