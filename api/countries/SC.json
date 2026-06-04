@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04T05:26:07.480899",
+  "updated_at": "2026-06-04T11:01:08.023254",
   "total": 3,
   "data": [
     {
@@ -7,9 +7,9 @@
       "port": "30001",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -23,10 +23,10 @@
       "ip": "154.201.75.64",
       "port": "1011",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -37,18 +37,21 @@
       "type": "socks5"
     },
     {
-      "ip": "154.220.66.7",
-      "port": "40164",
+      "ip": "45.198.20.148",
+      "port": "1080",
       "protocols": [
-        "http"
+        "socks4",
+        "http",
+        "socks5",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Seychelles",
       "countryCode": "SC",
-      "isp": "LUOGELANG FRANCE LIMITED",
+      "isp": "PT Ikhlas Cipta Teknologi",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     }
   ]
 }

@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-06-04T05:26:07.478039",
-  "total": 1,
+  "updated_at": "2026-06-04T11:01:08.058587",
+  "total": 2,
   "data": [
     {
       "ip": "83.147.244.150",
       "port": "10808",
       "protocols": [
-        "socks5",
         "socks4",
-        "http"
+        "http",
+        "socks5",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,6 +18,23 @@
       "isp": "Jsc timeweb",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "62.103.186.66",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Greece",
+      "countryCode": "GR",
+      "isp": "OTEnet S.A.",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
