@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-05T10:58:55.694261",
-  "total": 8,
+  "updated_at": "2026-06-05T16:12:31.852051",
+  "total": 7,
   "data": [
     {
       "ip": "83.56.15.57",
       "port": "5678",
       "protocols": [
         "socks4",
+        "socks5",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,8 +20,25 @@
       "type": "socks4"
     },
     {
-      "ip": "65.20.105.241",
-      "port": "10001",
+      "ip": "83.97.79.114",
+      "port": "8443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "BlueVPS OU",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "168.245.197.146",
+      "port": "80",
       "protocols": [
         "socks5",
         "socks4",
@@ -32,47 +49,13 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "The Constant Company, LLC",
+      "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
       "user_type": "business",
       "type": "socks5"
     },
     {
-      "ip": "51.49.153.183",
-      "port": "59314",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "2.139.38.192",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Telefonica De Espana S.a.u.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
       "ip": "51.92.173.133",
-      "port": "10602",
+      "port": "8069",
       "protocols": [
         "http",
         "https",
@@ -86,23 +69,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "51.92.173.133",
-      "port": "18084",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
     },
     {
       "ip": "51.92.173.133",
@@ -119,21 +85,41 @@
       "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "51.49.153.183",
-      "port": "43385",
+      "ip": "79.117.37.49",
+      "port": "9050",
       "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
+      "isp": "Digi Spain Telecom S.A",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "79.117.37.49",
+      "port": "8118",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Digi Spain Telecom S.A",
+      "user_type": "residential",
+      "type": "http"
     }
   ]
 }
