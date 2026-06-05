@@ -1,13 +1,28 @@
 {
-  "updated_at": "2026-06-05T16:12:31.855099",
-  "total": 1,
+  "updated_at": "2026-06-05T20:58:55.013109",
+  "total": 2,
   "data": [
     {
       "ip": "59.127.212.110",
       "port": "4431",
       "protocols": [
         "https",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "Data Communication Business Group",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "220.132.41.160",
+      "port": "1088",
+      "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -17,7 +32,7 @@
       "countryCode": "TW",
       "isp": "Data Communication Business Group",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
