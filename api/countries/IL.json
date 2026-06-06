@@ -1,20 +1,38 @@
 {
-  "updated_at": "2026-06-06T14:49:49.017432",
-  "total": 1,
+  "updated_at": "2026-06-06T17:07:22.123918",
+  "total": 2,
   "data": [
     {
-      "ip": "185.241.7.253",
-      "port": "3128",
+      "ip": "51.17.154.141",
+      "port": "58755",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Israel",
       "countryCode": "IL",
-      "isp": "O.m.c. Computers & Communications Ltd",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "51.17.154.141",
+      "port": "69",
+      "protocols": [
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Israel",
+      "countryCode": "IL",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }

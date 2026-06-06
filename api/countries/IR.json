@@ -1,105 +1,57 @@
 {
-  "updated_at": "2026-06-06T14:49:48.983448",
-  "total": 6,
+  "updated_at": "2026-06-06T17:07:22.118433",
+  "total": 3,
   "data": [
     {
-      "ip": "62.60.152.77",
-      "port": "1080",
+      "ip": "151.232.18.66",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Iran Telecommunication Company PJS",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "5.202.120.123",
+      "port": "3128",
       "protocols": [
         "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "NetCrafters OU",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "178.252.189.82",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "GOSTARESH-E-ERTEBATAT-E MABNA COMPANY (Private Joint Stock)",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "79.127.13.189",
-      "port": "18080",
-      "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "Asiatech Data Transmission company",
+      "isp": "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "185.100.47.106",
-      "port": "443",
+      "ip": "188.121.146.190",
+      "port": "8080",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "Fara Ertebat Mabna PJS",
+      "isp": "Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "185.120.201.27",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "Pishgaman Toseeh Fanavari Etelaat Va Ertebatat Jonoub (Joint Stock Company)",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "93.126.31.40",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "Azarakhsh Ava-e Ahvaz Co",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
