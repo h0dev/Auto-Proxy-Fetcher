@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-06-06T04:51:13.077104",
+  "updated_at": "2026-06-06T09:36:37.788741",
   "total": 30,
   "data": [
+    {
+      "ip": "185.178.185.100",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Abeille Sarl",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "195.25.20.155",
       "port": "3128",
@@ -20,28 +37,11 @@
       "type": "http"
     },
     {
-      "ip": "82.65.237.58",
+      "ip": "144.91.82.211",
       "port": "9050",
       "protocols": [
-        "socks4",
         "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Free SAS",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "158.220.123.145",
-      "port": "9055",
-      "protocols": [
         "socks4",
-        "socks5",
         "http",
         "https"
       ],
@@ -54,7 +54,41 @@
       "type": "socks4"
     },
     {
-      "ip": "173.212.246.157",
+      "ip": "91.121.63.51",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "37.187.109.70",
+      "port": "10111",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "185.41.152.110",
       "port": "3128",
       "protocols": [
         "http",
@@ -66,93 +100,8 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Contabo GmbH",
+      "isp": "Techcrea Solutions SAS",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "37.187.109.70",
-      "port": "10111",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "OVH SAS",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "135.125.154.99",
-      "port": "8899",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "OVH SAS",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "15.237.108.20",
-      "port": "16333",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "37.187.92.9",
-      "port": "1031",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "OVH SAS",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "13.38.217.179",
-      "port": "16930",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
       "type": "http"
     },
     {
@@ -170,11 +119,128 @@
       "countryCode": "FR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.38.217.179",
+      "port": "31440",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "13.38.217.179",
+      "port": "9002",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "13.37.240.198",
+      "port": "38353",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.38.217.179",
+      "port": "11453",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.38.217.179",
+      "port": "55729",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "13.38.27.183",
+      "port": "52431",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "https"
     },
     {
       "ip": "13.38.27.183",
-      "port": "17389",
+      "port": "8081",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "13.38.27.183",
+      "port": "42842",
       "protocols": [
         "http",
         "https",
@@ -190,8 +256,8 @@
       "type": "https"
     },
     {
-      "ip": "15.237.108.20",
-      "port": "1743",
+      "ip": "13.38.27.183",
+      "port": "8118",
       "protocols": [
         "http",
         "https",
@@ -204,42 +270,11 @@
       "countryCode": "FR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "15.237.108.20",
-      "port": "34644",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "15.237.108.20",
-      "port": "47994",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "15.237.108.20",
-      "port": "27265",
+      "ip": "13.38.27.183",
+      "port": "17353",
       "protocols": [
         "http",
         "https"
@@ -253,8 +288,8 @@
       "type": "https"
     },
     {
-      "ip": "15.237.108.20",
-      "port": "6621",
+      "ip": "135.125.154.108",
+      "port": "8899",
       "protocols": [
         "http",
         "https",
@@ -265,13 +300,13 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
+      "isp": "OVH SAS",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
     },
     {
-      "ip": "35.180.75.159",
-      "port": "19576",
+      "ip": "176.31.197.145",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -282,77 +317,92 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "35.180.75.159",
-      "port": "16412",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "35.180.75.159",
-      "port": "22235",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "51.44.97.6",
-      "port": "17994",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "51.44.97.6",
-      "port": "3129",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
+      "isp": "OVH SAS",
       "user_type": "hosting",
       "type": "https"
+    },
+    {
+      "ip": "176.31.197.192",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "176.31.197.55",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "217.182.195.221",
+      "port": "30003",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "37.187.92.9",
+      "port": "1028",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "51.44.97.6",
+      "port": "22785",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "51.44.97.6",
@@ -369,11 +419,11 @@
       "countryCode": "FR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "52.47.115.41",
-      "port": "30877",
+      "ip": "51.44.97.6",
+      "port": "3129",
       "protocols": [
         "http",
         "https",
@@ -386,11 +436,11 @@
       "countryCode": "FR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "52.47.115.41",
-      "port": "8800",
+      "ip": "51.44.97.6",
+      "port": "47346",
       "protocols": [
         "http",
         "https"
@@ -401,11 +451,44 @@
       "countryCode": "FR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "82.64.127.97",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Free SAS",
+      "user_type": "business",
       "type": "https"
     },
     {
-      "ip": "13.38.27.183",
-      "port": "49798",
+      "ip": "90.8.144.108",
+      "port": "3317",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Orange",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "13.38.217.179",
+      "port": "24584",
       "protocols": [
         "socks4"
       ],
@@ -416,79 +499,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "15.237.108.20",
-      "port": "40857",
-      "protocols": [
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "35.180.75.159",
-      "port": "50292",
-      "protocols": [
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "52.47.115.41",
-      "port": "24331",
-      "protocols": [
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "15.237.108.20",
-      "port": "57677",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "15.237.108.20",
-      "port": "3128",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
     }
   ]
 }
