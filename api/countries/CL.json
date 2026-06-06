@@ -1,26 +1,43 @@
 {
-  "updated_at": "2026-06-06T11:53:41.489915",
+  "updated_at": "2026-06-06T14:49:49.014283",
   "total": 4,
   "data": [
     {
-      "ip": "190.13.147.241",
-      "port": "5678",
+      "ip": "45.225.206.5",
+      "port": "999",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Chile",
       "countryCode": "CL",
-      "isp": "Telefonica del Sur S.A.",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "NETDELSUR TELECOMUNICACIONES SPA",
+      "user_type": "residential",
+      "type": "http"
     },
     {
-      "ip": "38.7.195.40",
+      "ip": "38.225.117.1",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "VALLENET SPA",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "38.7.206.186",
       "port": "999",
       "protocols": [
         "http",
@@ -34,41 +51,24 @@
       "countryCode": "CL",
       "isp": "GRUPO ZGH SPA",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "45.230.39.123",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "SERVICIOS ZONALES DE INTERNET LIMITADA",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "45.230.39.103",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "SERVICIOS ZONALES DE INTERNET LIMITADA",
-      "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "45.175.137.253",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "INGENIERIA EN INFORMATICA MADENET SPA",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

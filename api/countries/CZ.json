@@ -1,38 +1,70 @@
 {
-  "updated_at": "2026-06-06T11:53:41.490778",
-  "total": 2,
+  "updated_at": "2026-06-06T14:49:49.013491",
+  "total": 4,
   "data": [
     {
-      "ip": "194.1.188.8",
-      "port": "60606",
+      "ip": "77.240.97.77",
+      "port": "8080",
       "protocols": [
-        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Druzstvo EUROSIGNAL",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.139.91.62",
+      "port": "8080",
+      "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "IT PROFI s.r.o.",
+      "isp": "United Networks SE",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "217.197.151.182",
       "port": "5678",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
       "isp": "O2 Czech Republic, a.s.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "78.111.112.118",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "ISP Alliance a.s.",
       "user_type": "business",
       "type": "socks4"
     }
