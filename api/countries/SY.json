@@ -1,9 +1,43 @@
 {
-  "updated_at": "2026-06-05T23:16:37.568634",
-  "total": 1,
+  "updated_at": "2026-06-06T04:51:13.114524",
+  "total": 3,
   "data": [
     {
-      "ip": "185.225.41.157",
+      "ip": "131.222.210.172",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Syria",
+      "countryCode": "SY",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "131.222.210.36",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Syria",
+      "countryCode": "SY",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "78.155.64.222",
       "port": "8080",
       "protocols": [
         "http",
@@ -17,7 +51,7 @@
       "countryCode": "SY",
       "isp": "Syrian Telecommunication Private Closed Joint Stock Company",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

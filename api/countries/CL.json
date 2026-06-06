@@ -1,20 +1,22 @@
 {
-  "updated_at": "2026-06-05T23:16:37.559427",
-  "total": 10,
+  "updated_at": "2026-06-06T04:51:13.110376",
+  "total": 5,
   "data": [
     {
-      "ip": "45.181.123.185",
+      "ip": "170.233.192.225",
       "port": "999",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Chile",
       "countryCode": "CL",
-      "isp": "REDCENTRAL TELECOMUNICACIONES LTDA",
-      "user_type": "residential",
+      "isp": "MI INTERNET SPA",
+      "user_type": "business",
       "type": "http"
     },
     {
@@ -30,23 +32,23 @@
       "countryCode": "CL",
       "isp": "REDCENTRAL TELECOMUNICACIONES LTDA",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "45.225.207.248",
+      "ip": "38.7.223.128",
       "port": "999",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Chile",
       "countryCode": "CL",
-      "isp": "NETDELSUR TELECOMUNICACIONES SPA",
-      "user_type": "residential",
+      "isp": "INVERSIONES TECNOLOGICAS UNO SPA",
+      "user_type": "business",
       "type": "http"
     },
     {
@@ -67,40 +69,6 @@
       "type": "http"
     },
     {
-      "ip": "170.233.192.225",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "MI INTERNET SPA",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "186.148.47.254",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "TELEFONICA CHILE S.A.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
       "ip": "38.7.206.186",
       "port": "999",
       "protocols": [
@@ -116,51 +84,6 @@
       "isp": "GRUPO ZGH SPA",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "45.181.120.148",
-      "port": "999",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "REDCENTRAL TELECOMUNICACIONES LTDA",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "45.4.0.12",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "TLINK SPA",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "38.250.126.225",
-      "port": "999",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "Cogent Communications, LLC",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }
