@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-06T17:07:22.090221",
-  "total": 3,
+  "updated_at": "2026-06-06T20:35:14.384763",
+  "total": 4,
   "data": [
     {
-      "ip": "196.75.1.79",
+      "ip": "196.75.253.223",
       "port": "1081",
       "protocols": [
         "http",
@@ -17,16 +17,48 @@
       "countryCode": "MA",
       "isp": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
       "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "196.75.169.223",
+      "port": "1718",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Morocco",
+      "countryCode": "MA",
+      "isp": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
+      "user_type": "residential",
       "type": "https"
+    },
+    {
+      "ip": "196.75.169.223",
+      "port": "1081",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Morocco",
+      "countryCode": "MA",
+      "isp": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
+      "user_type": "residential",
+      "type": "http"
     },
     {
       "ip": "196.75.163.223",
-      "port": "1081",
+      "port": "1718",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -34,24 +66,7 @@
       "countryCode": "MA",
       "isp": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
       "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "196.65.222.95",
-      "port": "1234",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Morocco",
-      "countryCode": "MA",
-      "isp": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
-      "user_type": "residential",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
