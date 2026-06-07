@@ -1,13 +1,32 @@
 {
-  "updated_at": "2026-06-07T05:16:24.338645",
-  "total": 1,
+  "updated_at": "2026-06-07T10:17:17.605892",
+  "total": 2,
   "data": [
     {
-      "ip": "154.113.209.164",
-      "port": "8082",
+      "ip": "105.235.201.234",
+      "port": "32639",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "isp": "Information Connectivity Solutions Limited",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "154.113.179.218",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -15,7 +34,7 @@
       "countryCode": "NG",
       "isp": "Main one Cable Company Nigeria Limited",
       "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }

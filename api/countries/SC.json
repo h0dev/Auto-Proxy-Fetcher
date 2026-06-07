@@ -1,14 +1,32 @@
 {
-  "updated_at": "2026-06-07T05:16:24.311060",
-  "total": 7,
+  "updated_at": "2026-06-07T10:17:17.594510",
+  "total": 6,
   "data": [
     {
-      "ip": "45.158.187.78",
+      "ip": "45.158.187.84",
       "port": "1081",
       "protocols": [
         "socks5",
         "socks4",
-        "http"
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "Gtelcom LLC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "45.158.187.78",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -37,11 +55,12 @@
     },
     {
       "ip": "45.158.187.84",
-      "port": "1081",
+      "port": "1080",
       "protocols": [
         "socks5",
         "socks4",
-        "http"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -53,11 +72,12 @@
     },
     {
       "ip": "45.158.187.78",
-      "port": "1080",
+      "port": "1081",
       "protocols": [
         "socks5",
         "socks4",
-        "http"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -68,55 +88,18 @@
       "type": "socks4"
     },
     {
-      "ip": "154.202.118.104",
-      "port": "3128",
+      "ip": "154.220.66.41",
+      "port": "40199",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
       "country": "Seychelles",
       "countryCode": "SC",
-      "isp": "AROSSCLOUD INC.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "197.234.13.49",
-      "port": "4145",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Seychelles",
-      "countryCode": "SC",
-      "isp": "Intelvision Ltd",
+      "isp": "LUOGELANG (FRANCE) LIMITED",
       "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "197.234.13.15",
-      "port": "4145",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Seychelles",
-      "countryCode": "SC",
-      "isp": "Intelvision Ltd",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
