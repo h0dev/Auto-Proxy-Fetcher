@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-06-07T14:59:08.474273",
+  "updated_at": "2026-06-07T17:17:13.257893",
   "total": 7,
   "data": [
+    {
+      "ip": "46.62.214.3",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
     {
       "ip": "193.221.203.192",
       "port": "1080",
@@ -21,11 +38,11 @@
     },
     {
       "ip": "185.230.190.195",
-      "port": "3128",
+      "port": "1080",
       "protocols": [
-        "http",
-        "socks5",
         "socks4",
+        "socks5",
+        "http",
         "https"
       ],
       "username": null,
@@ -34,7 +51,7 @@
       "countryCode": "FI",
       "isp": "Livi Hosting Ltd",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks5"
     },
     {
       "ip": "194.76.172.30",
@@ -54,8 +71,25 @@
       "type": "socks5"
     },
     {
+      "ip": "144.31.132.182",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Chsl One Ltd",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
       "ip": "144.31.226.71",
-      "port": "5555",
+      "port": "1081",
       "protocols": [
         "socks4",
         "http",
@@ -71,44 +105,13 @@
       "type": "socks4"
     },
     {
-      "ip": "46.62.214.3",
-      "port": "1080",
+      "ip": "185.233.82.50",
+      "port": "8080",
       "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "46.8.233.226",
-      "port": "1080",
-      "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Cgi Global Limited",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "45.9.72.34",
-      "port": "3128",
-      "protocols": [
-        "http"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
