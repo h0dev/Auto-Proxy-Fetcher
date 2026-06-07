@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-07T10:17:17.601903",
-  "total": 1,
+  "updated_at": "2026-06-07T14:59:08.484533",
+  "total": 2,
   "data": [
     {
-      "ip": "85.75.179.66",
-      "port": "8888",
+      "ip": "94.241.175.40",
+      "port": "10808",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Greece",
+      "countryCode": "GR",
+      "isp": "Timeweb, LLP",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "62.103.186.66",
+      "port": "4153",
       "protocols": [
         "http",
         "https",
@@ -17,7 +34,7 @@
       "countryCode": "GR",
       "isp": "OTEnet S.A.",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
