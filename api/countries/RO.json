@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-07T20:35:43.799627",
-  "total": 5,
+  "updated_at": "2026-06-07T23:05:08.882140",
+  "total": 3,
   "data": [
     {
       "ip": "185.141.26.131",
@@ -17,7 +17,24 @@
       "countryCode": "RO",
       "isp": "IP Solus Inc",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "45.142.140.63",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Materialism s.r.l.",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "46.214.153.223",
@@ -35,57 +52,6 @@
       "isp": "Nextgen Communications Srl",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "81.18.90.43",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Romania",
-      "countryCode": "RO",
-      "isp": "Digi Romania S.A.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "81.12.169.254",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Romania",
-      "countryCode": "RO",
-      "isp": "Vodafone Romania S.A.",
-      "user_type": "cellular",
-      "type": "socks4"
-    },
-    {
-      "ip": "92.86.207.198",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Romania",
-      "countryCode": "RO",
-      "isp": "Orange Romania S.A.",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }

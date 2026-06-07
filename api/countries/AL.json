@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-07T20:35:43.828795",
-  "total": 3,
+  "updated_at": "2026-06-07T23:05:08.913462",
+  "total": 4,
   "data": [
     {
       "ip": "46.183.122.49",
       "port": "53551",
       "protocols": [
         "socks4",
+        "socks5",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -37,8 +37,8 @@
       "type": "https"
     },
     {
-      "ip": "80.78.73.120",
-      "port": "65530",
+      "ip": "77.242.21.186",
+      "port": "8081",
       "protocols": [
         "http",
         "https",
@@ -49,9 +49,26 @@
       "password": null,
       "country": "Albania",
       "countryCode": "AL",
-      "isp": "Vodafone Albania Sh.A.",
-      "user_type": "cellular",
-      "type": "socks4"
+      "isp": "Abissnet sh.a.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "79.106.36.85",
+      "port": "8989",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "One Albania Sh.a.",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
