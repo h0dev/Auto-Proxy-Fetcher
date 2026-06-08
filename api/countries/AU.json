@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-07T23:05:08.887454",
-  "total": 11,
+  "updated_at": "2026-06-08T05:20:34.070655",
+  "total": 10,
   "data": [
     {
       "ip": "170.64.170.204",
@@ -20,25 +20,25 @@
       "type": "socks5"
     },
     {
-      "ip": "103.106.231.75",
-      "port": "1080",
+      "ip": "159.196.182.72",
+      "port": "8080",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Australia",
       "countryCode": "AU",
-      "isp": "BrainStorm Network, Inc",
-      "user_type": "business",
-      "type": "socks5"
+      "isp": "Aussie Broadband",
+      "user_type": "residential",
+      "type": "https"
     },
     {
-      "ip": "16.26.154.68",
-      "port": "41658",
+      "ip": "16.26.143.154",
+      "port": "6524",
       "protocols": [
         "http",
         "https",
@@ -54,8 +54,8 @@
       "type": "socks4"
     },
     {
-      "ip": "16.26.143.154",
-      "port": "6524",
+      "ip": "16.26.154.68",
+      "port": "41658",
       "protocols": [
         "http",
         "https",
@@ -120,23 +120,6 @@
       "type": "socks5"
     },
     {
-      "ip": "180.181.215.232",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Australia",
-      "countryCode": "AU",
-      "isp": "Aussie Broadband",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
       "ip": "54.253.167.61",
       "port": "13406",
       "protocols": [
@@ -155,12 +138,10 @@
     },
     {
       "ip": "54.79.125.20",
-      "port": "4443",
+      "port": "25920",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -172,10 +153,12 @@
     },
     {
       "ip": "54.79.125.20",
-      "port": "25920",
+      "port": "4443",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
