@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-08T21:20:41.885558",
+  "updated_at": "2026-06-08T23:38:53.199768",
   "total": 2,
   "data": [
     {
-      "ip": "178.217.168.164",
-      "port": "55443",
+      "ip": "80.72.180.122",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kyrgyzstan",
+      "countryCode": "KG",
+      "isp": "OJSC Kyrgyztelecom",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "212.112.121.130",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,25 +32,9 @@
       "password": null,
       "country": "Kyrgyzstan",
       "countryCode": "KG",
-      "isp": "Kyrgyz research and education network association",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "212.112.121.130",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kyrgyzstan",
-      "countryCode": "KG",
       "isp": "AKNET Ltd.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }

@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-08T16:57:59.868533",
+  "updated_at": "2026-06-08T23:38:53.203796",
   "total": 2,
   "data": [
     {
-      "ip": "46.36.65.117",
-      "port": "1080",
+      "ip": "86.100.63.246",
+      "port": "4145",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Lithuania",
+      "countryCode": "LT",
+      "isp": "UAB Balticum TV",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "80.208.225.245",
+      "port": "7001",
       "protocols": [
         "http",
         "https",
@@ -15,23 +32,9 @@
       "password": null,
       "country": "Lithuania",
       "countryCode": "LT",
-      "isp": "UAB Besmegeniai",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "80.208.225.245",
-      "port": "7001",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Lithuania",
-      "countryCode": "LT",
       "isp": "UAB Interneto vizija",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
