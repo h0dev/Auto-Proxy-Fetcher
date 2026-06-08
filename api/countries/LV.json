@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-08T12:01:23.604540",
-  "total": 1,
+  "updated_at": "2026-06-08T16:57:59.866799",
+  "total": 2,
   "data": [
     {
       "ip": "169.40.6.114",
       "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "SIA VEESP",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "31.170.19.4",
+      "port": "4153",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Latvia",
       "countryCode": "LV",
-      "isp": "SIA VEESP",
+      "isp": "Sia Netvision",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }

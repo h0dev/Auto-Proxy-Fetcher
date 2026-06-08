@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-08T12:01:23.600217",
-  "total": 7,
+  "updated_at": "2026-06-08T16:57:59.854162",
+  "total": 10,
   "data": [
     {
       "ip": "193.221.203.192",
@@ -20,12 +20,29 @@
       "type": "socks5"
     },
     {
-      "ip": "2.26.87.216",
+      "ip": "185.254.158.209",
+      "port": "41423",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Anton Levin",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "144.31.156.154",
       "port": "1080",
       "protocols": [
         "socks5",
-        "http",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
@@ -34,22 +51,22 @@
       "countryCode": "FI",
       "isp": "Play2go International Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "46.8.233.226",
-      "port": "3128",
+      "ip": "2.26.87.216",
+      "port": "1080",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Cgi Global Limited",
+      "isp": "Play2go International Limited",
       "user_type": "business",
       "type": "http"
     },
@@ -68,27 +85,27 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "194.76.172.30",
-      "port": "1081",
+      "ip": "185.230.190.195",
+      "port": "3128",
       "protocols": [
-        "socks5",
         "http",
-        "https",
-        "socks4"
+        "socks5",
+        "socks4",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Anton Levin",
-      "user_type": "business",
-      "type": "socks5"
+      "isp": "Livi Hosting Ltd",
+      "user_type": "hosting",
+      "type": "https"
     },
     {
-      "ip": "185.88.101.232",
+      "ip": "185.230.190.195",
       "port": "1080",
       "protocols": [
         "socks4",
@@ -100,12 +117,29 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Baykov Ilya Sergeevich",
-      "user_type": "business",
+      "isp": "Livi Hosting Ltd",
+      "user_type": "hosting",
       "type": "socks4"
     },
     {
-      "ip": "194.180.189.246",
+      "ip": "193.29.224.20",
+      "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.38.198.127",
       "port": "3128",
       "protocols": [
         "http",
@@ -117,9 +151,26 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Hostkey B.v.",
-      "user_type": "business",
+      "isp": "Cloud Software - FZCO",
+      "user_type": "hosting",
       "type": "https"
+    },
+    {
+      "ip": "217.177.33.53",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Anton Levin",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
