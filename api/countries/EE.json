@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-06-08T16:57:59.805829",
-  "total": 3,
+  "updated_at": "2026-06-08T21:20:41.880396",
+  "total": 5,
   "data": [
     {
-      "ip": "37.49.224.15",
-      "port": "3128",
+      "ip": "5.45.125.201",
+      "port": "1080",
       "protocols": [
-        "http",
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Estonia",
       "countryCode": "EE",
-      "isp": "PUSHPKT OU",
+      "isp": "P.a.g.m. Ou",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "46.36.220.220",
@@ -37,19 +37,53 @@
       "type": "socks5"
     },
     {
-      "ip": "5.45.125.201",
-      "port": "1080",
+      "ip": "37.49.224.15",
+      "port": "3128",
       "protocols": [
+        "http",
         "socks5",
         "socks4",
-        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Estonia",
       "countryCode": "EE",
-      "isp": "P.a.g.m. Ou",
+      "isp": "PUSHPKT OU",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "37.49.224.243",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Estonia",
+      "countryCode": "EE",
+      "isp": "PUSHPKT OU",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "144.31.170.253",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Estonia",
+      "countryCode": "EE",
+      "isp": "Oc Networks Limited",
       "user_type": "business",
       "type": "socks4"
     }
