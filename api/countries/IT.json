@@ -1,30 +1,13 @@
 {
-  "updated_at": "2026-06-08T05:20:34.069865",
-  "total": 10,
+  "updated_at": "2026-06-08T12:01:23.589854",
+  "total": 8,
   "data": [
-    {
-      "ip": "151.241.215.23",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Italy",
-      "countryCode": "IT",
-      "isp": "Hostkey B.v.",
-      "user_type": "business",
-      "type": "socks5"
-    },
     {
       "ip": "149.62.186.244",
       "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -37,7 +20,24 @@
       "type": "socks4"
     },
     {
-      "ip": "79.108.211.139",
+      "ip": "188.11.179.26",
+      "port": "8443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "TIM",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "194.146.164.66",
       "port": "8080",
       "protocols": [
         "http",
@@ -49,40 +49,9 @@
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "HAL Service SpA",
+      "isp": "Europsys S.p.A.",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "95.244.215.67",
-      "port": "8081",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Italy",
-      "countryCode": "IT",
-      "isp": "TIM",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "2.115.212.62",
-      "port": "48293",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Italy",
-      "countryCode": "IT",
-      "isp": "TIM",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "15.160.116.45",
@@ -133,10 +102,25 @@
       "countryCode": "IT",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "15.161.131.175",
+      "port": "13815",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "https"
     },
     {
-      "ip": "46.21.186.252",
+      "ip": "151.241.215.23",
       "port": "1080",
       "protocols": [
         "http",
@@ -148,26 +132,9 @@
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "Planetel SPA",
+      "isp": "Hostkey B.v.",
       "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "94.198.211.217",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Italy",
-      "countryCode": "IT",
-      "isp": "LA Wireless Srl",
-      "user_type": "cellular",
-      "type": "socks4"
+      "type": "socks5"
     }
   ]
 }

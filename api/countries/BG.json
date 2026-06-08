@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-06-08T05:20:34.075063",
-  "total": 6,
+  "updated_at": "2026-06-08T12:01:23.598816",
+  "total": 4,
   "data": [
     {
       "ip": "149.62.230.50",
       "port": "1080",
       "protocols": [
-        "socks4"
+        "socks4",
+        "socks5",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,25 +20,8 @@
       "type": "socks4"
     },
     {
-      "ip": "109.160.97.49",
+      "ip": "77.85.168.253",
       "port": "4145",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bulgaria",
-      "countryCode": "BG",
-      "isp": "Kabelnet Ltd",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "92.247.31.130",
-      "port": "1080",
       "protocols": [
         "socks4",
         "http",
@@ -46,12 +32,12 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "A1 Bulgaria EAD",
+      "isp": "Vivacom Bulgaria EAD",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "213.149.154.213",
+      "ip": "213.149.156.87",
       "port": "5678",
       "protocols": [
         "socks4",
@@ -68,8 +54,8 @@
       "type": "socks4"
     },
     {
-      "ip": "193.68.115.14",
-      "port": "8080",
+      "ip": "31.13.239.4",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -80,26 +66,9 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "Sarnica-Net LTD",
+      "isp": "Neterra Ltd.",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "38.180.2.107",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bulgaria",
-      "countryCode": "BG",
-      "isp": "M247 Europe SRL",
-      "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
