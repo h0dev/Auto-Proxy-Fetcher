@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-09T21:08:36.702854",
+  "updated_at": "2026-06-09T23:23:55.208275",
   "total": 2,
   "data": [
     {
       "ip": "45.89.106.116",
       "port": "1082",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "socks5",
         "https"
       ],
       "username": null,
@@ -17,15 +17,15 @@
       "countryCode": "CY",
       "isp": "NETRANEX TECHNOLOGIES (INDIA) PRIVATE LIMITED",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "45.89.106.116",
       "port": "1081",
       "protocols": [
-        "socks4",
-        "http",
         "socks5",
+        "http",
+        "socks4",
         "https"
       ],
       "username": null,
@@ -34,7 +34,7 @@
       "countryCode": "CY",
       "isp": "NETRANEX TECHNOLOGIES (INDIA) PRIVATE LIMITED",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }

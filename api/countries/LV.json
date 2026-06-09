@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-09T21:08:36.702419",
-  "total": 2,
+  "updated_at": "2026-06-09T23:23:55.208931",
+  "total": 3,
   "data": [
     {
       "ip": "159.148.146.65",
       "port": "5678",
       "protocols": [
         "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -20,8 +20,25 @@
       "type": "socks4"
     },
     {
-      "ip": "31.170.19.5",
-      "port": "4153",
+      "ip": "169.40.6.114",
+      "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "SIA VEESP",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "195.13.164.73",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -32,9 +49,9 @@
       "password": null,
       "country": "Latvia",
       "countryCode": "LV",
-      "isp": "Sia Netvision",
+      "isp": "SIA Tet",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
