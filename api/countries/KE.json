@@ -1,10 +1,61 @@
 {
-  "updated_at": "2026-06-09T16:10:06.208587",
-  "total": 2,
+  "updated_at": "2026-06-09T21:08:36.700062",
+  "total": 4,
   "data": [
     {
-      "ip": "102.0.16.24",
+      "ip": "102.209.76.106",
       "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "SAFHOME FIBRE LIMITED",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "41.139.167.17",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Safaricom Limited",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "102.0.33.14",
+      "port": "8080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Airtel Networks Kenya Limited",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "154.79.248.156",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -17,21 +68,7 @@
       "countryCode": "KE",
       "isp": "Airtel Networks Kenya Limited",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "102.0.21.22",
-      "port": "8080",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "Airtel Networks Kenya Limited",
-      "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
