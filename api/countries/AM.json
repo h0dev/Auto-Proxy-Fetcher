@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-06-09T10:50:33.019222",
-  "total": 1,
+  "updated_at": "2026-06-09T16:10:06.211149",
+  "total": 2,
   "data": [
     {
-      "ip": "37.186.66.36",
-      "port": "3629",
+      "ip": "45.133.107.192",
+      "port": "81",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Armenia",
       "countryCode": "AM",
-      "isp": "GNC-Alfa CJSC",
+      "isp": "Art-net LLC",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
+    },
+    {
+      "ip": "5.77.252.204",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Armenia",
+      "countryCode": "AM",
+      "isp": "Ucom CJSC",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

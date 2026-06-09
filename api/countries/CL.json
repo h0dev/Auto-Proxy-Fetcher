@@ -1,13 +1,45 @@
 {
-  "updated_at": "2026-06-09T10:50:33.015598",
+  "updated_at": "2026-06-09T16:10:06.210838",
   "total": 5,
   "data": [
     {
-      "ip": "45.181.121.57",
+      "ip": "38.7.223.3",
       "port": "999",
       "protocols": [
-        "https",
         "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "INVERSIONES TECNOLOGICAS UNO SPA",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.181.123.177",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "REDCENTRAL TELECOMUNICACIONES LTDA",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "45.181.123.185",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -20,7 +52,7 @@
       "type": "http"
     },
     {
-      "ip": "45.225.206.248",
+      "ip": "45.225.205.5",
       "port": "999",
       "protocols": [
         "http",
@@ -33,45 +65,11 @@
       "country": "Chile",
       "countryCode": "CL",
       "isp": "NETDELSUR TELECOMUNICACIONES SPA",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "167.249.29.218",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "GRUPO METROWAN TELECOM SPA",
       "user_type": "residential",
       "type": "https"
     },
     {
-      "ip": "186.148.31.20",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "TELEFONICA CHILE S.A.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "45.225.204.8",
+      "ip": "45.225.204.11",
       "port": "999",
       "protocols": [
         "http",
@@ -85,7 +83,7 @@
       "countryCode": "CL",
       "isp": "NETDELSUR TELECOMUNICACIONES SPA",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
