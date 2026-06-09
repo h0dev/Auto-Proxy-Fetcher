@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-06-09T04:52:54.050251",
-  "total": 6,
+  "updated_at": "2026-06-09T10:50:33.021002",
+  "total": 3,
   "data": [
     {
-      "ip": "176.12.74.0",
-      "port": "1080",
+      "ip": "89.169.37.254",
+      "port": "8080",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "HostLab LLC",
+      "isp": "Nls Astana Llp",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     },
     {
-      "ip": "176.12.72.62",
+      "ip": "194.58.42.190",
       "port": "3128",
       "protocols": [
         "http",
@@ -32,35 +32,18 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "HostLab LLC",
-      "user_type": "business",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
       "type": "http"
-    },
-    {
-      "ip": "80.90.183.221",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "socks5",
-        "socks4",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "Jsc timeweb",
-      "user_type": "business",
-      "type": "https"
     },
     {
       "ip": "213.148.6.12",
       "port": "7777",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -69,40 +52,6 @@
       "isp": "Modern Server Solutions LLP",
       "user_type": "hosting",
       "type": "socks5"
-    },
-    {
-      "ip": "176.12.76.169",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "HostLab LLC",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "82.200.236.130",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "JSC Kazakhtelecom",
-      "user_type": "residential",
-      "type": "https"
     }
   ]
 }
