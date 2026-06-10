@@ -1,11 +1,13 @@
 {
-  "updated_at": "2026-06-10T05:04:38.635622",
-  "total": 3,
+  "updated_at": "2026-06-10T11:07:25.187973",
+  "total": 6,
   "data": [
     {
-      "ip": "16.62.229.137",
-      "port": "3128",
+      "ip": "45.95.232.35",
+      "port": "1080",
       "protocols": [
+        "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -13,9 +15,43 @@
       "password": null,
       "country": "Switzerland",
       "countryCode": "CH",
-      "isp": "Amazon.com, Inc.",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "45.59.122.132",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "RouterHosting LLC",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "104.244.78.150",
+      "port": "5555",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "FranTech Solutions",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "16.62.229.137",
@@ -34,20 +70,32 @@
       "type": "socks4"
     },
     {
-      "ip": "45.59.122.132",
-      "port": "80",
+      "ip": "16.62.229.137",
+      "port": "3128",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Switzerland",
       "countryCode": "CH",
-      "isp": "RouterHosting LLC",
+      "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "185.191.239.248",
+      "port": "3128",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "GRUPO PANAGLOBAL 15 S.A",
+      "user_type": "business",
       "type": "http"
     }
   ]

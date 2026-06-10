@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-06-10T05:04:38.631772",
-  "total": 8,
+  "updated_at": "2026-06-10T11:07:25.186872",
+  "total": 7,
   "data": [
     {
-      "ip": "45.73.0.118",
-      "port": "5678",
+      "ip": "209.35.33.208",
+      "port": "9050",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "Videotron Ltee",
-      "user_type": "business",
+      "isp": "Niagara Regional Broadband Networks Limited",
+      "user_type": "residential",
       "type": "socks4"
     },
     {
-      "ip": "184.95.220.42",
+      "ip": "184.95.235.194",
       "port": "1080",
       "protocols": [
         "socks5",
@@ -51,7 +51,7 @@
       "countryCode": "CA",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "15.223.237.12",
@@ -66,11 +66,28 @@
       "countryCode": "CA",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "3.99.158.157",
       "port": "54809",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "35.183.127.162",
+      "port": "58040",
       "protocols": [
         "http",
         "https",
@@ -100,40 +117,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "50.67.100.178",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Shaw Communications",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "72.11.147.188",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "HostPapa",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }

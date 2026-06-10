@@ -1,13 +1,30 @@
 {
-  "updated_at": "2026-06-10T05:04:38.633508",
+  "updated_at": "2026-06-10T11:07:25.185367",
   "total": 5,
   "data": [
     {
-      "ip": "46.183.124.162",
+      "ip": "80.78.73.120",
+      "port": "65530",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Vodafone Albania Sh.A.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "46.183.122.49",
       "port": "53551",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -20,25 +37,25 @@
       "type": "socks4"
     },
     {
-      "ip": "37.26.86.206",
+      "ip": "185.190.90.2",
       "port": "4145",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Albania",
       "countryCode": "AL",
-      "isp": "Albanian Telecommunications Union SH. P.K.",
-      "user_type": "residential",
+      "isp": "LightNet Sh.p.k.",
+      "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "79.106.79.154",
-      "port": "8989",
+      "ip": "79.106.170.126",
+      "port": "4145",
       "protocols": [
         "http",
         "https",
@@ -51,11 +68,11 @@
       "countryCode": "AL",
       "isp": "One Albania Sh.a.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "80.78.78.106",
-      "port": "65530",
+      "ip": "80.91.116.129",
+      "port": "8081",
       "protocols": [
         "http",
         "https",
@@ -66,23 +83,9 @@
       "password": null,
       "country": "Albania",
       "countryCode": "AL",
-      "isp": "Vodafone Albania Sh.A.",
-      "user_type": "cellular",
-      "type": "socks4"
-    },
-    {
-      "ip": "46.183.123.233",
-      "port": "53551",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Albania",
-      "countryCode": "AL",
-      "isp": "MC NETWORKING Sh.p.k.",
+      "isp": "Abissnet sh.a.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
