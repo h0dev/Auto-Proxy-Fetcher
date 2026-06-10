@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-09T23:23:55.211763",
-  "total": 2,
+  "updated_at": "2026-06-10T05:04:38.633231",
+  "total": 3,
   "data": [
     {
-      "ip": "41.189.171.186",
-      "port": "8080",
+      "ip": "102.68.83.9",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ghana",
+      "countryCode": "GH",
+      "isp": "Host Africa (Pty) Ltd",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "196.29.231.1",
+      "port": "4145",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Ghana",
       "countryCode": "GH",
-      "isp": "Scancom Limited",
+      "isp": "K-Net",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "41.218.225.250",
@@ -34,7 +51,7 @@
       "countryCode": "GH",
       "isp": "Ghana Telecommunications Company Limited",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     }
   ]
 }

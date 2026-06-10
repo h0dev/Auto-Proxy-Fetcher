@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-09T23:23:55.199134",
-  "total": 9,
+  "updated_at": "2026-06-10T05:04:38.628207",
+  "total": 8,
   "data": [
     {
       "ip": "4.221.164.109",
-      "port": "443",
+      "port": "9443",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -20,30 +20,13 @@
       "type": "http"
     },
     {
-      "ip": "102.217.190.157",
-      "port": "7080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "CloudGistics",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
       "ip": "4.221.164.109",
-      "port": "9443",
+      "port": "443",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -68,11 +51,11 @@
       "countryCode": "ZA",
       "isp": "Microsoft Corporation",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "154.126.213.152",
-      "port": "8070",
+      "ip": "196.6.115.165",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -83,26 +66,9 @@
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "JENNY INTERNET (PTY) LTD",
+      "isp": "Letaba Networks (Pty) Ltd",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "129.232.148.138",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Xneelo (Pty) Ltd",
-      "user_type": "business",
-      "type": "socks5"
     },
     {
       "ip": "102.212.44.158",
@@ -119,41 +85,57 @@
       "countryCode": "ZA",
       "isp": "One Mile Telecoms (Pty) Ltd.",
       "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "196.216.133.17",
-      "port": "9999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "HERO TELECOMS (PTY) LTD",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "41.169.135.242",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Liquid Telecommunications South Africa (Pty) Ltd",
-      "user_type": "residential",
       "type": "http"
+    },
+    {
+      "ip": "105.27.180.194",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "SEACOM Limited",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.246.6.135",
+      "port": "18473",
+      "protocols": [
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "41.57.63.1",
+      "port": "8104",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Screamer Telecommunications",
+      "user_type": "residential",
+      "type": "https"
     }
   ]
 }
