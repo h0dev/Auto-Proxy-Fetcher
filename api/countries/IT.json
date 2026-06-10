@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-06-10T16:43:37.041688",
-  "total": 6,
+  "updated_at": "2026-06-10T21:33:08.806429",
+  "total": 7,
   "data": [
     {
-      "ip": "149.62.186.244",
-      "port": "1080",
+      "ip": "185.62.48.141",
+      "port": "5678",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "Host SpA",
+      "isp": "Elektronica Sistemi Di Muro Mauro E Turcinovic Walter S.n.c.",
       "user_type": "business",
       "type": "socks4"
     },
@@ -68,7 +68,7 @@
       "countryCode": "IT",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "15.161.131.175",
@@ -86,11 +86,24 @@
       "type": "https"
     },
     {
-      "ip": "46.21.186.252",
-      "port": "1080",
+      "ip": "15.161.59.54",
+      "port": "48678",
       "protocols": [
         "http",
-        "https",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "15.161.59.54",
+      "port": "45645",
+      "protocols": [
         "socks4",
         "socks5"
       ],
@@ -98,8 +111,8 @@
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "Planetel SPA",
-      "user_type": "business",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "socks4"
     }
   ]

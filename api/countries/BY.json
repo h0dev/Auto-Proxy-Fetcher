@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-06-10T16:43:37.074971",
+  "updated_at": "2026-06-10T21:33:08.807583",
   "total": 1,
   "data": [
     {
       "ip": "86.57.248.62",
       "port": "3128",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "BY",
       "isp": "Republican Unitary Telecommunication Enterprise Beltelecom",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

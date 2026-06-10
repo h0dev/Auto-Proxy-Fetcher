@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-10T16:43:37.062265",
-  "total": 10,
+  "updated_at": "2026-06-10T21:33:08.803713",
+  "total": 23,
   "data": [
     {
       "ip": "170.64.170.204",
@@ -20,13 +20,27 @@
       "type": "socks5"
     },
     {
-      "ip": "103.106.231.75",
-      "port": "8081",
+      "ip": "16.26.154.68",
+      "port": "19604",
       "protocols": [
-        "socks5",
-        "socks4",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "103.106.231.75",
+      "port": "1080",
+      "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -34,7 +48,22 @@
       "countryCode": "AU",
       "isp": "BrainStorm Network, Inc",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
+    },
+    {
+      "ip": "15.135.215.62",
+      "port": "59461",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
     },
     {
       "ip": "16.26.143.154",
@@ -85,7 +114,7 @@
       "countryCode": "AU",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "16.51.148.102",
@@ -102,6 +131,36 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "16.51.62.173",
+      "port": "3715",
+      "protocols": [
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "16.26.99.200",
+      "port": "15706",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
     },
     {
       "ip": "54.253.167.61",
@@ -121,13 +180,11 @@
       "type": "socks4"
     },
     {
-      "ip": "54.79.125.20",
-      "port": "4443",
+      "ip": "54.206.129.120",
+      "port": "52392",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -136,6 +193,21 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "http"
+    },
+    {
+      "ip": "54.253.183.151",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     },
     {
       "ip": "54.79.125.20",
@@ -153,11 +225,9 @@
       "type": "https"
     },
     {
-      "ip": "61.29.96.146",
-      "port": "80",
+      "ip": "15.135.215.62",
+      "port": "8377",
       "protocols": [
-        "http",
-        "https",
         "socks4",
         "socks5"
       ],
@@ -165,8 +235,121 @@
       "password": null,
       "country": "Australia",
       "countryCode": "AU",
-      "isp": "AAPT Limited",
-      "user_type": "business",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "16.51.62.173",
+      "port": "59829",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "54.253.183.151",
+      "port": "24206",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "54.206.129.120",
+      "port": "25923",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "16.51.148.102",
+      "port": "13",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "54.253.183.151",
+      "port": "41432",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "54.79.125.20",
+      "port": "52759",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "16.26.99.200",
+      "port": "5543",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "16.51.62.173",
+      "port": "21762",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "http"
     }
   ]
