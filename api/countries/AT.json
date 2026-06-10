@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-10T21:33:08.799243",
-  "total": 2,
+  "updated_at": "2026-06-10T23:51:03.055224",
+  "total": 3,
   "data": [
     {
       "ip": "94.228.163.232",
       "port": "1080",
       "protocols": [
         "socks4",
-        "socks5",
         "http",
+        "socks5",
         "https"
       ],
       "username": null,
@@ -17,16 +17,33 @@
       "countryCode": "AT",
       "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
+    },
+    {
+      "ip": "152.53.144.223",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Austria",
+      "countryCode": "AT",
+      "isp": "netcup GmbH",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "212.113.106.198",
       "port": "987",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,

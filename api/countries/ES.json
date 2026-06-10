@@ -1,27 +1,44 @@
 {
-  "updated_at": "2026-06-10T21:33:08.806245",
-  "total": 7,
+  "updated_at": "2026-06-10T23:51:03.047463",
+  "total": 8,
   "data": [
     {
-      "ip": "84.236.185.247",
-      "port": "61710",
+      "ip": "65.20.105.241",
+      "port": "10001",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
+      "isp": "The Constant Company, LLC",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
-      "ip": "154.62.226.187",
-      "port": "9051",
+      "ip": "83.97.79.114",
+      "port": "8443",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "BlueVPS OU",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "2.139.38.192",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -32,9 +49,9 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Ultahost, Inc.",
+      "isp": "Telefonica De Espana S.a.u.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "51.49.153.183",
@@ -50,7 +67,7 @@
       "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "51.49.153.183",
@@ -85,23 +102,6 @@
       "type": "https"
     },
     {
-      "ip": "90.174.128.42",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Orange Espagne SA",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
       "ip": "51.49.153.183",
       "port": "43385",
       "protocols": [
@@ -114,6 +114,20 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "51.49.153.183",
+      "port": "443",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
     }
   ]
 }

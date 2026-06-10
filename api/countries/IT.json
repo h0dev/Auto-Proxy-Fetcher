@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-10T21:33:08.806429",
-  "total": 7,
+  "updated_at": "2026-06-10T23:51:03.080971",
+  "total": 8,
   "data": [
     {
       "ip": "185.62.48.141",
@@ -20,13 +20,27 @@
       "type": "socks4"
     },
     {
-      "ip": "15.160.116.45",
-      "port": "15723",
+      "ip": "149.62.186.244",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Host SpA",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "15.160.116.45",
+      "port": "10693",
+      "protocols": [
+        "http"
       ],
       "username": null,
       "password": null,
@@ -34,7 +48,7 @@
       "countryCode": "IT",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "15.160.132.166",
@@ -51,7 +65,7 @@
       "countryCode": "IT",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "15.161.131.175",
@@ -98,7 +112,7 @@
       "countryCode": "IT",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "15.161.59.54",
