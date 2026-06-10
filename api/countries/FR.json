@@ -1,39 +1,7 @@
 {
-  "updated_at": "2026-06-10T11:07:25.170640",
-  "total": 18,
+  "updated_at": "2026-06-10T16:43:37.059641",
+  "total": 25,
   "data": [
-    {
-      "ip": "5.189.163.212",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Contabo GmbH",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "62.133.62.17",
-      "port": "1082",
-      "protocols": [
-        "socks4",
-        "http",
-        "socks5",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Global Connectivity Solutions Llp",
-      "user_type": "business",
-      "type": "https"
-    },
     {
       "ip": "213.199.47.140",
       "port": "1080",
@@ -55,9 +23,10 @@
       "ip": "62.133.62.12",
       "port": "1082",
       "protocols": [
-        "socks5",
         "socks4",
-        "http"
+        "socks5",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -65,7 +34,41 @@
       "countryCode": "FR",
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "5.189.163.212",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Contabo GmbH",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "62.133.62.12",
+      "port": "1081",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "195.25.20.155",
@@ -85,8 +88,93 @@
       "type": "http"
     },
     {
-      "ip": "62.133.62.3",
+      "ip": "62.133.62.17",
       "port": "1082",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "62.210.136.222",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Scaleway SAS",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "62.133.62.187",
+      "port": "1081",
+      "protocols": [
+        "socks4",
+        "http",
+        "socks5",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "217.60.63.215",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Cgi Global Limited",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "37.187.92.9",
+      "port": "1031",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "62.133.62.3",
+      "port": "1081",
       "protocols": [
         "socks4",
         "socks5",
@@ -102,30 +190,47 @@
       "type": "http"
     },
     {
-      "ip": "62.133.62.12",
+      "ip": "62.133.62.207",
       "port": "1081",
       "protocols": [
         "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "62.133.62.3",
+      "port": "1082",
+      "protocols": [
+        "socks4",
+        "http",
+        "socks5",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "62.133.62.207",
+      "port": "1082",
+      "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Global Connectivity Solutions Llp",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "62.133.62.187",
-      "port": "1082",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -139,9 +244,9 @@
       "ip": "62.133.62.231",
       "port": "1082",
       "protocols": [
-        "socks4",
-        "socks5",
         "http",
+        "socks5",
+        "socks4",
         "https"
       ],
       "username": null,
@@ -150,45 +255,11 @@
       "countryCode": "FR",
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
-      "ip": "161.97.153.238",
-      "port": "9050",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Contabo GmbH",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "161.97.95.124",
-      "port": "9050",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "France",
-      "countryCode": "FR",
-      "isp": "Contabo GmbH",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "62.133.62.231",
-      "port": "1081",
+      "ip": "135.125.154.105",
+      "port": "8899",
       "protocols": [
         "socks5",
         "socks4",
@@ -199,12 +270,12 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Global Connectivity Solutions Llp",
-      "user_type": "business",
-      "type": "https"
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "http"
     },
     {
-      "ip": "185.41.152.110",
+      "ip": "132.243.160.171",
       "port": "3128",
       "protocols": [
         "socks5",
@@ -216,15 +287,29 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Techcrea Solutions SAS",
+      "isp": "Alexhost Srl",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "13.38.217.179",
+      "port": "7474",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "https"
     },
     {
-      "ip": "173.249.20.169",
-      "port": "9060",
+      "ip": "13.38.217.179",
+      "port": "20868",
       "protocols": [
-        "socks4",
         "http",
         "https",
         "socks5"
@@ -233,13 +318,13 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "Contabo GmbH",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
-      "ip": "37.187.92.9",
-      "port": "1033",
+      "ip": "217.182.195.221",
+      "port": "30004",
       "protocols": [
         "http",
         "https",
@@ -253,6 +338,23 @@
       "isp": "OVH SAS",
       "user_type": "hosting",
       "type": "https"
+    },
+    {
+      "ip": "37.187.92.9",
+      "port": "1028",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "http"
     },
     {
       "ip": "51.44.97.6",
@@ -284,11 +386,11 @@
       "countryCode": "FR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "92.119.126.229",
-      "port": "8118",
+      "ip": "82.66.253.131",
+      "port": "9080",
       "protocols": [
         "http",
         "https",
@@ -299,9 +401,26 @@
       "password": null,
       "country": "France",
       "countryCode": "FR",
-      "isp": "velia.net Internetdienste GmbH",
+      "isp": "Free SAS",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "91.230.110.6",
+      "port": "443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "France",
+      "countryCode": "FR",
+      "isp": "Contabo GmbH",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-06-10T11:07:25.187558",
-  "total": 7,
+  "updated_at": "2026-06-10T16:43:37.062678",
+  "total": 9,
   "data": [
     {
-      "ip": "102.217.190.157",
-      "port": "7080",
+      "ip": "4.221.164.109",
+      "port": "9443",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "CloudGistics",
-      "user_type": "hosting",
-      "type": "socks5"
+      "isp": "Microsoft Corporation",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "4.221.164.109",
@@ -34,41 +34,24 @@
       "countryCode": "ZA",
       "isp": "Microsoft Corporation",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "168.253.92.93",
-      "port": "10808",
+      "ip": "4.221.164.109",
+      "port": "443",
       "protocols": [
+        "http",
         "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "CM Value Added Services (Pty) Ltd",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "196.216.133.18",
-      "port": "1080",
-      "protocols": [
         "socks4",
-        "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "HERO TELECOMS (PTY) LTD",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "Microsoft Corporation",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "102.212.44.158",
@@ -88,23 +71,6 @@
       "type": "https"
     },
     {
-      "ip": "129.232.148.138",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Xneelo (Pty) Ltd",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
       "ip": "13.245.171.157",
       "port": "3128",
       "protocols": [
@@ -119,6 +85,67 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "13.246.6.135",
+      "port": "18473",
+      "protocols": [
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "41.57.63.1",
+      "port": "8104",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Screamer Telecommunications",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "13.246.6.135",
+      "port": "7816",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.245.171.157",
+      "port": "39003",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-10T11:07:25.186114",
-  "total": 3,
+  "updated_at": "2026-06-10T16:43:37.060079",
+  "total": 4,
   "data": [
     {
       "ip": "37.49.224.15",
       "port": "3128",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -37,19 +37,36 @@
       "type": "socks5"
     },
     {
-      "ip": "144.31.170.253",
-      "port": "1080",
+      "ip": "185.255.178.231",
+      "port": "3128",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Estonia",
       "countryCode": "EE",
-      "isp": "Oc Networks Limited",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "37.49.224.243",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Estonia",
+      "countryCode": "EE",
+      "isp": "PUSHPKT OU",
       "user_type": "business",
       "type": "socks5"
     }
