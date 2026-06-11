@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-11T11:41:18.331376",
-  "total": 1,
+  "updated_at": "2026-06-11T17:07:13.498468",
+  "total": 2,
   "data": [
     {
-      "ip": "38.7.195.52",
+      "ip": "190.54.100.74",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "Telmex Chile Internet S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "45.181.121.57",
       "port": "999",
       "protocols": [
         "http",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Chile",
       "countryCode": "CL",
-      "isp": "GRUPO ZGH SPA",
-      "user_type": "business",
-      "type": "https"
+      "isp": "REDCENTRAL TELECOMUNICACIONES LTDA",
+      "user_type": "residential",
+      "type": "http"
     }
   ]
 }
