@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-10T21:33:08.808408",
+  "updated_at": "2026-06-11T11:41:18.328089",
   "total": 4,
   "data": [
     {
-      "ip": "181.115.74.172",
+      "ip": "181.78.44.63",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "138.59.177.117",
       "port": "5678",
       "protocols": [
         "http",
@@ -15,12 +32,12 @@
       "password": null,
       "country": "Honduras",
       "countryCode": "HN",
-      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
-      "user_type": "residential",
+      "isp": "INET Communication",
+      "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "38.7.24.161",
+      "ip": "179.49.113.225",
       "port": "999",
       "protocols": [
         "http",
@@ -32,26 +49,9 @@
       "password": null,
       "country": "Honduras",
       "countryCode": "HN",
-      "isp": "MULTICABLE DE HONDURAS",
-      "user_type": "residential",
+      "isp": "ASOCIACION DE SERVICIO DE INTERNET S. DE RL.",
+      "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "45.182.21.165",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Honduras",
-      "countryCode": "HN",
-      "isp": "MULTICABLE DE HONDURAS",
-      "user_type": "residential",
-      "type": "http"
     },
     {
       "ip": "45.182.21.150",
@@ -68,7 +68,7 @@
       "countryCode": "HN",
       "isp": "MULTICABLE DE HONDURAS",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
