@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-11T17:07:13.520542",
-  "total": 6,
+  "updated_at": "2026-06-11T21:24:07.265398",
+  "total": 5,
   "data": [
     {
-      "ip": "190.12.150.244",
+      "ip": "186.47.213.158",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "177.234.217.236",
       "port": "999",
       "protocols": [
         "http",
@@ -15,17 +32,17 @@
       "password": null,
       "country": "Ecuador",
       "countryCode": "EC",
-      "isp": "SERVITELCONET CIA. LTDA.",
+      "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "160.20.165.242",
-      "port": "8080",
+      "ip": "45.71.114.185",
+      "port": "999",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -34,11 +51,11 @@
       "countryCode": "EC",
       "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
-      "ip": "186.47.213.158",
-      "port": "5678",
+      "ip": "177.234.247.18",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -49,8 +66,8 @@
       "password": null,
       "country": "Ecuador",
       "countryCode": "EC",
-      "isp": "CORPORACION NACIONAL DE TELECOMUNICACIONES - CNT EP",
-      "user_type": "residential",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
       "type": "socks4"
     },
     {
@@ -69,40 +86,6 @@
       "isp": "PEREZ TITO JULIO CESAR(FASTNETT)",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "45.225.105.172",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ecuador",
-      "countryCode": "EC",
-      "isp": "UFINET PANAMA S.A.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "66.231.77.61",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ecuador",
-      "countryCode": "EC",
-      "isp": "CUBOTELECOM CIA. LTDA.",
-      "user_type": "residential",
-      "type": "https"
     }
   ]
 }

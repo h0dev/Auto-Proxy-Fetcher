@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-11T17:07:13.518472",
-  "total": 2,
+  "updated_at": "2026-06-11T21:24:07.262199",
+  "total": 5,
   "data": [
     {
       "ip": "178.17.52.33",
@@ -20,12 +20,29 @@
       "type": "socks5"
     },
     {
-      "ip": "109.224.22.34",
-      "port": "51372",
+      "ip": "109.224.12.170",
+      "port": "52015",
       "protocols": [
         "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iraq",
+      "countryCode": "IQ",
+      "isp": "Hulum Almustakbal Company for Communication Engineering and Services Ltd",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "65.20.154.62",
+      "port": "28080",
+      "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -33,6 +50,40 @@
       "country": "Iraq",
       "countryCode": "IQ",
       "isp": "Hulum Almustakbal Company for Communication Engineering and Services Ltd",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "37.239.47.74",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iraq",
+      "countryCode": "IQ",
+      "isp": "Hulum Almustakbal Company for Communication Engineering and Services Ltd",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "62.201.212.198",
+      "port": "4673",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iraq",
+      "countryCode": "IQ",
+      "isp": "IQ Networks for Data and Internet Services Ltd",
       "user_type": "business",
       "type": "socks4"
     }
