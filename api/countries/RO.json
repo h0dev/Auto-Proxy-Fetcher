@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-10T23:51:03.044089",
-  "total": 2,
+  "updated_at": "2026-06-11T05:17:48.173619",
+  "total": 3,
   "data": [
     {
       "ip": "185.141.26.131",
@@ -17,16 +17,16 @@
       "countryCode": "RO",
       "isp": "IP Solus Inc",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "92.86.92.126",
       "port": "42740",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -34,6 +34,23 @@
       "countryCode": "RO",
       "isp": "Orange Romania S.A.",
       "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "81.12.169.254",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Vodafone Romania S.A.",
+      "user_type": "cellular",
       "type": "socks4"
     }
   ]
