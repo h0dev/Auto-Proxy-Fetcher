@@ -1,14 +1,48 @@
 {
-  "updated_at": "2026-06-11T21:24:07.263392",
-  "total": 2,
+  "updated_at": "2026-06-11T23:48:28.553826",
+  "total": 3,
   "data": [
     {
-      "ip": "80.78.73.120",
-      "port": "65530",
+      "ip": "37.26.86.206",
+      "port": "4145",
       "protocols": [
         "socks4",
         "http",
         "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Albanian Telecommunications Union SH. P.K.",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "79.106.170.126",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "One Albania Sh.a.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "80.78.74.66",
+      "port": "65530",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -18,23 +52,6 @@
       "isp": "Vodafone Albania Sh.A.",
       "user_type": "cellular",
       "type": "socks4"
-    },
-    {
-      "ip": "185.196.182.22",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Albania",
-      "countryCode": "AL",
-      "isp": "shqiponjaisp.al LLC",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
