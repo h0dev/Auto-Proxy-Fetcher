@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-12T05:19:17.161385",
+  "updated_at": "2026-06-12T11:18:04.464582",
   "total": 3,
   "data": [
     {
-      "ip": "212.113.106.198",
-      "port": "987",
+      "ip": "94.228.163.232",
+      "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -17,7 +17,7 @@
       "countryCode": "AT",
       "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     },
     {
       "ip": "152.53.144.223",
@@ -40,7 +40,10 @@
       "ip": "62.60.238.215",
       "port": "8080",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,

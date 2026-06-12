@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-12T05:19:17.139079",
-  "total": 3,
+  "updated_at": "2026-06-12T11:18:04.470122",
+  "total": 2,
   "data": [
     {
       "ip": "45.89.106.116",
       "port": "1081",
       "protocols": [
         "socks4",
-        "socks5",
         "http",
+        "socks5",
         "https"
       ],
       "username": null,
@@ -17,24 +17,7 @@
       "countryCode": "CY",
       "isp": "NETRANEX TECHNOLOGIES (INDIA) PRIVATE LIMITED",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "92.118.234.124",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Cyprus",
-      "countryCode": "CY",
-      "isp": "WorkTitans B.V.",
-      "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "45.89.106.116",
@@ -42,8 +25,8 @@
       "protocols": [
         "socks4",
         "http",
-        "socks5",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -51,7 +34,7 @@
       "countryCode": "CY",
       "isp": "NETRANEX TECHNOLOGIES (INDIA) PRIVATE LIMITED",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
