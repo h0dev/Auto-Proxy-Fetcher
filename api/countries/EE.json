@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-12T16:21:37.644605",
-  "total": 4,
+  "updated_at": "2026-06-12T21:14:02.994043",
+  "total": 5,
   "data": [
     {
       "ip": "37.49.224.15",
@@ -17,7 +17,7 @@
       "countryCode": "EE",
       "isp": "PUSHPKT OU",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "5.101.120.25",
@@ -37,11 +37,28 @@
       "type": "socks5"
     },
     {
-      "ip": "5.45.125.201",
+      "ip": "5.45.118.209",
       "port": "1080",
       "protocols": [
         "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Estonia",
+      "countryCode": "EE",
+      "isp": "P.a.g.m. Ou",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "5.45.125.201",
+      "port": "1080",
+      "protocols": [
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -51,11 +68,11 @@
       "countryCode": "EE",
       "isp": "P.a.g.m. Ou",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
-      "ip": "5.45.118.209",
-      "port": "1080",
+      "ip": "94.183.170.198",
+      "port": "30000",
       "protocols": [
         "http",
         "https",
@@ -66,7 +83,7 @@
       "password": null,
       "country": "Estonia",
       "countryCode": "EE",
-      "isp": "P.a.g.m. Ou",
+      "isp": "Eternity International Limited",
       "user_type": "business",
       "type": "socks5"
     }
