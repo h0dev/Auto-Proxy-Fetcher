@@ -1,57 +1,23 @@
 {
-  "updated_at": "2026-06-12T11:18:04.472086",
-  "total": 4,
+  "updated_at": "2026-06-12T16:21:37.646995",
+  "total": 3,
   "data": [
     {
-      "ip": "38.190.100.106",
-      "port": "999",
+      "ip": "38.252.208.27",
+      "port": "1080",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "CONEX TV E.I.R.L.",
+      "isp": "TELCOM MIKROTIK PERU S.A.C.",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "200.215.229.3",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "GPON NETWORKS S.A.C.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "38.191.85.108",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "LOA NETWORK JL S.A.C.",
-      "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "45.166.72.35",
@@ -68,6 +34,20 @@
       "countryCode": "PE",
       "isp": "FICOM TELECOMUNICACIONES S.A.C.",
       "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "45.171.166.146",
+      "port": "999",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "CONEX TV E.I.R.L.",
+      "user_type": "business",
       "type": "http"
     }
   ]
