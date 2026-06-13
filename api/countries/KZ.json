@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-06-13T17:14:57.670378",
-  "total": 3,
+  "updated_at": "2026-06-13T20:40:09.847440",
+  "total": 8,
   "data": [
     {
-      "ip": "176.12.74.0",
-      "port": "3128",
+      "ip": "80.90.183.221",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "HostLab LLC",
+      "isp": "Jsc timeweb",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "95.182.107.210",
+      "ip": "109.248.247.132",
       "port": "1080",
       "protocols": [
         "http",
@@ -32,7 +32,24 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "TOO Kainar-Media",
+      "isp": "LLP Internet Company First Page",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "89.169.37.254",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Nls Astana Llp",
       "user_type": "business",
       "type": "socks4"
     },
@@ -40,6 +57,7 @@
       "ip": "213.148.26.68",
       "port": "8888",
       "protocols": [
+        "https",
         "http"
       ],
       "username": null,
@@ -48,6 +66,71 @@
       "countryCode": "KZ",
       "isp": "Modern Server Solutions LLP",
       "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "80.90.183.221",
+      "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Jsc timeweb",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "109.248.247.132",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "LLP Internet Company First Page",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "91.185.20.162",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "46.8.252.16",
+      "port": "8123",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "AstanaMegatel Ltd.",
+      "user_type": "business",
       "type": "http"
     }
   ]
