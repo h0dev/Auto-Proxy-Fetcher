@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-14T20:39:23.733736",
-  "total": 3,
+  "updated_at": "2026-06-14T23:13:48.535423",
+  "total": 2,
   "data": [
     {
       "ip": "31.57.29.49",
@@ -24,9 +24,9 @@
       "port": "1050",
       "protocols": [
         "http",
+        "socks5",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -34,24 +34,7 @@
       "countryCode": "LV",
       "isp": "Anton Levin",
       "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "31.170.17.141",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Latvia",
-      "countryCode": "LV",
-      "isp": "Sia Netvision",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }

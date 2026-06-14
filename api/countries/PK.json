@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-14T20:39:23.756346",
-  "total": 3,
+  "updated_at": "2026-06-14T23:13:48.536583",
+  "total": 5,
   "data": [
     {
       "ip": "103.150.206.77",
       "port": "1080",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -18,6 +18,40 @@
       "isp": "New Pakistan Cable Network (Firm)",
       "user_type": "residential",
       "type": "socks5"
+    },
+    {
+      "ip": "103.86.135.34",
+      "port": "5678",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "Multan Cable & Internet Services (Pvt) Ltd",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "202.165.232.238",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "Optix Pakistan (Pvt.) Limited",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "103.157.200.126",
@@ -37,20 +71,17 @@
       "type": "https"
     },
     {
-      "ip": "124.109.44.126",
-      "port": "4145",
+      "ip": "103.146.137.53",
+      "port": "1081",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "Nayatel (Pvt) Ltd",
-      "user_type": "business",
+      "isp": "Galaxy Broadband",
+      "user_type": "residential",
       "type": "socks4"
     }
   ]

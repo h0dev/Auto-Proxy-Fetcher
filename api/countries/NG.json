@@ -1,23 +1,38 @@
 {
-  "updated_at": "2026-06-14T15:09:12.753188",
-  "total": 1,
+  "updated_at": "2026-06-14T23:13:48.535731",
+  "total": 2,
   "data": [
     {
-      "ip": "169.239.236.201",
-      "port": "10801",
+      "ip": "154.113.209.164",
+      "port": "8082",
       "protocols": [
-        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "isp": "Main one Cable Company Nigeria Limited",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "102.36.133.62",
+      "port": "8080",
+      "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Nigeria",
       "countryCode": "NG",
-      "isp": "GUTTI GLOBAL NETWORKS",
+      "isp": "SYSCODES COMMUNICATIONS LIMITED",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }
