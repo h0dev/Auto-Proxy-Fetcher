@@ -1,15 +1,49 @@
 {
-  "updated_at": "2026-06-14T05:25:41.739798",
-  "total": 3,
+  "updated_at": "2026-06-14T10:39:31.379917",
+  "total": 5,
   "data": [
+    {
+      "ip": "176.12.74.0",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "HostLab LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "89.169.37.254",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Nls Astana Llp",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "109.248.236.150",
       "port": "60606",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,8 +54,8 @@
       "type": "socks4"
     },
     {
-      "ip": "213.148.26.68",
-      "port": "8888",
+      "ip": "91.229.151.118",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -32,13 +66,13 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Modern Server Solutions LLP",
+      "isp": "D-Cloud LLC",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "213.148.6.12",
-      "port": "7777",
+      "ip": "82.200.236.130",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -49,9 +83,9 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Modern Server Solutions LLP",
-      "user_type": "hosting",
-      "type": "socks5"
+      "isp": "JSC Kazakhtelecom",
+      "user_type": "residential",
+      "type": "http"
     }
   ]
 }
