@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T17:22:59.234717",
+  "updated_at": "2026-06-14T20:39:23.747419",
   "total": 4,
   "data": [
     {
@@ -37,29 +37,12 @@
       "type": "socks5"
     },
     {
-      "ip": "134.199.164.215",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Australia",
-      "countryCode": "AU",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
       "ip": "82.97.247.37",
       "port": "80",
       "protocols": [
-        "http",
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
@@ -68,7 +51,23 @@
       "countryCode": "AU",
       "isp": "Jsc timeweb",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "16.51.148.102",
+      "port": "39389",
+      "protocols": [
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }
