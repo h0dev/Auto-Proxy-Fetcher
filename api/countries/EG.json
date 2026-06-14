@@ -1,11 +1,47 @@
 {
-  "updated_at": "2026-06-13T23:05:41.665951",
-  "total": 3,
+  "updated_at": "2026-06-14T05:25:41.735913",
+  "total": 4,
   "data": [
     {
       "ip": "196.204.248.140",
       "port": "8080",
       "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Egypt",
+      "countryCode": "EG",
+      "isp": "Vodafone Data",
+      "user_type": "cellular",
+      "type": "https"
+    },
+    {
+      "ip": "196.204.83.229",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Egypt",
+      "countryCode": "EG",
+      "isp": "Vodafone Data",
+      "user_type": "cellular",
+      "type": "https"
+    },
+    {
+      "ip": "196.204.83.232",
+      "port": "1976",
+      "protocols": [
+        "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -18,7 +54,7 @@
       "type": "https"
     },
     {
-      "ip": "213.131.85.27",
+      "ip": "84.36.35.206",
       "port": "1981",
       "protocols": [
         "http",
@@ -30,26 +66,9 @@
       "password": null,
       "country": "Egypt",
       "countryCode": "EG",
-      "isp": "Link Egypt (Link.NET)",
+      "isp": "ETISALAT MISR",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "41.33.245.139",
-      "port": "1981",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Egypt",
-      "countryCode": "EG",
-      "isp": "IDDQD-AS",
-      "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

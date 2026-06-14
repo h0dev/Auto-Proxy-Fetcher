@@ -1,21 +1,40 @@
 {
-  "updated_at": "2026-06-13T23:05:41.665628",
-  "total": 1,
+  "updated_at": "2026-06-14T05:25:41.736065",
+  "total": 2,
   "data": [
     {
-      "ip": "154.113.209.164",
-      "port": "8082",
+      "ip": "102.69.146.59",
+      "port": "7080",
       "protocols": [
+        "socks5",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Nigeria",
       "countryCode": "NG",
-      "isp": "Main one Cable Company Nigeria Limited",
-      "user_type": "residential",
-      "type": "https"
+      "isp": "IP Express Ltd",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "41.203.76.166",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "isp": "Globacom Limited",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
