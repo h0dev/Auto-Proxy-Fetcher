@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-14T15:09:12.753514",
+  "updated_at": "2026-06-14T17:22:59.257794",
   "total": 3,
   "data": [
     {
@@ -17,10 +17,27 @@
       "countryCode": "PK",
       "isp": "Logitech Cable (Private) Limited",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "103.255.151.169",
+      "ip": "110.93.205.50",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "Transworld Associates (Pvt.) Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "115.42.67.186",
       "port": "8080",
       "protocols": [
         "http",
@@ -32,23 +49,9 @@
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "CITS PVT (LTD)",
+      "isp": "Connect Communications",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "103.146.137.105",
-      "port": "1081",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Pakistan",
-      "countryCode": "PK",
-      "isp": "Galaxy Broadband",
-      "user_type": "residential",
-      "type": "socks4"
     }
   ]
 }

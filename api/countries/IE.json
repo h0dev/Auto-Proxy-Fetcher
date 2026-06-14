@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-06-13T23:05:41.639703",
-  "total": 1,
+  "updated_at": "2026-06-14T17:22:59.261796",
+  "total": 2,
   "data": [
     {
-      "ip": "38.180.151.41",
-      "port": "1080",
+      "ip": "185.138.114.111",
+      "port": "8080",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Ireland",
       "countryCode": "IE",
-      "isp": "M247 Europe SRL",
+      "isp": "Enet Telecommunications Networks Limited",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "207.254.71.62",
+      "port": "8088",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ireland",
+      "countryCode": "IE",
+      "isp": "MacStadium, Inc.",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     }
   ]
 }
