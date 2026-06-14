@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-06-14T10:39:31.382391",
+  "updated_at": "2026-06-14T15:09:12.751792",
   "total": 3,
   "data": [
     {
-      "ip": "65.20.105.241",
-      "port": "10001",
+      "ip": "168.245.197.146",
+      "port": "80",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "The Constant Company, LLC",
+      "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "141.105.107.152",
@@ -37,12 +37,13 @@
       "type": "socks4"
     },
     {
-      "ip": "51.49.153.183",
-      "port": "8028",
+      "ip": "51.92.173.133",
+      "port": "27067",
       "protocols": [
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -50,7 +51,7 @@
       "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
