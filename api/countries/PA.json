@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-15T05:48:56.842350",
+  "updated_at": "2026-06-15T13:22:21.428614",
   "total": 2,
   "data": [
     {
-      "ip": "200.108.50.254",
-      "port": "4145",
+      "ip": "190.5.234.34",
+      "port": "5678",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -20,8 +20,8 @@
       "type": "socks4"
     },
     {
-      "ip": "45.229.58.33",
-      "port": "999",
+      "ip": "200.108.50.254",
+      "port": "4145",
       "protocols": [
         "http",
         "https",
@@ -32,9 +32,9 @@
       "password": null,
       "country": "Panama",
       "countryCode": "PA",
-      "isp": "GEEK NETWORKS, S.A",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Cable Onda",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }
