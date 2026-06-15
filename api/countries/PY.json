@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-06-14T23:13:48.540750",
-  "total": 3,
+  "updated_at": "2026-06-15T05:48:56.843432",
+  "total": 2,
   "data": [
     {
-      "ip": "37.230.58.20",
-      "port": "999",
+      "ip": "200.85.52.254",
+      "port": "5678",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Paraguay",
       "countryCode": "PY",
-      "isp": "STARTELECOM S.A.",
-      "user_type": "residential",
-      "type": "http"
+      "isp": "Telecel S.A.",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
-      "ip": "45.177.16.137",
+      "ip": "45.177.16.129",
       "port": "999",
       "protocols": [
         "http",
@@ -34,22 +34,7 @@
       "countryCode": "PY",
       "isp": "MSW S.A.",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "45.184.111.68",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Paraguay",
-      "countryCode": "PY",
-      "isp": "WIND NET S.A.",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }

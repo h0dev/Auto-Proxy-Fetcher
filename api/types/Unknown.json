@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-06-14T23:13:48.493365",
-  "total": 2,
+  "updated_at": "2026-06-15T05:48:56.652130",
+  "total": 1,
   "data": [
     {
-      "ip": "148.230.4.146",
+      "ip": "148.230.4.241",
       "port": "999",
       "protocols": [
-        "https",
-        "http"
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -15,24 +17,7 @@
       "countryCode": "MX",
       "isp": "Unknown",
       "user_type": "Unknown",
-      "type": "http"
-    },
-    {
-      "ip": "37.52.13.164",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "Unknown",
-      "user_type": "Unknown",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }

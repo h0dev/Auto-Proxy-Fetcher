@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-14T23:13:48.537983",
-  "total": 1,
+  "updated_at": "2026-06-15T05:48:56.840630",
+  "total": 2,
   "data": [
     {
-      "ip": "79.106.170.126",
+      "ip": "185.190.90.2",
       "port": "4145",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -15,8 +15,25 @@
       "password": null,
       "country": "Albania",
       "countryCode": "AL",
-      "isp": "One Albania Sh.a.",
+      "isp": "LightNet Sh.p.k.",
       "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "37.26.86.206",
+      "port": "4145",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Albanian Telecommunications Union SH. P.K.",
+      "user_type": "residential",
       "type": "socks4"
     }
   ]
