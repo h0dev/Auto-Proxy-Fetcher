@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-15T13:22:21.426108",
-  "total": 2,
+  "updated_at": "2026-06-15T20:03:03.504047",
+  "total": 3,
   "data": [
     {
       "ip": "31.130.154.7",
@@ -8,7 +8,8 @@
       "protocols": [
         "socks5",
         "socks4",
-        "http"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -16,24 +17,41 @@
       "countryCode": "KZ",
       "isp": "Jsc timeweb",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "89.169.37.254",
-      "port": "8080",
+      "ip": "176.12.74.0",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Nls Astana Llp",
+      "isp": "HostLab LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "213.148.6.12",
+      "port": "7777",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Modern Server Solutions LLP",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }
