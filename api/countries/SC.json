@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-06-16T05:46:45.708514",
+  "updated_at": "2026-06-16T12:17:36.480307",
   "total": 3,
   "data": [
+    {
+      "ip": "154.201.89.250",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "FASTNET DATA INC",
+      "user_type": "business",
+      "type": "socks5"
+    },
     {
       "ip": "45.194.33.12",
       "port": "30001",
@@ -20,23 +37,6 @@
       "type": "socks5"
     },
     {
-      "ip": "154.201.89.250",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Seychelles",
-      "countryCode": "SC",
-      "isp": "FASTNET DATA INC",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
       "ip": "154.201.77.250",
       "port": "11021",
       "protocols": [
@@ -51,7 +51,7 @@
       "countryCode": "SC",
       "isp": "FASTNET DATA INC",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }

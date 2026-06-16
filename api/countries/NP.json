@@ -1,14 +1,31 @@
 {
-  "updated_at": "2026-06-16T05:46:45.714263",
-  "total": 2,
+  "updated_at": "2026-06-16T12:17:36.481726",
+  "total": 3,
   "data": [
     {
-      "ip": "202.166.197.177",
-      "port": "2121",
+      "ip": "118.91.175.146",
+      "port": "5678",
       "protocols": [
+        "socks4",
         "http",
         "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nepal",
+      "countryCode": "NP",
+      "isp": "Websurfer Nepal Internet Service Provider",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "202.166.219.80",
+      "port": "4153",
+      "protocols": [
         "socks4",
+        "http",
+        "https",
         "socks5"
       ],
       "username": null,
@@ -17,11 +34,11 @@
       "countryCode": "NP",
       "isp": "WorldLink Communications Pvt Ltd",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "110.34.13.4",
-      "port": "8080",
+      "ip": "103.86.57.9",
+      "port": "4145",
       "protocols": [
         "http",
         "https",
@@ -32,9 +49,9 @@
       "password": null,
       "country": "Nepal",
       "countryCode": "NP",
-      "isp": "Subisu Cablenet (Pvt) Ltd, Baluwatar, Kathmandu, Nepal",
-      "user_type": "residential",
-      "type": "https"
+      "isp": "Web Networks Pvt. Ltd.",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
