@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-16T12:17:36.483371",
-  "total": 7,
+  "updated_at": "2026-06-16T18:00:29.424215",
+  "total": 4,
   "data": [
     {
-      "ip": "45.225.204.10",
+      "ip": "190.54.100.74",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "Telmex Chile Internet S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "45.225.204.4",
       "port": "999",
       "protocols": [
         "http",
@@ -17,33 +34,31 @@
       "countryCode": "CL",
       "isp": "NETDELSUR TELECOMUNICACIONES SPA",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "186.148.47.253",
+      "ip": "38.7.223.128",
       "port": "999",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Chile",
       "countryCode": "CL",
-      "isp": "TELEFONICA CHILE S.A.",
+      "isp": "INVERSIONES TECNOLOGICAS UNO SPA",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "207.248.0.193",
+      "ip": "45.170.102.17",
       "port": "999",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -51,74 +66,6 @@
       "countryCode": "CL",
       "isp": "GRUPO METROWAN TELECOM SPA",
       "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "38.7.195.49",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "GRUPO ZGH SPA",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "45.225.206.5",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "NETDELSUR TELECOMUNICACIONES SPA",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "45.225.206.2",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "NETDELSUR TELECOMUNICACIONES SPA",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "64.176.6.165",
-      "port": "13920",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "The Constant Company, LLC",
-      "user_type": "business",
       "type": "http"
     }
   ]
