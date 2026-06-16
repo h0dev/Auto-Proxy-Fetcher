@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-16T00:02:48.196150",
-  "total": 1,
+  "updated_at": "2026-06-16T05:46:45.716153",
+  "total": 2,
   "data": [
     {
-      "ip": "45.225.205.5",
-      "port": "999",
+      "ip": "190.13.147.241",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "Telefonica del Sur S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "170.245.50.65",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Chile",
       "countryCode": "CL",
-      "isp": "NETDELSUR TELECOMUNICACIONES SPA",
-      "user_type": "residential",
-      "type": "https"
+      "isp": "MI INTERNET SPA",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
