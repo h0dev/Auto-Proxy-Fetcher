@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-15T20:03:03.504047",
-  "total": 3,
+  "updated_at": "2026-06-16T00:02:48.192255",
+  "total": 5,
   "data": [
     {
       "ip": "31.130.154.7",
       "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -20,19 +20,19 @@
       "type": "socks4"
     },
     {
-      "ip": "176.12.74.0",
-      "port": "1080",
+      "ip": "91.244.106.26",
+      "port": "1090",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "HostLab LLC",
+      "isp": "Kar-Tel LLC",
       "user_type": "business",
       "type": "socks4"
     },
@@ -52,6 +52,38 @@
       "isp": "Modern Server Solutions LLP",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "176.12.79.188",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "HostLab LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "46.8.252.16",
+      "port": "8123",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "AstanaMegatel Ltd.",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
