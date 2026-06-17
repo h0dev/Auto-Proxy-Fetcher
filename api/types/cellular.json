@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-06-17T12:02:00.445817",
-  "total": 10,
+  "updated_at": "2026-06-17T16:40:56.458228",
+  "total": 6,
   "data": [
     {
       "ip": "111.48.191.1",
       "port": "7890",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -18,144 +20,75 @@
       "type": "http"
     },
     {
-      "ip": "196.204.248.140",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Egypt",
-      "countryCode": "EG",
-      "isp": "Vodafone Data",
-      "user_type": "cellular",
-      "type": "http"
-    },
-    {
-      "ip": "162.255.110.107",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United States",
-      "countryCode": "US",
-      "isp": "Desert Winds Wireless Inc",
-      "user_type": "cellular",
-      "type": "https"
-    },
-    {
-      "ip": "196.204.83.229",
-      "port": "1976",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Egypt",
-      "countryCode": "EG",
-      "isp": "Vodafone Data",
-      "user_type": "cellular",
-      "type": "https"
-    },
-    {
-      "ip": "81.8.59.178",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Vodafone Net Iletisim Hizmetler AS",
-      "user_type": "cellular",
-      "type": "https"
-    },
-    {
-      "ip": "102.221.120.11",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Level 7 Wireless (Pty) Ltd",
-      "user_type": "cellular",
-      "type": "http"
-    },
-    {
-      "ip": "162.255.110.52",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United States",
-      "countryCode": "US",
-      "isp": "Desert Winds Wireless Inc",
-      "user_type": "cellular",
-      "type": "socks4"
-    },
-    {
-      "ip": "162.255.108.249",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United States",
-      "countryCode": "US",
-      "isp": "Desert Winds Wireless Inc",
-      "user_type": "cellular",
-      "type": "socks4"
-    },
-    {
-      "ip": "31.145.106.68",
+      "ip": "112.31.254.184",
       "port": "1080",
       "protocols": [
+        "socks5",
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Vodafone Net Iletisim Hizmetler AS",
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
       "type": "socks4"
     },
     {
-      "ip": "31.145.106.69",
+      "ip": "117.175.168.195",
       "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "112.2.21.18",
+      "port": "51080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile communications corporation",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "80.78.73.120",
+      "port": "65530",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Vodafone Albania Sh.A.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "103.114.25.8",
+      "port": "8088",
       "protocols": [
         "http",
         "https",
@@ -164,11 +97,11 @@
       ],
       "username": null,
       "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Vodafone Net Iletisim Hizmetler AS",
+      "country": "Nepal",
+      "countryCode": "NP",
+      "isp": "Everest Wireless Network pvt. ltd",
       "user_type": "cellular",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }
