@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-17T05:38:01.585377",
-  "total": 4,
+  "updated_at": "2026-06-17T12:02:00.458301",
+  "total": 3,
   "data": [
     {
       "ip": "154.201.77.250",
@@ -17,7 +17,24 @@
       "countryCode": "SC",
       "isp": "FASTNET DATA INC",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "45.194.33.12",
+      "port": "30001",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "Antbox Networks Limited",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "154.201.89.250",
@@ -35,40 +52,6 @@
       "isp": "FASTNET DATA INC",
       "user_type": "business",
       "type": "socks5"
-    },
-    {
-      "ip": "154.223.77.54",
-      "port": "10001",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Seychelles",
-      "countryCode": "SC",
-      "isp": "Kaopu Cloud HK Limited",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "197.234.13.43",
-      "port": "4145",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Seychelles",
-      "countryCode": "SC",
-      "isp": "Intelvision Ltd",
-      "user_type": "business",
-      "type": "socks4"
     }
   ]
 }
