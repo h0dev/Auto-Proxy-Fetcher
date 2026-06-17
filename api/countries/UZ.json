@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-17T21:16:49.230470",
-  "total": 4,
+  "updated_at": "2026-06-17T23:44:43.644886",
+  "total": 2,
   "data": [
     {
       "ip": "195.158.8.123",
       "port": "3128",
       "protocols": [
+        "http",
         "socks5",
         "socks4",
-        "http",
         "https"
       ],
       "username": null,
@@ -20,13 +20,13 @@
       "type": "https"
     },
     {
-      "ip": "83.222.7.205",
-      "port": "3128",
+      "ip": "195.158.1.187",
+      "port": "8026",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -35,40 +35,6 @@
       "isp": "Uzbektelekom Joint Stock Company",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "94.158.49.82",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Uzbekistan",
-      "countryCode": "UZ",
-      "isp": "IPLUS LLC",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "213.230.121.41",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Uzbekistan",
-      "countryCode": "UZ",
-      "isp": "Uzbektelekom Joint Stock Company",
-      "user_type": "business",
-      "type": "socks5"
     }
   ]
 }

@@ -1,22 +1,23 @@
 {
-  "updated_at": "2026-06-17T21:16:49.229193",
-  "total": 10,
+  "updated_at": "2026-06-17T23:44:43.641092",
+  "total": 9,
   "data": [
     {
-      "ip": "82.26.91.197",
-      "port": "1080",
+      "ip": "81.200.154.236",
+      "port": "48503",
       "protocols": [
-        "socks5",
         "http",
-        "socks4"
+        "socks5",
+        "socks4",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Hostkey B.v.",
+      "isp": "Timeweb, LLP",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     },
     {
       "ip": "185.79.243.153",
@@ -36,64 +37,13 @@
       "type": "socks4"
     },
     {
-      "ip": "185.186.17.57",
-      "port": "5678",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "Media Telekom Sp. z o.o.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "91.223.52.141",
-      "port": "5678",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "InterWan Sp. z o.o.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "81.200.154.236",
-      "port": "48503",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "Timeweb, LLP",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
       "ip": "185.32.4.102",
       "port": "4153",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -104,8 +54,8 @@
       "type": "socks4"
     },
     {
-      "ip": "80.51.61.1",
-      "port": "8080",
+      "ip": "31.42.6.125",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -116,13 +66,13 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Orange Polska Spolka Akcyjna",
+      "isp": "Marcin Malolepszy @alfanet",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "148.81.121.5",
-      "port": "8080",
+      "ip": "37.131.164.124",
+      "port": "59341",
       "protocols": [
         "http",
         "https",
@@ -133,9 +83,26 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Naukowa I Akademicka Siec Komputerowa - Panstwowy Instytut Badawczy",
+      "isp": "Provector Sp. z o.o",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "77.65.50.118",
+      "port": "34159",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "INEA sp. z o.o.",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "78.31.92.145",
@@ -155,8 +122,8 @@
       "type": "socks4"
     },
     {
-      "ip": "80.55.169.2",
-      "port": "8080",
+      "ip": "82.26.91.197",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -167,9 +134,26 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Orange Polska Spolka Akcyjna",
+      "isp": "Hostkey B.v.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
+    },
+    {
+      "ip": "91.223.52.141",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "InterWan Sp. z o.o.",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
