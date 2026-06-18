@@ -1,10 +1,42 @@
 {
-  "updated_at": "2026-06-17T23:44:43.647604",
+  "updated_at": "2026-06-18T05:19:09.438608",
   "total": 13,
   "data": [
     {
-      "ip": "52.16.215.4",
-      "port": "9471",
+      "ip": "20.13.145.209",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ireland",
+      "countryCode": "IE",
+      "isp": "Microsoft Corporation",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "108.131.109.106",
+      "port": "57770",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ireland",
+      "countryCode": "IE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "108.131.109.106",
+      "port": "5017",
       "protocols": [
         "http",
         "https",
@@ -17,11 +49,11 @@
       "countryCode": "IE",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "52.16.215.4",
-      "port": "41392",
+      "ip": "108.131.109.106",
+      "port": "8181",
       "protocols": [
         "http",
         "https",
@@ -51,11 +83,11 @@
       "countryCode": "IE",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
     },
     {
-      "ip": "34.246.183.20",
-      "port": "44819",
+      "ip": "52.16.215.4",
+      "port": "9471",
       "protocols": [
         "http",
         "https",
@@ -71,55 +103,8 @@
       "type": "socks4"
     },
     {
-      "ip": "108.131.109.106",
-      "port": "5017",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ireland",
-      "countryCode": "IE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "108.131.109.106",
-      "port": "57770",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ireland",
-      "countryCode": "IE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "108.131.109.106",
-      "port": "8181",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ireland",
-      "countryCode": "IE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "34.246.183.20",
-      "port": "14670",
+      "ip": "52.16.215.4",
+      "port": "41392",
       "protocols": [
         "http",
         "https",
@@ -133,6 +118,23 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "http"
+    },
+    {
+      "ip": "52.16.215.4",
+      "port": "19795",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ireland",
+      "countryCode": "IE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "52.16.215.4",
@@ -142,21 +144,6 @@
         "https",
         "socks4",
         "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ireland",
-      "countryCode": "IE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "52.16.215.4",
-      "port": "19795",
-      "protocols": [
-        "http",
-        "https"
       ],
       "username": null,
       "password": null,
@@ -182,20 +169,6 @@
       "type": "socks4"
     },
     {
-      "ip": "52.16.215.4",
-      "port": "38493",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ireland",
-      "countryCode": "IE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
       "ip": "34.246.183.20",
       "port": "10879",
       "protocols": [
@@ -208,6 +181,34 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "52.16.215.4",
+      "port": "9098",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ireland",
+      "countryCode": "IE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "34.246.183.20",
+      "port": "15202",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ireland",
+      "countryCode": "IE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
     }
   ]
 }

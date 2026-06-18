@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-17T23:44:43.632850",
+  "updated_at": "2026-06-18T05:19:09.438059",
   "total": 2,
   "data": [
     {
-      "ip": "91.186.210.116",
+      "ip": "91.186.213.124",
       "port": "1081",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Greece",
+      "countryCode": "GR",
+      "isp": "NetCrafters OU",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "178.253.23.71",
+      "port": "30828",
       "protocols": [
         "socks5",
         "http",
@@ -15,26 +32,9 @@
       "password": null,
       "country": "Greece",
       "countryCode": "GR",
-      "isp": "First Server Limited",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "91.186.213.124",
-      "port": "1081",
-      "protocols": [
-        "http",
-        "socks5",
-        "socks4",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Greece",
-      "countryCode": "GR",
-      "isp": "NetCrafters OU",
+      "isp": "Timeweb, LLP",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     }
   ]
 }

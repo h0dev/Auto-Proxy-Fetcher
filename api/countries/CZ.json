@@ -1,27 +1,44 @@
 {
-  "updated_at": "2026-06-17T23:44:43.648249",
+  "updated_at": "2026-06-18T05:19:09.437369",
   "total": 4,
   "data": [
     {
-      "ip": "188.119.98.126",
-      "port": "9999",
+      "ip": "194.135.38.119",
+      "port": "2333",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "O2 Czech Republic, a.s.",
+      "isp": "Timeweb, LLP",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "217.197.151.182",
-      "port": "5678",
+      "ip": "194.58.37.234",
+      "port": "65200",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "GLB Bulut Teknolojisi Limited Sirketi",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "45.139.91.62",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -32,16 +49,17 @@
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "O2 Czech Republic, a.s.",
+      "isp": "United Networks SE",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "194.87.104.85",
       "port": "1080",
       "protocols": [
-        "socks4",
         "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -51,22 +69,6 @@
       "isp": "Jsc timeweb",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "194.58.57.116",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Czechia",
-      "countryCode": "CZ",
-      "isp": "Timeweb, LLP",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }
