@@ -1,9 +1,43 @@
 {
-  "updated_at": "2026-06-18T21:27:49.284810",
-  "total": 2,
+  "updated_at": "2026-06-18T23:54:37.025269",
+  "total": 4,
   "data": [
     {
-      "ip": "192.203.0.118",
+      "ip": "172.99.187.33",
+      "port": "4145",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Puerto Rico",
+      "countryCode": "PR",
+      "isp": "Natural G.C. Inc.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "192.203.0.250",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Puerto Rico",
+      "countryCode": "PR",
+      "isp": "BOOM NET",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "192.203.0.78",
       "port": "999",
       "protocols": [
         "http",
@@ -20,8 +54,8 @@
       "type": "http"
     },
     {
-      "ip": "192.203.0.142",
-      "port": "999",
+      "ip": "67.206.213.202",
+      "port": "55555",
       "protocols": [
         "http",
         "https",
@@ -32,9 +66,9 @@
       "password": null,
       "country": "Puerto Rico",
       "countryCode": "PR",
-      "isp": "BOOM NET",
-      "user_type": "business",
-      "type": "https"
+      "isp": "Liberty Mobile Puerto Rico Inc.",
+      "user_type": "cellular",
+      "type": "socks4"
     }
   ]
 }
