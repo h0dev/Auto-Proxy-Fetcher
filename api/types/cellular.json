@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-18T16:32:03.886357",
-  "total": 5,
+  "updated_at": "2026-06-18T21:27:49.240665",
+  "total": 9,
   "data": [
     {
       "ip": "111.48.191.1",
@@ -17,28 +17,62 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "80.78.73.120",
-      "port": "65530",
+      "ip": "223.111.182.16",
+      "port": "1011",
       "protocols": [
-        "socks4",
+        "socks5",
         "http",
         "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile communications corporation",
+      "user_type": "cellular",
+      "type": "socks5"
+    },
+    {
+      "ip": "38.191.92.253",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
-      "country": "Albania",
-      "countryCode": "AL",
-      "isp": "Vodafone Albania Sh.A.",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "DISENO EN REDES DE DATOS VILLA WIRELESS",
+      "user_type": "cellular",
+      "type": "https"
+    },
+    {
+      "ip": "117.175.168.195",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
       "type": "socks4"
     },
     {
-      "ip": "200.125.169.118",
-      "port": "999",
+      "ip": "162.255.110.24",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -47,11 +81,28 @@
       ],
       "username": null,
       "password": null,
-      "country": "Dominican Republic",
-      "countryCode": "DO",
-      "isp": "WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",
+      "country": "United States",
+      "countryCode": "US",
+      "isp": "Desert Winds Wireless Inc",
       "user_type": "cellular",
       "type": "https"
+    },
+    {
+      "ip": "177.184.195.168",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Wireless Comm Services LTDA",
+      "user_type": "cellular",
+      "type": "http"
     },
     {
       "ip": "192.206.202.1",
@@ -71,7 +122,7 @@
       "type": "https"
     },
     {
-      "ip": "80.78.74.8",
+      "ip": "80.78.74.66",
       "port": "65530",
       "protocols": [
         "http",
@@ -86,6 +137,23 @@
       "isp": "Vodafone Albania Sh.A.",
       "user_type": "cellular",
       "type": "socks4"
+    },
+    {
+      "ip": "81.8.59.178",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Vodafone Net Iletisim Hizmetler AS",
+      "user_type": "cellular",
+      "type": "https"
     }
   ]
 }

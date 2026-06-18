@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T16:32:03.904315",
+  "updated_at": "2026-06-18T21:27:49.283692",
   "total": 2,
   "data": [
     {
@@ -7,9 +7,9 @@
       "port": "1081",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -20,18 +20,21 @@
       "type": "http"
     },
     {
-      "ip": "91.186.217.170",
-      "port": "3128",
+      "ip": "178.253.23.71",
+      "port": "30828",
       "protocols": [
-        "http"
+        "socks5",
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Greece",
       "countryCode": "GR",
-      "isp": "NetCrafters OU",
+      "isp": "Timeweb, LLP",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     }
   ]
 }
