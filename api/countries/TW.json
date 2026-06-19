@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-19T11:41:13.332498",
-  "total": 3,
+  "updated_at": "2026-06-19T16:26:38.139361",
+  "total": 4,
   "data": [
     {
       "ip": "165.154.227.39",
@@ -24,9 +24,9 @@
       "port": "3128",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -35,6 +35,23 @@
       "isp": "Sony Network Taiwan Limited",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "219.84.152.165",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "Sony Network Taiwan Limited",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "219.84.152.119",
@@ -51,7 +68,7 @@
       "countryCode": "TW",
       "isp": "Sony Network Taiwan Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

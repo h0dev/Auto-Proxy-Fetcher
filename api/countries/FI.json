@@ -1,24 +1,7 @@
 {
-  "updated_at": "2026-06-19T11:41:13.333511",
-  "total": 12,
+  "updated_at": "2026-06-19T16:26:38.113786",
+  "total": 14,
   "data": [
-    {
-      "ip": "46.62.214.3",
-      "port": "1080",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
     {
       "ip": "193.221.203.192",
       "port": "1080",
@@ -40,8 +23,8 @@
       "ip": "65.109.29.104",
       "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -51,16 +34,16 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "144.31.156.131",
+      "ip": "2.26.87.216",
       "port": "1080",
       "protocols": [
-        "socks4",
         "http",
-        "https",
-        "socks5"
+        "socks5",
+        "socks4",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -68,48 +51,31 @@
       "countryCode": "FI",
       "isp": "Play2go International Limited",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
-      "ip": "193.233.139.106",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Aeza Group LLC",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "62.60.236.186",
+      "ip": "46.62.214.3",
       "port": "1080",
       "protocols": [
         "socks4",
+        "socks5",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Aeza Group LLC",
-      "user_type": "business",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
       "type": "socks4"
     },
     {
       "ip": "185.230.190.195",
       "port": "1080",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -119,10 +85,10 @@
       "countryCode": "FI",
       "isp": "Livi Hosting Ltd",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "65.109.207.132",
+      "ip": "212.192.8.119",
       "port": "1080",
       "protocols": [
         "socks5",
@@ -134,13 +100,81 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
+      "isp": "Hostkey B.v.",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "185.125.231.118",
+      "port": "1081",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Ihor Hosting Ltd",
       "user_type": "hosting",
       "type": "socks5"
     },
     {
-      "ip": "65.109.65.238",
-      "port": "18080",
+      "ip": "193.29.224.20",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "185.230.190.195",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Livi Hosting Ltd",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "217.177.33.53",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Anton Levin",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "65.109.207.132",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -153,15 +187,32 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks5"
+    },
+    {
+      "ip": "193.221.203.14",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "46.8.233.226",
       "port": "1080",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -170,11 +221,11 @@
       "countryCode": "FI",
       "isp": "Cgi Global Limited",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "65.109.87.121",
-      "port": "18080",
+      "ip": "65.108.203.36",
+      "port": "28080",
       "protocols": [
         "http",
         "https",
@@ -187,22 +238,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "45.12.68.13",
-      "port": "43925",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Closed Joint Stock Company AbkhazMedia",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
