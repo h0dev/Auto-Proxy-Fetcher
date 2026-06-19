@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-19T05:46:57.064216",
-  "total": 2,
+  "updated_at": "2026-06-19T11:41:13.360873",
+  "total": 4,
   "data": [
     {
       "ip": "149.62.186.244",
       "port": "1080",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -17,11 +17,26 @@
       "countryCode": "IT",
       "isp": "Host SpA",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "46.21.186.252",
-      "port": "1080",
+      "ip": "15.161.131.175",
+      "port": "13815",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "15.161.131.175",
+      "port": "47",
       "protocols": [
         "http",
         "https",
@@ -32,8 +47,25 @@
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "Planetel SPA",
-      "user_type": "business",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "94.198.211.217",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "LA Wireless Srl",
+      "user_type": "cellular",
       "type": "socks4"
     }
   ]
