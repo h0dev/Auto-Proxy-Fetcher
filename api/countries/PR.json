@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-06-19T16:26:38.144239",
-  "total": 1,
+  "updated_at": "2026-06-19T20:50:49.351733",
+  "total": 2,
   "data": [
     {
-      "ip": "23.138.88.1",
-      "port": "999",
+      "ip": "198.52.243.3",
+      "port": "9999",
       "protocols": [
         "http",
         "https",
@@ -15,9 +15,26 @@
       "password": null,
       "country": "Puerto Rico",
       "countryCode": "PR",
-      "isp": "ALPHANET CORP",
+      "isp": "BNET",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "67.206.213.202",
+      "port": "55555",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Puerto Rico",
+      "countryCode": "PR",
+      "isp": "Liberty Mobile Puerto Rico Inc.",
+      "user_type": "cellular",
+      "type": "socks4"
     }
   ]
 }

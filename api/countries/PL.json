@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-06-19T16:26:38.141959",
-  "total": 8,
+  "updated_at": "2026-06-19T20:50:49.346518",
+  "total": 14,
   "data": [
+    {
+      "ip": "88.218.206.170",
+      "port": "5432",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Skhron OU",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "46.171.28.162",
       "port": "59311",
@@ -20,42 +37,8 @@
       "type": "socks4"
     },
     {
-      "ip": "80.55.169.2",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "Orange Polska Spolka Akcyjna",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "81.200.154.236",
-      "port": "48503",
-      "protocols": [
-        "http",
-        "socks5",
-        "socks4",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "Timeweb, LLP",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "185.186.17.57",
-      "port": "5678",
+      "ip": "45.144.49.156",
+      "port": "1080",
       "protocols": [
         "socks5",
         "socks4",
@@ -66,41 +49,58 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Media Telekom Sp. z o.o.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "91.150.189.122",
-      "port": "60647",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "Skyware Sp. z o.o.",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "Newserverlife LLC",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
       "ip": "185.32.4.110",
       "port": "4153",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
       "isp": "AS Consulting Sp. z o. o.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "95.214.54.200",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "MEVSPACE sp. z o.o.",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "185.14.149.33",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Enformatel Sp. z o.o.",
       "user_type": "business",
       "type": "socks4"
     },
@@ -119,11 +119,11 @@
       "countryCode": "PL",
       "isp": "RADIO-NET",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "185.238.238.141",
-      "port": "58080",
+      "ip": "185.32.4.102",
+      "port": "4153",
       "protocols": [
         "http",
         "https",
@@ -134,9 +134,106 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
+      "isp": "AS Consulting Sp. z o. o.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "185.238.238.141",
+      "port": "58080",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
       "isp": "RADIO-NET",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "31.42.6.125",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Marcin Malolepszy @alfanet",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "77.65.50.118",
+      "port": "34159",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "INEA sp. z o.o.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "88.156.206.14",
+      "port": "8282",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Vectra S.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "91.211.100.35",
+      "port": "44744",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Lukman Multimedia Sp. z o.o",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "132.243.212.98",
+      "port": "1080",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "QWINS LTD",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }

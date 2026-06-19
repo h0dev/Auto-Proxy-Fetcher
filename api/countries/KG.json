@@ -1,9 +1,25 @@
 {
-  "updated_at": "2026-06-19T16:26:38.141574",
-  "total": 1,
+  "updated_at": "2026-06-19T20:50:49.348320",
+  "total": 2,
   "data": [
     {
-      "ip": "80.72.176.54",
+      "ip": "212.112.121.130",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kyrgyzstan",
+      "countryCode": "KG",
+      "isp": "AKNET Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "212.112.121.130",
       "port": "8080",
       "protocols": [
         "http",
@@ -15,8 +31,8 @@
       "password": null,
       "country": "Kyrgyzstan",
       "countryCode": "KG",
-      "isp": "OJSC Kyrgyztelecom",
-      "user_type": "residential",
+      "isp": "AKNET Ltd.",
+      "user_type": "business",
       "type": "http"
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-19T16:26:38.144860",
-  "total": 2,
+  "updated_at": "2026-06-19T20:50:49.351241",
+  "total": 3,
   "data": [
     {
       "ip": "169.239.236.201",
@@ -20,8 +20,25 @@
       "type": "socks4"
     },
     {
-      "ip": "197.253.23.4",
+      "ip": "143.105.102.145",
       "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "isp": "Space Exploration Technologies Corporation",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "154.113.196.0",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -34,7 +51,7 @@
       "countryCode": "NG",
       "isp": "Main one Cable Company Nigeria Limited",
       "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
