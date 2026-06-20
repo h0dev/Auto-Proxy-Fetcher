@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-20T17:20:01.126624",
-  "total": 2,
+  "updated_at": "2026-06-20T20:40:28.394306",
+  "total": 3,
   "data": [
     {
       "ip": "149.62.186.244",
       "port": "1080",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -20,8 +20,8 @@
       "type": "socks4"
     },
     {
-      "ip": "194.146.164.66",
-      "port": "8080",
+      "ip": "15.160.116.45",
+      "port": "15723",
       "protocols": [
         "http",
         "https",
@@ -32,9 +32,26 @@
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "Europsys S.p.A.",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "5.95.121.180",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Fastweb",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }

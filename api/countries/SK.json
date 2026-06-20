@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-06-20T10:20:37.951566",
-  "total": 1,
+  "updated_at": "2026-06-20T20:40:28.397162",
+  "total": 2,
   "data": [
     {
-      "ip": "217.145.199.47",
-      "port": "56746",
+      "ip": "185.225.204.5",
+      "port": "3128",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Slovakia",
       "countryCode": "SK",
-      "isp": "Slovanet a.s.",
+      "isp": "DELTA ONLINE spol. s r.o.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "45.129.141.143",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Slovakia",
+      "countryCode": "SK",
+      "isp": "eServer s.r.o.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }
