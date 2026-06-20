@@ -1,40 +1,57 @@
 {
-  "updated_at": "2026-06-20T10:20:37.952521",
-  "total": 2,
+  "updated_at": "2026-06-20T15:09:28.328021",
+  "total": 3,
   "data": [
     {
-      "ip": "2.78.60.10",
-      "port": "3129",
+      "ip": "89.169.37.254",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Kcell JSC",
+      "isp": "Nls Astana Llp",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
     },
     {
-      "ip": "94.131.83.119",
-      "port": "3128",
+      "ip": "176.12.74.0",
+      "port": "1080",
       "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "HostLab LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "95.182.107.210",
+      "port": "1080",
+      "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Cloud Services Kazakhstan LLP",
-      "user_type": "hosting",
-      "type": "https"
+      "isp": "TOO Kainar-Media",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
