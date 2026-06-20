@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-06-20T15:09:28.309471",
-  "total": 4,
+  "updated_at": "2026-06-20T17:20:01.124868",
+  "total": 5,
   "data": [
+    {
+      "ip": "85.237.206.150",
+      "port": "1234",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "WAP.AC LLC",
+      "user_type": "business",
+      "type": "http"
+    },
     {
       "ip": "165.154.227.39",
       "port": "1080",
@@ -34,11 +51,11 @@
       "countryCode": "TW",
       "isp": "Sony Network Taiwan Limited",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "122.117.203.252",
-      "port": "3128",
+      "ip": "220.128.223.136",
+      "port": "8083",
       "protocols": [
         "http",
         "https",
@@ -54,13 +71,13 @@
       "type": "https"
     },
     {
-      "ip": "220.132.41.160",
-      "port": "1088",
+      "ip": "220.128.223.136",
+      "port": "8085",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -68,7 +85,7 @@
       "countryCode": "TW",
       "isp": "Data Communication Business Group",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }
