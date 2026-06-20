@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-20T20:40:28.394004",
+  "updated_at": "2026-06-20T23:10:57.775863",
   "total": 3,
   "data": [
     {
-      "ip": "102.204.153.206",
+      "ip": "102.0.14.42",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Airtel Networks Kenya Limited",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "102.0.18.198",
       "port": "8080",
       "protocols": [
         "http",
@@ -15,12 +32,12 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "Gawia Ltd",
+      "isp": "Airtel Networks Kenya Limited",
       "user_type": "business",
       "type": "https"
     },
     {
-      "ip": "197.248.18.97",
+      "ip": "102.0.25.184",
       "port": "8080",
       "protocols": [
         "http",
@@ -32,26 +49,9 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "Safaricom Limited",
+      "isp": "Airtel Networks Kenya Limited",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "41.209.14.123",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "MTN SA",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
