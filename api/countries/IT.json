@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-21T10:53:14.852007",
-  "total": 4,
+  "updated_at": "2026-06-21T15:16:55.826384",
+  "total": 5,
   "data": [
     {
       "ip": "149.62.186.244",
@@ -20,8 +20,25 @@
       "type": "socks4"
     },
     {
-      "ip": "15.160.116.45",
-      "port": "15723",
+      "ip": "194.146.164.66",
+      "port": "37846",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Europsys S.p.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "15.160.132.166",
+      "port": "17684",
       "protocols": [
         "http",
         "https",
@@ -38,6 +55,21 @@
     },
     {
       "ip": "15.161.131.175",
+      "port": "13815",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "15.161.131.175",
       "port": "47",
       "protocols": [
         "http",
@@ -51,23 +83,6 @@
       "countryCode": "IT",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "94.198.211.217",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Italy",
-      "countryCode": "IT",
-      "isp": "LA Wireless Srl",
-      "user_type": "cellular",
       "type": "socks4"
     }
   ]

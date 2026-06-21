@@ -1,9 +1,24 @@
 {
-  "updated_at": "2026-06-21T10:53:14.860226",
-  "total": 1,
+  "updated_at": "2026-06-21T15:16:55.830095",
+  "total": 3,
   "data": [
     {
       "ip": "185.179.31.225",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kosovo",
+      "countryCode": "XK",
+      "isp": "TelKos L.L.C",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "213.163.115.194",
       "port": "8080",
       "protocols": [
         "http",
@@ -15,8 +30,25 @@
       "password": null,
       "country": "Kosovo",
       "countryCode": "XK",
-      "isp": "TelKos L.L.C",
+      "isp": "Telekomi i Kosoves SH.A.",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "91.187.113.68",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kosovo",
+      "countryCode": "XK",
+      "isp": "IPKO Telecommunications LLC",
+      "user_type": "residential",
       "type": "https"
     }
   ]

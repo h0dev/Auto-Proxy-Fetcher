@@ -1,24 +1,7 @@
 {
-  "updated_at": "2026-06-21T10:53:14.851098",
+  "updated_at": "2026-06-21T15:16:55.818666",
   "total": 2,
   "data": [
-    {
-      "ip": "85.237.206.150",
-      "port": "1234",
-      "protocols": [
-        "http",
-        "socks4",
-        "socks5",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Taiwan",
-      "countryCode": "TW",
-      "isp": "WAP.AC LLC",
-      "user_type": "business",
-      "type": "socks4"
-    },
     {
       "ip": "165.154.227.39",
       "port": "1080",
@@ -35,6 +18,23 @@
       "isp": "Scloud Pte Ltd",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "85.237.206.150",
+      "port": "1234",
+      "protocols": [
+        "socks4",
+        "http",
+        "socks5",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "WAP.AC LLC",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
