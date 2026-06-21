@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-20T23:10:57.771708",
-  "total": 11,
+  "updated_at": "2026-06-21T05:43:20.041097",
+  "total": 14,
   "data": [
     {
-      "ip": "176.111.37.5",
+      "ip": "176.111.37.216",
       "port": "39811",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,10 +17,27 @@
       "countryCode": "UA",
       "isp": "Cogento Backbone Limited",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "176.111.37.216",
+      "ip": "2.63.188.78",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Miranda-Media Ltd",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "176.111.37.5",
       "port": "39811",
       "protocols": [
         "http",
@@ -37,7 +54,7 @@
       "type": "http"
     },
     {
-      "ip": "193.106.57.96",
+      "ip": "91.247.92.63",
       "port": "5678",
       "protocols": [
         "socks4",
@@ -49,30 +66,13 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "FOP Makurin Stanislav Volodimirovich",
+      "isp": "Privately owned enterprise Alexsandrov Yuriy Viktorovich",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "188.191.18.66",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "CrimeaCom South LLC",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "31.43.33.56",
-      "port": "4153",
+      "ip": "185.132.1.221",
+      "port": "4145",
       "protocols": [
         "socks4",
         "http",
@@ -83,8 +83,8 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Ukrainian Telecommunication Group LLC",
-      "user_type": "residential",
+      "isp": "Miratel Ltd",
+      "user_type": "business",
       "type": "socks4"
     },
     {
@@ -105,8 +105,42 @@
       "type": "socks5"
     },
     {
-      "ip": "193.24.30.50",
-      "port": "37777",
+      "ip": "91.243.195.9",
+      "port": "35860",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Traditional LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "193.106.57.96",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "FOP Makurin Stanislav Volodimirovich",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "193.200.151.69",
+      "port": "32777",
       "protocols": [
         "http",
         "https",
@@ -117,9 +151,9 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Ukrtechstroy Ltd",
+      "isp": "LIMANET Ltd.",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "195.140.226.32",
@@ -139,6 +173,57 @@
       "type": "socks4"
     },
     {
+      "ip": "212.1.86.225",
+      "port": "81",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Joint Ukrainan-German Enterprise INFOCOM LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "46.98.193.59",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Traditional LLC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "77.52.187.196",
+      "port": "18080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "PrJSC VF UKRAINE",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
       "ip": "82.193.116.160",
       "port": "21003",
       "protocols": [
@@ -154,40 +239,6 @@
       "isp": "Industrial Media Network LLC",
       "user_type": "business",
       "type": "socks5"
-    },
-    {
-      "ip": "91.247.92.63",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "Privately owned enterprise Alexsandrov Yuriy Viktorovich",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "95.182.78.31",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "PE UAinet",
-      "user_type": "business",
-      "type": "socks4"
     }
   ]
 }

@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-20T15:09:28.332448",
-  "total": 1,
+  "updated_at": "2026-06-21T05:43:20.048634",
+  "total": 2,
   "data": [
     {
-      "ip": "205.209.64.21",
+      "ip": "141.164.206.16",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "isp": "Saudi Telecom Company JSC",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "205.209.64.193",
       "port": "8080",
       "protocols": [
         "http",
@@ -17,7 +34,7 @@
       "countryCode": "SA",
       "isp": "RCell LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
