@@ -1,23 +1,26 @@
 {
-  "updated_at": "2026-06-21T15:16:55.829646",
-  "total": 2,
+  "updated_at": "2026-06-21T17:44:34.394502",
+  "total": 3,
   "data": [
     {
-      "ip": "38.199.88.104",
-      "port": "999",
+      "ip": "190.14.5.164",
+      "port": "5678",
       "protocols": [
-        "http"
+        "socks4",
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Guatemala",
       "countryCode": "GT",
-      "isp": "INVERSIONES Y NEGOCIOS IOT DE GUATEMALA, SOCIEDAD ANONIMA",
+      "isp": "Navega.com S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "45.228.233.78",
+      "ip": "181.119.111.59",
       "port": "999",
       "protocols": [
         "http",
@@ -31,7 +34,24 @@
       "countryCode": "GT",
       "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "24.152.53.68",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Guatemala",
+      "countryCode": "GT",
+      "isp": "TV CABLE UNIVERSAL S.A",
+      "user_type": "residential",
+      "type": "http"
     }
   ]
 }
