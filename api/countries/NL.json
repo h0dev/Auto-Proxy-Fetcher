@@ -1,41 +1,7 @@
 {
-  "updated_at": "2026-06-21T17:44:34.375648",
-  "total": 21,
+  "updated_at": "2026-06-21T20:46:34.350151",
+  "total": 28,
   "data": [
-    {
-      "ip": "78.17.16.88",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Hostkey B.v.",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "194.87.31.221",
-      "port": "2000",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Global Connectivity Solutions Llp",
-      "user_type": "business",
-      "type": "socks4"
-    },
     {
       "ip": "45.88.174.195",
       "port": "8080",
@@ -52,6 +18,40 @@
       "isp": "Clodo Cloud Service Co. L.L.C",
       "user_type": "hosting",
       "type": "http"
+    },
+    {
+      "ip": "77.105.139.108",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Servers Tech Fzco",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "77.105.142.165",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Servers Tech Fzco",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "5.255.113.177",
@@ -71,19 +71,36 @@
       "type": "socks5"
     },
     {
-      "ip": "140.82.59.192",
-      "port": "1080",
+      "ip": "144.124.227.88",
+      "port": "3128",
       "protocols": [
-        "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
-      "isp": "The Constant Company, LLC",
+      "isp": "Servers Tech Fzco",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "5.255.117.127",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "The Infrastructure Group B.V.",
       "user_type": "business",
       "type": "socks5"
     },
@@ -103,23 +120,6 @@
       "isp": "Eurofiber Nederland BV",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "85.192.60.41",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Aeza Group LLC",
-      "user_type": "business",
-      "type": "socks5"
     },
     {
       "ip": "5.255.99.75",
@@ -156,7 +156,92 @@
       "type": "socks5"
     },
     {
-      "ip": "5.255.117.127",
+      "ip": "194.87.31.221",
+      "port": "2000",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "144.124.232.204",
+      "port": "443",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Servers Tech Fzco",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "85.192.60.41",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "45.84.222.25",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Play2go International Limited",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "78.17.16.88",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Hostkey B.v.",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "5.255.123.162",
       "port": "1080",
       "protocols": [
         "socks5",
@@ -173,28 +258,13 @@
       "type": "socks5"
     },
     {
-      "ip": "88.218.248.126",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "GLB Bulut Teknolojisi Limited Sirketi",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "195.2.92.202",
+      "ip": "46.149.77.90",
       "port": "1080",
       "protocols": [
         "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -205,8 +275,25 @@
       "type": "socks5"
     },
     {
-      "ip": "79.137.197.56",
-      "port": "1081",
+      "ip": "185.200.176.134",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Clodo Cloud Service Co. L.L.C",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "144.124.227.88",
+      "port": "3129",
       "protocols": [
         "socks5",
         "http",
@@ -217,81 +304,47 @@
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
-      "isp": "Aeza Group LLC",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "46.149.77.90",
-      "port": "1080",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
       "isp": "Servers Tech Fzco",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "195.211.124.250",
-      "port": "1080",
+      "ip": "85.234.65.233",
+      "port": "8080",
       "protocols": [
+        "http",
         "socks5",
         "socks4",
-        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
-      "isp": "Cgi Global Limited",
+      "isp": "G-Core Labs S.A.",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     },
     {
-      "ip": "77.239.111.173",
-      "port": "1080",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "DpkgSoft International Limited",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "46.8.112.212",
+      "ip": "64.188.77.26",
       "port": "3128",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
-      "isp": "Mastersoft S.R.L.",
+      "isp": "Oc Networks Limited",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "144.31.97.40",
-      "port": "1080",
+      "ip": "190.2.145.103",
+      "port": "3128",
       "protocols": [
         "socks5",
         "socks4",
@@ -302,43 +355,60 @@
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
-      "isp": "International Hosting Company Limited",
-      "user_type": "hosting",
-      "type": "socks4"
+      "isp": "WorldStream B.V.",
+      "user_type": "business",
+      "type": "http"
     },
     {
-      "ip": "213.19.205.18",
-      "port": "54321",
+      "ip": "46.161.27.244",
+      "port": "995",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
-      "isp": "Level 3 Parent, LLC",
+      "isp": "NForce Entertainment B.V.",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "104.249.40.117",
+      "ip": "45.130.201.172",
       "port": "1080",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
-      "isp": "Anton Levin",
+      "isp": "WorldStream B.V.",
       "user_type": "business",
       "type": "socks4"
+    },
+    {
+      "ip": "185.233.203.60",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "First Server Limited",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
       "ip": "199.47.241.120",
@@ -355,7 +425,58 @@
       "countryCode": "NL",
       "isp": "LeaseWeb Netherlands B.V.",
       "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "217.12.209.4",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Green Floid LLC",
+      "user_type": "business",
       "type": "socks5"
+    },
+    {
+      "ip": "46.8.112.212",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Mastersoft S.R.L.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "64.225.64.39",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }

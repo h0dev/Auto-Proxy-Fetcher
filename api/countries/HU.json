@@ -1,9 +1,43 @@
 {
-  "updated_at": "2026-06-21T15:16:55.831780",
-  "total": 2,
+  "updated_at": "2026-06-21T20:46:34.384053",
+  "total": 3,
   "data": [
     {
-      "ip": "89.43.132.226",
+      "ip": "89.43.135.106",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "46.107.230.122",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "Szatmarnet Bt.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "89.43.135.42",
       "port": "8080",
       "protocols": [
         "http",
@@ -18,23 +52,6 @@
       "isp": "High Speed For Internet Services L.L.C",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "91.147.235.162",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Hungary",
-      "countryCode": "HU",
-      "isp": "Magyar Telekom Plc.",
-      "user_type": "business",
-      "type": "socks4"
     }
   ]
 }
