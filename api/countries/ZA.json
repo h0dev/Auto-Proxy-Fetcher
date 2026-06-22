@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-22T13:09:37.682421",
-  "total": 9,
+  "updated_at": "2026-06-22T19:47:01.961014",
+  "total": 14,
   "data": [
     {
       "ip": "4.221.164.109",
-      "port": "80",
+      "port": "443",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -21,12 +21,12 @@
     },
     {
       "ip": "4.221.164.109",
-      "port": "443",
+      "port": "80",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -54,7 +54,58 @@
       "type": "http"
     },
     {
-      "ip": "102.221.120.11",
+      "ip": "102.212.46.48",
+      "port": "12354",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "One Mile Telecoms (Pty) Ltd.",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "196.216.134.71",
+      "port": "8865",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "HERO TELECOMS (PTY) LTD",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "196.216.133.18",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "HERO TELECOMS (PTY) LTD",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "102.209.191.10",
       "port": "8080",
       "protocols": [
         "http",
@@ -66,42 +117,8 @@
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "Level 7 Wireless (Pty) Ltd",
-      "user_type": "cellular",
-      "type": "http"
-    },
-    {
-      "ip": "102.217.139.31",
-      "port": "8180",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Bluedog Technology",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "102.218.41.98",
-      "port": "8082",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "IMVULA ITECHNOLOGIES (PTY) LTD",
-      "user_type": "business",
+      "isp": "Mavoni Telecoms (Pty) Ltd",
+      "user_type": "residential",
       "type": "https"
     },
     {
@@ -137,6 +154,40 @@
       "type": "socks5"
     },
     {
+      "ip": "169.255.77.150",
+      "port": "8865",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "HERO TELECOMS (PTY) LTD",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "196.216.133.17",
+      "port": "9999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "HERO TELECOMS (PTY) LTD",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
       "ip": "20.33.10.132",
       "port": "80",
       "protocols": [
@@ -152,6 +203,34 @@
       "isp": "Microsoft Corporation",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "13.246.6.135",
+      "port": "7816",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.245.171.157",
+      "port": "39003",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }
