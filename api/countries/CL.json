@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-22T05:49:47.387217",
-  "total": 3,
+  "updated_at": "2026-06-22T13:09:37.686461",
+  "total": 2,
   "data": [
     {
-      "ip": "45.225.205.224",
+      "ip": "200.111.104.59",
+      "port": "3129",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "ENTEL CHILE S.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.181.121.57",
       "port": "999",
       "protocols": [
         "http",
@@ -15,43 +32,9 @@
       "password": null,
       "country": "Chile",
       "countryCode": "CL",
-      "isp": "NETDELSUR TELECOMUNICACIONES SPA",
+      "isp": "REDCENTRAL TELECOMUNICACIONES LTDA",
       "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "143.255.176.161",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "LanProject SPA",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "143.255.176.5",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "LanProject SPA",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }

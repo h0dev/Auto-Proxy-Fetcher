@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-22T05:49:47.386789",
-  "total": 8,
+  "updated_at": "2026-06-22T13:09:37.682681",
+  "total": 6,
   "data": [
     {
-      "ip": "65.20.105.241",
-      "port": "10001",
+      "ip": "83.97.79.114",
+      "port": "8443",
+      "protocols": [
+        "http",
+        "socks5",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "BlueVPS OU",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "154.62.226.187",
+      "port": "9051",
       "protocols": [
         "socks4",
         "socks5",
@@ -15,30 +32,30 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "The Constant Company, LLC",
+      "isp": "Ultahost, Inc.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
-      "ip": "83.56.15.57",
-      "port": "5678",
+      "ip": "82.223.151.29",
+      "port": "1080",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Telefonica De Espana S.a.u.",
+      "isp": "IONOS SE",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "168.245.197.146",
-      "port": "80",
+      "ip": "188.227.140.181",
+      "port": "8080",
       "protocols": [
         "socks5",
         "socks4",
@@ -51,57 +68,7 @@
       "countryCode": "ES",
       "isp": "Aire Networks Del Mediterraneo Sl Unipersonal",
       "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "83.97.79.114",
-      "port": "8443",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "BlueVPS OU",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "185.130.219.12",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Suis Boga Telecom Sl",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "51.49.153.183",
-      "port": "8028",
-      "protocols": [
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "51.49.153.183",
@@ -119,13 +86,12 @@
       "type": "https"
     },
     {
-      "ip": "51.92.173.133",
-      "port": "27067",
+      "ip": "51.49.153.183",
+      "port": "8028",
       "protocols": [
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -133,7 +99,7 @@
       "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }

@@ -1,14 +1,31 @@
 {
-  "updated_at": "2026-06-22T05:49:47.390064",
-  "total": 3,
+  "updated_at": "2026-06-22T13:09:37.682010",
+  "total": 4,
   "data": [
+    {
+      "ip": "191.102.250.73",
+      "port": "4153",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "IP*RED",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "168.196.24.29",
       "port": "60606",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -20,23 +37,8 @@
       "type": "socks4"
     },
     {
-      "ip": "187.102.219.64",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Argentina",
-      "countryCode": "AR",
-      "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "190.220.1.173",
-      "port": "35376",
+      "ip": "200.70.35.2",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -47,7 +49,24 @@
       "password": null,
       "country": "Argentina",
       "countryCode": "AR",
-      "isp": "Techtel LMDS Comunicaciones Interactivas S.A.",
+      "isp": "Telefonica de Argentina",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "190.2.104.201",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "Teledifusora S.A.",
       "user_type": "business",
       "type": "socks4"
     }
