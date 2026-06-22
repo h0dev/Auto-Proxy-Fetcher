@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-22T13:09:37.659742",
-  "total": 2,
+  "updated_at": "2026-06-22T23:46:42.952505",
+  "total": 3,
   "data": [
     {
       "ip": "178.17.52.33",
       "port": "1080",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,7 +20,24 @@
       "type": "socks5"
     },
     {
-      "ip": "37.239.47.74",
+      "ip": "185.166.24.191",
+      "port": "1981",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iraq",
+      "countryCode": "IQ",
+      "isp": "Online Company for Technological Information, Supply of Electronic Equipment and Internet S",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "5.175.151.66",
       "port": "8080",
       "protocols": [
         "http",
@@ -32,9 +49,9 @@
       "password": null,
       "country": "Iraq",
       "countryCode": "IQ",
-      "isp": "Hulum Almustakbal Company for Communication Engineering and Services Ltd",
+      "isp": "Super Cell Network For Internet Services Ltd",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
