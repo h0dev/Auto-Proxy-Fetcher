@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-21T23:14:30.354291",
-  "total": 5,
+  "updated_at": "2026-06-22T05:49:47.356672",
+  "total": 2,
   "data": [
     {
       "ip": "85.237.206.150",
       "port": "1234",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "socks5",
         "https"
       ],
       "username": null,
@@ -17,7 +17,7 @@
       "countryCode": "TW",
       "isp": "WAP.AC LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "165.154.227.39",
@@ -35,57 +35,6 @@
       "isp": "Scloud Pte Ltd",
       "user_type": "hosting",
       "type": "socks5"
-    },
-    {
-      "ip": "220.128.223.136",
-      "port": "8081",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Taiwan",
-      "countryCode": "TW",
-      "isp": "Data Communication Business Group",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "220.128.223.136",
-      "port": "8082",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Taiwan",
-      "countryCode": "TW",
-      "isp": "Data Communication Business Group",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "220.128.223.136",
-      "port": "8083",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Taiwan",
-      "countryCode": "TW",
-      "isp": "Data Communication Business Group",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }

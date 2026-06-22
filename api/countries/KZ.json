@@ -1,21 +1,38 @@
 {
-  "updated_at": "2026-06-21T23:14:30.389094",
+  "updated_at": "2026-06-22T05:49:47.383141",
   "total": 3,
   "data": [
     {
-      "ip": "46.8.31.104",
+      "ip": "176.12.74.0",
       "port": "1080",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Fedinyak Sergey Vyacheslavovich",
+      "isp": "HostLab LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "95.182.107.210",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "TOO Kainar-Media",
       "user_type": "business",
       "type": "socks4"
     },
@@ -35,23 +52,6 @@
       "isp": "JSC Transtelecom",
       "user_type": "residential",
       "type": "http"
-    },
-    {
-      "ip": "95.182.107.210",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "TOO Kainar-Media",
-      "user_type": "business",
-      "type": "socks4"
     }
   ]
 }

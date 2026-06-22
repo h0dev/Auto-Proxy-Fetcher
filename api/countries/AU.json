@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-21T23:14:30.363019",
-  "total": 7,
+  "updated_at": "2026-06-22T05:49:47.383790",
+  "total": 9,
   "data": [
     {
-      "ip": "134.199.164.215",
+      "ip": "82.97.247.37",
+      "port": "80",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Jsc timeweb",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "170.64.170.204",
       "port": "1080",
       "protocols": [
         "socks5",
@@ -34,40 +51,23 @@
       "countryCode": "AU",
       "isp": "Jsc timeweb",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
-      "ip": "170.64.170.204",
-      "port": "1080",
+      "ip": "103.131.232.9",
+      "port": "8080",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Australia",
-      "countryCode": "AU",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "82.97.247.37",
-      "port": "80",
-      "protocols": [
-        "http",
-        "socks5",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Australia",
       "countryCode": "AU",
-      "isp": "Jsc timeweb",
-      "user_type": "business",
+      "isp": "YLess4U Regional Broadband",
+      "user_type": "residential",
       "type": "https"
     },
     {
@@ -88,8 +88,8 @@
       "type": "socks4"
     },
     {
-      "ip": "54.253.167.61",
-      "port": "13406",
+      "ip": "16.26.99.200",
+      "port": "24486",
       "protocols": [
         "http",
         "https",
@@ -105,8 +105,40 @@
       "type": "socks4"
     },
     {
-      "ip": "54.79.125.20",
-      "port": "4443",
+      "ip": "16.51.148.102",
+      "port": "39389",
+      "protocols": [
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "16.51.62.173",
+      "port": "3715",
+      "protocols": [
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "54.253.167.61",
+      "port": "13406",
       "protocols": [
         "http",
         "https",
@@ -119,7 +151,7 @@
       "countryCode": "AU",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
