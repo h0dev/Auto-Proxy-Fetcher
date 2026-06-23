@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-23T18:18:21.764335",
-  "total": 1,
+  "updated_at": "2026-06-23T21:08:03.579773",
+  "total": 2,
   "data": [
     {
-      "ip": "102.0.14.42",
-      "port": "1080",
+      "ip": "102.0.30.88",
+      "port": "8080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Airtel Networks Kenya Limited",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "41.209.14.123",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "Airtel Networks Kenya Limited",
+      "isp": "MTN SA",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     }
   ]
 }

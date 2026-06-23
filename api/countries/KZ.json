@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-23T15:54:59.976111",
-  "total": 1,
+  "updated_at": "2026-06-23T21:08:03.556897",
+  "total": 2,
   "data": [
     {
-      "ip": "2.78.60.10",
-      "port": "3129",
+      "ip": "46.8.31.104",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Fedinyak Sergey Vyacheslavovich",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "92.46.70.174",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Kcell JSC",
-      "user_type": "business",
-      "type": "https"
+      "isp": "JSC Kazakhtelecom",
+      "user_type": "residential",
+      "type": "socks5"
     }
   ]
 }
