@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-06-22T23:46:42.992266",
-  "total": 3,
+  "updated_at": "2026-06-23T04:54:06.022925",
+  "total": 4,
   "data": [
     {
-      "ip": "77.242.21.133",
-      "port": "8080",
+      "ip": "185.190.90.2",
+      "port": "4145",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Albania",
       "countryCode": "AL",
-      "isp": "Abissnet sh.a.",
+      "isp": "LightNet Sh.p.k.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "37.26.86.206",
+      "port": "4145",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Albanian Telecommunications Union SH. P.K.",
+      "user_type": "residential",
+      "type": "socks4"
     },
     {
       "ip": "185.196.182.22",
@@ -34,11 +51,11 @@
       "countryCode": "AL",
       "isp": "shqiponjaisp.al LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "79.106.170.126",
-      "port": "4145",
+      "ip": "79.106.79.154",
+      "port": "8989",
       "protocols": [
         "http",
         "https",
@@ -51,7 +68,7 @@
       "countryCode": "AL",
       "isp": "One Albania Sh.a.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }

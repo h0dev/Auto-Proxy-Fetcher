@@ -1,23 +1,39 @@
 {
-  "updated_at": "2026-06-22T23:46:42.988573",
-  "total": 5,
+  "updated_at": "2026-06-23T04:54:05.980081",
+  "total": 8,
   "data": [
     {
-      "ip": "51.83.226.103",
-      "port": "9055",
+      "ip": "85.158.57.15",
+      "port": "1080",
       "protocols": [
-        "socks4",
+        "socks5",
+        "http",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Datacamp Limited",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "80.55.169.2",
+      "port": "8080",
+      "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "OVH SAS",
-      "user_type": "hosting",
-      "type": "socks5"
+      "isp": "Orange Polska Spolka Akcyjna",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "91.150.189.122",
@@ -37,8 +53,8 @@
       "type": "socks4"
     },
     {
-      "ip": "185.238.238.141",
-      "port": "58080",
+      "ip": "80.51.61.1",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -49,18 +65,63 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "RADIO-NET",
+      "isp": "Orange Polska Spolka Akcyjna",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "185.238.238.121",
-      "port": "58080",
+      "ip": "178.217.32.124",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
         "socks4",
         "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "REYU.NET Sp. z o. o.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "194.53.194.51",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "ITH sp. z o.o.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "37.131.164.48",
+      "port": "59341",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Provector Sp. z o.o",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "185.238.238.121",
+      "port": "58080",
+      "protocols": [
+        "https"
       ],
       "username": null,
       "password": null,
@@ -69,23 +130,6 @@
       "isp": "RADIO-NET",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "31.42.6.125",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "Marcin Malolepszy @alfanet",
-      "user_type": "business",
-      "type": "socks4"
     }
   ]
 }
