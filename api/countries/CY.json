@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-06-23T04:54:06.004260",
-  "total": 1,
+  "updated_at": "2026-06-23T10:47:53.875139",
+  "total": 2,
   "data": [
     {
-      "ip": "92.118.234.124",
-      "port": "1080",
+      "ip": "212.31.100.138",
+      "port": "4153",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "socks5",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Cyprus",
       "countryCode": "CY",
-      "isp": "WorkTitans B.V.",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Cyprus Telecommunications Authority",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "92.118.235.86",
+      "port": "60001",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Cyprus",
+      "countryCode": "CY",
+      "isp": "RACKVOLT CLOUD SOLUTIONS PRIVATE LIMITED",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }
