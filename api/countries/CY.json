@@ -1,15 +1,32 @@
 {
-  "updated_at": "2026-06-23T10:47:53.875139",
+  "updated_at": "2026-06-23T15:54:59.989612",
   "total": 2,
   "data": [
+    {
+      "ip": "45.89.106.116",
+      "port": "1082",
+      "protocols": [
+        "socks4",
+        "http",
+        "socks5",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Cyprus",
+      "countryCode": "CY",
+      "isp": "NETRANEX TECHNOLOGIES (INDIA) PRIVATE LIMITED",
+      "user_type": "business",
+      "type": "https"
+    },
     {
       "ip": "212.31.100.138",
       "port": "4153",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -18,23 +35,6 @@
       "isp": "Cyprus Telecommunications Authority",
       "user_type": "residential",
       "type": "socks4"
-    },
-    {
-      "ip": "92.118.235.86",
-      "port": "60001",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Cyprus",
-      "countryCode": "CY",
-      "isp": "RACKVOLT CLOUD SOLUTIONS PRIVATE LIMITED",
-      "user_type": "hosting",
-      "type": "https"
     }
   ]
 }

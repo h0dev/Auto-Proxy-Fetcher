@@ -1,10 +1,26 @@
 {
-  "updated_at": "2026-06-22T05:49:47.390213",
-  "total": 1,
+  "updated_at": "2026-06-23T15:54:59.992829",
+  "total": 3,
   "data": [
     {
-      "ip": "178.217.168.164",
-      "port": "55443",
+      "ip": "212.112.121.130",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kyrgyzstan",
+      "countryCode": "KG",
+      "isp": "AKNET Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "212.112.121.130",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,7 +31,24 @@
       "password": null,
       "country": "Kyrgyzstan",
       "countryCode": "KG",
-      "isp": "Kyrgyz research and education network association",
+      "isp": "AKNET Ltd.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "77.235.31.24",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kyrgyzstan",
+      "countryCode": "KG",
+      "isp": "Mega-Line Ltd.",
       "user_type": "business",
       "type": "http"
     }

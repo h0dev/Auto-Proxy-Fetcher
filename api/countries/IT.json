@@ -1,10 +1,44 @@
 {
-  "updated_at": "2026-06-23T10:47:53.877611",
-  "total": 1,
+  "updated_at": "2026-06-23T15:54:59.986957",
+  "total": 4,
   "data": [
     {
-      "ip": "46.21.186.252",
+      "ip": "149.62.186.244",
       "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Host SpA",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "176.126.83.76",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "BrainStorm Network, Inc",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "15.160.116.45",
+      "port": "15723",
       "protocols": [
         "http",
         "https",
@@ -15,8 +49,23 @@
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "Planetel SPA",
-      "user_type": "business",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "15.161.59.54",
+      "port": "45645",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "socks4"
     }
   ]
