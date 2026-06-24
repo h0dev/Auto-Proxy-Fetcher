@@ -1,13 +1,30 @@
 {
-  "updated_at": "2026-06-24T20:48:55.427345",
-  "total": 5,
+  "updated_at": "2026-06-24T23:18:46.990376",
+  "total": 6,
   "data": [
     {
-      "ip": "45.144.49.156",
-      "port": "1080",
+      "ip": "88.218.206.170",
+      "port": "5432",
       "protocols": [
         "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Skhron OU",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "31.42.2.113",
+      "port": "5678",
+      "protocols": [
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -15,47 +32,30 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Newserverlife LLC",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "193.243.154.146",
-      "port": "4145",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "Firma Handlowo Uslugowa RuszelNet Lukasz Ruszel",
+      "isp": "Marcin Malolepszy @alfanet",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "185.186.17.57",
+      "ip": "91.223.52.141",
       "port": "5678",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Media Telekom Sp. z o.o.",
+      "isp": "InterWan Sp. z o.o.",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "185.238.238.141",
-      "port": "58080",
+      "ip": "185.14.149.33",
+      "port": "4145",
       "protocols": [
         "http",
         "https",
@@ -66,13 +66,27 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "RADIO-NET",
+      "isp": "Enformatel Sp. z o.o.",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "88.156.206.14",
-      "port": "8282",
+      "ip": "194.53.194.51",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "ITH sp. z o.o.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "212.126.5.246",
+      "port": "42344",
       "protocols": [
         "http",
         "https",
@@ -83,9 +97,9 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Vectra S.A.",
+      "isp": "Institute of Bioorganic Chemistry Polish Academy of Science, Poznan Supercomputing and Networ",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }

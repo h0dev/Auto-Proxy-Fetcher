@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-24T20:48:55.432710",
-  "total": 4,
+  "updated_at": "2026-06-24T23:18:47.132925",
+  "total": 6,
   "data": [
     {
-      "ip": "45.13.185.217",
+      "ip": "82.223.151.29",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "IONOS SE",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "141.227.128.55",
       "port": "3128",
       "protocols": [
         "http",
@@ -15,24 +32,25 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Soluciones web on line s.l.",
-      "user_type": "business",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
       "type": "https"
     },
     {
-      "ip": "51.49.153.183",
-      "port": "8028",
+      "ip": "141.105.107.152",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
+      "isp": "Red digital de telecomunicaciones de las Islas Baleares S.L",
+      "user_type": "residential",
       "type": "socks4"
     },
     {
@@ -41,6 +59,22 @@
       "protocols": [
         "http",
         "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "51.49.153.183",
+      "port": "8028",
+      "protocols": [
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
