@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-24T18:05:23.060789",
-  "total": 7,
+  "updated_at": "2026-06-24T20:48:55.381608",
+  "total": 4,
   "data": [
     {
       "ip": "111.48.191.1",
@@ -17,11 +17,28 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "39.185.81.211",
-      "port": "10808",
+      "ip": "81.12.157.98",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Vodafone Romania S.A.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "112.28.149.152",
+      "port": "8443",
       "protocols": [
         "socks5",
         "http",
@@ -32,94 +49,26 @@
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "China Mobile communications corporation",
+      "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
       "type": "socks5"
     },
     {
-      "ip": "80.78.74.66",
-      "port": "65530",
+      "ip": "94.198.213.252",
+      "port": "5678",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
-      "country": "Albania",
-      "countryCode": "AL",
-      "isp": "Vodafone Albania Sh.A.",
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "LA Wireless Srl",
       "user_type": "cellular",
       "type": "socks4"
-    },
-    {
-      "ip": "188.164.218.209",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Albania",
-      "countryCode": "AL",
-      "isp": "Vodafone Albania Sh.A.",
-      "user_type": "cellular",
-      "type": "http"
-    },
-    {
-      "ip": "36.147.78.166",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Mobile Communications Group Co., Ltd.",
-      "user_type": "cellular",
-      "type": "http"
-    },
-    {
-      "ip": "80.78.73.120",
-      "port": "65530",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Albania",
-      "countryCode": "AL",
-      "isp": "Vodafone Albania Sh.A.",
-      "user_type": "cellular",
-      "type": "socks4"
-    },
-    {
-      "ip": "94.79.152.14",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Vodafone GmbH",
-      "user_type": "cellular",
-      "type": "http"
     }
   ]
 }
