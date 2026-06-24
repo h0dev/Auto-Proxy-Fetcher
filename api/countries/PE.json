@@ -1,26 +1,43 @@
 {
-  "updated_at": "2026-06-24T04:54:34.230989",
+  "updated_at": "2026-06-24T10:35:10.530358",
   "total": 4,
   "data": [
     {
-      "ip": "190.93.224.32",
-      "port": "999",
+      "ip": "177.91.255.35",
+      "port": "5678",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "FICOM TELECOMUNICACIONES S.A.C.",
+      "isp": "EMPRESA DE TELECOMUNICACIONES MULTIMEDIA ALFA",
       "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "38.226.49.203",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "KAZAV LATAM E.I.R.L.",
+      "user_type": "business",
       "type": "https"
     },
     {
-      "ip": "201.230.15.57",
+      "ip": "38.158.83.65",
       "port": "999",
       "protocols": [
         "http",
@@ -32,43 +49,23 @@
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "INTEGRATEL PERU S.A.A.",
+      "isp": "FIBERRED SAC",
       "user_type": "business",
       "type": "https"
     },
     {
-      "ip": "201.230.121.86",
+      "ip": "38.224.231.81",
       "port": "999",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "INTEGRATEL PERU S.A.A.",
+      "isp": "CORPORACION TARAZONA CATV S.A.C.",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "45.189.117.72",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "CONEX TV E.I.R.L.",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
