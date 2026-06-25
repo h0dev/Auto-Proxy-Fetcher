@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-25T04:56:08.607625",
-  "total": 6,
+  "updated_at": "2026-06-25T10:27:10.405771",
+  "total": 9,
   "data": [
     {
       "ip": "176.111.37.216",
       "port": "39811",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -37,25 +37,25 @@
       "type": "socks4"
     },
     {
-      "ip": "5.199.239.128",
-      "port": "1080",
+      "ip": "195.138.65.34",
+      "port": "5678",
       "protocols": [
-        "socks5",
+        "socks4",
         "http",
         "https",
-        "socks4"
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Telecomunikatsiina Companiya Ltd",
-      "user_type": "residential",
-      "type": "socks5"
+      "isp": "TENET Scientific Production Enterprise LLC",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
-      "ip": "176.37.21.46",
-      "port": "41890",
+      "ip": "134.249.128.111",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -66,13 +66,30 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Lanet Network Ltd",
+      "isp": "Kyivstar PJSC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "176.105.212.219",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "RPC HomeNet Ltd.",
       "user_type": "business",
       "type": "https"
     },
     {
-      "ip": "95.67.121.206",
-      "port": "45554",
+      "ip": "195.68.196.32",
+      "port": "4222",
       "protocols": [
         "http",
         "https",
@@ -83,13 +100,13 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Cosmonova LLC",
+      "isp": "Ivano-Frankivsk INFOCOM LLC",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "188.191.18.66",
-      "port": "1080",
+      "ip": "212.1.86.225",
+      "port": "81",
       "protocols": [
         "http",
         "https",
@@ -100,8 +117,42 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "CrimeaCom South LLC",
+      "isp": "Joint Ukrainan-German Enterprise INFOCOM LLC",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "31.131.135.247",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "IE Parhomenko Aleksey Aleksandrovich",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "31.43.33.55",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Ukrainian Telecommunication Group LLC",
+      "user_type": "residential",
       "type": "socks4"
     }
   ]

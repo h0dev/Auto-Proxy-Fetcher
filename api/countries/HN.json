@@ -1,10 +1,44 @@
 {
-  "updated_at": "2026-06-24T23:18:47.129957",
+  "updated_at": "2026-06-25T10:27:10.441061",
   "total": 3,
   "data": [
     {
-      "ip": "190.185.112.58",
+      "ip": "181.78.44.63",
       "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "168.228.44.66",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "CABLE NACIONAL, S.A.",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "190.185.116.186",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -18,40 +52,6 @@
       "isp": "Redes y Telecomunicaciones",
       "user_type": "residential",
       "type": "https"
-    },
-    {
-      "ip": "179.49.113.225",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Honduras",
-      "countryCode": "HN",
-      "isp": "ASOCIACION DE SERVICIO DE INTERNET S. DE RL.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "181.115.74.172",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Honduras",
-      "countryCode": "HN",
-      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
-      "user_type": "residential",
-      "type": "socks4"
     }
   ]
 }

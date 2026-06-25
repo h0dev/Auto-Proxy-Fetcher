@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-06-25T04:56:08.626501",
-  "total": 1,
+  "updated_at": "2026-06-25T10:27:10.444052",
+  "total": 2,
   "data": [
     {
-      "ip": "154.160.53.5",
-      "port": "8888",
+      "ip": "41.189.171.186",
+      "port": "8080",
       "protocols": [
-        "https"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,21 @@
       "countryCode": "GH",
       "isp": "Scancom Limited",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "154.160.53.5",
+      "port": "8888",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ghana",
+      "countryCode": "GH",
+      "isp": "Scancom Limited",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

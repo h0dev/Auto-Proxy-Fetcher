@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-25T04:56:08.615007",
+  "updated_at": "2026-06-25T10:27:10.441240",
   "total": 2,
   "data": [
     {
-      "ip": "46.214.153.223",
+      "ip": "45.142.195.110",
+      "port": "995",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Data Campus Limited",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "81.12.157.98",
       "port": "5678",
       "protocols": [
         "socks4",
@@ -15,26 +32,9 @@
       "password": null,
       "country": "Romania",
       "countryCode": "RO",
-      "isp": "Nextgen Communications Srl",
-      "user_type": "business",
+      "isp": "Vodafone Romania S.A.",
+      "user_type": "cellular",
       "type": "socks4"
-    },
-    {
-      "ip": "92.86.207.198",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Romania",
-      "countryCode": "RO",
-      "isp": "Orange Romania S.A.",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }
