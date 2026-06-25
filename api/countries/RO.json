@@ -1,13 +1,30 @@
 {
-  "updated_at": "2026-06-25T10:27:10.441240",
-  "total": 2,
+  "updated_at": "2026-06-25T15:38:22.091568",
+  "total": 4,
   "data": [
     {
-      "ip": "45.142.195.110",
-      "port": "995",
+      "ip": "86.127.175.42",
+      "port": "8080",
       "protocols": [
-        "socks4",
+        "http",
         "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Digi Romania S.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "109.166.207.162",
+      "port": "3629",
+      "protocols": [
+        "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -15,25 +32,42 @@
       "password": null,
       "country": "Romania",
       "countryCode": "RO",
-      "isp": "Data Campus Limited",
+      "isp": "Orange Romania S.A.",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "81.12.157.98",
-      "port": "5678",
+      "ip": "85.122.120.119",
+      "port": "20016",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Romania",
       "countryCode": "RO",
-      "isp": "Vodafone Romania S.A.",
-      "user_type": "cellular",
+      "isp": "Stylish By A&l Srl",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "46.214.153.223",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Nextgen Communications Srl",
+      "user_type": "business",
       "type": "socks4"
     }
   ]

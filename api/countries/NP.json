@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-25T10:27:10.442027",
+  "updated_at": "2026-06-25T15:38:22.094652",
   "total": 5,
   "data": [
     {
-      "ip": "202.79.47.159",
-      "port": "10800",
+      "ip": "202.79.35.12",
+      "port": "1080",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,7 +20,7 @@
       "type": "socks4"
     },
     {
-      "ip": "103.124.97.12",
+      "ip": "139.5.75.83",
       "port": "8080",
       "protocols": [
         "http",
@@ -32,13 +32,47 @@
       "password": null,
       "country": "Nepal",
       "countryCode": "NP",
-      "isp": "Pokhara Internet Pvt. Ltd.",
+      "isp": "WorldLink Communications Pvt Ltd",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "110.34.1.178",
+      "port": "7777",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nepal",
+      "countryCode": "NP",
+      "isp": "Subisu Cablenet (Pvt) Ltd, Baluwatar, Kathmandu, Nepal",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "110.34.1.180",
+      "port": "32650",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nepal",
+      "countryCode": "NP",
+      "isp": "Subisu Cablenet (Pvt) Ltd, Baluwatar, Kathmandu, Nepal",
+      "user_type": "residential",
       "type": "https"
     },
     {
-      "ip": "103.86.57.9",
-      "port": "4145",
+      "ip": "182.50.65.145",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -49,43 +83,9 @@
       "password": null,
       "country": "Nepal",
       "countryCode": "NP",
-      "isp": "Web Networks Pvt. Ltd.",
+      "isp": "Broadlink Nepal",
       "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "124.41.213.174",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Nepal",
-      "countryCode": "NP",
-      "isp": "WorldLink Communications Pvt Ltd",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "202.70.80.153",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Nepal",
-      "countryCode": "NP",
-      "isp": "Nepal Telecommunications Corporation, Internet Services,",
-      "user_type": "residential",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }

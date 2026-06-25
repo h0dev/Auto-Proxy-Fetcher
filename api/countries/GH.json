@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-25T10:27:10.444052",
+  "updated_at": "2026-06-25T15:38:22.096132",
   "total": 2,
   "data": [
     {
-      "ip": "41.189.171.186",
+      "ip": "143.105.208.94",
       "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ghana",
+      "countryCode": "GH",
+      "isp": "Space Exploration Technologies Corporation",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "154.160.53.5",
+      "port": "8888",
       "protocols": [
         "http",
         "https",
@@ -17,21 +34,7 @@
       "countryCode": "GH",
       "isp": "Scancom Limited",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "154.160.53.5",
-      "port": "8888",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ghana",
-      "countryCode": "GH",
-      "isp": "Scancom Limited",
-      "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
