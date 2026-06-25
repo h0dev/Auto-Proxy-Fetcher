@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-25T18:11:38.211962",
-  "total": 5,
+  "updated_at": "2026-06-25T21:04:02.684302",
+  "total": 9,
   "data": [
     {
       "ip": "176.111.37.216",
       "port": "39811",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,8 +20,25 @@
       "type": "http"
     },
     {
-      "ip": "46.175.191.225",
-      "port": "9999",
+      "ip": "80.92.227.185",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "WNET TELECOM USA Corp.",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "91.228.217.195",
+      "port": "8989",
       "protocols": [
         "http",
         "https",
@@ -32,12 +49,95 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "BELNET LTD",
+      "isp": "FOP Saiv Igor Stepanovich",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "82.193.116.160",
+      "port": "21003",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Industrial Media Network LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "46.63.110.85",
+      "port": "8080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "X-City Ltd.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "37.52.13.164",
+      "port": "5678",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Unknown",
+      "user_type": "Unknown",
+      "type": "socks4"
+    },
+    {
+      "ip": "195.66.197.169",
+      "port": "39724",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Limited Liability Company infolink",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "195.140.226.32",
+      "ip": "5.199.239.128",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Telecomunikatsiina Companiya Ltd",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "95.182.78.8",
       "port": "5678",
       "protocols": [
         "http",
@@ -49,43 +149,9 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Therecom Ltd",
+      "isp": "PE UAinet",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "195.68.196.32",
-      "port": "4222",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "Ivano-Frankivsk INFOCOM LLC",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "31.202.49.61",
-      "port": "33761",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "Maxnet Telecom, Ltd",
-      "user_type": "residential",
-      "type": "http"
     }
   ]
 }

@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-25T18:11:38.213315",
-  "total": 2,
+  "updated_at": "2026-06-25T21:04:02.688884",
+  "total": 3,
   "data": [
     {
-      "ip": "89.43.135.42",
+      "ip": "91.147.235.162",
+      "port": "4153",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "Magyar Telekom Plc.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "89.43.132.226",
       "port": "8080",
       "protocols": [
         "http",
@@ -17,12 +34,13 @@
       "countryCode": "HU",
       "isp": "High Speed For Internet Services L.L.C",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "95.214.123.54",
+      "ip": "95.214.123.140",
       "port": "8080",
       "protocols": [
+        "http",
         "https"
       ],
       "username": null,
@@ -31,7 +49,7 @@
       "countryCode": "HU",
       "isp": "Deltakon Kft.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
