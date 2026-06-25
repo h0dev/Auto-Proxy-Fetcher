@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-25T21:04:02.690588",
-  "total": 2,
+  "updated_at": "2026-06-25T23:20:38.192258",
+  "total": 3,
   "data": [
     {
-      "ip": "194.135.38.119",
-      "port": "2333",
+      "ip": "195.133.77.168",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Timeweb, LLP",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "188.119.98.126",
+      "port": "9999",
       "protocols": [
         "http",
         "https",
@@ -15,23 +32,26 @@
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "Timeweb, LLP",
+      "isp": "O2 Czech Republic, a.s.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
-      "ip": "195.133.77.168",
-      "port": "1080",
+      "ip": "85.163.43.208",
+      "port": "48293",
       "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "Timeweb, LLP",
+      "isp": "CETIN a.s.",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     }
   ]
 }

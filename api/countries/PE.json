@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-06-25T21:04:02.683746",
-  "total": 4,
+  "updated_at": "2026-06-25T23:20:38.150734",
+  "total": 7,
   "data": [
     {
       "ip": "38.43.158.7",
       "port": "8080",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,7 +20,7 @@
       "type": "http"
     },
     {
-      "ip": "190.93.224.32",
+      "ip": "200.39.153.1",
       "port": "999",
       "protocols": [
         "http",
@@ -29,27 +32,12 @@
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "FICOM TELECOMUNICACIONES S.A.C.",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "38.52.182.49",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Peru",
-      "countryCode": "PE",
-      "isp": "NEXSATEL SOCIEDAD ANONIMA CERRADA - NEXSATEL S.A.C.",
+      "isp": "AIRWIZ PERU E.I.R.L",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "45.171.164.8",
+      "ip": "190.237.238.57",
       "port": "999",
       "protocols": [
         "http",
@@ -61,9 +49,77 @@
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "P & M COMUNICACIONES S.A.C.",
+      "isp": "INTEGRATEL PERU S.A.A.",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "38.158.83.233",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "FIBERRED SAC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "190.12.95.170",
+      "port": "37209",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "ON EMPRESAS S.A.C.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "200.106.124.170",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "INTEGRATEL PERU S.A.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "200.215.229.14",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "GPON NETWORKS S.A.C.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-25T21:04:02.690131",
+  "updated_at": "2026-06-25T23:20:38.198291",
   "total": 3,
   "data": [
     {
-      "ip": "170.83.242.76",
+      "ip": "181.233.100.101",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Paraguay",
+      "countryCode": "PY",
+      "isp": "WIRSCHKE MONGES RICARDO DANIEL",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "181.78.95.99",
       "port": "999",
       "protocols": [
         "http",
@@ -16,23 +33,6 @@
       "country": "Paraguay",
       "countryCode": "PY",
       "isp": "UFINET PANAMA S.A.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "45.177.16.130",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Paraguay",
-      "countryCode": "PY",
-      "isp": "MSW S.A.",
       "user_type": "business",
       "type": "http"
     },
@@ -51,7 +51,7 @@
       "countryCode": "PY",
       "isp": "MSW S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
