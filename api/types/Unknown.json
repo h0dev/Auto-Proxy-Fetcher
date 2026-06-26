@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-26T10:32:13.225811",
-  "total": 1,
+  "updated_at": "2026-06-26T18:01:04.767203",
+  "total": 2,
   "data": [
     {
-      "ip": "95.215.8.225",
-      "port": "3128",
+      "ip": "93.177.116.84",
+      "port": "1080",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,24 @@
       "countryCode": "NL",
       "isp": "Unknown",
       "user_type": "Unknown",
-      "type": "http"
+      "type": "socks5"
+    },
+    {
+      "ip": "169.239.236.201",
+      "port": "10801",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Nigeria",
+      "countryCode": "NG",
+      "isp": "Unknown",
+      "user_type": "Unknown",
+      "type": "socks4"
     }
   ]
 }
