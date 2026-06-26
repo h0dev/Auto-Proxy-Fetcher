@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-25T23:20:38.193058",
-  "total": 3,
+  "updated_at": "2026-06-26T05:02:18.689960",
+  "total": 4,
   "data": [
     {
       "ip": "89.40.233.13",
@@ -20,13 +20,30 @@
       "type": "socks5"
     },
     {
+      "ip": "2.78.60.10",
+      "port": "3129",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Kcell JSC",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
       "ip": "92.46.70.174",
       "port": "1080",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -37,21 +54,21 @@
       "type": "socks5"
     },
     {
-      "ip": "94.131.230.23",
-      "port": "1080",
+      "ip": "91.185.20.162",
+      "port": "8080",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Freedom Data Centers LLP",
-      "user_type": "business",
-      "type": "socks5"
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "http"
     }
   ]
 }
