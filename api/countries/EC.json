@@ -1,25 +1,44 @@
 {
-  "updated_at": "2026-06-26T10:32:13.266235",
-  "total": 13,
+  "updated_at": "2026-06-26T15:30:31.364621",
+  "total": 24,
   "data": [
     {
-      "ip": "45.171.108.244",
-      "port": "999",
+      "ip": "157.100.26.254",
+      "port": "1090",
       "protocols": [
+        "socks5",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Ecuador",
       "countryCode": "EC",
-      "isp": "LAGONET-TV CIA. LTDA.",
+      "isp": "Telconet S.A",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
     },
     {
-      "ip": "181.78.203.148",
+      "ip": "186.3.76.227",
       "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "Telconet S.A",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "177.234.247.221",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -32,10 +51,27 @@
       "countryCode": "EC",
       "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "66.231.77.61",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "CUBOTELECOM CIA. LTDA.",
+      "user_type": "residential",
       "type": "https"
     },
     {
-      "ip": "45.229.17.62",
+      "ip": "45.229.17.17",
       "port": "999",
       "protocols": [
         "http",
@@ -52,75 +88,7 @@
       "type": "https"
     },
     {
-      "ip": "200.105.252.170",
-      "port": "5678",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ecuador",
-      "countryCode": "EC",
-      "isp": "PUNTONET S.A.",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "45.225.105.172",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ecuador",
-      "countryCode": "EC",
-      "isp": "UFINET PANAMA S.A.",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "157.100.26.252",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ecuador",
-      "countryCode": "EC",
-      "isp": "Telconet S.A",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "157.100.12.151",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ecuador",
-      "countryCode": "EC",
-      "isp": "Telconet S.A",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "177.234.217.235",
+      "ip": "157.100.53.103",
       "port": "999",
       "protocols": [
         "http",
@@ -154,7 +122,24 @@
       "type": "http"
     },
     {
-      "ip": "181.78.207.50",
+      "ip": "177.234.211.31",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "VUELATECHNOLOGY S.A.S.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "177.234.212.131",
       "port": "999",
       "protocols": [
         "http",
@@ -167,6 +152,193 @@
       "country": "Ecuador",
       "countryCode": "EC",
       "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "177.234.211.79",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "VUELATECHNOLOGY S.A.S.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "177.234.224.164",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "181.119.184.44",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "181.224.175.240",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "MICARMITA S.A.S",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "181.233.50.233",
+      "port": "8787",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "OPTILINK CIA LTDA",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "181.224.175.204",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "MICARMITA S.A.S",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "181.78.203.148",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "181.78.203.3",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "186.5.121.106",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "Telconet S.A",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "186.5.94.207",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "Telconet S.A",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.171.111.255",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "LAGONET-TV CIA. LTDA.",
       "user_type": "business",
       "type": "https"
     },
@@ -188,7 +360,7 @@
       "type": "http"
     },
     {
-      "ip": "45.224.23.235",
+      "ip": "45.224.23.238",
       "port": "999",
       "protocols": [
         "http",
@@ -202,10 +374,10 @@
       "countryCode": "EC",
       "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "45.229.16.188",
+      "ip": "45.224.23.236",
       "port": "999",
       "protocols": [
         "http",
@@ -217,7 +389,24 @@
       "password": null,
       "country": "Ecuador",
       "countryCode": "EC",
-      "isp": "TURBONET S.A.",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.4.202.147",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "Eliana Vanessa Morocho Ona",
       "user_type": "business",
       "type": "https"
     }
