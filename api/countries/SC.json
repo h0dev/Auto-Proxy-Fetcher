@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-26T18:01:04.795210",
-  "total": 2,
+  "updated_at": "2026-06-26T20:53:34.121552",
+  "total": 3,
   "data": [
     {
       "ip": "45.194.33.12",
@@ -20,21 +20,35 @@
       "type": "socks5"
     },
     {
-      "ip": "154.201.74.3",
-      "port": "3128",
+      "ip": "156.238.238.147",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Seychelles",
       "countryCode": "SC",
-      "isp": "FASTNET DATA INC",
+      "isp": "cognetcloud INC",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "154.220.66.202",
+      "port": "40087",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "LUOGELANG (FRANCE) LIMITED",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }

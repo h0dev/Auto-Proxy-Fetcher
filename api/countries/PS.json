@@ -1,15 +1,46 @@
 {
-  "updated_at": "2026-06-26T18:01:04.827715",
-  "total": 1,
+  "updated_at": "2026-06-26T20:53:34.140678",
+  "total": 3,
   "data": [
     {
-      "ip": "93.184.4.254",
-      "port": "1080",
+      "ip": "178.214.80.45",
+      "port": "8080",
       "protocols": [
-        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Palestine",
+      "countryCode": "PS",
+      "isp": "Gemzo information technology Private Joint-Stock company",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "213.244.95.175",
+      "port": "8080",
+      "protocols": [
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Palestine",
+      "countryCode": "PS",
+      "isp": "Palestine Telecommunications Company (PALTEL)",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "93.184.7.217",
+      "port": "1080",
+      "protocols": [
+        "https",
+        "socks4",
+        "http"
       ],
       "username": null,
       "password": null,
@@ -17,7 +48,7 @@
       "countryCode": "PS",
       "isp": "BCI Telecommunication & Advanced Technology Company",
       "user_type": "residential",
-      "type": "socks5"
+      "type": "socks4"
     }
   ]
 }
