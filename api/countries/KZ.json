@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-26T20:53:34.119811",
-  "total": 3,
+  "updated_at": "2026-06-26T23:14:34.611570",
+  "total": 7,
   "data": [
     {
       "ip": "89.40.233.13",
@@ -23,7 +23,8 @@
       "ip": "213.148.26.68",
       "port": "8888",
       "protocols": [
-        "https"
+        "https",
+        "http"
       ],
       "username": null,
       "password": null,
@@ -34,8 +35,25 @@
       "type": "https"
     },
     {
-      "ip": "82.200.236.130",
-      "port": "3128",
+      "ip": "92.46.70.174",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Kazakhtelecom",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "46.8.252.19",
+      "port": "8123",
       "protocols": [
         "http",
         "https",
@@ -46,9 +64,60 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "JSC Kazakhtelecom",
-      "user_type": "residential",
-      "type": "http"
+      "isp": "AstanaMegatel Ltd.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "89.169.37.254",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Nls Astana Llp",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "93.185.68.82",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Jusan Mobile JSC",
+      "user_type": "cellular",
+      "type": "https"
+    },
+    {
+      "ip": "95.182.107.210",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "TOO Kainar-Media",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

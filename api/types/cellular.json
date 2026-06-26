@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-26T20:53:34.084409",
-  "total": 10,
+  "updated_at": "2026-06-26T23:14:34.558939",
+  "total": 9,
   "data": [
     {
-      "ip": "111.48.191.1",
-      "port": "7890",
+      "ip": "117.175.168.195",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,11 +17,11 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "112.28.149.156",
-      "port": "8443",
+      "ip": "223.111.182.16",
+      "port": "1011",
       "protocols": [
         "socks5",
         "http",
@@ -32,35 +32,35 @@
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "China Mobile Communications Group Co., Ltd.",
+      "isp": "China Mobile communications corporation",
       "user_type": "cellular",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
-      "ip": "117.175.168.195",
-      "port": "1080",
+      "ip": "81.12.157.98",
+      "port": "5678",
       "protocols": [
         "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Mobile Communications Group Co., Ltd.",
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Vodafone Romania S.A.",
       "user_type": "cellular",
       "type": "socks4"
     },
     {
-      "ip": "80.78.78.106",
+      "ip": "80.78.74.8",
       "port": "65530",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -69,6 +69,23 @@
       "isp": "Vodafone Albania Sh.A.",
       "user_type": "cellular",
       "type": "socks4"
+    },
+    {
+      "ip": "176.94.224.86",
+      "port": "8080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Vodafone GmbH",
+      "user_type": "cellular",
+      "type": "https"
     },
     {
       "ip": "112.2.21.18",
@@ -88,23 +105,8 @@
       "type": "socks4"
     },
     {
-      "ip": "103.172.28.178",
-      "port": "2727",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bangladesh",
-      "countryCode": "BD",
-      "isp": "Hamid Electronics and Automobiles",
-      "user_type": "cellular",
-      "type": "http"
-    },
-    {
-      "ip": "103.216.235.153",
-      "port": "1111",
+      "ip": "39.129.129.165",
+      "port": "10800",
       "protocols": [
         "http",
         "https",
@@ -113,14 +115,31 @@
       ],
       "username": null,
       "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "starlings wireless communications pvt ltd",
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "169.239.208.70",
+      "ip": "81.12.169.254",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Vodafone Romania S.A.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "93.185.68.82",
       "port": "8080",
       "protocols": [
         "http",
@@ -130,45 +149,11 @@
       ],
       "username": null,
       "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Interworks Wireless Solutions",
-      "user_type": "cellular",
-      "type": "http"
-    },
-    {
-      "ip": "196.204.83.229",
-      "port": "1981",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Egypt",
-      "countryCode": "EG",
-      "isp": "Vodafone Data",
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Jusan Mobile JSC",
       "user_type": "cellular",
       "type": "https"
-    },
-    {
-      "ip": "94.198.213.252",
-      "port": "5678",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Italy",
-      "countryCode": "IT",
-      "isp": "LA Wireless Srl",
-      "user_type": "cellular",
-      "type": "socks4"
     }
   ]
 }
