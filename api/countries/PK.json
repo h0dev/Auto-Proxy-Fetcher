@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-26T05:02:18.692332",
-  "total": 6,
+  "updated_at": "2026-06-26T10:32:13.264136",
+  "total": 7,
   "data": [
     {
-      "ip": "43.245.131.90",
-      "port": "8080",
+      "ip": "115.42.67.186",
+      "port": "56534",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -17,10 +17,10 @@
       "countryCode": "PK",
       "isp": "Connect Communications",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "43.251.253.40",
+      "ip": "103.198.154.196",
       "port": "8080",
       "protocols": [
         "http",
@@ -32,9 +32,26 @@
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "Optix Pakistan (Pvt.) Limited",
-      "user_type": "business",
-      "type": "https"
+      "isp": "PLAY BROADBAND (PRIVATE) LIMITED",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "103.255.66.109",
+      "port": "8080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "FASTTEL BROADBAND (PRIVATE) LIMITED",
+      "user_type": "residential",
+      "type": "http"
     },
     {
       "ip": "103.253.18.6",
@@ -54,7 +71,7 @@
       "type": "http"
     },
     {
-      "ip": "103.255.66.109",
+      "ip": "116.0.53.34",
       "port": "8080",
       "protocols": [
         "http",
@@ -66,35 +83,16 @@
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "FASTTEL BROADBAND (PRIVATE) LIMITED",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "115.42.67.186",
-      "port": "56534",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Pakistan",
-      "countryCode": "PK",
-      "isp": "Connect Communications",
+      "isp": "Supernet Limited Transit Autonomous System Number",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "157.10.7.211",
       "port": "8080",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -102,6 +100,23 @@
       "countryCode": "PK",
       "isp": "Z COM NETWORKS",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "221.120.218.66",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "Pakistan Telecommunication Company Limited",
+      "user_type": "residential",
       "type": "http"
     }
   ]
