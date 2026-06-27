@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-27T17:05:54.598492",
-  "total": 9,
+  "updated_at": "2026-06-27T20:25:20.621770",
+  "total": 7,
   "data": [
     {
-      "ip": "112.28.149.156",
-      "port": "8443",
+      "ip": "111.48.191.1",
+      "port": "7890",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,7 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "socks5"
+      "type": "https"
     },
     {
       "ip": "117.175.168.195",
@@ -37,13 +37,13 @@
       "type": "socks4"
     },
     {
-      "ip": "111.48.191.1",
-      "port": "7890",
+      "ip": "112.28.149.156",
+      "port": "8443",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -51,11 +51,28 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "176.94.224.86",
-      "port": "8080",
+      "ip": "221.176.85.229",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "socks5"
+    },
+    {
+      "ip": "162.255.110.52",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -64,11 +81,11 @@
       ],
       "username": null,
       "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Vodafone GmbH",
+      "country": "United States",
+      "countryCode": "US",
+      "isp": "Desert Winds Wireless Inc",
       "user_type": "cellular",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "196.204.83.229",
@@ -88,8 +105,8 @@
       "type": "https"
     },
     {
-      "ip": "196.204.83.229",
-      "port": "1981",
+      "ip": "36.147.78.166",
+      "port": "443",
       "protocols": [
         "http",
         "https",
@@ -98,62 +115,11 @@
       ],
       "username": null,
       "password": null,
-      "country": "Egypt",
-      "countryCode": "EG",
-      "isp": "Vodafone Data",
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
       "type": "https"
-    },
-    {
-      "ip": "221.176.85.236",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Mobile Communications Group Co., Ltd.",
-      "user_type": "cellular",
-      "type": "socks5"
-    },
-    {
-      "ip": "221.176.85.230",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Mobile Communications Group Co., Ltd.",
-      "user_type": "cellular",
-      "type": "socks5"
-    },
-    {
-      "ip": "67.206.213.202",
-      "port": "55555",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Puerto Rico",
-      "countryCode": "PR",
-      "isp": "Liberty Mobile Puerto Rico Inc.",
-      "user_type": "cellular",
-      "type": "socks4"
     }
   ]
 }
