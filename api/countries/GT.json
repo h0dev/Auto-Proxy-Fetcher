@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-26T23:14:34.616567",
-  "total": 2,
+  "updated_at": "2026-06-27T04:49:07.480969",
+  "total": 3,
   "data": [
     {
-      "ip": "200.12.48.242",
+      "ip": "190.14.5.164",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Guatemala",
+      "countryCode": "GT",
+      "isp": "Navega.com S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "148.230.17.253",
       "port": "999",
       "protocols": [
         "http",
@@ -20,7 +37,7 @@
       "type": "http"
     },
     {
-      "ip": "24.152.53.68",
+      "ip": "148.230.17.252",
       "port": "999",
       "protocols": [
         "http",
@@ -32,9 +49,9 @@
       "password": null,
       "country": "Guatemala",
       "countryCode": "GT",
-      "isp": "TV CABLE UNIVERSAL S.A",
-      "user_type": "residential",
-      "type": "http"
+      "isp": "Navega.com S.A.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

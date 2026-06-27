@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-26T23:14:34.558939",
-  "total": 9,
+  "updated_at": "2026-06-27T04:49:07.438162",
+  "total": 11,
   "data": [
     {
-      "ip": "117.175.168.195",
-      "port": "1080",
+      "ip": "111.48.191.1",
+      "port": "7890",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,11 +17,11 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "socks4"
+      "type": "https"
     },
     {
-      "ip": "223.111.182.16",
-      "port": "1011",
+      "ip": "112.28.149.156",
+      "port": "8443",
       "protocols": [
         "socks5",
         "http",
@@ -32,7 +32,38 @@
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "China Mobile communications corporation",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "socks5"
+    },
+    {
+      "ip": "221.176.85.226",
+      "port": "1080",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "socks5"
+    },
+    {
+      "ip": "117.175.168.195",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
       "type": "socks5"
     },
@@ -54,12 +85,77 @@
       "type": "socks4"
     },
     {
-      "ip": "80.78.74.8",
-      "port": "65530",
+      "ip": "221.176.85.238",
+      "port": "1080",
       "protocols": [
-        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "socks5"
+    },
+    {
+      "ip": "67.210.146.50",
+      "port": "11080",
+      "protocols": [
         "http",
         "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United States",
+      "countryCode": "US",
+      "isp": "JAB Wireless, INC.",
+      "user_type": "cellular",
+      "type": "socks5"
+    },
+    {
+      "ip": "122.15.255.229",
+      "port": "60606",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Vodafone Idea Ltd",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "196.204.83.229",
+      "port": "1981",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Egypt",
+      "countryCode": "EG",
+      "isp": "Vodafone Data",
+      "user_type": "cellular",
+      "type": "http"
+    },
+    {
+      "ip": "80.78.78.106",
+      "port": "65530",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -71,89 +167,21 @@
       "type": "socks4"
     },
     {
-      "ip": "176.94.224.86",
-      "port": "8080",
+      "ip": "94.198.213.252",
+      "port": "5678",
       "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Vodafone GmbH",
-      "user_type": "cellular",
-      "type": "https"
-    },
-    {
-      "ip": "112.2.21.18",
-      "port": "51080",
-      "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Mobile communications corporation",
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "LA Wireless Srl",
       "user_type": "cellular",
       "type": "socks4"
-    },
-    {
-      "ip": "39.129.129.165",
-      "port": "10800",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Mobile Communications Group Co., Ltd.",
-      "user_type": "cellular",
-      "type": "socks4"
-    },
-    {
-      "ip": "81.12.169.254",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Romania",
-      "countryCode": "RO",
-      "isp": "Vodafone Romania S.A.",
-      "user_type": "cellular",
-      "type": "socks4"
-    },
-    {
-      "ip": "93.185.68.82",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "Jusan Mobile JSC",
-      "user_type": "cellular",
-      "type": "https"
     }
   ]
 }
