@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-27T04:49:07.479682",
-  "total": 3,
+  "updated_at": "2026-06-27T09:40:01.207634",
+  "total": 4,
   "data": [
     {
-      "ip": "102.0.14.42",
-      "port": "1080",
+      "ip": "102.0.21.148",
+      "port": "8080",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,10 +17,10 @@
       "countryCode": "KE",
       "isp": "Airtel Networks Kenya Limited",
       "user_type": "business",
-      "type": "socks5"
+      "type": "http"
     },
     {
-      "ip": "102.209.76.106",
+      "ip": "102.209.18.96",
       "port": "8080",
       "protocols": [
         "http",
@@ -32,13 +32,13 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "SAFHOME FIBRE LIMITED",
+      "isp": "VENNET SOLUTIONS LIMITED",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "102.213.179.194",
-      "port": "8081",
+      "ip": "41.209.14.123",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -49,9 +49,23 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "NEXT THING NETWORKS Limited",
+      "isp": "MTN SA",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "102.216.85.13",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Surf Net Solutions Limited",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
