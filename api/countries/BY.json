@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-26T23:14:34.618975",
-  "total": 1,
+  "updated_at": "2026-06-27T11:57:47.856805",
+  "total": 2,
   "data": [
     {
-      "ip": "82.209.251.53",
-      "port": "45678",
+      "ip": "138.249.246.158",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Belarus",
+      "countryCode": "BY",
+      "isp": "Reliable Software, Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "86.57.248.62",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -17,7 +34,7 @@
       "countryCode": "BY",
       "isp": "Republican Unitary Telecommunication Enterprise Beltelecom",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
