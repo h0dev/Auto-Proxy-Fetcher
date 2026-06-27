@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-27T11:57:47.854423",
-  "total": 2,
+  "updated_at": "2026-06-27T14:49:28.126947",
+  "total": 3,
   "data": [
     {
       "ip": "5.101.120.25",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Estonia",
+      "countryCode": "EE",
+      "isp": "P.a.g.m. Ou",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "5.45.118.209",
       "port": "1080",
       "protocols": [
         "socks5",
@@ -34,7 +51,7 @@
       "countryCode": "EE",
       "isp": "P.a.g.m. Ou",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     }
   ]
 }

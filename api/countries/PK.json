@@ -1,13 +1,45 @@
 {
-  "updated_at": "2026-06-27T11:57:47.853603",
-  "total": 4,
+  "updated_at": "2026-06-27T14:49:28.163200",
+  "total": 3,
   "data": [
     {
-      "ip": "161.248.202.10",
+      "ip": "125.209.110.83",
+      "port": "39617",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "Multinet Pakistan Pvt. Ltd.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "206.42.122.162",
       "port": "1080",
       "protocols": [
-        "socks5",
         "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "Redtone Telecommunications Pakistan (Private) Limited",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "103.146.137.105",
+      "port": "1081",
+      "protocols": [
         "https",
         "socks4"
       ],
@@ -15,60 +47,9 @@
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "VELOCITY TELECOM (PRIVATE) LIMITED",
+      "isp": "Galaxy Broadband",
       "user_type": "residential",
-      "type": "socks5"
-    },
-    {
-      "ip": "103.205.178.226",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Pakistan",
-      "countryCode": "PK",
-      "isp": "Broadband ISP, FTTH and Cable Service Provider",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "154.208.58.89",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Pakistan",
-      "countryCode": "PK",
-      "isp": "IN CABLE INTERNET (PRIVATE) LIMITED",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "221.120.218.66",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Pakistan",
-      "countryCode": "PK",
-      "isp": "Pakistan Telecommunication Company Limited",
-      "user_type": "residential",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }

@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-06-26T15:30:31.365358",
-  "total": 2,
+  "updated_at": "2026-06-27T14:49:28.161672",
+  "total": 1,
   "data": [
     {
       "ip": "85.121.179.217",
       "port": "1080",
       "protocols": [
         "socks5",
-        "http"
+        "http",
+        "socks4",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -15,24 +17,7 @@
       "countryCode": "MD",
       "isp": "Ava Host Srl",
       "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "185.53.46.240",
-      "port": "55555",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Moldova",
-      "countryCode": "MD",
-      "isp": "WorkTitans B.V.",
-      "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
