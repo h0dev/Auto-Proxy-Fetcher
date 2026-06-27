@@ -1,27 +1,44 @@
 {
-  "updated_at": "2026-06-27T14:49:28.163200",
+  "updated_at": "2026-06-27T17:05:54.624441",
   "total": 3,
   "data": [
     {
-      "ip": "125.209.110.83",
-      "port": "39617",
+      "ip": "115.42.67.186",
+      "port": "56534",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "Multinet Pakistan Pvt. Ltd.",
+      "isp": "Connect Communications",
       "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "202.154.241.199",
+      "port": "808",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "LINKdotNET Telecom Limited",
+      "user_type": "residential",
       "type": "https"
     },
     {
-      "ip": "206.42.122.162",
-      "port": "1080",
+      "ip": "103.134.1.14",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -32,24 +49,9 @@
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "Redtone Telecommunications Pakistan (Private) Limited",
-      "user_type": "residential",
-      "type": "socks5"
-    },
-    {
-      "ip": "103.146.137.105",
-      "port": "1081",
-      "protocols": [
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Pakistan",
-      "countryCode": "PK",
-      "isp": "Galaxy Broadband",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "Prime Networks",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
