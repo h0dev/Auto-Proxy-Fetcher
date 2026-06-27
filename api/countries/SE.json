@@ -1,27 +1,27 @@
 {
-  "updated_at": "2026-06-27T20:25:20.653164",
-  "total": 4,
+  "updated_at": "2026-06-27T23:04:42.939563",
+  "total": 7,
   "data": [
     {
-      "ip": "188.93.140.146",
+      "ip": "171.25.158.95",
       "port": "1080",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Sweden",
       "countryCode": "SE",
-      "isp": "HostHatch, LLC",
+      "isp": "Patrik Lagerman",
       "user_type": "business",
       "type": "socks5"
     },
     {
-      "ip": "176.124.202.45",
-      "port": "1080",
+      "ip": "147.45.76.207",
+      "port": "8080",
       "protocols": [
         "socks4",
         "socks5",
@@ -37,24 +37,25 @@
       "type": "socks4"
     },
     {
-      "ip": "13.60.163.108",
-      "port": "35902",
+      "ip": "188.93.140.146",
+      "port": "1080",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Sweden",
       "countryCode": "SE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
+      "isp": "HostHatch, LLC",
+      "user_type": "business",
       "type": "socks5"
     },
     {
-      "ip": "185.157.160.159",
-      "port": "8118",
+      "ip": "147.45.76.207",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -65,9 +66,55 @@
       "password": null,
       "country": "Sweden",
       "countryCode": "SE",
-      "isp": "Obehosting AB",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "176.124.202.45",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "13.51.196.44",
+      "port": "49023",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
+    },
+    {
+      "ip": "195.137.245.60",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "South Park Networks LLC",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
