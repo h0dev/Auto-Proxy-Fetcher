@@ -1,9 +1,23 @@
 {
-  "updated_at": "2026-06-28T10:14:32.782885",
-  "total": 1,
+  "updated_at": "2026-06-28T14:53:51.565446",
+  "total": 3,
   "data": [
     {
-      "ip": "193.43.140.240",
+      "ip": "193.43.149.54",
+      "port": "1080",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Syria",
+      "countryCode": "SY",
+      "isp": "Syrian Telecommunication Private Closed Joint Stock Company",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "131.222.210.39",
       "port": "8080",
       "protocols": [
         "http",
@@ -15,8 +29,25 @@
       "password": null,
       "country": "Syria",
       "countryCode": "SY",
-      "isp": "Syrian Telecommunication Private Closed Joint Stock Company",
-      "user_type": "residential",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "205.209.64.21",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Syria",
+      "countryCode": "SY",
+      "isp": "RCell LLC",
+      "user_type": "business",
       "type": "http"
     }
   ]

@@ -1,14 +1,31 @@
 {
-  "updated_at": "2026-06-27T23:04:42.946622",
+  "updated_at": "2026-06-28T14:53:51.569031",
   "total": 2,
   "data": [
     {
-      "ip": "202.131.246.250",
-      "port": "5678",
+      "ip": "202.179.2.250",
+      "port": "8080",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mongolia",
+      "countryCode": "MN",
+      "isp": "Mongolia Telecom",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "202.21.115.178",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -17,21 +34,7 @@
       "countryCode": "MN",
       "isp": "Mobinet LLC. AS Mobinet Internet Service Provider",
       "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "202.21.106.35",
-      "port": "8080",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mongolia",
-      "countryCode": "MN",
-      "isp": "Mobinet LLC. AS Mobinet Internet Service Provider",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
