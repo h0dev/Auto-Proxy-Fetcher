@@ -1,13 +1,29 @@
 {
-  "updated_at": "2026-06-28T05:11:10.522899",
-  "total": 4,
+  "updated_at": "2026-06-28T10:14:32.777739",
+  "total": 7,
   "data": [
+    {
+      "ip": "45.166.72.19",
+      "port": "999",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "FICOM TELECOMUNICACIONES S.A.C.",
+      "user_type": "residential",
+      "type": "http"
+    },
     {
       "ip": "38.43.158.7",
       "port": "8080",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -15,10 +31,10 @@
       "countryCode": "PE",
       "isp": "NEXTNET SAC",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "190.216.163.195",
+      "ip": "138.99.176.139",
       "port": "999",
       "protocols": [
         "http",
@@ -30,12 +46,12 @@
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "Level 3 Parent, LLC",
+      "isp": "NETWIN S.A.C",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "170.81.243.59",
+      "ip": "138.99.176.138",
       "port": "999",
       "protocols": [
         "http",
@@ -47,12 +63,12 @@
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "INVENTA TELECOMUNICACIONES EIRL",
-      "user_type": "residential",
+      "isp": "NETWIN S.A.C",
+      "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "209.14.108.101",
+      "ip": "38.190.100.170",
       "port": "999",
       "protocols": [
         "http",
@@ -64,7 +80,41 @@
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "CORPORACION TARAZONA CATV S.A.C.",
+      "isp": "CONEX TV E.I.R.L.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "38.183.183.114",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "FORZA BUSSINES S.A.C.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.171.166.146",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Peru",
+      "countryCode": "PE",
+      "isp": "CONEX TV E.I.R.L.",
       "user_type": "business",
       "type": "http"
     }

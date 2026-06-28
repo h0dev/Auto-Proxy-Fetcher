@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T05:11:10.540905",
-  "total": 2,
+  "updated_at": "2026-06-28T10:14:32.780781",
+  "total": 3,
   "data": [
     {
       "ip": "81.90.29.194",
@@ -17,11 +17,28 @@
       "countryCode": "IQ",
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "62.201.212.198",
-      "port": "4673",
+      "ip": "37.238.168.253",
+      "port": "5678",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iraq",
+      "countryCode": "IQ",
+      "isp": "Hulum Almustakbal Company for Communication Engineering and Services Ltd",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "109.224.22.36",
+      "port": "51372",
       "protocols": [
         "http",
         "https",
@@ -32,7 +49,7 @@
       "password": null,
       "country": "Iraq",
       "countryCode": "IQ",
-      "isp": "IQ Networks for Data and Internet Services Ltd",
+      "isp": "Hulum Almustakbal Company for Communication Engineering and Services Ltd",
       "user_type": "business",
       "type": "socks4"
     }

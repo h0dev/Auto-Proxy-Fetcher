@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T05:11:10.541997",
-  "total": 1,
+  "updated_at": "2026-06-28T10:14:32.779244",
+  "total": 2,
   "data": [
     {
       "ip": "37.49.224.15",
@@ -15,9 +15,26 @@
       "password": null,
       "country": "Estonia",
       "countryCode": "EE",
-      "isp": "PUSHPKT OU",
+      "isp": "ESTOXY OU",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "5.45.118.209",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Estonia",
+      "countryCode": "EE",
+      "isp": "P.a.g.m. Ou",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }

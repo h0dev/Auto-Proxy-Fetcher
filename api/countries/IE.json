@@ -1,10 +1,25 @@
 {
-  "updated_at": "2026-06-28T05:11:10.547456",
-  "total": 1,
+  "updated_at": "2026-06-28T10:14:32.785920",
+  "total": 2,
   "data": [
     {
-      "ip": "34.250.255.199",
-      "port": "7121",
+      "ip": "34.246.183.20",
+      "port": "4229",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ireland",
+      "countryCode": "IE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "34.246.183.20",
+      "port": "14670",
       "protocols": [
         "http",
         "https",
@@ -17,7 +32,7 @@
       "countryCode": "IE",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
