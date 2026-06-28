@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T14:53:51.560529",
-  "total": 1,
+  "updated_at": "2026-06-28T20:23:31.555308",
+  "total": 2,
   "data": [
     {
       "ip": "91.186.213.124",
@@ -17,7 +17,24 @@
       "countryCode": "GR",
       "isp": "NetCrafters OU",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "91.186.210.116",
+      "port": "1081",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Greece",
+      "countryCode": "GR",
+      "isp": "First Server Limited",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }

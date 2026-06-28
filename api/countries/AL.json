@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-28T14:53:51.565223",
-  "total": 2,
+  "updated_at": "2026-06-28T20:23:31.588119",
+  "total": 3,
   "data": [
     {
       "ip": "80.78.78.106",
       "port": "65530",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -20,7 +20,24 @@
       "type": "socks4"
     },
     {
-      "ip": "80.78.74.56",
+      "ip": "79.106.170.126",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "One Albania Sh.a.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "80.78.74.66",
       "port": "65530",
       "protocols": [
         "http",

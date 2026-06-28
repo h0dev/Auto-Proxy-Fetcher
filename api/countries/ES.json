@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-28T17:12:31.998417",
+  "updated_at": "2026-06-28T20:23:31.550731",
   "total": 5,
   "data": [
     {
       "ip": "82.223.151.29",
       "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -20,25 +20,8 @@
       "type": "socks4"
     },
     {
-      "ip": "85.117.248.36",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Connecta 1876 Slu",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "65.20.105.241",
-      "port": "10001",
+      "ip": "83.56.15.57",
+      "port": "5678",
       "protocols": [
         "socks4",
         "http",
@@ -49,14 +32,16 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "The Constant Company, LLC",
+      "isp": "Telefonica De Espana S.a.u.",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "51.49.153.183",
-      "port": "6063",
+      "ip": "185.223.82.217",
+      "port": "1080",
       "protocols": [
+        "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -64,14 +49,15 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
+      "isp": "ZhouyiSat Communications",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
-      "ip": "51.49.153.183",
-      "port": "8028",
+      "ip": "83.97.79.114",
+      "port": "8443",
       "protocols": [
+        "socks5",
         "http",
         "https",
         "socks4"
@@ -80,9 +66,26 @@
       "password": null,
       "country": "Spain",
       "countryCode": "ES",
+      "isp": "BlueVPS OU",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "51.92.173.133",
+      "port": "27067",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
