@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-28T14:53:51.541879",
-  "total": 2,
+  "updated_at": "2026-06-28T17:12:32.003142",
+  "total": 3,
   "data": [
     {
       "ip": "103.227.224.96",
       "port": "50161",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -35,6 +35,23 @@
       "isp": "Scloud Pte Ltd",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "220.132.41.160",
+      "port": "1088",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "Data Communication Business Group",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

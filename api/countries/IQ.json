@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-06-28T14:53:51.560690",
-  "total": 1,
+  "updated_at": "2026-06-28T17:12:32.024996",
+  "total": 2,
   "data": [
     {
       "ip": "81.90.29.194",
       "port": "10808",
       "protocols": [
-        "http",
         "socks4",
         "socks5",
+        "http",
         "https"
       ],
       "username": null,
@@ -18,6 +18,23 @@
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
       "type": "socks4"
+    },
+    {
+      "ip": "212.237.125.216",
+      "port": "6969",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iraq",
+      "countryCode": "IQ",
+      "isp": "Kurdistan Net Company for Computer and Internet Ltd.",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }

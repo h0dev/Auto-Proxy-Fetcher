@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T14:53:51.566869",
+  "updated_at": "2026-06-28T17:12:32.031915",
   "total": 6,
   "data": [
     {
@@ -20,8 +20,25 @@
       "type": "socks4"
     },
     {
-      "ip": "105.27.180.194",
-      "port": "1080",
+      "ip": "41.162.162.142",
+      "port": "4153",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Liquid Telecommunications South Africa (Pty) Ltd",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "102.217.190.157",
+      "port": "7080",
       "protocols": [
         "http",
         "https",
@@ -32,9 +49,9 @@
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "SEACOM Limited",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "CloudGistics",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
       "ip": "13.245.171.157",
@@ -53,7 +70,7 @@
       "type": "socks4"
     },
     {
-      "ip": "154.117.154.194",
+      "ip": "196.251.222.229",
       "port": "8080",
       "protocols": [
         "http",
@@ -65,41 +82,26 @@
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "BitCo",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "196.15.149.177",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Telkom SA Ltd.",
+      "isp": "Info-Gro (PTY) Ltd",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "154.126.213.5",
-      "port": "8080",
+      "ip": "196.216.133.18",
+      "port": "1080",
       "protocols": [
+        "http",
         "https",
-        "http"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "JENNY INTERNET (PTY) LTD",
-      "user_type": "business",
-      "type": "https"
+      "isp": "HERO TELECOMS (PTY) LTD",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }
