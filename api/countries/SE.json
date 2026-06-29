@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-29T05:16:19.288834",
-  "total": 3,
+  "updated_at": "2026-06-29T12:04:36.800077",
+  "total": 5,
   "data": [
     {
-      "ip": "147.45.72.212",
-      "port": "44816",
+      "ip": "176.124.202.45",
+      "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -20,7 +20,24 @@
       "type": "socks4"
     },
     {
-      "ip": "176.124.202.45",
+      "ip": "213.21.254.26",
+      "port": "1081",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "188.93.140.146",
       "port": "1080",
       "protocols": [
         "socks5",
@@ -32,13 +49,13 @@
       "password": null,
       "country": "Sweden",
       "countryCode": "SE",
-      "isp": "Aeza Group LLC",
+      "isp": "HostHatch, LLC",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
-      "ip": "62.60.149.161",
-      "port": "3128",
+      "ip": "185.197.74.126",
+      "port": "2080",
       "protocols": [
         "socks5",
         "socks4",
@@ -51,7 +68,23 @@
       "countryCode": "SE",
       "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
+    },
+    {
+      "ip": "13.60.163.108",
+      "port": "35902",
+      "protocols": [
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }

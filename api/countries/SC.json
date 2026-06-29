@@ -1,26 +1,43 @@
 {
-  "updated_at": "2026-06-29T05:16:19.298087",
-  "total": 3,
+  "updated_at": "2026-06-29T12:04:36.800255",
+  "total": 4,
   "data": [
     {
-      "ip": "91.188.213.143",
+      "ip": "45.194.33.12",
+      "port": "30001",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "Antbox Networks Limited",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "195.245.238.86",
       "port": "1080",
       "protocols": [
-        "http",
         "socks5",
-        "socks4",
-        "https"
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Seychelles",
       "countryCode": "SC",
-      "isp": "Helou LLC",
+      "isp": "Directive LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "197.234.13.90",
+      "ip": "197.234.13.14",
       "port": "4145",
       "protocols": [
         "http",
@@ -37,21 +54,18 @@
       "type": "socks4"
     },
     {
-      "ip": "197.234.13.65",
-      "port": "4145",
+      "ip": "154.89.148.25",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Seychelles",
       "countryCode": "SC",
-      "isp": "Intelvision Ltd",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "Cloudie Limited",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }

@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-06-29T05:16:19.298317",
+  "updated_at": "2026-06-29T12:04:36.781298",
   "total": 4,
   "data": [
+    {
+      "ip": "185.191.239.248",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "GRUPO PANAGLOBAL 15 S.A",
+      "user_type": "business",
+      "type": "https"
+    },
     {
       "ip": "45.95.232.35",
       "port": "1080",
@@ -17,16 +34,16 @@
       "countryCode": "CH",
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "45.95.232.35",
       "port": "3128",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -34,23 +51,6 @@
       "countryCode": "CH",
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "45.59.122.132",
-      "port": "80",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "RouterHosting LLC",
-      "user_type": "hosting",
       "type": "https"
     },
     {
