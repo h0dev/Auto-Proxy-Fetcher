@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-28T23:01:43.331257",
-  "total": 3,
+  "updated_at": "2026-06-29T05:16:19.294796",
+  "total": 5,
   "data": [
     {
       "ip": "170.64.170.204",
@@ -20,8 +20,25 @@
       "type": "socks5"
     },
     {
-      "ip": "16.26.99.200",
-      "port": "24486",
+      "ip": "103.106.231.75",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "BrainStorm Network, Inc",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "54.253.167.61",
+      "port": "13406",
       "protocols": [
         "http",
         "https",
@@ -52,6 +69,21 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "54.79.125.20",
+      "port": "25920",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Australia",
+      "countryCode": "AU",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }
