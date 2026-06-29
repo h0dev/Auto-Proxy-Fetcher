@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-29T16:50:32.492245",
-  "total": 3,
+  "updated_at": "2026-06-29T21:00:39.134947",
+  "total": 4,
   "data": [
     {
       "ip": "45.194.33.12",
@@ -20,27 +20,13 @@
       "type": "socks5"
     },
     {
-      "ip": "197.234.13.40",
-      "port": "4145",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Seychelles",
-      "countryCode": "SC",
-      "isp": "Intelvision Ltd",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
       "ip": "154.89.148.25",
       "port": "1080",
       "protocols": [
-        "socks5"
+        "socks5",
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -48,7 +34,41 @@
       "countryCode": "SC",
       "isp": "Cloudie Limited",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "154.201.90.234",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "FASTNET DATA INC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "91.188.213.143",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "Helou LLC",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
