@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-29T12:04:36.783876",
-  "total": 10,
+  "updated_at": "2026-06-29T16:50:32.496311",
+  "total": 6,
   "data": [
     {
       "ip": "176.111.37.5",
       "port": "39811",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,8 +20,25 @@
       "type": "http"
     },
     {
-      "ip": "193.105.62.11",
-      "port": "58973",
+      "ip": "176.111.37.216",
+      "port": "39811",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Cogento Backbone Limited",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "80.92.227.185",
+      "port": "5678",
       "protocols": [
         "socks4",
         "socks5",
@@ -32,35 +49,18 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "PE Brunarsky Andrey Romanovich",
-      "user_type": "business",
+      "isp": "WNET TELECOM USA Corp.",
+      "user_type": "residential",
       "type": "socks4"
-    },
-    {
-      "ip": "176.111.37.216",
-      "port": "39811",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "Cogento Backbone Limited",
-      "user_type": "business",
-      "type": "https"
     },
     {
       "ip": "195.78.100.186",
       "port": "3629",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -71,76 +71,8 @@
       "type": "socks4"
     },
     {
-      "ip": "193.106.57.96",
-      "port": "5678",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "FOP Makurin Stanislav Volodimirovich",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "195.114.7.6",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "Artem Zubkov",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "31.43.33.56",
-      "port": "4153",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "Ukrainian Telecommunication Group LLC",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "195.138.65.34",
-      "port": "5678",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "TENET Scientific Production Enterprise LLC",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "31.43.33.55",
-      "port": "4153",
+      "ip": "176.37.21.46",
+      "port": "41890",
       "protocols": [
         "http",
         "https",
@@ -151,26 +83,26 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Ukrainian Telecommunication Group LLC",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "78.26.146.16",
-      "port": "443",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "LLC Renome-Service",
+      "isp": "Lanet Network Ltd",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "134.249.185.223",
+      "port": "41890",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Kyivstar PJSC",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
