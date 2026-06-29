@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-29T21:00:39.167879",
-  "total": 2,
+  "updated_at": "2026-06-29T23:08:16.744662",
+  "total": 5,
   "data": [
     {
-      "ip": "102.213.179.210",
+      "ip": "154.79.248.156",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Airtel Networks Kenya Limited",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "102.220.13.208",
       "port": "8080",
       "protocols": [
         "http",
@@ -15,26 +32,60 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "NEXT THING NETWORKS Limited",
+      "isp": "Express Data Networks Limited",
       "user_type": "business",
       "type": "https"
     },
     {
-      "ip": "197.232.43.224",
-      "port": "1080",
+      "ip": "102.211.145.161",
+      "port": "8081",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "Jamii Telecommunications Limited",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "Unwired Communications Limited",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "102.215.79.121",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Icon Fiber Solutions ltd",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "41.209.14.123",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "MTN SA",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

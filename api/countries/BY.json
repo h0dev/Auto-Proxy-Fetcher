@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-29T12:04:36.811777",
-  "total": 1,
+  "updated_at": "2026-06-29T23:08:16.738666",
+  "total": 3,
   "data": [
     {
       "ip": "138.249.246.158",
       "port": "1080",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,41 @@
       "countryCode": "BY",
       "isp": "Sprinthost.ru LLC",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "86.57.248.62",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Belarus",
+      "countryCode": "BY",
+      "isp": "Republican Unitary Telecommunication Enterprise Beltelecom",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "82.209.251.53",
+      "port": "45678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Belarus",
+      "countryCode": "BY",
+      "isp": "Republican Unitary Telecommunication Enterprise Beltelecom",
+      "user_type": "residential",
+      "type": "https"
     }
   ]
 }
