@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-06-29T23:08:16.748103",
-  "total": 2,
+  "updated_at": "2026-06-30T04:56:52.517824",
+  "total": 5,
   "data": [
     {
       "ip": "181.115.74.172",
       "port": "5678",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "45.89.82.210",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Honduras",
       "countryCode": "HN",
-      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "CA NETWORK S.A. DE C.V.",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "45.4.85.210",
@@ -34,7 +51,41 @@
       "countryCode": "HN",
       "isp": "ASOCIACION DE SERVICIO DE INTERNET S. DE RL.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "190.130.6.11",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "Hondutel",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "190.185.112.58",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "Redes y Telecomunicaciones",
+      "user_type": "residential",
+      "type": "http"
     }
   ]
 }

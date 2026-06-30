@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-06-29T23:08:16.731473",
-  "total": 7,
+  "updated_at": "2026-06-30T04:56:52.492597",
+  "total": 8,
   "data": [
     {
-      "ip": "89.40.233.13",
-      "port": "1080",
+      "ip": "2.78.60.10",
+      "port": "3129",
       "protocols": [
-        "socks5",
         "http",
-        "https",
-        "socks4"
+        "socks5",
+        "socks4",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Nls Astana Llp",
+      "isp": "Kcell JSC",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     },
     {
       "ip": "72.56.3.17",
@@ -37,6 +37,23 @@
       "type": "socks5"
     },
     {
+      "ip": "89.40.233.13",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Nls Astana Llp",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
       "ip": "213.148.26.68",
       "port": "8888",
       "protocols": [
@@ -52,24 +69,7 @@
       "type": "http"
     },
     {
-      "ip": "2.78.60.10",
-      "port": "3129",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "Kcell JSC",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "91.229.151.118",
+      "ip": "199.189.255.230",
       "port": "8080",
       "protocols": [
         "http",
@@ -81,26 +81,26 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "D-Cloud LLC",
-      "user_type": "hosting",
+      "isp": "HostLab LLC",
+      "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "46.247.41.222",
-      "port": "443",
+      "ip": "46.8.31.104",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "PS Internet Company LLP",
+      "isp": "Fedinyak Sergey Vyacheslavovich",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
       "ip": "91.185.20.162",
@@ -118,6 +118,23 @@
       "isp": "JSC Transtelecom",
       "user_type": "residential",
       "type": "http"
+    },
+    {
+      "ip": "46.247.41.222",
+      "port": "443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "PS Internet Company LLP",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

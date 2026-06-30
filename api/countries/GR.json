@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-06-29T23:08:16.748743",
-  "total": 1,
+  "updated_at": "2026-06-30T04:56:52.492474",
+  "total": 2,
   "data": [
     {
-      "ip": "62.103.186.66",
-      "port": "4153",
+      "ip": "91.186.210.116",
+      "port": "1081",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Greece",
       "countryCode": "GR",
-      "isp": "OTEnet S.A.",
+      "isp": "First Server Limited",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "91.186.213.124",
+      "port": "1081",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Greece",
+      "countryCode": "GR",
+      "isp": "NetCrafters OU",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
