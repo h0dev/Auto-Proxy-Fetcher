@@ -1,9 +1,43 @@
 {
-  "updated_at": "2026-06-30T21:00:11.068133",
-  "total": 2,
+  "updated_at": "2026-06-30T23:14:13.797990",
+  "total": 4,
   "data": [
     {
-      "ip": "45.177.16.130",
+      "ip": "200.85.52.254",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Paraguay",
+      "countryCode": "PY",
+      "isp": "Telecel S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "170.245.132.81",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Paraguay",
+      "countryCode": "PY",
+      "isp": "MACHADO BAEZ, NERY JAVIER (LOCAL NET PARAGUAY)",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.177.16.136",
       "port": "999",
       "protocols": [
         "http",
@@ -20,7 +54,7 @@
       "type": "http"
     },
     {
-      "ip": "37.230.57.112",
+      "ip": "45.177.16.130",
       "port": "999",
       "protocols": [
         "http",
@@ -32,8 +66,8 @@
       "password": null,
       "country": "Paraguay",
       "countryCode": "PY",
-      "isp": "STARTELECOM S.A.",
-      "user_type": "residential",
+      "isp": "MSW S.A.",
+      "user_type": "business",
       "type": "http"
     }
   ]
