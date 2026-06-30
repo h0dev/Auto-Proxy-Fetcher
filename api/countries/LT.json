@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-30T10:42:20.163821",
-  "total": 2,
+  "updated_at": "2026-06-30T15:23:15.304471",
+  "total": 3,
   "data": [
     {
       "ip": "45.153.4.154",
       "port": "3128",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,24 @@
       "countryCode": "LT",
       "isp": "Istqrar for Servers Services Ltd",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "46.36.65.117",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Lithuania",
+      "countryCode": "LT",
+      "isp": "UAB Besmegeniai",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "80.208.225.245",
@@ -34,7 +51,7 @@
       "countryCode": "LT",
       "isp": "UAB Interneto vizija",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
