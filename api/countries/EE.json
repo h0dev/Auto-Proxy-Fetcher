@@ -1,24 +1,7 @@
 {
-  "updated_at": "2026-06-30T04:56:52.471543",
+  "updated_at": "2026-06-30T10:42:20.137454",
   "total": 3,
   "data": [
-    {
-      "ip": "37.49.224.15",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "socks5",
-        "socks4",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Estonia",
-      "countryCode": "EE",
-      "isp": "ESTOXY OU",
-      "user_type": "business",
-      "type": "https"
-    },
     {
       "ip": "5.45.118.209",
       "port": "1080",
@@ -41,9 +24,9 @@
       "port": "1080",
       "protocols": [
         "socks4",
+        "socks5",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -51,7 +34,24 @@
       "countryCode": "EE",
       "isp": "P.a.g.m. Ou",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
+    },
+    {
+      "ip": "37.49.224.15",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Estonia",
+      "countryCode": "EE",
+      "isp": "ESTOXY OU",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
