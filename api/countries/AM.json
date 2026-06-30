@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-06-30T15:23:15.319677",
+  "updated_at": "2026-06-30T18:04:15.105102",
   "total": 3,
   "data": [
     {
       "ip": "130.193.123.34",
       "port": "5678",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,7 +20,24 @@
       "type": "socks4"
     },
     {
-      "ip": "185.215.53.253",
+      "ip": "46.36.123.18",
+      "port": "81",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Armenia",
+      "countryCode": "AM",
+      "isp": "LikeNet LLC",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "81.16.9.222",
       "port": "3629",
       "protocols": [
         "http",
@@ -32,24 +49,9 @@
       "password": null,
       "country": "Armenia",
       "countryCode": "AM",
-      "isp": "Fnet LLC",
+      "isp": "Ucom CJSC",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "46.36.123.18",
-      "port": "81",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Armenia",
-      "countryCode": "AM",
-      "isp": "LikeNet LLC",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }

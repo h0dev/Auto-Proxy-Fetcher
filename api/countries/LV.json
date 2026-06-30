@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-06-30T10:42:20.174069",
-  "total": 1,
+  "updated_at": "2026-06-30T18:04:15.106077",
+  "total": 2,
   "data": [
     {
-      "ip": "193.242.109.246",
-      "port": "1080",
+      "ip": "31.170.17.141",
+      "port": "4153",
       "protocols": [
         "socks4",
-        "socks5",
-        "http"
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Latvia",
       "countryCode": "LV",
-      "isp": "RETN Limited",
+      "isp": "Sia Nano IT",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "31.170.19.5",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "Sia Nano IT",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
