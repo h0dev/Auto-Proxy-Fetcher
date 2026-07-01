@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-01T20:57:43.981511",
-  "total": 3,
+  "updated_at": "2026-07-01T23:16:43.586704",
+  "total": 4,
   "data": [
     {
       "ip": "89.40.233.13",
@@ -20,13 +20,30 @@
       "type": "socks5"
     },
     {
+      "ip": "46.247.41.222",
+      "port": "443",
+      "protocols": [
+        "https",
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "PS Internet Company LLP",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
       "ip": "2.78.60.10",
       "port": "3129",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -34,11 +51,11 @@
       "countryCode": "KZ",
       "isp": "Kcell JSC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "93.185.68.82",
-      "port": "8080",
+      "ip": "46.8.252.20",
+      "port": "8123",
       "protocols": [
         "http",
         "https",
@@ -49,9 +66,9 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Jusan Mobile JSC",
-      "user_type": "cellular",
-      "type": "https"
+      "isp": "AstanaMegatel Ltd.",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
