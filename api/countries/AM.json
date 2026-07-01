@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-01T05:11:58.288119",
-  "total": 1,
+  "updated_at": "2026-07-01T10:52:22.413460",
+  "total": 3,
   "data": [
     {
-      "ip": "185.215.53.193",
-      "port": "3629",
+      "ip": "87.121.47.93",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Armenia",
+      "countryCode": "AM",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.133.107.10",
+      "port": "81",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,23 @@
       "password": null,
       "country": "Armenia",
       "countryCode": "AM",
-      "isp": "Fnet LLC",
+      "isp": "Art-net LLC",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "46.36.123.18",
+      "port": "81",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Armenia",
+      "countryCode": "AM",
+      "isp": "LikeNet LLC",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

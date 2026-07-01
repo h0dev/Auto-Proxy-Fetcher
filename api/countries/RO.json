@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-01T05:11:58.286758",
-  "total": 1,
+  "updated_at": "2026-07-01T10:52:22.379016",
+  "total": 2,
   "data": [
     {
-      "ip": "92.86.92.126",
-      "port": "42740",
+      "ip": "86.127.175.42",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Digi Romania S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "46.214.153.223",
+      "port": "5678",
       "protocols": [
         "socks4",
         "http",
@@ -15,7 +32,7 @@
       "password": null,
       "country": "Romania",
       "countryCode": "RO",
-      "isp": "Orange Romania S.A.",
+      "isp": "Nextgen Communications Srl",
       "user_type": "business",
       "type": "socks4"
     }
