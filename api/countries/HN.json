@@ -1,10 +1,44 @@
 {
-  "updated_at": "2026-07-01T15:40:42.660650",
-  "total": 1,
+  "updated_at": "2026-07-01T18:15:58.120532",
+  "total": 5,
   "data": [
     {
-      "ip": "138.59.177.117",
+      "ip": "181.115.75.102",
       "port": "5678",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "181.115.74.172",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "181.115.65.196",
+      "port": "999",
       "protocols": [
         "http",
         "https",
@@ -15,9 +49,43 @@
       "password": null,
       "country": "Honduras",
       "countryCode": "HN",
-      "isp": "INET Communication",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "TELECOMUNICACIONES DE GUATEMALA, SOCIEDAD ANONIMA",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "38.7.24.161",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "MULTICABLE DE HONDURAS",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "45.182.22.249",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Honduras",
+      "countryCode": "HN",
+      "isp": "MULTICABLE DE HONDURAS",
+      "user_type": "residential",
+      "type": "https"
     }
   ]
 }

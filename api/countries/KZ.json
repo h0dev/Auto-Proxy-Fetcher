@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-01T15:40:42.651564",
-  "total": 4,
+  "updated_at": "2026-07-01T18:15:58.098657",
+  "total": 5,
   "data": [
     {
       "ip": "89.40.233.13",
       "port": "1080",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,25 +20,8 @@
       "type": "socks5"
     },
     {
-      "ip": "176.12.74.0",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "HostLab LLC",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "176.12.74.0",
-      "port": "3128",
+      "ip": "2.78.60.10",
+      "port": "3129",
       "protocols": [
         "http",
         "https",
@@ -49,9 +32,26 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "HostLab LLC",
+      "isp": "Kcell JSC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "92.46.70.174",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Kazakhtelecom",
+      "user_type": "residential",
+      "type": "socks5"
     },
     {
       "ip": "46.247.41.222",
@@ -68,6 +68,23 @@
       "countryCode": "KZ",
       "isp": "PS Internet Company LLP",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "91.229.151.118",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "D-Cloud LLC",
+      "user_type": "hosting",
       "type": "http"
     }
   ]
