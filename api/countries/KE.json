@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-06-30T23:14:13.798276",
-  "total": 2,
+  "updated_at": "2026-07-01T05:11:58.285291",
+  "total": 4,
   "data": [
     {
-      "ip": "197.232.25.204",
+      "ip": "102.215.79.121",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Icon Fiber Solutions ltd",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "102.211.145.31",
       "port": "8080",
       "protocols": [
         "http",
@@ -15,16 +32,35 @@
       "password": null,
       "country": "Kenya",
       "countryCode": "KE",
-      "isp": "Jamii Telecommunications Limited",
-      "user_type": "residential",
+      "isp": "Unwired Communications Limited",
+      "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "154.79.248.156",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Airtel Networks Kenya Limited",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "41.209.14.123",
       "port": "8080",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -32,7 +68,7 @@
       "countryCode": "KE",
       "isp": "MTN SA",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
