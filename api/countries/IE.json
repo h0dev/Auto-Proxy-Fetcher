@@ -1,23 +1,72 @@
 {
-  "updated_at": "2026-07-02T15:09:52.275617",
-  "total": 1,
+  "updated_at": "2026-07-02T17:49:12.446431",
+  "total": 4,
   "data": [
     {
-      "ip": "172.205.123.178",
-      "port": "3128",
+      "ip": "185.138.114.111",
+      "port": "8080",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ireland",
+      "countryCode": "IE",
+      "isp": "Enet Telecommunications Networks Limited",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "207.254.71.62",
+      "port": "8088",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ireland",
+      "countryCode": "IE",
+      "isp": "MacStadium, Inc.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "34.246.183.20",
+      "port": "4229",
+      "protocols": [
+        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Ireland",
       "countryCode": "IE",
-      "isp": "Microsoft Corporation",
-      "user_type": "business",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "http"
+    },
+    {
+      "ip": "34.246.183.20",
+      "port": "14670",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ireland",
+      "countryCode": "IE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }

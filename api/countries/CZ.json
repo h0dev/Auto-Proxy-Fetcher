@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-01T20:57:44.016523",
-  "total": 1,
+  "updated_at": "2026-07-02T17:49:12.445003",
+  "total": 2,
   "data": [
     {
-      "ip": "45.139.91.62",
-      "port": "8080",
+      "ip": "78.111.112.118",
+      "port": "4145",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "ISP Alliance a.s.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "217.197.151.182",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "United Networks SE",
+      "isp": "O2 Czech Republic, a.s.",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }

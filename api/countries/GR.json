@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-02T15:09:52.272800",
-  "total": 2,
+  "updated_at": "2026-07-02T17:49:12.440230",
+  "total": 3,
   "data": [
     {
       "ip": "91.186.210.116",
@@ -20,13 +20,13 @@
       "type": "socks5"
     },
     {
-      "ip": "62.103.186.66",
-      "port": "4153",
+      "ip": "87.202.30.57",
+      "port": "8787",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -34,7 +34,24 @@
       "countryCode": "GR",
       "isp": "OTEnet S.A.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
+    },
+    {
+      "ip": "94.70.148.177",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Greece",
+      "countryCode": "GR",
+      "isp": "OTEnet S.A.",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
