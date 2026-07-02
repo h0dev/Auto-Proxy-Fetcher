@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-02T17:49:12.394123",
+  "updated_at": "2026-07-02T20:32:58.717668",
   "total": 10,
   "data": [
     {
-      "ip": "112.28.149.156",
+      "ip": "112.28.149.152",
       "port": "8443",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -17,14 +17,31 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "112.28.149.152",
+      "ip": "112.28.149.156",
       "port": "8443",
       "protocols": [
         "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "117.175.168.195",
+      "port": "1080",
+      "protocols": [
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -37,8 +54,42 @@
       "type": "socks4"
     },
     {
-      "ip": "162.255.110.52",
-      "port": "5678",
+      "ip": "179.125.61.201",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Wconect Wireless Informatica LTDA - ME",
+      "user_type": "cellular",
+      "type": "http"
+    },
+    {
+      "ip": "221.176.85.228",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "socks5"
+    },
+    {
+      "ip": "122.15.255.229",
+      "port": "60606",
       "protocols": [
         "socks4",
         "http",
@@ -47,11 +98,28 @@
       ],
       "username": null,
       "password": null,
-      "country": "United States",
-      "countryCode": "US",
-      "isp": "Desert Winds Wireless Inc",
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Vodafone Idea Ltd",
       "user_type": "cellular",
       "type": "socks4"
+    },
+    {
+      "ip": "221.176.85.230",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "socks5"
     },
     {
       "ip": "111.48.191.1",
@@ -71,13 +139,13 @@
       "type": "http"
     },
     {
-      "ip": "117.175.168.195",
-      "port": "1080",
+      "ip": "36.147.78.166",
+      "port": "443",
       "protocols": [
-        "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -85,75 +153,7 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "socks5"
-    },
-    {
-      "ip": "81.12.157.98",
-      "port": "5678",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Romania",
-      "countryCode": "RO",
-      "isp": "Vodafone Romania S.A.",
-      "user_type": "cellular",
-      "type": "socks4"
-    },
-    {
-      "ip": "67.210.146.50",
-      "port": "11080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United States",
-      "countryCode": "US",
-      "isp": "JAB Wireless, INC.",
-      "user_type": "cellular",
-      "type": "socks5"
-    },
-    {
-      "ip": "80.78.74.66",
-      "port": "65530",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Albania",
-      "countryCode": "AL",
-      "isp": "Vodafone Albania Sh.A.",
-      "user_type": "cellular",
-      "type": "socks4"
-    },
-    {
-      "ip": "104.36.236.101",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United States",
-      "countryCode": "US",
-      "isp": "Desert Winds Wireless Inc",
-      "user_type": "cellular",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "36.147.78.166",
