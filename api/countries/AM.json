@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-02T20:32:58.769425",
-  "total": 1,
+  "updated_at": "2026-07-02T23:07:29.952224",
+  "total": 2,
   "data": [
     {
-      "ip": "81.16.9.222",
-      "port": "3629",
+      "ip": "45.133.107.64",
+      "port": "81",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Armenia",
+      "countryCode": "AM",
+      "isp": "Art-net LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "5.77.252.205",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -17,7 +34,7 @@
       "countryCode": "AM",
       "isp": "Ucom CJSC",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
