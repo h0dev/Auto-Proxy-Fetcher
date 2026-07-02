@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-07-01T23:16:43.591736",
-  "total": 1,
+  "updated_at": "2026-07-02T10:15:18.035708",
+  "total": 2,
   "data": [
     {
-      "ip": "185.225.204.5",
+      "ip": "91.217.33.161",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Slovakia",
+      "countryCode": "SK",
+      "isp": "AIRNET s.r.o.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.129.141.143",
       "port": "3128",
       "protocols": [
         "http",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Slovakia",
       "countryCode": "SK",
-      "isp": "DELTA ONLINE spol. s r.o.",
-      "user_type": "business",
-      "type": "http"
+      "isp": "eServer s.r.o.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }
