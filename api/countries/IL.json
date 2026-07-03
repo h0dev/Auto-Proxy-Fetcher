@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-03T04:34:51.673965",
-  "total": 13,
+  "updated_at": "2026-07-03T10:21:04.705132",
+  "total": 5,
   "data": [
     {
       "ip": "62.90.70.144",
       "port": "7443",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -20,42 +20,8 @@
       "type": "https"
     },
     {
-      "ip": "51.84.101.19",
-      "port": "13605",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
       "ip": "51.17.154.141",
-      "port": "377",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "51.84.101.19",
-      "port": "35868",
+      "port": "9999",
       "protocols": [
         "http",
         "https",
@@ -72,11 +38,12 @@
     },
     {
       "ip": "51.17.154.141",
-      "port": "58755",
+      "port": "12190",
       "protocols": [
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -84,14 +51,12 @@
       "countryCode": "IL",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "51.17.154.141",
-      "port": "69",
+      "port": "23945",
       "protocols": [
-        "http",
-        "https",
         "socks5"
       ],
       "username": null,
@@ -101,36 +66,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
-    },
-    {
-      "ip": "51.84.101.19",
-      "port": "3129",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "51.84.101.19",
-      "port": "18080",
-      "protocols": [
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
     },
     {
       "ip": "51.85.32.85",
@@ -145,62 +80,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "http"
-    },
-    {
-      "ip": "51.17.154.141",
-      "port": "8818",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "51.17.154.141",
-      "port": "12190",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "51.17.154.141",
-      "port": "49683",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "51.17.154.141",
-      "port": "23945",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
     }
   ]
 }

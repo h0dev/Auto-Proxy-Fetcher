@@ -1,19 +1,72 @@
 {
-  "updated_at": "2026-07-03T04:34:51.667847",
-  "total": 2,
+  "updated_at": "2026-07-03T10:21:04.724707",
+  "total": 5,
   "data": [
     {
       "ip": "45.13.38.213",
       "port": "1080",
       "protocols": [
         "socks5",
-        "http"
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Romania",
       "countryCode": "RO",
       "isp": "Unmanaged Ltd",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "81.12.157.98",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Vodafone Romania S.A.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "92.86.207.198",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Orange Romania S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "185.247.224.99",
+      "port": "39997",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "FlokiNET ehf",
       "user_type": "business",
       "type": "socks5"
     },
