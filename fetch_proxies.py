@@ -9,24 +9,19 @@ import time
 import socket
 from urllib.parse import urlparse
 from datetime import datetime
-from typing import Dict, List, Optional, Any, Set
+from typing import Dict, List, Optional, Any, Set, Tuple
 import aiohttp
-from aiohttp_socks import ProxyConnector
 import geoip2.database
 
 # ============================================================
-# PERFORMANCE BOOSTS — Tối ưu hiệu năng
+# PERFORMANCE BOOSTS
 # ============================================================
-# 1. uvloop: Event loop nhanh hơn 2-4x so với asyncio mặc định
 try:
     import uvloop
     uvloop.install()
-    _HAS_UVLOOP = True
 except ImportError:
-    _HAS_UVLOOP = False
+    pass
 
-# 2. Tăng file descriptor limit — mặc định Linux chỉ ~1024,
-#    không đủ cho hàng nghìn kết nối đồng thời
 try:
     import resource
     _soft, _hard = resource.getrlimit(resource.RLIMIT_NOFILE)
@@ -35,32 +30,34 @@ except Exception:
     pass
 
 # ============================================================
-# CẤU HÌNH TỐI ƯU HÓA
+# CONFIG
 # ============================================================
-MAX_CONCURRENT = 8000        # Số check đồng thời tối đa (tăng từ 5000)
-CHECK_TIMEOUT = 1.5          # Timeout mỗi proxy (giây) — giảm từ 2s xuống 1.5s
-CONNECT_TIMEOUT = 1.0        # Timeout kết nối TCP (giây) — giảm từ 1.5s
-TCP_PRECHECK_TIMEOUT = 0.5   # [MỚI] TCP connect pre-check — proxy chết chỉ mất 0.5s
-SOURCE_TIMEOUT = 8           # Timeout tải danh sách nguồn (giây) — giảm từ 12s
-TEST_URL = 'https://cp.cloudflare.com/'  # Endpoint test HTTPS
+MAX_CONCURRENT = 8000
+CHECK_TIMEOUT = 1.5
+CONNECT_TIMEOUT = 1.0
+SOURCE_TIMEOUT = 8
+TEST_URL = 'cp.cloudflare.com'
 OUTPUT_FILE = 'proxies.txt'
 SOURCES_FILE = 'sources.txt'
-
 DB_COUNTRY = 'geoip/GeoLite2-Country.mmdb'
 DB_ASN = 'geoip/GeoLite2-ASN.mmdb'
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%H:%M:%S', handlers=[logging.StreamHandler(sys.stdout)])
 logger = logging.getLogger("ProxyMaster")
 
-# Regex nhận diện proxy nâng cao
-PROXY_RE = re.compile(r'(?:(?P<protocol>http|https|socks4|socks5)://)?(?:(?P<username>[^:@\s]+):(?P<password>[^:@\s]+)@)?(?P<ip>(?:[0-9]{1,3}\.){3}[0-9]{1,3}):(?P<port>[0-9]{1,5})', re.IGNORECASE)
+PROXY_RE = re.compile(
+    r'(?:(?P<protocol>http|https|socks4|socks5)://)?'
+    r'(?:(?P<username>[^:@\s]+):(?P<password>[^:@\s]+)@)?'
+    r'(?P<ip>(?:[0-9]{1,3}\.){3}[0-9]{1,3}):(?P<port>[0-9]{1,5})',
+    re.IGNORECASE
+)
 
 
 class ProxyFetcher:
     def __init__(self):
         self.raw_proxies: Dict[str, Dict[str, Any]] = {}
         self.live_proxies: Dict[str, Dict[str, Any]] = {}
-        self.failed_ips: Set[str] = set()       # [TỐI ƯU] Track IP đã chết để skip protocol khác
+        self.failed_ips: Set[str] = set()
         self.sources: List[str] = []
         self.working_sources: List[str] = []
         self.all_source_lines: List[str] = []
@@ -69,6 +66,9 @@ class ProxyFetcher:
         self.checked_count: int = 0
         self.total_checks: int = 0
 
+    # ----------------------------------------------------------------
+    # SOURCE LOADING
+    # ----------------------------------------------------------------
     def load_sources(self) -> List[str]:
         if not os.path.exists(SOURCES_FILE):
             logger.error(f"Không tìm thấy file '{SOURCES_FILE}'!")
@@ -78,7 +78,8 @@ class ProxyFetcher:
             for line in f:
                 self.all_source_lines.append(line)
                 line_strip = line.strip()
-                if not line_strip: continue
+                if not line_strip:
+                    continue
                 if line_strip.startswith('# [DIE]'):
                     url = line_strip.replace('# [DIE]', '').strip()
                     if url and url not in sources:
@@ -93,26 +94,32 @@ class ProxyFetcher:
             timeout = aiohttp.ClientTimeout(total=SOURCE_TIMEOUT)
             async with session.get(url, timeout=timeout) as response:
                 if response.status == 200:
-                    text = await response.text()
-                    return (url, text)
+                    return (url, await response.text())
         except Exception:
             pass
         return (url, None)
 
     def parse_proxy_list(self, content: str, url: str) -> bool:
-        if not content: return False
+        if not content:
+            return False
         url_lower = url.lower()
         found = False
         for match in PROXY_RE.finditer(content):
             ip, port = match.group('ip'), match.group('port')
-            if not ip or not port: continue
+            if not ip or not port:
+                continue
             found = True
-            if match.group('protocol'): protocols = [match.group('protocol').lower()]
+            if match.group('protocol'):
+                protocols = [match.group('protocol').lower()]
             else:
-                if 'socks5' in url_lower: protocols = ['socks5']
-                elif 'socks4' in url_lower: protocols = ['socks4']
-                elif 'http' in url_lower: protocols = ['http']
-                else: protocols = ['http', 'socks5', 'socks4']
+                if 'socks5' in url_lower:
+                    protocols = ['socks5']
+                elif 'socks4' in url_lower:
+                    protocols = ['socks4']
+                elif 'http' in url_lower:
+                    protocols = ['http']
+                else:
+                    protocols = ['http', 'socks5', 'socks4']
             key = f"{ip}:{port}"
             if key not in self.raw_proxies:
                 self.raw_proxies[key] = {
@@ -126,47 +133,165 @@ class ProxyFetcher:
                         self.raw_proxies[key]['protocols'].append(proto)
         return found
 
-    async def verify_task(self, http_session: aiohttp.ClientSession, proxy_data: Dict[str, Any], proto: str):
+    # ----------------------------------------------------------------
+    # IP VALIDATION
+    # ----------------------------------------------------------------
+    @staticmethod
+    def _is_private_ip(ip: str) -> bool:
+        parts = ip.split('.')
+        if len(parts) != 4:
+            return True
+        try:
+            first, second = int(parts[0]), int(parts[1])
+            if first == 127 or first == 0:
+                return True
+            if first == 10:
+                return True
+            if first == 172 and 16 <= second <= 31:
+                return True
+            if first == 192 and second == 168:
+                return True
+            if first >= 224:
+                return True
+            return False
+        except (ValueError, IndexError):
+            return True
+
+    # ----------------------------------------------------------------
+    # RAW PROXY CHECKS — 1 connection, no aiohttp overhead
+    # ----------------------------------------------------------------
+    @staticmethod
+    def _build_auth_header(username: Optional[str], password: Optional[str]) -> str:
+        if username and password:
+            cred = base64.b64encode(f"{username}:{password}".encode()).decode()
+            return f"Proxy-Authorization: Basic {cred}\r\n"
+        return ""
+
+    @staticmethod
+    async def _check_http_proxy(reader: asyncio.StreamReader, writer: asyncio.StreamWriter,
+                                username: Optional[str], password: Optional[str]) -> bool:
+        """Gửi CONNECT request qua connection có sẵn"""
+        try:
+            auth = ProxyFetcher._build_auth_header(username, password)
+            req = (
+                f"CONNECT {TEST_URL}:443 HTTP/1.1\r\n"
+                f"Host: {TEST_URL}:443\r\n"
+                f"{auth}"
+                f"Connection: close\r\n"
+                f"\r\n"
+            )
+            writer.write(req.encode())
+            await asyncio.wait_for(writer.drain(), timeout=CHECK_TIMEOUT)
+            data = await asyncio.wait_for(reader.read(1024), timeout=CHECK_TIMEOUT)
+            return b" 200" in data
+        except Exception:
+            return False
+
+    @staticmethod
+    async def _check_socks5_proxy(reader: asyncio.StreamReader, writer: asyncio.StreamWriter,
+                                  username: Optional[str], password: Optional[str]) -> bool:
+        """SOCKS5 handshake + CONNECT qua connection có sẵn"""
+        try:
+            # Greeting
+            if username and password:
+                writer.write(b'\x05\x02\x00\x02')
+            else:
+                writer.write(b'\x05\x01\x00')
+            await writer.drain()
+
+            data = await asyncio.wait_for(reader.read(2), timeout=CONNECT_TIMEOUT)
+            if len(data) < 2 or data[0] != 0x05:
+                return False
+
+            method = data[1]
+            if method == 0x02:
+                auth = (
+                    b'\x01'
+                    + bytes([len(username)]) + username.encode()
+                    + bytes([len(password)]) + password.encode()
+                )
+                writer.write(auth)
+                await writer.drain()
+                auth_resp = await asyncio.wait_for(reader.read(2), timeout=CONNECT_TIMEOUT)
+                if len(auth_resp) < 2 or auth_resp[1] != 0x00:
+                    return False
+            elif method == 0xFF:
+                return False
+
+            # Connect to TEST_URL:443
+            domain = TEST_URL.encode()
+            writer.write(
+                b'\x05\x01\x00\x03'
+                + bytes([len(domain)]) + domain
+                + b'\x01\xBB'  # port 443
+            )
+            await writer.drain()
+
+            resp = await asyncio.wait_for(reader.read(32), timeout=CHECK_TIMEOUT)
+            return len(resp) >= 2 and resp[1] == 0x00
+        except Exception:
+            return False
+
+    @staticmethod
+    async def _check_socks4_proxy(reader: asyncio.StreamReader, writer: asyncio.StreamWriter) -> bool:
+        """SOCKS4 CONNECT qua connection có sẵn"""
+        try:
+            dst_ip = socket.gethostbyname(TEST_URL)
+            writer.write(
+                b'\x04\x01'
+                + (443).to_bytes(2, 'big')
+                + socket.inet_aton(dst_ip)
+                + b'\x00'
+            )
+            await writer.drain()
+
+            resp = await asyncio.wait_for(reader.read(8), timeout=CHECK_TIMEOUT)
+            return len(resp) >= 2 and resp[1] == 0x5A
+        except Exception:
+            return False
+
+    # ----------------------------------------------------------------
+    # VERIFY TASK — 1 connection: TCP connect + protocol check
+    # ----------------------------------------------------------------
+    async def verify_task(self, proxy_data: Dict[str, Any], proto: str):
         ip, port = proxy_data['ip'], proxy_data['port']
         key = f"{ip}:{port}"
 
-        # [TỐI ƯU] Nếu IP này đã fail ở protocol khác → skip ngay lập tức
         if key in self.failed_ips:
             return
 
-        # [TỐI ƯU] Skip IP riêng/invalid — không cần check
         if self._is_private_ip(ip):
             self.failed_ips.add(key)
             return
 
         user, pwd = proxy_data['username'], proxy_data['password']
-        auth_str = f"{user}:{pwd}@" if user and pwd else ""
 
         async with self.semaphore:
-            # [TỐI ƯU MẠNH] Phase 1: TCP pre-check — 0.5s timeout
-            # Proxy chết sẽ fail ở đây thay vì chờ 1.5-2s
+            # 1 TCP connection: connect + protocol check (no separate pre-check)
             try:
-                _, writer = await asyncio.wait_for(
+                reader, writer = await asyncio.wait_for(
                     asyncio.open_connection(ip, int(port)),
-                    timeout=TCP_PRECHECK_TIMEOUT
+                    timeout=CONNECT_TIMEOUT
                 )
-                writer.close()
-                await writer.wait_closed()
             except Exception:
                 self.failed_ips.add(key)
                 self.checked_count += 1
                 return
 
-            # Phase 2: Protocol-specific check (chỉ cho proxy pass TCP)
+            # Protocol check trên connection có sẵn
             is_live = False
             try:
-                if 'socks' in proto:
-                    proxy_url = f"{proto}://{auth_str}{ip}:{port}"
-                    is_live = await self._check_socks(proxy_url)
+                if proto == 'socks5':
+                    is_live = await self._check_socks5_proxy(reader, writer, user, pwd)
+                elif proto == 'socks4':
+                    is_live = await self._check_socks4_proxy(reader, writer)
                 else:
-                    proxy_proto = 'http' if proto == 'https' else proto
-                    proxy_url = f"{proxy_proto}://{auth_str}{ip}:{port}"
-                    is_live = await self._check_http(http_session, proxy_url)
+                    is_live = await self._check_http_proxy(reader, writer, user, pwd)
+            except Exception:
+                pass
+
+            try:
+                writer.close()
             except Exception:
                 pass
 
@@ -180,7 +305,6 @@ class ProxyFetcher:
             else:
                 self.failed_ips.add(key)
 
-            # Progress logging mỗi 5000 checks
             if self.checked_count % 5000 == 0:
                 elapsed = time.time() - self.start_time
                 rate = self.checked_count / elapsed if elapsed > 0 else 0
@@ -190,186 +314,52 @@ class ProxyFetcher:
                     f"📊 Checked: {self.checked_count}/{self.total_checks} | "
                     f"Live: {len(self.live_proxies)} | "
                     f"Failed IPs: {len(self.failed_ips)} | "
-                    f"Speed: {rate:.0f}/s | "
-                    f"ETA: {eta:.0f}s"
+                    f"Speed: {rate:.0f}/s | ETA: {eta:.0f}s"
                 )
 
-    @staticmethod
-    def _is_private_ip(ip: str) -> bool:
-        """Kiểm tra IP riêng/localhost — bỏ qua không cần check"""
-        parts = ip.split('.')
-        if len(parts) != 4:
-            return True
-        try:
-            first, second = int(parts[0]), int(parts[1])
-            # localhost, loopback
-            if first == 127 or first == 0:
-                return True
-            # 10.0.0.0/8
-            if first == 10:
-                return True
-            # 172.16.0.0/12
-            if first == 172 and 16 <= second <= 31:
-                return True
-            # 192.168.0.0/16
-            if first == 192 and second == 168:
-                return True
-            # multicast/broadcast
-            if first >= 224:
-                return True
-            return False
-        except (ValueError, IndexError):
-            return True
-
-    async def _check_http(self, session: aiohttp.ClientSession, proxy_url: str) -> bool:
-        """Raw HTTP check — bypass aiohttp overhead, dùng raw asyncio"""
-        try:
-            parsed = urlparse(proxy_url)
-            ip, port = parsed.hostname, int(parsed.port)
-            username, password = parsed.username, parsed.password
-
-            reader, writer = await asyncio.wait_for(
-                asyncio.open_connection(ip, port),
-                timeout=CONNECT_TIMEOUT
-            )
-
-            # Build HTTP request qua proxy
-            req = (
-                f"GET http://cp.cloudflare.com/ HTTP/1.1\r\n"
-                f"Host: cp.cloudflare.com\r\n"
-                f"Connection: close\r\n"
-            )
-            if username and password:
-                cred = base64.b64encode(f"{username}:{password}".encode()).decode()
-                req += f"Proxy-Authorization: Basic {cred}\r\n"
-            req += "\r\n"
-
-            writer.write(req.encode())
-            await asyncio.wait_for(writer.drain(), timeout=CHECK_TIMEOUT)
-            data = await asyncio.wait_for(reader.read(1024), timeout=CHECK_TIMEOUT)
-            writer.close()
-
-            return b" 200" in data or b" 204" in data
-        except Exception:
-            return False
-
-    async def _check_socks(self, proxy_url: str) -> bool:
-        """Raw SOCKS4/5 check — bỏ aiohttp session creation, nhẹ hơn rất nhiều"""
-        try:
-            parsed = urlparse(proxy_url)
-            ip, port = parsed.hostname, int(parsed.port)
-            username, password = parsed.username, parsed.password
-            is_socks5 = 'socks5' in proxy_url.lower()
-
-            reader, writer = await asyncio.wait_for(
-                asyncio.open_connection(ip, port),
-                timeout=CONNECT_TIMEOUT
-            )
-
-            if is_socks5:
-                return await self._socks5_handshake(reader, writer, username, password)
-            else:
-                return await self._socks4_handshake(reader, writer)
-
-        except Exception:
-            return False
-
-    async def _socks5_handshake(self, reader, writer, username=None, password=None) -> bool:
-        """SOCKS5 handshake + connect request"""
-        try:
-            # Greeting
-            if username and password:
-                writer.write(b'\x05\x02\x00\x02')  # no-auth + user/pass
-            else:
-                writer.write(b'\x05\x01\x00')  # no-auth only
-            await writer.drain()
-
-            data = await asyncio.wait_for(reader.read(2), timeout=CONNECT_TIMEOUT)
-            if len(data) < 2 or data[0] != 0x05:
-                writer.close()
-                return False
-
-            method = data[1]
-            if method == 0x02:  # Username/password auth
-                auth = (
-                    b'\x01'
-                    + bytes([len(username)]) + username.encode()
-                    + bytes([len(password)]) + password.encode()
-                )
-                writer.write(auth)
-                await writer.drain()
-                auth_resp = await asyncio.wait_for(reader.read(2), timeout=CONNECT_TIMEOUT)
-                if len(auth_resp) < 2 or auth_resp[1] != 0x00:
-                    writer.close()
-                    return False
-            elif method == 0xFF:
-                writer.close()
-                return False
-
-            # Connect request → cp.cloudflare.com:80
-            domain = b'cp.cloudflare.com'
-            writer.write(
-                b'\x05\x01\x00\x03'
-                + bytes([len(domain)]) + domain
-                + b'\x00\x50'
-            )
-            await writer.drain()
-
-            resp = await asyncio.wait_for(reader.read(32), timeout=CHECK_TIMEOUT)
-            writer.close()
-            return len(resp) >= 2 and resp[1] == 0x00
-
-        except Exception:
-            try: writer.close()
-            except: pass
-            return False
-
-    async def _socks4_handshake(self, reader, writer) -> bool:
-        """SOCKS4 connect request"""
-        try:
-            dst_ip = socket.gethostbyname('cp.cloudflare.com')
-            writer.write(
-                b'\x04\x01'
-                + (80).to_bytes(2, 'big')
-                + socket.inet_aton(dst_ip)
-                + b'\x00'
-            )
-            await writer.drain()
-
-            resp = await asyncio.wait_for(reader.read(8), timeout=CHECK_TIMEOUT)
-            writer.close()
-            return len(resp) >= 2 and resp[1] == 0x5A
-
-        except Exception:
-            try: writer.close()
-            except: pass
-            return False
-
+    # ----------------------------------------------------------------
+    # CONFIRMATION — re-check live proxies to filter unstable ones
+    # ----------------------------------------------------------------
     async def confirm_task(self, proxy_data: Dict[str, Any]):
-        """Xác nhận lại proxy live — loại bỏ proxy chập chờn, closed port"""
         ip, port = proxy_data['ip'], proxy_data['port']
         key = f"{ip}:{port}"
         proto = proxy_data.get('type', 'http')
         user, pwd = proxy_data.get('username'), proxy_data.get('password')
-        auth_str = f"{user}:{pwd}@" if user and pwd else ""
 
         async with self.semaphore:
             try:
-                if 'socks' in proto:
-                    proxy_url = f"{proto}://{auth_str}{ip}:{port}"
-                    is_live = await self._check_socks(proxy_url)
-                else:
-                    proxy_url = f"http://{auth_str}{ip}:{port}"
-                    is_live = await self._check_http(None, proxy_url)
-
-                if not is_live:
-                    # Proxy fail confirmation → loại bỏ
-                    self.failed_ips.add(key)
-                    self.live_proxies.pop(key, None)
+                reader, writer = await asyncio.wait_for(
+                    asyncio.open_connection(ip, int(port)),
+                    timeout=CONNECT_TIMEOUT
+                )
             except Exception:
                 self.failed_ips.add(key)
                 self.live_proxies.pop(key, None)
+                return
 
+            is_live = False
+            try:
+                if proto == 'socks5':
+                    is_live = await self._check_socks5_proxy(reader, writer, user, pwd)
+                elif proto == 'socks4':
+                    is_live = await self._check_socks4_proxy(reader, writer)
+                else:
+                    is_live = await self._check_http_proxy(reader, writer, user, pwd)
+            except Exception:
+                pass
+
+            try:
+                writer.close()
+            except Exception:
+                pass
+
+            if not is_live:
+                self.failed_ips.add(key)
+                self.live_proxies.pop(key, None)
+
+    # ----------------------------------------------------------------
+    # GEOLOCATION
+    # ----------------------------------------------------------------
     def enrich_geolocation_local(self):
         if not os.path.exists(DB_COUNTRY) or not os.path.exists(DB_ASN):
             logger.warning("Không thấy file DB GeoIP. Bỏ qua định vị.")
@@ -383,7 +373,8 @@ class ProxyFetcher:
                     c_res = reader_country.country(ip)
                     proxy['country'] = c_res.country.name or 'Unknown'
                     proxy['countryCode'] = c_res.country.iso_code or '??'
-                except: pass
+                except Exception:
+                    pass
                 try:
                     a_res = reader_asn.asn(ip)
                     isp = a_res.autonomous_system_organization or 'Unknown'
@@ -392,16 +383,24 @@ class ProxyFetcher:
                     hosting_kw = ['vps', 'hosting', 'server', 'cloud', 'datacenter', 'digitalocean', 'amazon', 'google', 'ovh', 'hetzner']
                     cell_kw = ['mobile', 'wireless', 'cellular', 't-mobile', 'vodafone']
                     res_kw = ['telecom', 'viettel', 'fpt', 'vnpt', 'comcast', 'broadband', 'dsl', 'cable']
-                    if any(kw in name for kw in hosting_kw): proxy['user_type'] = 'hosting'
-                    elif any(kw in name for kw in cell_kw): proxy['user_type'] = 'cellular'
-                    elif any(kw in name for kw in res_kw): proxy['user_type'] = 'residential'
-                    else: proxy['user_type'] = 'business'
-                except: pass
+                    if any(kw in name for kw in hosting_kw):
+                        proxy['user_type'] = 'hosting'
+                    elif any(kw in name for kw in cell_kw):
+                        proxy['user_type'] = 'cellular'
+                    elif any(kw in name for kw in res_kw):
+                        proxy['user_type'] = 'residential'
+                    else:
+                        proxy['user_type'] = 'business'
+                except Exception:
+                    pass
             reader_country.close()
             reader_asn.close()
         except Exception as e:
             logger.error(f"Lỗi định vị dữ liệu IP: {e}")
 
+    # ----------------------------------------------------------------
+    # MAIN RUN
+    # ----------------------------------------------------------------
     async def run(self):
         self.start_time = time.time()
         self.semaphore = asyncio.Semaphore(MAX_CONCURRENT)
@@ -415,7 +414,7 @@ class ProxyFetcher:
         )
 
         async with aiohttp.ClientSession(connector=connector) as session:
-            # ===== PHASE 1: Fetch nguồn + Parse proxy (pipeline) =====
+            # ===== PHASE 1: Fetch sources =====
             logger.info(f"🔍 Đang cào {len(self.sources)} nguồn proxy...")
 
             fetch_tasks = [self.fetch_url(session, url) for url in self.sources]
@@ -434,14 +433,14 @@ class ProxyFetcher:
                 logger.warning("Không tìm thấy proxy thô nào!")
                 return
 
-            # ===== PHASE 2: Verify proxy song song =====
+            # ===== PHASE 2: Verify =====
             self.total_checks = sum(len(p['protocols']) for p in self.raw_proxies.values())
             logger.info(f"🔎 Tìm thấy {len(self.raw_proxies)} proxy thô ({self.total_checks} checks). Bắt đầu kiểm tra...")
 
             verify_coros = []
             for proxy in self.raw_proxies.values():
                 for proto in proxy['protocols']:
-                    verify_coros.append(self.verify_task(session, proxy, proto))
+                    verify_coros.append(self.verify_task(proxy, proto))
 
             await asyncio.gather(*verify_coros)
 
@@ -449,21 +448,24 @@ class ProxyFetcher:
             logger.info(f"✅ Hoàn tất kiểm tra lần 1 trong {elapsed:.1f}s — {len(self.live_proxies)} proxy live")
 
             # ===== PHASE 2.5: Confirmation check =====
-            # Xác nhận lại proxy live — loại bỏ proxy chập chờn, closed port, timeout
             if self.live_proxies:
                 pre_confirm = len(self.live_proxies)
                 logger.info(f"🔍 Đang xác nhận lại {pre_confirm} proxy live...")
-                confirm_coros = [self.confirm_task(proxy) for proxy in list(self.live_proxies.values())]
+                confirm_coros = [self.confirm_task(p) for p in list(self.live_proxies.values())]
                 await asyncio.gather(*confirm_coros)
-                logger.info(f"✅ Xác nhận xong: {pre_confirm} → {len(self.live_proxies)} proxy sống sót (loại bỏ {pre_confirm - len(self.live_proxies)} proxy chập chờn)")
+                removed = pre_confirm - len(self.live_proxies)
+                logger.info(f"✅ Xác nhận xong: {pre_confirm} → {len(self.live_proxies)} proxy sống sót (loại bỏ {removed} proxy chập chờn)")
 
-            # ===== PHASE 3: Enrich geolocation =====
+            # ===== PHASE 3: Enrich =====
             logger.info("🌍 Đang phân tích nhà mạng và quốc gia...")
             self.enrich_geolocation_local()
 
         # ===== PHASE 4: Export =====
         self.export_all_formats()
 
+    # ----------------------------------------------------------------
+    # DEAD SOURCE MANAGEMENT
+    # ----------------------------------------------------------------
     def clean_dead_sources(self):
         with open(SOURCES_FILE, 'w', encoding='utf-8') as f:
             for line in self.all_source_lines:
@@ -481,12 +483,14 @@ class ProxyFetcher:
                     f.write(f"{current_url}\n")
                 else:
                     f.write(f"# [DIE] {current_url}\n")
-        logger.info(f"Đã cập nhật trạng thái nguồn trong sources.txt.")
+        logger.info("Đã cập nhật trạng thái nguồn trong sources.txt.")
 
+    # ----------------------------------------------------------------
+    # EXPORT
+    # ----------------------------------------------------------------
     def export_all_formats(self):
         live_list = list(self.live_proxies.values())
 
-        # 1. XUẤT FILE TXT
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             f.write(f"# Auto Proxy List\n# Build Time: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')}\n")
             for p in live_list:
@@ -494,7 +498,6 @@ class ProxyFetcher:
                 uri = f"{p['type']}://{auth}{p['ip']}:{p['port']}"
                 f.write(f"{uri:<45} | {p['country']} ({p['countryCode']}) | User: {p['user_type']:<12} | ISP: {p['isp']}\n")
 
-        # 2. XUẤT API JSON TĨNH PHÂN LOẠI
         os.makedirs('api/types', exist_ok=True)
         os.makedirs('api/countries', exist_ok=True)
 
@@ -506,10 +509,12 @@ class ProxyFetcher:
         for p in live_list:
             t_type = p['user_type']
             c_code = p['countryCode']
-            if t_type not in types_dict: types_dict[t_type] = []
+            if t_type not in types_dict:
+                types_dict[t_type] = []
             types_dict[t_type].append(p)
             if c_code != '??':
-                if c_code not in countries_dict: countries_dict[c_code] = []
+                if c_code not in countries_dict:
+                    countries_dict[c_code] = []
                 countries_dict[c_code].append(p)
 
         for t, data in types_dict.items():
@@ -520,7 +525,6 @@ class ProxyFetcher:
             with open(f'api/countries/{c}.json', 'w', encoding='utf-8') as f:
                 json.dump({'updated_at': datetime.utcnow().isoformat(), 'total': len(data), 'data': data}, f, ensure_ascii=False, indent=2)
 
-        # 3. TẠO FILE SUB (STT RIÊNG THEO QUỐC GIA)
         sub_uris = []
         country_counters = {}
         for p in live_list:
@@ -539,7 +543,7 @@ class ProxyFetcher:
             f.write(b64_sub)
 
         elapsed = time.time() - self.start_time
-        logger.info(f"🚀 Thành công! Xuất {len(live_list)} proxy ra các định dạng. Tổng thời gian: {elapsed:.1f}s")
+        logger.info(f"🚀 Thành công! Xuất {len(live_list)} proxy. Tổng: {elapsed:.1f}s")
 
 
 if __name__ == "__main__":
