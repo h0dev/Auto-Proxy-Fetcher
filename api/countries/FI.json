@@ -1,49 +1,45 @@
 {
-  "updated_at": "2026-07-03T10:21:04.692622",
-  "total": 6,
+  "updated_at": "2026-07-03T15:10:25.412797",
+  "total": 7,
   "data": [
     {
-      "ip": "193.221.203.192",
-      "port": "1080",
+      "ip": "185.148.0.133",
+      "port": "80",
       "protocols": [
-        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Magna Capax Finland Oy",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "194.34.236.141",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hostkey B.v.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "65.109.14.254",
+      "port": "8080",
+      "protocols": [
         "http",
         "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Baykov Ilya Sergeevich",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "185.230.190.195",
-      "port": "1080",
-      "protocols": [
         "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Livi Hosting Ltd",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "65.108.203.35",
-      "port": "28080",
-      "protocols": [
-        "http",
-        "socks5",
-        "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -54,12 +50,10 @@
       "type": "https"
     },
     {
-      "ip": "157.180.84.115",
-      "port": "443",
+      "ip": "65.109.52.87",
+      "port": "80",
       "protocols": [
-        "socks5",
         "http",
-        "socks4",
         "https"
       ],
       "username": null,
@@ -71,8 +65,25 @@
       "type": "http"
     },
     {
-      "ip": "135.181.113.216",
-      "port": "16379",
+      "ip": "65.109.239.59",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "65.109.84.104",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -88,8 +99,8 @@
       "type": "https"
     },
     {
-      "ip": "62.60.254.80",
-      "port": "1080",
+      "ip": "65.21.34.102",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -100,9 +111,9 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "International Hosting Company Limited",
+      "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "http"
     }
   ]
 }
