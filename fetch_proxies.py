@@ -6,6 +6,8 @@ import logging
 import json
 import base64
 import time
+import socket
+from urllib.parse import urlparse
 from datetime import datetime
 from typing import Dict, List, Optional, Any, Set
 import aiohttp
@@ -35,10 +37,11 @@ except Exception:
 # ============================================================
 # CẤU HÌNH TỐI ƯU HÓA
 # ============================================================
-MAX_CONCURRENT = 5000        # Số check đồng thời tối đa (semaphore-controlled)
-CHECK_TIMEOUT = 2.0          # Timeout mỗi proxy (giây) — giảm từ 5s xuống 2s
-CONNECT_TIMEOUT = 1.5        # Timeout kết nối TCP (giây)
-SOURCE_TIMEOUT = 12          # Timeout tải danh sách nguồn (giây)
+MAX_CONCURRENT = 8000        # Số check đồng thời tối đa (tăng từ 5000)
+CHECK_TIMEOUT = 1.5          # Timeout mỗi proxy (giây) — giảm từ 2s xuống 1.5s
+CONNECT_TIMEOUT = 1.0        # Timeout kết nối TCP (giây) — giảm từ 1.5s
+TCP_PRECHECK_TIMEOUT = 0.5   # [MỚI] TCP connect pre-check — proxy chết chỉ mất 0.5s
+SOURCE_TIMEOUT = 8           # Timeout tải danh sách nguồn (giây) — giảm từ 12s
 TEST_URL = 'https://cp.cloudflare.com/'  # Endpoint test HTTPS
 OUTPUT_FILE = 'proxies.txt'
 SOURCES_FILE = 'sources.txt'
@@ -131,10 +134,30 @@ class ProxyFetcher:
         if key in self.failed_ips:
             return
 
+        # [TỐI ƯU] Skip IP riêng/invalid — không cần check
+        if self._is_private_ip(ip):
+            self.failed_ips.add(key)
+            return
+
         user, pwd = proxy_data['username'], proxy_data['password']
         auth_str = f"{user}:{pwd}@" if user and pwd else ""
 
         async with self.semaphore:
+            # [TỐI ƯU MẠNH] Phase 1: TCP pre-check — 0.5s timeout
+            # Proxy chết sẽ fail ở đây thay vì chờ 1.5-2s
+            try:
+                _, writer = await asyncio.wait_for(
+                    asyncio.open_connection(ip, int(port)),
+                    timeout=TCP_PRECHECK_TIMEOUT
+                )
+                writer.close()
+                await writer.wait_closed()
+            except Exception:
+                self.failed_ips.add(key)
+                self.checked_count += 1
+                return
+
+            # Phase 2: Protocol-specific check (chỉ cho proxy pass TCP)
             is_live = False
             try:
                 if 'socks' in proto:
@@ -155,7 +178,6 @@ class ProxyFetcher:
                     res['type'] = proto
                     self.live_proxies[key] = res
             else:
-                # [TỐI ƯU] Đánh dấu IP chết → các protocol khác sẽ skip
                 self.failed_ips.add(key)
 
             # Progress logging mỗi 5000 checks
@@ -172,23 +194,181 @@ class ProxyFetcher:
                     f"ETA: {eta:.0f}s"
                 )
 
-    async def _check_http(self, session: aiohttp.ClientSession, proxy_url: str) -> bool:
-        timeout_cfg = aiohttp.ClientTimeout(total=CHECK_TIMEOUT, connect=CONNECT_TIMEOUT)
+    @staticmethod
+    def _is_private_ip(ip: str) -> bool:
+        """Kiểm tra IP riêng/localhost — bỏ qua không cần check"""
+        parts = ip.split('.')
+        if len(parts) != 4:
+            return True
         try:
-            async with session.get(TEST_URL, proxy=proxy_url, timeout=timeout_cfg, ssl=False) as resp:
-                return resp.status in [200, 204]
+            first, second = int(parts[0]), int(parts[1])
+            # localhost, loopback
+            if first == 127 or first == 0:
+                return True
+            # 10.0.0.0/8
+            if first == 10:
+                return True
+            # 172.16.0.0/12
+            if first == 172 and 16 <= second <= 31:
+                return True
+            # 192.168.0.0/16
+            if first == 192 and second == 168:
+                return True
+            # multicast/broadcast
+            if first >= 224:
+                return True
+            return False
+        except (ValueError, IndexError):
+            return True
+
+    async def _check_http(self, session: aiohttp.ClientSession, proxy_url: str) -> bool:
+        """Raw HTTP check — bypass aiohttp overhead, dùng raw asyncio"""
+        try:
+            parsed = urlparse(proxy_url)
+            ip, port = parsed.hostname, int(parsed.port)
+            username, password = parsed.username, parsed.password
+
+            reader, writer = await asyncio.wait_for(
+                asyncio.open_connection(ip, port),
+                timeout=CONNECT_TIMEOUT
+            )
+
+            # Build HTTP request qua proxy
+            req = (
+                f"GET http://cp.cloudflare.com/ HTTP/1.1\r\n"
+                f"Host: cp.cloudflare.com\r\n"
+                f"Connection: close\r\n"
+            )
+            if username and password:
+                cred = base64.b64encode(f"{username}:{password}".encode()).decode()
+                req += f"Proxy-Authorization: Basic {cred}\r\n"
+            req += "\r\n"
+
+            writer.write(req.encode())
+            await asyncio.wait_for(writer.drain(), timeout=CHECK_TIMEOUT)
+            data = await asyncio.wait_for(reader.read(1024), timeout=CHECK_TIMEOUT)
+            writer.close()
+
+            return b" 200" in data or b" 204" in data
         except Exception:
             return False
 
     async def _check_socks(self, proxy_url: str) -> bool:
-        timeout_cfg = aiohttp.ClientTimeout(total=CHECK_TIMEOUT, connect=CONNECT_TIMEOUT)
+        """Raw SOCKS4/5 check — bỏ aiohttp session creation, nhẹ hơn rất nhiều"""
         try:
-            connector = ProxyConnector.from_url(proxy_url)
-            async with aiohttp.ClientSession(connector=connector, timeout=timeout_cfg) as socks_session:
-                async with socks_session.get(TEST_URL, ssl=False) as resp:
-                    return resp.status in [200, 204]
+            parsed = urlparse(proxy_url)
+            ip, port = parsed.hostname, int(parsed.port)
+            username, password = parsed.username, parsed.password
+            is_socks5 = 'socks5' in proxy_url.lower()
+
+            reader, writer = await asyncio.wait_for(
+                asyncio.open_connection(ip, port),
+                timeout=CONNECT_TIMEOUT
+            )
+
+            if is_socks5:
+                return await self._socks5_handshake(reader, writer, username, password)
+            else:
+                return await self._socks4_handshake(reader, writer)
+
         except Exception:
             return False
+
+    async def _socks5_handshake(self, reader, writer, username=None, password=None) -> bool:
+        """SOCKS5 handshake + connect request"""
+        try:
+            # Greeting
+            if username and password:
+                writer.write(b'\x05\x02\x00\x02')  # no-auth + user/pass
+            else:
+                writer.write(b'\x05\x01\x00')  # no-auth only
+            await writer.drain()
+
+            data = await asyncio.wait_for(reader.read(2), timeout=CONNECT_TIMEOUT)
+            if len(data) < 2 or data[0] != 0x05:
+                writer.close()
+                return False
+
+            method = data[1]
+            if method == 0x02:  # Username/password auth
+                auth = (
+                    b'\x01'
+                    + bytes([len(username)]) + username.encode()
+                    + bytes([len(password)]) + password.encode()
+                )
+                writer.write(auth)
+                await writer.drain()
+                auth_resp = await asyncio.wait_for(reader.read(2), timeout=CONNECT_TIMEOUT)
+                if len(auth_resp) < 2 or auth_resp[1] != 0x00:
+                    writer.close()
+                    return False
+            elif method == 0xFF:
+                writer.close()
+                return False
+
+            # Connect request → cp.cloudflare.com:80
+            domain = b'cp.cloudflare.com'
+            writer.write(
+                b'\x05\x01\x00\x03'
+                + bytes([len(domain)]) + domain
+                + b'\x00\x50'
+            )
+            await writer.drain()
+
+            resp = await asyncio.wait_for(reader.read(32), timeout=CHECK_TIMEOUT)
+            writer.close()
+            return len(resp) >= 2 and resp[1] == 0x00
+
+        except Exception:
+            try: writer.close()
+            except: pass
+            return False
+
+    async def _socks4_handshake(self, reader, writer) -> bool:
+        """SOCKS4 connect request"""
+        try:
+            dst_ip = socket.gethostbyname('cp.cloudflare.com')
+            writer.write(
+                b'\x04\x01'
+                + (80).to_bytes(2, 'big')
+                + socket.inet_aton(dst_ip)
+                + b'\x00'
+            )
+            await writer.drain()
+
+            resp = await asyncio.wait_for(reader.read(8), timeout=CHECK_TIMEOUT)
+            writer.close()
+            return len(resp) >= 2 and resp[1] == 0x5A
+
+        except Exception:
+            try: writer.close()
+            except: pass
+            return False
+
+    async def confirm_task(self, proxy_data: Dict[str, Any]):
+        """Xác nhận lại proxy live — loại bỏ proxy chập chờn, closed port"""
+        ip, port = proxy_data['ip'], proxy_data['port']
+        key = f"{ip}:{port}"
+        proto = proxy_data.get('type', 'http')
+        user, pwd = proxy_data.get('username'), proxy_data.get('password')
+        auth_str = f"{user}:{pwd}@" if user and pwd else ""
+
+        async with self.semaphore:
+            try:
+                if 'socks' in proto:
+                    proxy_url = f"{proto}://{auth_str}{ip}:{port}"
+                    is_live = await self._check_socks(proxy_url)
+                else:
+                    proxy_url = f"http://{auth_str}{ip}:{port}"
+                    is_live = await self._check_http(None, proxy_url)
+
+                if not is_live:
+                    # Proxy fail confirmation → loại bỏ
+                    self.failed_ips.add(key)
+                    self.live_proxies.pop(key, None)
+            except Exception:
+                self.failed_ips.add(key)
+                self.live_proxies.pop(key, None)
 
     def enrich_geolocation_local(self):
         if not os.path.exists(DB_COUNTRY) or not os.path.exists(DB_ASN):
@@ -266,7 +446,16 @@ class ProxyFetcher:
             await asyncio.gather(*verify_coros)
 
             elapsed = time.time() - self.start_time
-            logger.info(f"✅ Hoàn tất kiểm tra trong {elapsed:.1f}s — {len(self.live_proxies)} proxy live")
+            logger.info(f"✅ Hoàn tất kiểm tra lần 1 trong {elapsed:.1f}s — {len(self.live_proxies)} proxy live")
+
+            # ===== PHASE 2.5: Confirmation check =====
+            # Xác nhận lại proxy live — loại bỏ proxy chập chờn, closed port, timeout
+            if self.live_proxies:
+                pre_confirm = len(self.live_proxies)
+                logger.info(f"🔍 Đang xác nhận lại {pre_confirm} proxy live...")
+                confirm_coros = [self.confirm_task(proxy) for proxy in list(self.live_proxies.values())]
+                await asyncio.gather(*confirm_coros)
+                logger.info(f"✅ Xác nhận xong: {pre_confirm} → {len(self.live_proxies)} proxy sống sót (loại bỏ {pre_confirm - len(self.live_proxies)} proxy chập chờn)")
 
             # ===== PHASE 3: Enrich geolocation =====
             logger.info("🌍 Đang phân tích nhà mạng và quốc gia...")
