@@ -1,10 +1,42 @@
 {
-  "updated_at": "2026-07-03T13:50:15.932335",
-  "total": 1,
+  "updated_at": "2026-07-03T14:30:37.689086",
+  "total": 6,
   "data": [
     {
-      "ip": "201.131.214.1",
-      "port": "5678",
+      "ip": "200.188.246.122",
+      "port": "60606",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Empresa Catarinense de Tecnologia em Telecom. Ltda",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "177.106.202.236",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "ALGAR TELECOM S/A",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "177.10.66.14",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -15,8 +47,59 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "VIGORA TELECOM",
+      "isp": "SILVEIRA & ZIQUINATTI LTDA",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "177.184.195.168",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Wireless Comm Services LTDA",
+      "user_type": "cellular",
+      "type": "http"
+    },
+    {
+      "ip": "177.91.35.202",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Fonelight Telecomunicacoes S/A",
       "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "201.218.189.212",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "NOVA INTERNET E PROVEDOR LTDA",
+      "user_type": "business",
       "type": "socks4"
     }
   ]
