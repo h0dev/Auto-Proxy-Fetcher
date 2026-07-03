@@ -1,10 +1,44 @@
 {
-  "updated_at": "2026-07-02T23:07:29.883320",
-  "total": 2,
+  "updated_at": "2026-07-03T04:34:51.675104",
+  "total": 6,
   "data": [
     {
-      "ip": "89.43.132.81",
+      "ip": "89.43.135.182",
       "port": "8085",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "79.172.212.71",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "SzerverPlex.hu KFT.",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "89.43.132.226",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -34,7 +68,38 @@
       "countryCode": "HU",
       "isp": "High Speed For Internet Services L.L.C",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "89.43.133.229",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "High Speed For Internet Services L.L.C",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "91.82.115.159",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hungary",
+      "countryCode": "HU",
+      "isp": "Invitech ICT Services Kft.",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
