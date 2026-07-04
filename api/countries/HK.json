@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-03T22:13:17.198234",
-  "total": 13,
+  "updated_at": "2026-07-04T03:36:45.355755",
+  "total": 15,
   "data": [
     {
       "ip": "43.99.100.108",
@@ -20,20 +20,20 @@
       "type": "https"
     },
     {
-      "ip": "143.89.39.117",
-      "port": "7890",
+      "ip": "185.243.241.82",
+      "port": "1081",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Hong Kong",
       "countryCode": "HK",
-      "isp": "Hong Kong University of Science and Technology",
-      "user_type": "business",
+      "isp": "Law's Cloud Infrastructure Limited",
+      "user_type": "hosting",
       "type": "socks4"
     },
     {
@@ -65,7 +65,7 @@
       "countryCode": "HK",
       "isp": "Microsoft Corporation",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "42.200.76.16",
@@ -113,7 +113,41 @@
       "countryCode": "HK",
       "isp": "VpsQuan L.L.C.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "47.238.197.190",
+      "port": "1011",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hong Kong",
+      "countryCode": "HK",
+      "isp": "Alibaba (US) Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "47.82.113.251",
+      "port": "1011",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hong Kong",
+      "countryCode": "HK",
+      "isp": "Alibaba (US) Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "18.162.200.96",
@@ -159,20 +193,6 @@
       "type": "socks4"
     },
     {
-      "ip": "18.162.200.96",
-      "port": "21",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Hong Kong",
-      "countryCode": "HK",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
       "ip": "18.163.33.4",
       "port": "35200",
       "protocols": [
@@ -187,19 +207,33 @@
       "type": "socks5"
     },
     {
-      "ip": "103.254.110.225",
-      "port": "10808",
+      "ip": "18.162.200.96",
+      "port": "21",
       "protocols": [
-        "socks5",
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Hong Kong",
       "countryCode": "HK",
-      "isp": "CTG Server Limited",
+      "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks5"
+    },
+    {
+      "ip": "143.89.39.117",
+      "port": "7890",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Hong Kong",
+      "countryCode": "HK",
+      "isp": "Hong Kong University of Science and Technology",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

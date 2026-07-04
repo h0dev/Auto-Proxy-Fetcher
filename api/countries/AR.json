@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-07-03T22:13:17.204578",
-  "total": 2,
+  "updated_at": "2026-07-04T03:36:45.359502",
+  "total": 4,
   "data": [
+    {
+      "ip": "138.117.14.249",
+      "port": "9080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "LEVEL SEVEN SRL",
+      "user_type": "business",
+      "type": "http"
+    },
     {
       "ip": "187.102.219.42",
       "port": "999",
@@ -29,7 +43,24 @@
       "countryCode": "AR",
       "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "200.41.182.243",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "Telefonica de Argentina",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
