@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-07-04T11:01:23.709248",
-  "total": 11,
+  "updated_at": "2026-07-04T13:47:11.576672",
+  "total": 12,
   "data": [
+    {
+      "ip": "138.124.125.198",
+      "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "138.124.125.198",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "socks5"
+    },
     {
       "ip": "134.209.29.120",
       "port": "3128",
@@ -17,10 +51,27 @@
       "countryCode": "GB",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "104.248.172.185",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "134.209.29.120",
       "port": "80",
       "protocols": [
         "http",
@@ -51,23 +102,6 @@
       "countryCode": "GB",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "134.209.29.120",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
       "type": "https"
     },
     {
@@ -85,23 +119,6 @@
       "countryCode": "GB",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "138.124.125.198",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Baykov Ilya Sergeevich",
-      "user_type": "business",
       "type": "socks5"
     },
     {
@@ -151,7 +168,7 @@
       "countryCode": "GB",
       "isp": "QuickHostUK Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "13.41.196.179",
