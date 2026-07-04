@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-04T13:47:11.583520",
-  "total": 3,
+  "updated_at": "2026-07-04T16:12:06.827992",
+  "total": 4,
   "data": [
     {
       "ip": "103.162.31.103",
@@ -17,21 +17,24 @@
       "countryCode": "VN",
       "isp": "Bach Kim Network solutions Join stock company",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
-      "ip": "171.247.247.235",
-      "port": "1080",
+      "ip": "103.72.68.111",
+      "port": "1",
       "protocols": [
-        "socks4"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "Viettel Group",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "VPSMMO TECHNOLOGY COMPANY LIMITED",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
       "ip": "103.82.37.110",
@@ -46,6 +49,21 @@
       "isp": "CLOUDFLY CORPORATION",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "103.176.23.62",
+      "port": "10000",
+      "protocols": [
+        "socks5",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VIET DIGITAL TECHNOLOGY LIABILITY COMPANY",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
