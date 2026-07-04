@@ -1,20 +1,40 @@
 {
-  "updated_at": "2026-07-04T11:01:23.719310",
-  "total": 1,
+  "updated_at": "2026-07-04T22:07:25.986766",
+  "total": 2,
   "data": [
     {
-      "ip": "93.125.4.130",
-      "port": "8888",
+      "ip": "91.149.142.139",
+      "port": "8080",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Belarus",
       "countryCode": "BY",
-      "isp": "Unitary enterprise A1",
+      "isp": "Cosmos Tv Jllc",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "86.57.248.62",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Belarus",
+      "countryCode": "BY",
+      "isp": "Republican Unitary Telecommunication Enterprise Beltelecom",
+      "user_type": "residential",
+      "type": "https"
     }
   ]
 }
