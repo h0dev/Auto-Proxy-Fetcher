@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-07-04T16:12:06.827038",
-  "total": 17,
+  "updated_at": "2026-07-04T19:25:07.978316",
+  "total": 24,
   "data": [
     {
-      "ip": "62.60.167.90",
-      "port": "1080",
+      "ip": "5.160.103.246",
+      "port": "8080",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Respina Networks & Beyond PJSC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "185.46.109.144",
+      "port": "1400",
+      "protocols": [
+        "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",
+      "isp": "Pooya Parto Qeshm Cooperative Company",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "188.121.146.190",
@@ -34,7 +51,7 @@
       "countryCode": "IR",
       "isp": "Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "195.28.168.207",
@@ -54,86 +71,12 @@
       "type": "socks4"
     },
     {
-      "ip": "213.176.8.227",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "E-Large (HongKong)",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "5.202.44.160",
-      "port": "80",
+      "ip": "206.123.156.199",
+      "port": "5449",
       "protocols": [
         "http",
         "https",
         "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "85.133.199.227",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "Digital Network S.r.l.",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "206.123.156.236",
-      "port": "5353",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "Limited Network LTD",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "206.123.156.215",
-      "port": "5155",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "Limited Network LTD",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "206.123.156.236",
-      "port": "10002",
-      "protocols": [
         "socks5"
       ],
       "username": null,
@@ -146,7 +89,143 @@
     },
     {
       "ip": "206.123.156.199",
-      "port": "5139",
+      "port": "9620",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "206.123.156.199",
+      "port": "9622",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "206.123.156.215",
+      "port": "10555",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "206.123.156.229",
+      "port": "12048",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "206.123.156.215",
+      "port": "23454",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "206.123.156.236",
+      "port": "5383",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "206.123.156.236",
+      "port": "7015",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "217.219.30.227",
+      "port": "6565",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Iran Telecommunication Company PJS",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "206.123.156.236",
+      "port": "4588",
       "protocols": [
         "socks5"
       ],
@@ -160,10 +239,9 @@
     },
     {
       "ip": "206.123.156.228",
-      "port": "5689",
+      "port": "4385",
       "protocols": [
-        "socks5",
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -174,8 +252,36 @@
       "type": "socks5"
     },
     {
-      "ip": "206.123.156.215",
-      "port": "7256",
+      "ip": "206.123.156.236",
+      "port": "5422",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "206.123.156.236",
+      "port": "5012",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "206.123.156.233",
+      "port": "5174",
       "protocols": [
         "socks5"
       ],
@@ -189,7 +295,7 @@
     },
     {
       "ip": "206.123.156.228",
-      "port": "4738",
+      "port": "13568",
       "protocols": [
         "socks5"
       ],
@@ -203,7 +309,35 @@
     },
     {
       "ip": "206.123.156.215",
-      "port": "7159",
+      "port": "32271",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "206.123.156.212",
+      "port": "5230",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Limited Network LTD",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "206.123.156.228",
+      "port": "13557",
       "protocols": [
         "socks5"
       ],
@@ -217,7 +351,7 @@
     },
     {
       "ip": "206.123.156.199",
-      "port": "7164",
+      "port": "4986",
       "protocols": [
         "socks5"
       ],
@@ -230,22 +364,8 @@
       "type": "socks5"
     },
     {
-      "ip": "206.123.156.215",
-      "port": "5146",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "Limited Network LTD",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "206.123.156.215",
-      "port": "8416",
+      "ip": "206.123.156.209",
+      "port": "9508",
       "protocols": [
         "socks5"
       ],
