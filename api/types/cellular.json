@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-05T03:55:03.505793",
-  "total": 1,
+  "updated_at": "2026-07-05T09:03:33.126449",
+  "total": 3,
   "data": [
     {
-      "ip": "93.180.221.205",
-      "port": "8080",
+      "ip": "36.136.48.61",
+      "port": "995",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "http"
+    },
+    {
+      "ip": "195.133.220.46",
+      "port": "1971",
       "protocols": [
         "http",
         "https",
@@ -16,6 +33,21 @@
       "country": "Iraq",
       "countryCode": "IQ",
       "isp": "Horizon Scope Mobile Telecom WLL",
+      "user_type": "cellular",
+      "type": "https"
+    },
+    {
+      "ip": "223.111.182.16",
+      "port": "9063",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile communications corporation",
       "user_type": "cellular",
       "type": "http"
     }
