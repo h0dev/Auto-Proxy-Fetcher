@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-05T11:14:02.842519",
+  "updated_at": "2026-07-05T13:54:04.867634",
   "total": 3,
   "data": [
     {
-      "ip": "111.48.191.1",
-      "port": "7890",
+      "ip": "217.123.140.50",
+      "port": "8888",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Vodafone Libertel B.V.",
+      "user_type": "cellular",
+      "type": "http"
+    },
+    {
+      "ip": "36.147.78.166",
+      "port": "443",
       "protocols": [
         "http",
         "https",
@@ -18,23 +35,6 @@
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
       "type": "https"
-    },
-    {
-      "ip": "195.133.220.46",
-      "port": "1971",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iraq",
-      "countryCode": "IQ",
-      "isp": "Horizon Scope Mobile Telecom WLL",
-      "user_type": "cellular",
-      "type": "http"
     },
     {
       "ip": "93.180.221.205",
@@ -51,7 +51,7 @@
       "countryCode": "IQ",
       "isp": "Horizon Scope Mobile Telecom WLL",
       "user_type": "cellular",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
