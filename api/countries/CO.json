@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-07-06T10:50:03.883365",
+  "updated_at": "2026-07-06T15:46:48.253786",
   "total": 2,
   "data": [
+    {
+      "ip": "181.143.37.11",
+      "port": "32767",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "UNE EPM TELECOMUNICACIONES S.A.",
+      "user_type": "residential",
+      "type": "socks4"
+    },
     {
       "ip": "38.225.225.20",
       "port": "8080",
@@ -17,24 +34,7 @@
       "countryCode": "CO",
       "isp": "SOMOS NETWORKS COLOMBIA S.A.S. BIC",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "38.191.218.54",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Colombia",
-      "countryCode": "CO",
-      "isp": "TERAWI S.A.S",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }

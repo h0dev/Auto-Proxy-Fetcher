@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-07-06T10:50:03.871613",
-  "total": 13,
+  "updated_at": "2026-07-06T15:46:48.243365",
+  "total": 12,
   "data": [
     {
       "ip": "121.133.175.101",
       "port": "1080",
       "protocols": [
-        "socks4",
-        "socks5"
+        "socks5",
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -18,25 +20,8 @@
       "type": "socks4"
     },
     {
-      "ip": "211.200.27.100",
-      "port": "11111",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "SK Broadband Co Ltd",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "220.95.121.83",
-      "port": "1521",
+      "ip": "121.180.75.228",
+      "port": "1723",
       "protocols": [
         "http",
         "https",
@@ -49,6 +34,36 @@
       "countryCode": "KR",
       "isp": "Korea Telecom",
       "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "15.164.225.200",
+      "port": "3129",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "15.164.225.200",
+      "port": "58080",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "http"
     },
     {
@@ -66,11 +81,11 @@
       "countryCode": "KR",
       "isp": "Oracle Corporation",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "43.200.174.95",
-      "port": "56580",
+      "ip": "211.200.27.100",
+      "port": "11111",
       "protocols": [
         "http",
         "https",
@@ -81,40 +96,25 @@
       "password": null,
       "country": "South Korea",
       "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
+      "isp": "SK Broadband Co Ltd",
+      "user_type": "residential",
       "type": "socks4"
     },
     {
-      "ip": "43.203.140.58",
-      "port": "16831",
+      "ip": "221.133.129.35",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.200.179.23",
-      "port": "27422",
-      "protocols": [
-        "http",
-        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "South Korea",
       "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
+      "isp": "SK Broadband Co Ltd",
+      "user_type": "residential",
       "type": "socks5"
     },
     {
@@ -193,20 +193,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
-    },
-    {
-      "ip": "221.133.129.35",
-      "port": "1080",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "SK Broadband Co Ltd",
-      "user_type": "residential",
-      "type": "socks4"
     }
   ]
 }
