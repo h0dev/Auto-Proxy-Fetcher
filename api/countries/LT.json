@@ -1,21 +1,23 @@
 {
-  "updated_at": "2026-07-06T15:46:48.246912",
-  "total": 2,
+  "updated_at": "2026-07-06T20:08:21.641260",
+  "total": 3,
   "data": [
     {
-      "ip": "80.209.239.219",
-      "port": "9055",
+      "ip": "212.80.219.253",
+      "port": "5080",
       "protocols": [
+        "http",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Lithuania",
       "countryCode": "LT",
-      "isp": "UAB Interneto vizija",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "Serverio technologijos MB",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
       "ip": "80.208.225.245",
@@ -31,6 +33,23 @@
       "country": "Lithuania",
       "countryCode": "LT",
       "isp": "UAB Interneto vizija",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "85.206.161.77",
+      "port": "9091",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Lithuania",
+      "countryCode": "LT",
+      "isp": "Informacines sistemos ir technologijos, UAB",
       "user_type": "business",
       "type": "https"
     }
