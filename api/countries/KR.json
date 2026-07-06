@@ -1,13 +1,11 @@
 {
-  "updated_at": "2026-07-06T04:02:32.602023",
-  "total": 12,
+  "updated_at": "2026-07-06T10:50:03.871613",
+  "total": 13,
   "data": [
     {
-      "ip": "121.180.75.228",
-      "port": "1723",
+      "ip": "121.133.175.101",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
         "socks4",
         "socks5"
       ],
@@ -17,28 +15,28 @@
       "countryCode": "KR",
       "isp": "Korea Telecom",
       "user_type": "residential",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "220.95.64.74",
-      "port": "1521",
+      "ip": "211.200.27.100",
+      "port": "11111",
       "protocols": [
-        "http",
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "South Korea",
       "countryCode": "KR",
-      "isp": "Korea Telecom",
+      "isp": "SK Broadband Co Ltd",
       "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "106.10.55.212",
-      "port": "1121",
+      "ip": "220.95.121.83",
+      "port": "1521",
       "protocols": [
         "http",
         "https",
@@ -49,8 +47,8 @@
       "password": null,
       "country": "South Korea",
       "countryCode": "KR",
-      "isp": "NAVER BUSINESS PLATFORM ASIA PACIFIC PTE. LTD.",
-      "user_type": "business",
+      "isp": "Korea Telecom",
+      "user_type": "residential",
       "type": "http"
     },
     {
@@ -151,7 +149,7 @@
       "countryCode": "KR",
       "isp": "NHNCLOUD",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "15.164.225.200",
@@ -195,6 +193,20 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "221.133.129.35",
+      "port": "1080",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "SK Broadband Co Ltd",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }

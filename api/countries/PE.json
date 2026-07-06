@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-06T04:02:32.602714",
+  "updated_at": "2026-07-06T10:50:03.873220",
   "total": 3,
   "data": [
     {
       "ip": "45.177.20.187",
       "port": "999",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,7 @@
       "countryCode": "PE",
       "isp": "P&P BUSINESS GROUP SAC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "200.215.248.118",
@@ -37,19 +37,16 @@
       "type": "http"
     },
     {
-      "ip": "200.215.251.131",
+      "ip": "200.106.124.78",
       "port": "999",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
       "country": "Peru",
       "countryCode": "PE",
-      "isp": "COMPUNETWORK S.A.C.",
+      "isp": "INTEGRATEL PERU S.A.A.",
       "user_type": "business",
       "type": "http"
     }

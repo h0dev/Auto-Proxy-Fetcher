@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-05T11:14:02.842429",
-  "total": 2,
+  "updated_at": "2026-07-06T10:50:03.869298",
+  "total": 3,
   "data": [
     {
-      "ip": "212.34.134.99",
-      "port": "82",
+      "ip": "212.34.146.118",
+      "port": "1080",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -17,16 +17,33 @@
       "countryCode": "NL",
       "isp": "Unknown",
       "user_type": "Unknown",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "91.84.104.61",
-      "port": "8118",
+      "ip": "212.34.146.118",
+      "port": "3128",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Unknown",
+      "user_type": "Unknown",
+      "type": "https"
+    },
+    {
+      "ip": "212.34.134.99",
+      "port": "82",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
