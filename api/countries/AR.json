@@ -1,13 +1,29 @@
 {
-  "updated_at": "2026-07-07T17:25:42.440183",
-  "total": 3,
+  "updated_at": "2026-07-07T20:07:08.955867",
+  "total": 4,
   "data": [
     {
-      "ip": "187.102.219.64",
+      "ip": "200.70.56.84",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "Telefonica de Argentina",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "187.102.219.42",
       "port": "999",
       "protocols": [
-        "http",
-        "https"
+        "http"
       ],
       "username": null,
       "password": null,
@@ -15,16 +31,14 @@
       "countryCode": "AR",
       "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "187.102.219.32",
+      "ip": "187.102.219.64",
       "port": "999",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
