@@ -1,15 +1,32 @@
 {
-  "updated_at": "2026-07-07T20:07:08.958921",
-  "total": 4,
+  "updated_at": "2026-07-07T22:18:39.694907",
+  "total": 3,
   "data": [
     {
-      "ip": "145.239.94.103",
-      "port": "10084",
+      "ip": "185.32.4.110",
+      "port": "4153",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "AS Consulting Sp. z o. o.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "54.38.139.182",
+      "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,7 +34,7 @@
       "countryCode": "PL",
       "isp": "OVH SAS",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "185.238.238.49",
@@ -34,41 +51,7 @@
       "countryCode": "PL",
       "isp": "RADIO-NET",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "185.238.238.113",
-      "port": "58080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "RADIO-NET",
-      "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "217.113.235.181",
-      "port": "443",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Poland",
-      "countryCode": "PL",
-      "isp": "Toya sp.z.o.o",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
