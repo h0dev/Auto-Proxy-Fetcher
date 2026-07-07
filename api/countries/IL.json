@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-07T03:52:29.705520",
-  "total": 11,
+  "updated_at": "2026-07-07T09:54:55.195408",
+  "total": 9,
   "data": [
     {
-      "ip": "51.17.154.141",
-      "port": "53270",
+      "ip": "51.84.101.19",
+      "port": "8410",
       "protocols": [
         "http",
         "https",
@@ -21,9 +21,12 @@
     },
     {
       "ip": "51.84.101.19",
-      "port": "30663",
+      "port": "33739",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -31,7 +34,7 @@
       "countryCode": "IL",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "51.17.154.141",
@@ -51,6 +54,40 @@
     },
     {
       "ip": "51.17.154.141",
+      "port": "8639",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Israel",
+      "countryCode": "IL",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "51.17.154.141",
+      "port": "39625",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Israel",
+      "countryCode": "IL",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "51.17.154.141",
       "port": "69",
       "protocols": [
         "http",
@@ -67,7 +104,7 @@
     },
     {
       "ip": "51.17.154.141",
-      "port": "51694",
+      "port": "26596",
       "protocols": [
         "http",
         "https",
@@ -83,8 +120,8 @@
       "type": "socks4"
     },
     {
-      "ip": "51.84.101.19",
-      "port": "3129",
+      "ip": "51.17.154.141",
+      "port": "7777",
       "protocols": [
         "http",
         "https"
@@ -111,63 +148,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "51.17.154.141",
-      "port": "26596",
-      "protocols": [
-        "https",
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "51.17.154.141",
-      "port": "8639",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "51.17.154.141",
-      "port": "39625",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "51.84.101.19",
-      "port": "8410",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
     }
   ]
 }
