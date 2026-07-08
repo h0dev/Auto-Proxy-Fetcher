@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-08T19:44:04.652133",
-  "total": 1,
+  "updated_at": "2026-07-08T22:16:44.474180",
+  "total": 2,
   "data": [
     {
       "ip": "165.225.12.35",
@@ -15,7 +15,24 @@
       "countryCode": "BE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "35.205.204.58",
+      "port": "3130",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Belgium",
+      "countryCode": "BE",
+      "isp": "Google LLC",
+      "user_type": "hosting",
+      "type": "http"
     }
   ]
 }
