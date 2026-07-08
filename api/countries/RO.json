@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-07-07T14:50:51.064195",
+  "updated_at": "2026-07-08T19:44:04.647905",
   "total": 1,
   "data": [
     {
       "ip": "185.141.26.131",
       "port": "3128",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "RO",
       "isp": "IP Solus Inc",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
