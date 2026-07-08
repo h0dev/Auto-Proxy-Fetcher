@@ -1,20 +1,23 @@
 {
-  "updated_at": "2026-07-05T16:17:01.565871",
+  "updated_at": "2026-07-08T03:21:03.029978",
   "total": 1,
   "data": [
     {
-      "ip": "109.236.45.95",
-      "port": "8989",
+      "ip": "80.78.74.66",
+      "port": "65530",
       "protocols": [
-        "http"
+        "socks4",
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Albania",
       "countryCode": "AL",
-      "isp": "Abissnet sh.a.",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Vodafone Albania Sh.A.",
+      "user_type": "cellular",
+      "type": "socks4"
     }
   ]
 }
