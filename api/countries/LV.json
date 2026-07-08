@@ -1,23 +1,39 @@
 {
-  "updated_at": "2026-07-07T22:18:39.688995",
-  "total": 1,
+  "updated_at": "2026-07-08T08:40:56.891349",
+  "total": 2,
   "data": [
     {
-      "ip": "195.135.255.98",
+      "ip": "104.252.127.145",
       "port": "1080",
       "protocols": [
         "socks5",
-        "http",
-        "https",
-        "socks4"
+        "socks4",
+        "http"
       ],
       "username": null,
       "password": null,
       "country": "Latvia",
       "countryCode": "LV",
-      "isp": "SIA VEESP",
+      "isp": "Cgi Global Limited",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "45.38.198.127",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "Cloud Software - FZCO",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }
