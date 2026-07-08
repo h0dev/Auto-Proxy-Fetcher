@@ -1,56 +1,77 @@
 {
-  "updated_at": "2026-07-08T08:40:56.879355",
-  "total": 19,
+  "updated_at": "2026-07-08T11:13:50.012293",
+  "total": 21,
   "data": [
     {
-      "ip": "49.157.158.178",
-      "port": "8084",
+      "ip": "59.152.97.233",
+      "port": "1080",
       "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "EARTH TELECOMMUNICATION (Pvt) LTD.",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "14.225.240.23",
+      "port": "8562",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "143.255.109.76",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
         "http",
         "https"
       ],
       "username": null,
       "password": null,
-      "country": "Philippines",
-      "countryCode": "PH",
-      "isp": "Eastern Telecoms Phils., Inc.",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "MCD INFORMATICA E TELECOMUNICACOES LTDA - ME",
       "user_type": "residential",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "91.190.82.38",
+      "ip": "27.65.112.189",
       "port": "1080",
       "protocols": [
-        "socks5",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
-      "isp": "Smart Telecom Limited",
-      "user_type": "residential",
-      "type": "socks5"
-    },
-    {
-      "ip": "118.70.13.38",
-      "port": "41857",
-      "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "FPT Telecom Company",
+      "isp": "Viettel Group",
       "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "102.39.133.233",
+      "ip": "109.200.166.255",
       "port": "8080",
       "protocols": [
         "http",
@@ -60,28 +81,11 @@
       ],
       "username": null,
       "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Vox Telecom Ltd",
+      "country": "Yemen",
+      "countryCode": "YE",
+      "isp": "Public Telecommunication Corporation",
       "user_type": "residential",
       "type": "https"
-    },
-    {
-      "ip": "109.168.173.173",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
-      "isp": "Rostelecom",
-      "user_type": "residential",
-      "type": "socks5"
     },
     {
       "ip": "115.84.248.140",
@@ -98,41 +102,7 @@
       "countryCode": "PH",
       "isp": "Eastern Telecoms Phils., Inc.",
       "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "119.235.112.42",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Turkmenistan",
-      "countryCode": "TM",
-      "isp": "State Company of Electro Communications Turkmentelecom",
-      "user_type": "residential",
       "type": "http"
-    },
-    {
-      "ip": "14.170.154.10",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "VNPT Corp",
-      "user_type": "residential",
-      "type": "https"
     },
     {
       "ip": "14.238.105.10",
@@ -146,6 +116,37 @@
       "country": "Vietnam",
       "countryCode": "VN",
       "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "170.168.101.28",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "171.7.45.12",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Thailand",
+      "countryCode": "TH",
+      "isp": "Triple T Broadband Public Company Limited",
       "user_type": "residential",
       "type": "http"
     },
@@ -164,26 +165,11 @@
       "countryCode": "CN",
       "isp": "China Telecom (Group)",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "180.191.231.123",
-      "port": "9999",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Philippines",
-      "countryCode": "PH",
-      "isp": "Globe Telecoms",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "211.200.27.100",
-      "port": "11111",
+      "ip": "187.102.16.66",
+      "port": "51327",
       "protocols": [
         "http",
         "https",
@@ -192,11 +178,45 @@
       ],
       "username": null,
       "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "SK Broadband Co Ltd",
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "GHNET TELECOM LTDA",
       "user_type": "residential",
       "type": "socks4"
+    },
+    {
+      "ip": "190.8.164.71",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Venezuela",
+      "countryCode": "VE",
+      "isp": "CORPORACION FIBEX TELECOM, C.A.",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "191.7.216.134",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "ONLINE TELECOMUNICACOES LTDA",
+      "user_type": "residential",
+      "type": "https"
     },
     {
       "ip": "220.243.154.46",
@@ -213,24 +233,7 @@
       "countryCode": "CN",
       "isp": "IDC, China Telecommunications Corporation",
       "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "27.76.199.156",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "Viettel Group",
-      "user_type": "residential",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "50.238.158.12",
@@ -247,7 +250,7 @@
       "countryCode": "US",
       "isp": "Comcast Cable Communications, LLC",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "82.200.66.18",
@@ -267,6 +270,23 @@
       "type": "http"
     },
     {
+      "ip": "83.219.1.130",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Rostelecom",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
       "ip": "86.57.248.62",
       "port": "3128",
       "protocols": [
@@ -281,7 +301,24 @@
       "countryCode": "BY",
       "isp": "Republican Unitary Telecommunication Enterprise Beltelecom",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "91.187.113.68",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kosovo",
+      "countryCode": "XK",
+      "isp": "IPKO Telecommunications LLC",
+      "user_type": "residential",
+      "type": "https"
     },
     {
       "ip": "95.190.193.74",
@@ -298,16 +335,16 @@
       "type": "http"
     },
     {
-      "ip": "168.126.66.19",
-      "port": "3128",
+      "ip": "187.190.114.40",
+      "port": "999",
       "protocols": [
         "http"
       ],
       "username": null,
       "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Korea Telecom",
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",
       "user_type": "residential",
       "type": "http"
     }

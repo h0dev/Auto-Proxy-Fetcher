@@ -1,11 +1,13 @@
 {
-  "updated_at": "2026-07-08T08:40:56.899019",
-  "total": 1,
+  "updated_at": "2026-07-08T11:13:50.017609",
+  "total": 3,
   "data": [
     {
-      "ip": "147.161.248.13",
-      "port": "11692",
+      "ip": "45.144.49.156",
+      "port": "1080",
       "protocols": [
+        "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -13,9 +15,37 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Zscaler Switzerland GmbH",
+      "isp": "Newserverlife LLC",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "185.238.238.113",
+      "port": "58080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "RADIO-NET",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "194.53.194.51",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "ITH sp. z o.o.",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
