@@ -1,18 +1,38 @@
 {
-  "updated_at": "2026-07-09T15:23:45.733190",
+  "updated_at": "2026-07-09T19:57:04.871408",
   "total": 6,
   "data": [
     {
-      "ip": "213.14.182.148",
-      "port": "3310",
+      "ip": "95.3.69.222",
+      "port": "8080",
       "protocols": [
-        "http"
+        "http",
+        "socks5",
+        "socks4",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Türkiye",
       "countryCode": "TR",
-      "isp": "Superonline Iletisim Hizmetleri A.S.",
+      "isp": "Turk Telekom",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "88.248.115.49",
+      "port": "1953",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Turk Telekom",
       "user_type": "business",
       "type": "http"
     },
@@ -20,7 +40,10 @@
       "ip": "45.155.125.199",
       "port": "17391",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -46,18 +69,21 @@
       "type": "https"
     },
     {
-      "ip": "78.180.183.37",
-      "port": "3310",
+      "ip": "93.113.63.11",
+      "port": "1080",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Türkiye",
       "countryCode": "TR",
-      "isp": "Turk Telekom",
+      "isp": "Netinternet Bilisim Teknolojileri AS",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "93.89.225.119",
@@ -73,20 +99,6 @@
       "isp": "Isimtescil Bilisim A.S.",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "78.189.153.164",
-      "port": "3310",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Turk Telekom",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }

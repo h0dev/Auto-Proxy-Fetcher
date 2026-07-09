@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-09T15:23:45.730621",
-  "total": 1,
+  "updated_at": "2026-07-09T19:57:04.873052",
+  "total": 2,
   "data": [
     {
-      "ip": "125.227.169.85",
-      "port": "38157",
+      "ip": "164.52.11.194",
+      "port": "18080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "CDS Global Cloud Co., Ltd",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "59.125.223.105",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -17,7 +34,7 @@
       "countryCode": "TW",
       "isp": "Data Communication Business Group",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }
