@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-07-08T08:40:56.899449",
+  "updated_at": "2026-07-10T03:46:41.543382",
   "total": 1,
   "data": [
     {
       "ip": "154.160.53.5",
       "port": "8888",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "GH",
       "isp": "Scancom Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

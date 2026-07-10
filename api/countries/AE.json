@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-07-09T22:31:39.456291",
-  "total": 1,
+  "updated_at": "2026-07-10T03:46:41.539438",
+  "total": 3,
   "data": [
+    {
+      "ip": "135.136.188.42",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "isp": "First Server Limited",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "135.136.188.42",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "isp": "First Server Limited",
+      "user_type": "hosting",
+      "type": "http"
+    },
     {
       "ip": "147.161.160.46",
       "port": "9443",
@@ -15,7 +49,7 @@
       "countryCode": "AE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
