@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-07-10T03:46:41.545026",
+  "updated_at": "2026-07-10T09:47:27.060692",
   "total": 2,
   "data": [
+    {
+      "ip": "93.93.61.153",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Lithuania",
+      "countryCode": "LT",
+      "isp": "UAB Ogmios Centras",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "80.208.225.245",
       "port": "7001",
@@ -17,21 +34,7 @@
       "countryCode": "LT",
       "isp": "UAB Interneto vizija",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "185.237.185.127",
-      "port": "40000",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Lithuania",
-      "countryCode": "LT",
-      "isp": "BrainStorm Network, Inc",
-      "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     }
   ]
 }
