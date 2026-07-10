@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-07-10T19:44:30.367115",
-  "total": 2,
+  "updated_at": "2026-07-10T22:13:45.148592",
+  "total": 3,
   "data": [
     {
-      "ip": "200.125.171.252",
+      "ip": "38.156.23.169",
       "port": "999",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Dominican Republic",
       "countryCode": "DO",
-      "isp": "WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",
-      "user_type": "cellular",
+      "isp": "VISNETWORK SRL",
+      "user_type": "business",
       "type": "https"
     },
     {
@@ -35,6 +35,23 @@
       "isp": "WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",
       "user_type": "cellular",
       "type": "https"
+    },
+    {
+      "ip": "200.125.171.252",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Dominican Republic",
+      "countryCode": "DO",
+      "isp": "WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",
+      "user_type": "cellular",
+      "type": "http"
     }
   ]
 }
