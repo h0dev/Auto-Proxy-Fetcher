@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-07-10T09:47:27.068080",
-  "total": 1,
+  "updated_at": "2026-07-10T14:40:52.836215",
+  "total": 3,
   "data": [
     {
-      "ip": "38.225.225.20",
+      "ip": "38.19.40.9",
+      "port": "8083",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "SUPER REDES S.A.S",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "181.143.181.35",
       "port": "8080",
       "protocols": [
         "http",
@@ -15,9 +32,26 @@
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "SOMOS NETWORKS COLOMBIA S.A.S. BIC",
-      "user_type": "business",
+      "isp": "UNE EPM TELECOMUNICACIONES S.A.",
+      "user_type": "residential",
       "type": "http"
+    },
+    {
+      "ip": "45.172.218.67",
+      "port": "3028",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "INTERMEGAMUNDO PARTNERS S.A.S.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-10T09:47:27.067128",
-  "total": 10,
+  "updated_at": "2026-07-10T14:40:52.841944",
+  "total": 9,
   "data": [
     {
       "ip": "195.88.152.93",
@@ -17,11 +17,11 @@
       "countryCode": "ES",
       "isp": "Comvive Servidores S.L.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "51.49.153.183",
-      "port": "6160",
+      "port": "53389",
       "protocols": [
         "http",
         "https",
@@ -54,9 +54,12 @@
     },
     {
       "ip": "51.49.153.183",
-      "port": "53389",
+      "port": "55000",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -64,7 +67,7 @@
       "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "51.49.153.183",
@@ -79,7 +82,7 @@
       "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "51.92.173.133",
@@ -97,23 +100,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "51.92.173.133",
-      "port": "14916",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
     },
     {
       "ip": "51.92.173.133",
@@ -149,9 +135,9 @@
     },
     {
       "ip": "51.49.153.183",
-      "port": "10024",
+      "port": "43385",
       "protocols": [
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -159,7 +145,7 @@
       "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks5"
     }
   ]
 }
