@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-10T22:13:45.157868",
-  "total": 2,
+  "updated_at": "2026-07-11T03:01:04.352515",
+  "total": 3,
   "data": [
     {
-      "ip": "135.136.188.42",
-      "port": "1080",
+      "ip": "47.91.104.88",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -15,9 +15,9 @@
       "password": null,
       "country": "United Arab Emirates",
       "countryCode": "AE",
-      "isp": "First Server Limited",
-      "user_type": "hosting",
-      "type": "socks4"
+      "isp": "Alibaba (US) Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "147.161.160.46",
@@ -32,7 +32,23 @@
       "countryCode": "AE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "135.136.188.42",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "isp": "First Server Limited",
+      "user_type": "hosting",
+      "type": "http"
     }
   ]
 }
