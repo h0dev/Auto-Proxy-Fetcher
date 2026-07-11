@@ -1,31 +1,48 @@
 {
-  "updated_at": "2026-07-11T19:15:24.864973",
-  "total": 22,
+  "updated_at": "2026-07-11T22:00:00.587882",
+  "total": 27,
   "data": [
     {
-      "ip": "152.69.205.252",
-      "port": "1011",
+      "ip": "8.216.32.38",
+      "port": "1080",
       "protocols": [
+        "socks4",
         "socks5",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Japan",
       "countryCode": "JP",
-      "isp": "Oracle Corporation",
+      "isp": "Alibaba (US) Technology Co., Ltd.",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "152.69.205.252",
-      "port": "1021",
+      "ip": "8.211.170.91",
+      "port": "14680",
       "protocols": [
         "http",
         "https",
         "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Alibaba (US) Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "152.69.205.252",
+      "port": "1011",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
         "socks5"
       ],
       "username": null,
@@ -71,23 +88,6 @@
       "type": "http"
     },
     {
-      "ip": "13.208.166.217",
-      "port": "29790",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Japan",
-      "countryCode": "JP",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
       "ip": "13.208.238.59",
       "port": "52059",
       "protocols": [
@@ -105,8 +105,8 @@
       "type": "socks4"
     },
     {
-      "ip": "139.162.78.109",
-      "port": "3128",
+      "ip": "13.208.166.217",
+      "port": "29790",
       "protocols": [
         "http",
         "https",
@@ -117,9 +117,9 @@
       "password": null,
       "country": "Japan",
       "countryCode": "JP",
-      "isp": "Akamai Connected Cloud",
+      "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "139.162.78.109",
@@ -153,6 +153,23 @@
       "countryCode": "JP",
       "isp": "Akamai Connected Cloud",
       "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "139.162.78.109",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Akamai Connected Cloud",
+      "user_type": "hosting",
       "type": "https"
     },
     {
@@ -173,8 +190,38 @@
       "type": "socks5"
     },
     {
-      "ip": "18.182.91.165",
-      "port": "3128",
+      "ip": "15.152.75.215",
+      "port": "39669",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "15.152.75.215",
+      "port": "53443",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "152.69.205.252",
+      "port": "1021",
       "protocols": [
         "http",
         "https",
@@ -185,9 +232,40 @@
       "password": null,
       "country": "Japan",
       "countryCode": "JP",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
+      "isp": "Oracle Corporation",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "154.36.155.204",
+      "port": "8118",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "NetLab Global",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "202.212.164.194",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Japan",
+      "countryCode": "JP",
+      "isp": "NTT PC Communications, Inc.",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "223.135.156.183",
@@ -204,7 +282,7 @@
       "countryCode": "JP",
       "isp": "Sony Network Communications Inc.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "35.73.28.87",
@@ -221,7 +299,7 @@
       "countryCode": "JP",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "35.78.252.142",
@@ -347,10 +425,10 @@
       "type": "socks4"
     },
     {
-      "ip": "35.78.252.142",
-      "port": "24199",
+      "ip": "43.207.141.180",
+      "port": "53641",
       "protocols": [
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -358,7 +436,7 @@
       "countryCode": "JP",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks5"
     }
   ]
 }
