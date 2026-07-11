@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-11T10:23:11.097186",
-  "total": 4,
+  "updated_at": "2026-07-11T13:32:55.176029",
+  "total": 3,
   "data": [
     {
-      "ip": "109.120.184.202",
+      "ip": "193.233.139.106",
       "port": "1080",
       "protocols": [
-        "http",
         "socks5",
-        "socks4",
-        "https"
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -17,24 +17,7 @@
       "countryCode": "FI",
       "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "83.219.97.48",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Oc Networks Limited",
-      "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
       "ip": "65.109.14.254",
@@ -51,7 +34,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "95.217.212.193",
@@ -66,7 +49,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

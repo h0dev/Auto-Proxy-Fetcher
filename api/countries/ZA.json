@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-11T10:23:11.104201",
-  "total": 5,
+  "updated_at": "2026-07-11T13:32:55.178515",
+  "total": 6,
   "data": [
     {
       "ip": "102.212.44.158",
@@ -17,7 +17,7 @@
       "countryCode": "ZA",
       "isp": "One Mile Telecoms (Pty) Ltd.",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "102.39.214.109",
@@ -34,7 +34,7 @@
       "countryCode": "ZA",
       "isp": "Vox Telecom Ltd",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "13.245.171.157",
@@ -54,11 +54,9 @@
     },
     {
       "ip": "13.246.6.135",
-      "port": "18473",
+      "port": "7816",
       "protocols": [
-        "http",
-        "https",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -66,7 +64,7 @@
       "countryCode": "ZA",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "13.245.171.157",
@@ -81,6 +79,20 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "13.244.203.188",
+      "port": "33130",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }
