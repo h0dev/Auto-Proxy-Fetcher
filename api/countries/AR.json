@@ -1,13 +1,28 @@
 {
-  "updated_at": "2026-07-11T03:01:04.351709",
-  "total": 2,
+  "updated_at": "2026-07-11T08:07:35.383220",
+  "total": 5,
   "data": [
     {
-      "ip": "190.122.88.120",
-      "port": "1080",
+      "ip": "45.232.0.129",
+      "port": "8080",
       "protocols": [
-        "socks5",
+        "http",
+        "https",
         "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "SISTEMAS INFORMATICOS S.A.S. (INTERFLASH)",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "187.102.219.64",
+      "port": "999",
+      "protocols": [
         "http",
         "https"
       ],
@@ -15,9 +30,23 @@
       "password": null,
       "country": "Argentina",
       "countryCode": "AR",
-      "isp": "Servicios y Telecomunicaciones S.A.",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "187.102.219.42",
+      "port": "999",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "200.41.182.243",
@@ -35,6 +64,20 @@
       "isp": "Telefonica de Argentina",
       "user_type": "business",
       "type": "socks4"
+    },
+    {
+      "ip": "187.102.219.34",
+      "port": "999",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
