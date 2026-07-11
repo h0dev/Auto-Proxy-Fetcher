@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-07-11T13:32:55.182748",
-  "total": 2,
+  "updated_at": "2026-07-11T16:04:56.783316",
+  "total": 3,
   "data": [
     {
-      "ip": "185.237.185.127",
-      "port": "40000",
+      "ip": "45.81.254.174",
+      "port": "9118",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Lithuania",
       "countryCode": "LT",
-      "isp": "BrainStorm Network, Inc",
-      "user_type": "business",
+      "isp": "MB Redfox Cloud",
+      "user_type": "hosting",
       "type": "socks4"
     },
     {
@@ -32,6 +32,20 @@
       "isp": "UAB Interneto vizija",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "185.237.185.127",
+      "port": "40000",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Lithuania",
+      "countryCode": "LT",
+      "isp": "BrainStorm Network, Inc",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
