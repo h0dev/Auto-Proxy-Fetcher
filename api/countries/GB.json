@@ -1,27 +1,78 @@
 {
-  "updated_at": "2026-07-11T16:04:56.784985",
-  "total": 10,
+  "updated_at": "2026-07-11T19:15:24.854223",
+  "total": 15,
   "data": [
     {
-      "ip": "134.209.29.120",
+      "ip": "145.133.83.62",
       "port": "3128",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "United Kingdom",
       "countryCode": "GB",
-      "isp": "DigitalOcean, LLC",
+      "isp": "Microsoft Corporation",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "141.147.70.238",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Oracle Corporation",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "138.124.125.198",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "104.194.146.9",
+      "port": "80",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "'Tornado Datacenter GmbH & Co. KG'",
       "user_type": "hosting",
       "type": "http"
     },
     {
       "ip": "134.209.29.120",
-      "port": "80",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -39,6 +90,23 @@
     {
       "ip": "134.209.29.120",
       "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "134.209.29.120",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -71,6 +139,21 @@
       "type": "socks5"
     },
     {
+      "ip": "138.124.125.198",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
       "ip": "165.225.16.37",
       "port": "10171",
       "protocols": [
@@ -83,7 +166,7 @@
       "countryCode": "GB",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "185.25.188.3",
@@ -117,13 +200,16 @@
       "countryCode": "GB",
       "isp": "QuickHostUK Limited",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "94.72.107.55",
       "port": "5080",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
