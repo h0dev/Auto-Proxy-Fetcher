@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-11T22:00:00.592588",
-  "total": 4,
+  "updated_at": "2026-07-12T03:26:02.118743",
+  "total": 3,
   "data": [
     {
       "ip": "47.91.104.88",
@@ -17,7 +17,24 @@
       "countryCode": "AE",
       "isp": "Alibaba (US) Technology Co., Ltd.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "74.162.65.56",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "isp": "Microsoft Corporation",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "147.161.160.46",
@@ -32,37 +49,7 @@
       "countryCode": "AE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "89.125.92.31",
-      "port": "8080",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Arab Emirates",
-      "countryCode": "AE",
-      "isp": "Hostkey B.v.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "135.136.188.42",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Arab Emirates",
-      "countryCode": "AE",
-      "isp": "First Server Limited",
-      "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
