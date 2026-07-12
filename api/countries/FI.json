@@ -1,14 +1,31 @@
 {
-  "updated_at": "2026-07-12T03:26:02.117970",
-  "total": 6,
+  "updated_at": "2026-07-12T08:28:36.411726",
+  "total": 4,
   "data": [
     {
-      "ip": "46.62.189.77",
-      "port": "8888",
+      "ip": "65.21.61.221",
+      "port": "8080",
       "protocols": [
+        "socks4",
         "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "37.27.138.205",
+      "port": "1080",
+      "protocols": [
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
@@ -17,41 +34,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "193.221.203.192",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Baykov Ilya Sergeevich",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "95.217.167.252",
-      "port": "10172",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "65.109.14.254",
@@ -69,23 +52,6 @@
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
       "type": "https"
-    },
-    {
-      "ip": "94.156.180.137",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Serv.host Group Ltd",
-      "user_type": "business",
-      "type": "http"
     },
     {
       "ip": "95.217.212.193",
