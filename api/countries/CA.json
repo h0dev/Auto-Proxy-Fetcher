@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-12T19:15:16.419689",
-  "total": 14,
+  "updated_at": "2026-07-12T22:01:45.690014",
+  "total": 18,
   "data": [
     {
-      "ip": "167.114.172.208",
-      "port": "1088",
+      "ip": "51.222.12.245",
+      "port": "10084",
       "protocols": [
+        "socks4",
         "socks5",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,7 @@
       "countryCode": "CA",
       "isp": "OVH SAS",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "159.203.61.169",
@@ -40,6 +40,7 @@
       "ip": "15.223.237.12",
       "port": "16620",
       "protocols": [
+        "http",
         "https",
         "socks4",
         "socks5"
@@ -53,10 +54,13 @@
       "type": "socks4"
     },
     {
-      "ip": "159.203.4.27",
-      "port": "80",
+      "ip": "159.203.61.169",
+      "port": "8080",
       "protocols": [
-        "https"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -68,12 +72,44 @@
     },
     {
       "ip": "159.203.61.169",
-      "port": "1080",
+      "port": "80",
       "protocols": [
+        "http",
         "https",
         "socks4",
-        "socks5",
-        "http"
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "159.203.4.27",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "159.203.61.169",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -87,6 +123,7 @@
       "ip": "165.225.212.47",
       "port": "10135",
       "protocols": [
+        "http",
         "https"
       ],
       "username": null,
@@ -95,12 +132,13 @@
       "countryCode": "CA",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "165.225.210.46",
       "port": "9443",
       "protocols": [
+        "http",
         "https"
       ],
       "username": null,
@@ -115,6 +153,7 @@
       "ip": "3.99.158.157",
       "port": "54809",
       "protocols": [
+        "http",
         "https",
         "socks4",
         "socks5"
@@ -131,10 +170,10 @@
       "ip": "3.97.201.125",
       "port": "8080",
       "protocols": [
+        "http",
         "https",
         "socks4",
-        "socks5",
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -148,6 +187,7 @@
       "ip": "35.183.127.162",
       "port": "58040",
       "protocols": [
+        "http",
         "https",
         "socks4",
         "socks5"
@@ -164,6 +204,7 @@
       "ip": "40.177.99.164",
       "port": "13250",
       "protocols": [
+        "http",
         "https",
         "socks4"
       ],
@@ -218,6 +259,34 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "16.52.81.236",
+      "port": "9058",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "40.177.99.164",
+      "port": "39907",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }

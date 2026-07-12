@@ -1,20 +1,40 @@
 {
-  "updated_at": "2026-07-12T19:15:16.435488",
-  "total": 1,
+  "updated_at": "2026-07-12T22:01:45.691672",
+  "total": 2,
   "data": [
     {
-      "ip": "219.84.152.87",
-      "port": "3128",
+      "ip": "164.52.11.194",
+      "port": "18080",
       "protocols": [
-        "http"
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Taiwan",
       "countryCode": "TW",
-      "isp": "Sony Network Taiwan Limited",
-      "user_type": "business",
+      "isp": "CDS Global Cloud Co., Ltd",
+      "user_type": "hosting",
       "type": "http"
+    },
+    {
+      "ip": "125.227.169.85",
+      "port": "38157",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "Data Communication Business Group",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

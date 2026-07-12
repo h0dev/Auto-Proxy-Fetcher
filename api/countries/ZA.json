@@ -1,11 +1,29 @@
 {
-  "updated_at": "2026-07-12T19:15:16.431824",
-  "total": 4,
+  "updated_at": "2026-07-12T22:01:45.693034",
+  "total": 7,
   "data": [
+    {
+      "ip": "102.39.214.109",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Vox Telecom Ltd",
+      "user_type": "residential",
+      "type": "http"
+    },
     {
       "ip": "13.245.171.157",
       "port": "3128",
       "protocols": [
+        "http",
         "https",
         "socks4"
       ],
@@ -21,6 +39,7 @@
       "ip": "13.246.6.135",
       "port": "18473",
       "protocols": [
+        "http",
         "https",
         "socks5"
       ],
@@ -59,6 +78,34 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "102.203.80.41",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Rackzar (Pty) Ltd",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "13.246.6.135",
+      "port": "29684",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }

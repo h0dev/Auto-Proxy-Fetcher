@@ -1,11 +1,29 @@
 {
-  "updated_at": "2026-07-12T19:15:16.435039",
+  "updated_at": "2026-07-12T22:01:45.694650",
   "total": 4,
   "data": [
+    {
+      "ip": "195.88.152.93",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Comvive Servidores S.L.",
+      "user_type": "business",
+      "type": "https"
+    },
     {
       "ip": "51.49.153.183",
       "port": "8028",
       "protocols": [
+        "http",
         "https",
         "socks4"
       ],
@@ -21,6 +39,7 @@
       "ip": "51.92.173.133",
       "port": "27067",
       "protocols": [
+        "http",
         "https",
         "socks4",
         "socks5"
@@ -46,21 +65,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
-    },
-    {
-      "ip": "51.49.153.183",
-      "port": "22962",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
     }
   ]
 }

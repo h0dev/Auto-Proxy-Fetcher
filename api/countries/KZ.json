@@ -1,15 +1,32 @@
 {
-  "updated_at": "2026-07-12T19:15:16.429355",
-  "total": 2,
+  "updated_at": "2026-07-12T22:01:45.690613",
+  "total": 4,
   "data": [
+    {
+      "ip": "170.168.101.28",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "socks4"
+    },
     {
       "ip": "199.189.255.230",
       "port": "1080",
       "protocols": [
         "http",
-        "socks4",
         "socks5",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -17,7 +34,24 @@
       "countryCode": "KZ",
       "isp": "HostLab LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "2.78.60.10",
+      "port": "3129",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Kcell JSC",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "199.189.255.230",

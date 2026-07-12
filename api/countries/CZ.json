@@ -1,11 +1,29 @@
 {
-  "updated_at": "2026-07-12T19:15:16.435336",
-  "total": 1,
+  "updated_at": "2026-07-12T22:01:45.694532",
+  "total": 2,
   "data": [
+    {
+      "ip": "194.58.57.52",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Timeweb, LLP",
+      "user_type": "business",
+      "type": "socks5"
+    },
     {
       "ip": "87.236.197.18",
       "port": "80",
       "protocols": [
+        "http",
         "https",
         "socks4",
         "socks5"
@@ -16,7 +34,7 @@
       "countryCode": "CZ",
       "isp": "Coolhousing s.r.o.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
