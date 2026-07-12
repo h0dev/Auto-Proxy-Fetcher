@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-12T13:41:11.220339",
-  "total": 3,
+  "updated_at": "2026-07-12T16:07:01.192834",
+  "total": 4,
   "data": [
     {
       "ip": "23.137.251.64",
       "port": "8080",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,7 @@
       "countryCode": "BG",
       "isp": "IncogNet LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "194.182.178.90",
@@ -34,7 +34,24 @@
       "countryCode": "BG",
       "isp": "Akenes SA",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "194.182.178.90",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "Akenes SA",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "78.83.185.6",

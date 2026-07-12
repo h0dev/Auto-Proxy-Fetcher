@@ -1,14 +1,31 @@
 {
-  "updated_at": "2026-07-12T13:41:11.221691",
-  "total": 1,
+  "updated_at": "2026-07-12T16:07:01.196063",
+  "total": 4,
   "data": [
     {
-      "ip": "78.159.131.139",
+      "ip": "78.159.131.131",
       "port": "1082",
       "protocols": [
-        "socks5",
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "78.159.131.131",
+      "port": "1081",
+      "protocols": [
         "socks4",
         "http",
+        "socks5",
         "https"
       ],
       "username": null,
@@ -17,7 +34,36 @@
       "countryCode": "AL",
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
+    },
+    {
+      "ip": "78.159.131.112",
+      "port": "1082",
+      "protocols": [
+        "http",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "109.236.45.95",
+      "port": "8989",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Abissnet sh.a.",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
