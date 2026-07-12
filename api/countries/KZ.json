@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-12T08:28:36.404823",
-  "total": 2,
+  "updated_at": "2026-07-12T10:43:03.299790",
+  "total": 3,
   "data": [
     {
       "ip": "199.189.255.230",
       "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -17,7 +17,24 @@
       "countryCode": "KZ",
       "isp": "HostLab LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "170.168.101.28",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "socks4"
     },
     {
       "ip": "199.189.255.230",
