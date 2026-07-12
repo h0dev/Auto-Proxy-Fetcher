@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-12T10:43:03.304023",
-  "total": 1,
+  "updated_at": "2026-07-12T13:41:11.220215",
+  "total": 2,
   "data": [
     {
-      "ip": "93.180.221.205",
-      "port": "8080",
+      "ip": "81.90.29.194",
+      "port": "10808",
+      "protocols": [
+        "socks4",
+        "http",
+        "socks5",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iraq",
+      "countryCode": "IQ",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "178.17.57.222",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Iraq",
       "countryCode": "IQ",
-      "isp": "Horizon Scope Mobile Telecom WLL",
-      "user_type": "cellular",
-      "type": "http"
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
