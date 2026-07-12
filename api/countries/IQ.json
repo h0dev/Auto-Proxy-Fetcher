@@ -1,24 +1,7 @@
 {
-  "updated_at": "2026-07-12T16:07:01.196386",
-  "total": 3,
+  "updated_at": "2026-07-12T19:15:16.420360",
+  "total": 4,
   "data": [
-    {
-      "ip": "178.17.57.222",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iraq",
-      "countryCode": "IQ",
-      "isp": "Global Connectivity Solutions Llp",
-      "user_type": "business",
-      "type": "socks5"
-    },
     {
       "ip": "81.90.29.194",
       "port": "10808",
@@ -34,16 +17,33 @@
       "countryCode": "IQ",
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "178.17.57.222",
+      "port": "1080",
+      "protocols": [
+        "https",
+        "socks4",
+        "socks5",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iraq",
+      "countryCode": "IQ",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
       "type": "socks5"
     },
     {
       "ip": "93.180.221.205",
       "port": "8080",
       "protocols": [
-        "http",
         "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http"
       ],
       "username": null,
       "password": null,
@@ -52,6 +52,20 @@
       "isp": "Horizon Scope Mobile Telecom WLL",
       "user_type": "cellular",
       "type": "https"
+    },
+    {
+      "ip": "65.20.158.88",
+      "port": "10000",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iraq",
+      "countryCode": "IQ",
+      "isp": "Hulum Almustakbal Company for Communication Engineering and Services Ltd",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

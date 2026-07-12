@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-12T16:07:01.231142",
-  "total": 5,
+  "updated_at": "2026-07-12T19:15:16.432383",
+  "total": 9,
   "data": [
     {
       "ip": "165.225.218.43",
       "port": "11743",
       "protocols": [
-        "http",
         "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http"
       ],
       "username": null,
       "password": null,
@@ -17,16 +17,16 @@
       "countryCode": "MX",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "205.164.192.115",
       "port": "999",
       "protocols": [
-        "http",
         "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http"
       ],
       "username": null,
       "password": null,
@@ -34,22 +34,34 @@
       "countryCode": "MX",
       "isp": "MULTICARRIER JE S. DE R.L. DE C.V.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "45.235.255.170",
-      "port": "3129",
+      "ip": "38.7.21.116",
+      "port": "999",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Mexico",
       "countryCode": "MX",
-      "isp": "YUCATAN FIBER PARTNERS",
+      "isp": "INTERNET TELEFONIA Y TV DE MICHOACAN SA DE CV",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.189.252.18",
+      "port": "999",
+      "protocols": [
+        "https",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "TRACERED SA DE CV",
       "user_type": "business",
       "type": "https"
     },
@@ -57,7 +69,6 @@
       "ip": "78.13.215.130",
       "port": "33942",
       "protocols": [
-        "http",
         "https",
         "socks4",
         "socks5"
@@ -69,6 +80,23 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "78.13.104.52",
+      "port": "1047",
+      "protocols": [
+        "https",
+        "socks4",
+        "socks5",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
     },
     {
       "ip": "78.12.252.87",
@@ -84,6 +112,34 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "78.12.252.87",
+      "port": "9182",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "78.12.252.87",
+      "port": "8097",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }
