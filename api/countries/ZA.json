@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-07-13T09:40:20.138517",
-  "total": 3,
+  "updated_at": "2026-07-13T14:48:33.644161",
+  "total": 5,
   "data": [
+    {
+      "ip": "102.39.133.233",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Vox Telecom Ltd",
+      "user_type": "residential",
+      "type": "socks4"
+    },
     {
       "ip": "13.245.171.157",
       "port": "3128",
@@ -20,6 +37,22 @@
     },
     {
       "ip": "13.246.6.135",
+      "port": "18473",
+      "protocols": [
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "13.246.6.135",
       "port": "7816",
       "protocols": [
         "socks4"
@@ -33,18 +66,18 @@
       "type": "socks4"
     },
     {
-      "ip": "41.57.63.1",
-      "port": "8103",
+      "ip": "13.245.171.157",
+      "port": "39003",
       "protocols": [
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "South Africa",
       "countryCode": "ZA",
-      "isp": "Screamer Telecommunications",
-      "user_type": "residential",
-      "type": "http"
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }

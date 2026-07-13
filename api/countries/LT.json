@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-13T09:40:20.125364",
-  "total": 3,
+  "updated_at": "2026-07-13T14:48:33.643119",
+  "total": 4,
   "data": [
     {
       "ip": "45.153.4.154",
@@ -17,7 +17,7 @@
       "countryCode": "LT",
       "isp": "Istqrar for Servers Services Ltd",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "185.237.185.127",
@@ -25,6 +25,7 @@
       "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -33,7 +34,24 @@
       "countryCode": "LT",
       "isp": "BrainStorm Network, Inc",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "213.197.136.218",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Lithuania",
+      "countryCode": "LT",
+      "isp": "UAB Baltnetos komunikacijos",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "80.208.225.245",

@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-13T09:40:20.140678",
+  "updated_at": "2026-07-13T14:48:33.642312",
   "total": 2,
   "data": [
     {
       "ip": "200.41.182.243",
       "port": "4145",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -20,16 +20,19 @@
       "type": "socks4"
     },
     {
-      "ip": "187.102.219.34",
-      "port": "999",
+      "ip": "181.13.53.38",
+      "port": "8081",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Argentina",
       "countryCode": "AR",
-      "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
+      "isp": "NOANET S.A",
       "user_type": "business",
       "type": "http"
     }
