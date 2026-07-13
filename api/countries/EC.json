@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12T22:01:45.690447",
+  "updated_at": "2026-07-13T03:32:15.695360",
   "total": 5,
   "data": [
     {
@@ -7,9 +7,9 @@
       "port": "8118",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,19 +20,21 @@
       "type": "https"
     },
     {
-      "ip": "186.5.94.206",
-      "port": "999",
+      "ip": "45.238.57.1",
+      "port": "3629",
       "protocols": [
+        "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Ecuador",
       "countryCode": "EC",
-      "isp": "Telconet S.A",
+      "isp": "INSTALACION DE SISTEMAS EN REDES INSYSRED S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "190.15.141.43",
@@ -49,7 +51,7 @@
       "countryCode": "EC",
       "isp": "CEDIA",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "201.182.149.99",
@@ -66,7 +68,7 @@
       "countryCode": "EC",
       "isp": "ESMONSA S.A.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "45.186.6.104",

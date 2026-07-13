@@ -1,20 +1,40 @@
 {
-  "updated_at": "2026-07-12T22:01:45.694021",
-  "total": 3,
+  "updated_at": "2026-07-13T03:32:15.682165",
+  "total": 4,
   "data": [
     {
-      "ip": "187.102.219.42",
-      "port": "999",
+      "ip": "45.169.105.151",
+      "port": "1085",
       "protocols": [
-        "http"
+        "socks4",
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Argentina",
       "countryCode": "AR",
-      "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
+      "isp": "VOS SRL",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "190.122.88.120",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "Servicios y Telecomunicaciones S.A.",
+      "user_type": "residential",
+      "type": "socks4"
     },
     {
       "ip": "200.41.182.243",

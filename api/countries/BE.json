@@ -1,21 +1,40 @@
 {
-  "updated_at": "2026-07-12T22:01:45.682373",
-  "total": 2,
+  "updated_at": "2026-07-13T03:32:15.694189",
+  "total": 4,
   "data": [
     {
-      "ip": "35.205.204.58",
-      "port": "3130",
+      "ip": "188.190.10.47",
+      "port": "1080",
       "protocols": [
-        "https",
-        "http"
+        "socks4",
+        "http",
+        "socks5",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Belgium",
       "countryCode": "BE",
-      "isp": "Google LLC",
-      "user_type": "hosting",
-      "type": "http"
+      "isp": "EDIS GmbH",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "188.190.26.67",
+      "port": "8885",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Belgium",
+      "countryCode": "BE",
+      "isp": "EDIS GmbH",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "165.225.12.35",
@@ -30,6 +49,23 @@
       "countryCode": "BE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "35.205.204.58",
+      "port": "3130",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Belgium",
+      "countryCode": "BE",
+      "isp": "Google LLC",
+      "user_type": "hosting",
       "type": "http"
     }
   ]

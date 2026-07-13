@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-12T22:01:45.693034",
-  "total": 7,
+  "updated_at": "2026-07-13T03:32:15.694361",
+  "total": 6,
   "data": [
     {
       "ip": "102.39.214.109",
@@ -17,7 +17,24 @@
       "countryCode": "ZA",
       "isp": "Vox Telecom Ltd",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "196.15.250.17",
+      "port": "4153",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Telkom SA Ltd.",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "13.245.171.157",
@@ -52,6 +69,20 @@
       "type": "socks5"
     },
     {
+      "ip": "41.57.63.1",
+      "port": "8103",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Africa",
+      "countryCode": "ZA",
+      "isp": "Screamer Telecommunications",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
       "ip": "13.246.6.135",
       "port": "7816",
       "protocols": [
@@ -64,48 +95,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "13.245.171.157",
-      "port": "39003",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "102.203.80.41",
-      "port": "8080",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Rackzar (Pty) Ltd",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "13.246.6.135",
-      "port": "29684",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
     }
   ]
 }
