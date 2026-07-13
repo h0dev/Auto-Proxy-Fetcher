@@ -1,15 +1,30 @@
 {
-  "updated_at": "2026-07-13T17:21:26.040817",
-  "total": 1,
+  "updated_at": "2026-07-13T22:04:02.864680",
+  "total": 2,
   "data": [
+    {
+      "ip": "145.239.95.118",
+      "port": "10084",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
     {
       "ip": "185.79.243.153",
       "port": "31382",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http"
       ],
       "username": null,
       "password": null,
@@ -17,7 +32,7 @@
       "countryCode": "PL",
       "isp": "PHU Kario-Sat Sp. z o.o.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
