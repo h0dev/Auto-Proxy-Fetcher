@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-13T14:48:33.631974",
-  "total": 5,
+  "updated_at": "2026-07-13T17:21:26.029546",
+  "total": 2,
   "data": [
     {
       "ip": "112.28.149.156",
       "port": "8443",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,10 +17,10 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "socks4"
+      "type": "http"
     },
     {
-      "ip": "36.140.66.185",
+      "ip": "111.48.191.1",
       "port": "7890",
       "protocols": [
         "http",
@@ -34,58 +34,7 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "https"
-    },
-    {
-      "ip": "223.111.182.16",
-      "port": "1515",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Mobile communications corporation",
-      "user_type": "cellular",
-      "type": "socks5"
-    },
-    {
-      "ip": "51.154.79.204",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Salt Mobile SA",
-      "user_type": "cellular",
-      "type": "https"
-    },
-    {
-      "ip": "93.180.221.205",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iraq",
-      "countryCode": "IQ",
-      "isp": "Horizon Scope Mobile Telecom WLL",
-      "user_type": "cellular",
-      "type": "https"
+      "type": "http"
     }
   ]
 }

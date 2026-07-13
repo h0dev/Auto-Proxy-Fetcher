@@ -1,13 +1,11 @@
 {
-  "updated_at": "2026-07-13T14:48:33.642847",
-  "total": 13,
+  "updated_at": "2026-07-13T17:21:26.040047",
+  "total": 12,
   "data": [
     {
-      "ip": "121.133.175.227",
-      "port": "1080",
+      "ip": "15.164.225.200",
+      "port": "58080",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
         "https"
       ],
@@ -15,9 +13,24 @@
       "password": null,
       "country": "South Korea",
       "countryCode": "KR",
-      "isp": "Korea Telecom",
-      "user_type": "residential",
-      "type": "socks5"
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "15.164.225.200",
+      "port": "3129",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
     },
     {
       "ip": "152.70.235.185",
@@ -34,7 +47,7 @@
       "countryCode": "KR",
       "isp": "Oracle Corporation",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "43.200.174.95",
@@ -117,7 +130,7 @@
       "countryCode": "KR",
       "isp": "NHNCLOUD",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "15.164.225.200",
@@ -139,7 +152,8 @@
       "port": "1080",
       "protocols": [
         "socks4",
-        "socks5"
+        "socks5",
+        "http"
       ],
       "username": null,
       "password": null,
@@ -176,34 +190,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
-    },
-    {
-      "ip": "43.203.140.58",
-      "port": "39287",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "43.203.140.58",
-      "port": "45715",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
     }
   ]
 }
