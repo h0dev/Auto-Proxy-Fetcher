@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-07-13T22:04:02.859810",
-  "total": 1,
+  "updated_at": "2026-07-14T02:53:25.383851",
+  "total": 2,
   "data": [
     {
-      "ip": "85.163.43.208",
-      "port": "48293",
+      "ip": "217.198.114.16",
+      "port": "80",
       "protocols": [
+        "http",
+        "https",
         "socks4",
-        "socks5",
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "CETIN a.s.",
+      "isp": "ZONER a.s.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "87.236.197.18",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Coolhousing s.r.o.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
