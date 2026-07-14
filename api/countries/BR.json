@@ -1,7 +1,22 @@
 {
-  "updated_at": "2026-07-14T05:41:00.461155",
-  "total": 10,
+  "updated_at": "2026-07-14T08:19:14.140850",
+  "total": 12,
   "data": [
+    {
+      "ip": "165.225.214.25",
+      "port": "12347",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "ZSCALER, INC.",
+      "user_type": "business",
+      "type": "http"
+    },
     {
       "ip": "191.252.1.154",
       "port": "80",
@@ -17,7 +32,7 @@
       "countryCode": "BR",
       "isp": "Locaweb Servicos de Internet S/A",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "191.7.216.134",
@@ -37,23 +52,6 @@
       "type": "https"
     },
     {
-      "ip": "200.150.203.126",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Saveincloud Hospedagem na Internet Ltda",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
       "ip": "200.150.200.119",
       "port": "80",
       "protocols": [
@@ -68,16 +66,48 @@
       "countryCode": "BR",
       "isp": "Saveincloud Hospedagem na Internet Ltda",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "200.150.203.126",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Saveincloud Hospedagem na Internet Ltda",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "200.150.200.42",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Saveincloud Hospedagem na Internet Ltda",
+      "user_type": "hosting",
+      "type": "https"
     },
     {
       "ip": "200.9.221.243",
       "port": "3128",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -85,30 +115,14 @@
       "countryCode": "BR",
       "isp": "Tec System Sistemas Eletronicos LTDA",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "45.165.204.53",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Weclix Telecom S/A",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "45.71.81.17",
+      "ip": "45.71.81.73",
       "port": "9292",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -121,11 +135,10 @@
       "type": "http"
     },
     {
-      "ip": "45.71.81.73",
+      "ip": "45.71.81.17",
       "port": "9292",
       "protocols": [
         "http",
-        "https",
         "socks4",
         "socks5"
       ],
@@ -165,6 +178,20 @@
       "countryCode": "BR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "177.10.183.216",
+      "port": "4153",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "CONECTIVA TECNOLOGIA LTDA",
+      "user_type": "business",
       "type": "socks4"
     }
   ]
