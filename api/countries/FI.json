@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-14T10:56:00.762645",
-  "total": 7,
+  "updated_at": "2026-07-14T13:58:28.246861",
+  "total": 8,
   "data": [
     {
       "ip": "135.87.39.23",
-      "port": "443",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -17,14 +17,31 @@
       "countryCode": "FI",
       "isp": "Nokia Solutions and Networks Oy",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "94.156.180.137",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Serv.host Group Ltd",
+      "user_type": "business",
       "type": "https"
     },
     {
       "ip": "65.109.191.98",
       "port": "3080",
       "protocols": [
-        "socks5",
         "http",
+        "socks5",
         "socks4",
         "https"
       ],
@@ -34,24 +51,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "193.221.203.192",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Baykov Ilya Sergeevich",
-      "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     },
     {
       "ip": "46.62.189.77",
@@ -72,7 +72,7 @@
     },
     {
       "ip": "135.87.39.23",
-      "port": "80",
+      "port": "443",
       "protocols": [
         "http",
         "https",
@@ -88,13 +88,13 @@
       "type": "http"
     },
     {
-      "ip": "65.109.14.254",
-      "port": "8080",
+      "ip": "65.108.203.36",
+      "port": "28080",
       "protocols": [
+        "http",
         "https",
         "socks4",
-        "socks5",
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -105,10 +105,13 @@
       "type": "http"
     },
     {
-      "ip": "95.217.212.193",
+      "ip": "65.109.14.254",
       "port": "8080",
       "protocols": [
-        "https"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -117,6 +120,21 @@
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
       "type": "https"
+    },
+    {
+      "ip": "95.217.212.193",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "http"
     }
   ]
 }
