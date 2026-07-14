@@ -1,12 +1,45 @@
 {
-  "updated_at": "2026-07-14T08:19:14.141608",
-  "total": 3,
+  "updated_at": "2026-07-14T10:56:00.766702",
+  "total": 5,
   "data": [
+    {
+      "ip": "181.39.25.196",
+      "port": "8118",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "Telconet S.A",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.238.57.1",
+      "port": "3629",
+      "protocols": [
+        "socks4",
+        "https",
+        "socks5",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "INSTALACION DE SISTEMAS EN REDES INSYSRED S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "190.15.141.43",
       "port": "80",
       "protocols": [
-        "http",
         "https",
         "socks4",
         "socks5"
@@ -17,16 +50,16 @@
       "countryCode": "EC",
       "isp": "CEDIA",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "201.182.149.99",
       "port": "999",
       "protocols": [
-        "http",
         "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http"
       ],
       "username": null,
       "password": null,
@@ -40,10 +73,10 @@
       "ip": "45.186.6.104",
       "port": "3128",
       "protocols": [
-        "http",
         "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http"
       ],
       "username": null,
       "password": null,
@@ -51,7 +84,7 @@
       "countryCode": "EC",
       "isp": "PEREZ TITO JULIO CESAR(FASTNETT)",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
