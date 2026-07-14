@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-07-14T16:23:50.932943",
-  "total": 1,
+  "updated_at": "2026-07-14T19:30:42.876688",
+  "total": 3,
   "data": [
     {
       "ip": "185.80.91.174",
       "port": "1081",
       "protocols": [
-        "socks5",
-        "http"
+        "socks4",
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -15,7 +17,41 @@
       "countryCode": "AM",
       "isp": "New Hosting Technologies LLC",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "2.56.206.46",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Armenia",
+      "countryCode": "AM",
+      "isp": "Proitlab LLC",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "46.36.123.18",
+      "port": "81",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Armenia",
+      "countryCode": "AM",
+      "isp": "LikeNet LLC",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

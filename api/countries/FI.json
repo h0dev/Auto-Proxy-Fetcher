@@ -1,14 +1,49 @@
 {
-  "updated_at": "2026-07-14T16:23:50.935558",
-  "total": 4,
+  "updated_at": "2026-07-14T19:30:42.880398",
+  "total": 7,
   "data": [
+    {
+      "ip": "46.62.189.77",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "193.221.203.192",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "socks5"
+    },
     {
       "ip": "135.87.39.23",
       "port": "80",
       "protocols": [
-        "socks5",
+        "http",
+        "https",
         "socks4",
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -19,10 +54,28 @@
       "type": "http"
     },
     {
+      "ip": "135.87.39.23",
+      "port": "443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Nokia Solutions and Networks Oy",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
       "ip": "193.35.17.153",
       "port": "8888",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -39,6 +92,7 @@
       "port": "8080",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -48,13 +102,14 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "95.217.212.193",
       "port": "8080",
       "protocols": [
-        "http"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,

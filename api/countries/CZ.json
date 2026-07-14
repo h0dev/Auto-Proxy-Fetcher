@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-07-14T16:23:50.941592",
+  "updated_at": "2026-07-14T19:30:42.887568",
   "total": 3,
   "data": [
+    {
+      "ip": "109.164.35.23",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "STARNET, s.r.o.",
+      "user_type": "business",
+      "type": "http"
+    },
     {
       "ip": "217.198.114.16",
       "port": "80",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -16,13 +34,14 @@
       "countryCode": "CZ",
       "isp": "ZONER a.s.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "87.236.197.18",
       "port": "80",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -33,22 +52,6 @@
       "isp": "Coolhousing s.r.o.",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "90.182.147.170",
-      "port": "4145",
-      "protocols": [
-        "http",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Czechia",
-      "countryCode": "CZ",
-      "isp": "O2 Czech Republic, a.s.",
-      "user_type": "business",
-      "type": "socks4"
     }
   ]
 }
