@@ -1,14 +1,31 @@
 {
-  "updated_at": "2026-07-14T13:58:28.257758",
-  "total": 3,
+  "updated_at": "2026-07-14T22:07:05.507901",
+  "total": 2,
   "data": [
+    {
+      "ip": "102.204.14.2",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Skysurf Limited",
+      "user_type": "business",
+      "type": "http"
+    },
     {
       "ip": "41.215.86.226",
       "port": "18080",
       "protocols": [
-        "http",
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
@@ -16,40 +33,6 @@
       "country": "Kenya",
       "countryCode": "KE",
       "isp": "IDDQD-AS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "197.232.23.40",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "Jamii Telecommunications Limited",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
-      "ip": "102.0.21.22",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kenya",
-      "countryCode": "KE",
-      "isp": "Airtel Networks Kenya Limited",
       "user_type": "business",
       "type": "https"
     }

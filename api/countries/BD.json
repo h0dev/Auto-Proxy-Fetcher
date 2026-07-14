@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-07-14T19:30:42.888138",
-  "total": 5,
+  "updated_at": "2026-07-14T22:07:05.506972",
+  "total": 6,
   "data": [
     {
-      "ip": "103.142.69.169",
-      "port": "8885",
+      "ip": "59.152.97.233",
+      "port": "1080",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Bangladesh",
       "countryCode": "BD",
-      "isp": "MIR INFO SYSTEMS LTD.",
+      "isp": "Race Online Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
       "ip": "103.111.13.66",
@@ -50,7 +50,7 @@
       "countryCode": "BD",
       "isp": "Mohammad Kamrul Hasan t/a SK Traders",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "103.42.203.9",
@@ -83,6 +83,23 @@
       "isp": "HelloTech Limited",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "121.200.60.122",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "Drik ICT Ltd",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
