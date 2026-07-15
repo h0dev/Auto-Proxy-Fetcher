@@ -1,29 +1,32 @@
 {
-  "updated_at": "2026-07-14T22:07:05.508395",
-  "total": 4,
+  "updated_at": "2026-07-15T02:51:55.644146",
+  "total": 5,
   "data": [
     {
-      "ip": "200.41.182.243",
-      "port": "4145",
+      "ip": "45.169.105.151",
+      "port": "1085",
       "protocols": [
         "socks4",
+        "socks5",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Argentina",
       "countryCode": "AR",
-      "isp": "Telefonica de Argentina",
+      "isp": "VOS SRL",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "187.102.219.42",
+      "ip": "187.102.219.32",
       "port": "999",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -49,7 +52,7 @@
       "type": "https"
     },
     {
-      "ip": "187.102.219.34",
+      "ip": "187.102.219.42",
       "port": "999",
       "protocols": [
         "http"
@@ -61,6 +64,23 @@
       "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "200.41.182.243",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "Telefonica de Argentina",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
