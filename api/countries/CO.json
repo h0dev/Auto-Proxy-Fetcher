@@ -1,10 +1,24 @@
 {
-  "updated_at": "2026-07-15T10:59:52.404408",
-  "total": 1,
+  "updated_at": "2026-07-15T13:55:51.331237",
+  "total": 3,
   "data": [
     {
-      "ip": "181.225.75.97",
-      "port": "4040",
+      "ip": "190.29.25.245",
+      "port": "3128",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "UNE EPM TELECOMUNICACIONES S.A.",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "190.85.47.198",
+      "port": "4145",
       "protocols": [
         "http",
         "https",
@@ -15,9 +29,26 @@
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "Media Commerce Partners S.A",
+      "isp": "Telmex Colombia S.A.",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
+    },
+    {
+      "ip": "38.225.225.20",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "SOMOS NETWORKS COLOMBIA S.A.S. BIC",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
