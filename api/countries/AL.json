@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-15T05:41:53.028577",
-  "total": 1,
+  "updated_at": "2026-07-15T08:26:35.709346",
+  "total": 3,
   "data": [
     {
       "ip": "78.159.131.139",
@@ -17,7 +17,41 @@
       "countryCode": "AL",
       "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "78.159.131.139",
+      "port": "1082",
+      "protocols": [
+        "socks4",
+        "http",
+        "socks5",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
       "type": "socks5"
+    },
+    {
+      "ip": "80.78.73.142",
+      "port": "65530",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Vodafone Albania Sh.A.",
+      "user_type": "cellular",
+      "type": "socks4"
     }
   ]
 }

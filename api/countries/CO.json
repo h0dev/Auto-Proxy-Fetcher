@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-15T05:41:53.033048",
+  "updated_at": "2026-07-15T08:26:35.705490",
   "total": 4,
   "data": [
     {
@@ -17,11 +17,28 @@
       "countryCode": "CO",
       "isp": "Telmex Colombia S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "190.60.57.77",
-      "port": "999",
+      "ip": "201.184.177.10",
+      "port": "4153",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "UNE EPM TELECOMUNICACIONES S.A.",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "190.242.59.158",
+      "port": "4145",
       "protocols": [
         "http",
         "https",
@@ -32,9 +49,9 @@
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "UFINET PANAMA S.A.",
+      "isp": "LIBERTY NETWORKS DE COLOMBIA S.A.S",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "38.225.225.20",
@@ -50,23 +67,6 @@
       "country": "Colombia",
       "countryCode": "CO",
       "isp": "SOMOS NETWORKS COLOMBIA S.A.S. BIC",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "64.204.90.177",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Colombia",
-      "countryCode": "CO",
-      "isp": "U2RED S.A.S",
       "user_type": "business",
       "type": "https"
     }
