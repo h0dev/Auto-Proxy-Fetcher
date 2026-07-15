@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-15T08:26:35.705714",
-  "total": 6,
+  "updated_at": "2026-07-15T10:59:52.392959",
+  "total": 8,
   "data": [
     {
       "ip": "46.62.189.77",
@@ -21,6 +21,40 @@
     },
     {
       "ip": "135.87.39.23",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Nokia Solutions and Networks Oy",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "193.221.203.192",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "135.87.39.23",
       "port": "443",
       "protocols": [
         "http",
@@ -34,28 +68,11 @@
       "countryCode": "FI",
       "isp": "Nokia Solutions and Networks Oy",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "65.108.203.36",
-      "port": "28080",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "135.87.39.23",
-      "port": "80",
+      "ip": "185.109.21.39",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -66,7 +83,7 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Nokia Solutions and Networks Oy",
+      "isp": "Scalaxy B.V.",
       "user_type": "business",
       "type": "http"
     },
@@ -100,7 +117,22 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "194.76.172.30",
+      "port": "1081",
+      "protocols": [
+        "socks5",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Anton Levin",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
