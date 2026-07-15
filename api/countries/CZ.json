@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-07-15T19:21:33.459110",
+  "updated_at": "2026-07-15T22:10:40.200012",
   "total": 3,
   "data": [
     {
-      "ip": "217.198.114.16",
-      "port": "80",
+      "ip": "78.111.112.118",
+      "port": "4145",
       "protocols": [
+        "socks4",
         "http",
         "https",
         "socks5"
@@ -14,9 +15,26 @@
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
+      "isp": "ISP Alliance a.s.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "217.198.114.16",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
       "isp": "ZONER a.s.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "87.236.197.18",
@@ -24,6 +42,7 @@
       "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -33,20 +52,6 @@
       "isp": "Coolhousing s.r.o.",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "85.163.43.208",
-      "port": "48293",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Czechia",
-      "countryCode": "CZ",
-      "isp": "CETIN a.s.",
-      "user_type": "business",
-      "type": "socks4"
     }
   ]
 }

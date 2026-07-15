@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-07-15T10:59:52.401129",
+  "updated_at": "2026-07-15T22:10:40.194451",
   "total": 1,
   "data": [
     {
       "ip": "178.172.217.166",
-      "port": "10808",
+      "port": "10801",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "BY",
       "isp": "Support Chain LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

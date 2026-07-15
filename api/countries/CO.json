@@ -1,22 +1,23 @@
 {
-  "updated_at": "2026-07-15T19:21:33.457345",
-  "total": 3,
+  "updated_at": "2026-07-15T22:10:40.196394",
+  "total": 4,
   "data": [
     {
-      "ip": "181.233.154.205",
-      "port": "999",
+      "ip": "190.147.40.192",
+      "port": "9021",
       "protocols": [
+        "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "POLINET TELECOMUNICACIONES COLOMBIA SAS",
-      "user_type": "residential",
-      "type": "http"
+      "isp": "Telmex Colombia S.A.",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "190.0.246.210",
@@ -24,8 +25,8 @@
       "protocols": [
         "http",
         "https",
-        "socks5",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -36,11 +37,29 @@
       "type": "http"
     },
     {
+      "ip": "200.10.31.45",
+      "port": "8081",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "SUPER REDES S.A.S",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
       "ip": "38.225.225.20",
       "port": "8080",
       "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -49,7 +68,7 @@
       "countryCode": "CO",
       "isp": "SOMOS NETWORKS COLOMBIA S.A.S. BIC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

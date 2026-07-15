@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-15T19:21:33.455615",
-  "total": 1,
+  "updated_at": "2026-07-15T22:10:40.200482",
+  "total": 2,
   "data": [
     {
       "ip": "103.157.200.126",
@@ -8,6 +8,7 @@
       "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -16,7 +17,24 @@
       "countryCode": "PK",
       "isp": "Logitech Cable (Private) Limited",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "116.0.54.25",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "Supernet Limited Transit Autonomous System Number",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

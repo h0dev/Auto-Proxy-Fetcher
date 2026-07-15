@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-15T16:31:59.483101",
-  "total": 1,
+  "updated_at": "2026-07-15T22:10:40.197154",
+  "total": 2,
   "data": [
     {
       "ip": "95.182.115.33",
       "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "Cgi Global Limited",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "185.113.139.149",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Latvia",
       "countryCode": "LV",
-      "isp": "Cgi Global Limited",
+      "isp": "Baykov Ilya Sergeevich",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
