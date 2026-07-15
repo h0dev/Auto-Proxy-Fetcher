@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-07-15T02:51:55.647207",
+  "updated_at": "2026-07-15T05:41:53.027725",
   "total": 22,
   "data": [
+    {
+      "ip": "79.76.59.115",
+      "port": "1080",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Oracle Corporation",
+      "user_type": "business",
+      "type": "socks5"
+    },
     {
       "ip": "13.53.139.178",
       "port": "8118",
@@ -84,7 +98,7 @@
       "countryCode": "SE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "165.225.192.27",
@@ -121,23 +135,6 @@
       "type": "http"
     },
     {
-      "ip": "165.225.192.26",
-      "port": "10801",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
       "ip": "165.225.192.22",
       "port": "10801",
       "protocols": [
@@ -152,7 +149,24 @@
       "countryCode": "SE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "165.225.192.26",
+      "port": "10801",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "165.225.192.19",
@@ -169,7 +183,7 @@
       "countryCode": "SE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "195.198.199.60",
@@ -186,7 +200,7 @@
       "countryCode": "SE",
       "isp": "Telia Company AB",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "212.113.100.43",
@@ -202,11 +216,26 @@
       "countryCode": "SE",
       "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "13.48.13.125",
       "port": "41481",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.51.196.44",
+      "port": "49023",
       "protocols": [
         "socks4",
         "socks5"
@@ -234,79 +263,22 @@
       "type": "socks4"
     },
     {
-      "ip": "13.51.196.44",
-      "port": "49023",
-      "protocols": [
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.60.181.61",
-      "port": "22394",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "13.60.181.61",
-      "port": "455",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "13.60.181.61",
-      "port": "27891",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "13.51.196.44",
-      "port": "7081",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
       "ip": "13.48.13.125",
       "port": "57334",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "13.60.181.61",
+      "port": "7166",
       "protocols": [
         "socks5"
       ],
@@ -333,8 +305,36 @@
       "type": "socks5"
     },
     {
+      "ip": "13.51.196.44",
+      "port": "7081",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
       "ip": "13.60.181.61",
-      "port": "7166",
+      "port": "27891",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "13.60.181.61",
+      "port": "22394",
       "protocols": [
         "socks5"
       ],
