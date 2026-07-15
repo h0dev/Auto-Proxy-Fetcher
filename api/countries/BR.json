@@ -1,23 +1,39 @@
 {
-  "updated_at": "2026-07-15T16:31:59.488697",
-  "total": 12,
+  "updated_at": "2026-07-15T19:21:33.448879",
+  "total": 9,
   "data": [
     {
-      "ip": "191.7.216.134",
-      "port": "8080",
+      "ip": "190.89.104.48",
+      "port": "5432",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "ONLINE TELECOMUNICACOES LTDA",
+      "isp": "ACESSOLINE TELECOMUNICACOES LTDA",
       "user_type": "residential",
-      "type": "https"
+      "type": "socks4"
+    },
+    {
+      "ip": "177.190.145.161",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "MKNETWORK TELECOM LTDA ME",
+      "user_type": "residential",
+      "type": "http"
     },
     {
       "ip": "191.252.1.154",
@@ -25,7 +41,6 @@
       "protocols": [
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -37,20 +52,20 @@
       "type": "http"
     },
     {
-      "ip": "191.33.83.84",
-      "port": "4153",
+      "ip": "191.7.216.134",
+      "port": "8080",
       "protocols": [
         "http",
-        "socks4",
+        "https",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "TELEFONICA BRASIL S.A",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "ONLINE TELECOMUNICACOES LTDA",
+      "user_type": "residential",
+      "type": "http"
     },
     {
       "ip": "200.150.200.119",
@@ -58,24 +73,6 @@
       "protocols": [
         "http",
         "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Saveincloud Hospedagem na Internet Ltda",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "200.150.203.126",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -85,62 +82,12 @@
       "isp": "Saveincloud Hospedagem na Internet Ltda",
       "user_type": "hosting",
       "type": "http"
-    },
-    {
-      "ip": "200.150.200.42",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Saveincloud Hospedagem na Internet Ltda",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "200.9.221.243",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Tec System Sistemas Eletronicos LTDA",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "45.168.244.16",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "MAXIMA INTERNET BANDA LARGA",
-      "user_type": "business",
-      "type": "socks4"
     },
     {
       "ip": "45.71.81.17",
       "port": "9292",
       "protocols": [
         "http",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -157,7 +104,6 @@
       "protocols": [
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -166,13 +112,12 @@
       "countryCode": "BR",
       "isp": "Coelho Tecnologia",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "15.229.231.89",
       "port": "12267",
       "protocols": [
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -181,13 +126,13 @@
       "countryCode": "BR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "18.228.228.159",
-      "port": "4655",
+      "port": "41978",
       "protocols": [
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -195,7 +140,7 @@
       "countryCode": "BR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks5"
     }
   ]
 }

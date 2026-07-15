@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-15T16:31:59.487877",
-  "total": 1,
+  "updated_at": "2026-07-15T19:21:33.457492",
+  "total": 2,
   "data": [
     {
       "ip": "185.79.243.153",
@@ -8,7 +8,6 @@
       "protocols": [
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -17,7 +16,24 @@
       "countryCode": "PL",
       "isp": "PHU Kario-Sat Sp. z o.o.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "92.118.205.175",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks5",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "BrainStorm Network, Inc",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-15T16:31:59.484086",
-  "total": 16,
+  "updated_at": "2026-07-15T19:21:33.454416",
+  "total": 14,
   "data": [
     {
       "ip": "185.191.239.248",
@@ -8,7 +8,6 @@
       "protocols": [
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -20,8 +19,8 @@
       "type": "https"
     },
     {
-      "ip": "147.161.246.37",
-      "port": "10801",
+      "ip": "147.161.246.36",
+      "port": "10826",
       "protocols": [
         "http",
         "https"
@@ -35,8 +34,8 @@
       "type": "https"
     },
     {
-      "ip": "147.161.246.39",
-      "port": "11592",
+      "ip": "147.161.246.37",
+      "port": "10801",
       "protocols": [
         "http",
         "https"
@@ -65,8 +64,8 @@
       "type": "https"
     },
     {
-      "ip": "147.161.246.36",
-      "port": "10826",
+      "ip": "147.161.246.39",
+      "port": "11592",
       "protocols": [
         "http",
         "https"
@@ -77,7 +76,7 @@
       "countryCode": "CH",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "152.67.74.74",
@@ -85,7 +84,6 @@
       "protocols": [
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -94,32 +92,44 @@
       "countryCode": "CH",
       "isp": "Oracle Corporation",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "16.18.37.186",
+      "port": "39388",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "16.18.37.186",
+      "port": "6742",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "http"
     },
     {
       "ip": "51.34.28.236",
-      "port": "7981",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "51.34.28.236",
       "port": "3128",
       "protocols": [
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -128,32 +138,14 @@
       "countryCode": "CH",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "51.34.28.236",
-      "port": "57940",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "91.92.155.207",
-      "port": "3128",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -162,13 +154,12 @@
       "countryCode": "CH",
       "isp": "Akenes SA",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
     },
     {
       "ip": "16.18.37.186",
       "port": "40265",
       "protocols": [
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -177,7 +168,7 @@
       "countryCode": "CH",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "16.62.229.137",
@@ -194,10 +185,10 @@
       "type": "socks5"
     },
     {
-      "ip": "16.62.123.236",
-      "port": "8091",
+      "ip": "16.62.229.137",
+      "port": "29824",
       "protocols": [
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -205,27 +196,13 @@
       "countryCode": "CH",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "51.34.28.236",
-      "port": "443",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
+      "type": "https"
     },
     {
       "ip": "16.62.123.236",
-      "port": "443",
+      "port": "46400",
       "protocols": [
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -233,21 +210,7 @@
       "countryCode": "CH",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "51.34.28.236",
-      "port": "8579",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
+      "type": "https"
     }
   ]
 }
