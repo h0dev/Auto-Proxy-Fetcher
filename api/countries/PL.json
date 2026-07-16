@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-15T22:10:40.202698",
-  "total": 1,
+  "updated_at": "2026-07-16T02:57:39.983297",
+  "total": 2,
   "data": [
     {
-      "ip": "185.140.102.218",
-      "port": "5678",
+      "ip": "77.83.246.110",
+      "port": "2000",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "185.79.243.153",
+      "port": "31382",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Tomasz Naruszewicz",
+      "isp": "PHU Kario-Sat Sp. z o.o.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
