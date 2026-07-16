@@ -1,24 +1,27 @@
 {
-  "updated_at": "2026-07-16T11:08:25.007555",
-  "total": 2,
+  "updated_at": "2026-07-16T14:06:48.495244",
+  "total": 3,
   "data": [
     {
-      "ip": "193.109.193.21",
-      "port": "1080",
+      "ip": "92.118.205.175",
+      "port": "80",
       "protocols": [
-        "socks5"
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Datacamp Limited",
+      "isp": "BrainStorm Network, Inc",
       "user_type": "business",
       "type": "socks5"
     },
     {
-      "ip": "185.79.243.153",
-      "port": "31382",
+      "ip": "145.239.95.118",
+      "port": "10084",
       "protocols": [
         "http",
         "https",
@@ -29,9 +32,26 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "PHU Kario-Sat Sp. z o.o.",
-      "user_type": "business",
-      "type": "http"
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "145.239.94.103",
+      "port": "10084",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }
