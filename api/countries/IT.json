@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-07-16T16:24:37.628224",
-  "total": 6,
+  "updated_at": "2026-07-16T19:23:07.083975",
+  "total": 8,
   "data": [
+    {
+      "ip": "15.160.116.45",
+      "port": "15723",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
     {
       "ip": "15.160.132.166",
       "port": "17684",
@@ -21,12 +38,9 @@
     },
     {
       "ip": "15.160.116.45",
-      "port": "15723",
+      "port": "5987",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
@@ -34,7 +48,7 @@
       "countryCode": "IT",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "15.161.131.175",
@@ -54,6 +68,21 @@
       "type": "socks4"
     },
     {
+      "ip": "15.161.59.54",
+      "port": "48678",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Italy",
+      "countryCode": "IT",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
       "ip": "155.185.101.53",
       "port": "80",
       "protocols": [
@@ -68,7 +97,7 @@
       "countryCode": "IT",
       "isp": "Consortium GARR",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "165.225.202.12",
@@ -85,12 +114,14 @@
       "countryCode": "IT",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "15.161.59.54",
-      "port": "45645",
+      "ip": "195.120.185.218",
+      "port": "80",
       "protocols": [
+        "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -98,9 +129,9 @@
       "password": null,
       "country": "Italy",
       "countryCode": "IT",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
+      "isp": "TIM",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
