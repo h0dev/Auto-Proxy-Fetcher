@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-17T13:52:34.872988",
-  "total": 14,
+  "updated_at": "2026-07-17T16:23:40.987072",
+  "total": 13,
   "data": [
     {
       "ip": "195.88.152.93",
@@ -17,11 +17,27 @@
       "countryCode": "ES",
       "isp": "Comvive Servidores S.L.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "51.49.153.183",
-      "port": "46172",
+      "port": "8028",
+      "protocols": [
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "51.49.153.183",
+      "port": "48140",
       "protocols": [
         "http",
         "https",
@@ -38,7 +54,7 @@
     },
     {
       "ip": "51.49.153.183",
-      "port": "18749",
+      "port": "46172",
       "protocols": [
         "http",
         "https",
@@ -72,57 +88,7 @@
     },
     {
       "ip": "51.49.153.183",
-      "port": "8028",
-      "protocols": [
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "51.49.153.183",
-      "port": "39383",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "51.92.173.133",
-      "port": "8030",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "51.92.173.133",
-      "port": "51177",
+      "port": "18749",
       "protocols": [
         "http",
         "https",
@@ -140,40 +106,6 @@
     {
       "ip": "51.92.173.133",
       "port": "27067",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "51.92.173.133",
-      "port": "3129",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "51.92.173.133",
-      "port": "16271",
       "protocols": [
         "http",
         "https",
@@ -204,9 +136,9 @@
     },
     {
       "ip": "51.92.173.133",
-      "port": "52944",
+      "port": "8030",
       "protocols": [
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -214,13 +146,13 @@
       "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks5"
     },
     {
       "ip": "51.92.173.133",
-      "port": "30017",
+      "port": "51177",
       "protocols": [
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -228,7 +160,49 @@
       "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks5"
+    },
+    {
+      "ip": "51.92.173.133",
+      "port": "3129",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "51.49.153.183",
+      "port": "39383",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "51.92.173.133",
+      "port": "16271",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }

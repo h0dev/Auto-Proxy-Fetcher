@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-17T13:52:34.855818",
-  "total": 13,
+  "updated_at": "2026-07-17T16:23:40.971032",
+  "total": 11,
   "data": [
     {
-      "ip": "45.174.47.66",
+      "ip": "45.174.47.73",
       "port": "3128",
       "protocols": [
+        "http",
         "socks5",
         "socks4",
-        "http",
         "https"
       ],
       "username": null,
@@ -17,7 +17,7 @@
       "countryCode": "MX",
       "isp": "INTERPHONET TELECOM, SA DE CV",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "45.174.47.46",
@@ -34,15 +34,15 @@
       "countryCode": "MX",
       "isp": "INTERPHONET TELECOM, SA DE CV",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "45.174.47.78",
       "port": "3128",
       "protocols": [
+        "http",
         "socks5",
         "socks4",
-        "http",
         "https"
       ],
       "username": null,
@@ -51,11 +51,11 @@
       "countryCode": "MX",
       "isp": "INTERPHONET TELECOM, SA DE CV",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "147.78.1.53",
-      "port": "8081",
+      "ip": "45.174.47.66",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -66,13 +66,13 @@
       "password": null,
       "country": "Mexico",
       "countryCode": "MX",
-      "isp": "BrainStorm Network, Inc",
-      "user_type": "business",
-      "type": "https"
+      "isp": "INTERPHONET TELECOM, SA DE CV",
+      "user_type": "residential",
+      "type": "http"
     },
     {
       "ip": "78.12.252.87",
-      "port": "31769",
+      "port": "55518",
       "protocols": [
         "http",
         "https",
@@ -102,74 +102,11 @@
       "countryCode": "MX",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "45.235.255.170",
-      "port": "3129",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "YUCATAN FIBER PARTNERS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "78.12.252.87",
-      "port": "45332",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
       "type": "http"
     },
     {
       "ip": "78.12.252.87",
       "port": "8679",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.13.215.130",
-      "port": "9130",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "78.13.215.130",
-      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -215,6 +152,34 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "78.13.215.130",
+      "port": "9130",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "78.13.215.130",
+      "port": "1080",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }
