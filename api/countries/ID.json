@@ -1,19 +1,21 @@
 {
-  "updated_at": "2026-07-17T16:23:40.984122",
-  "total": 20,
+  "updated_at": "2026-07-17T19:21:39.627178",
+  "total": 23,
   "data": [
     {
-      "ip": "103.106.216.231",
-      "port": "8097",
+      "ip": "103.106.79.253",
+      "port": "2233",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Indonesia",
       "countryCode": "ID",
-      "isp": "PT. ARTHA LINTAS DATA MANDIRI",
+      "isp": "PT Quantum Tera Network",
       "user_type": "business",
       "type": "http"
     },
@@ -32,7 +34,7 @@
       "countryCode": "ID",
       "isp": "PT Neutron Mitra Nusantara",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "103.112.163.46",
@@ -66,7 +68,7 @@
       "countryCode": "ID",
       "isp": "PT. Fiqran Solusindo Mediatama",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "103.139.126.30",
@@ -86,8 +88,8 @@
       "type": "http"
     },
     {
-      "ip": "103.156.17.232",
-      "port": "8818",
+      "ip": "103.148.44.116",
+      "port": "8882",
       "protocols": [
         "http",
         "https",
@@ -98,9 +100,9 @@
       "password": null,
       "country": "Indonesia",
       "countryCode": "ID",
-      "isp": "RSTNET",
+      "isp": "PT Buana Visualnet Sentra",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "103.157.117.116",
@@ -117,7 +119,24 @@
       "countryCode": "ID",
       "isp": "PT Cloud Teknologi Nusantara",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "103.172.120.33",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "PT Digital Akses Nusantara",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "103.184.167.66",
@@ -134,11 +153,11 @@
       "countryCode": "ID",
       "isp": "PT Pricom Media Solusi",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "103.87.67.75",
-      "port": "3129",
+      "ip": "103.39.49.98",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -149,9 +168,60 @@
       "password": null,
       "country": "Indonesia",
       "countryCode": "ID",
-      "isp": "PT Biznet Gio Nusantara",
+      "isp": "PT Mega Mentari Mandiri",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "103.39.51.207",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "PT Mega Mentari Mandiri",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "108.136.140.236",
+      "port": "9551",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "108.136.140.236",
+      "port": "33670",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "110.5.110.158",
@@ -168,7 +238,7 @@
       "countryCode": "ID",
       "isp": "Orion Cyber Internet",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "202.4.186.76",
@@ -185,7 +255,23 @@
       "countryCode": "ID",
       "isp": "Syiah Kuala University (Unsyiah)",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "38887",
+      "protocols": [
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     },
     {
       "ip": "43.218.124.29",
@@ -202,24 +288,7 @@
       "countryCode": "ID",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "15224",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "43.218.124.29",
@@ -236,15 +305,44 @@
       "countryCode": "ID",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "15224",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "9867",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "socks4"
     },
     {
       "ip": "43.218.124.29",
-      "port": "38887",
+      "port": "12396",
       "protocols": [
-        "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -252,55 +350,13 @@
       "countryCode": "ID",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "108.136.140.236",
-      "port": "45437",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "108.136.140.236",
-      "port": "20368",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "108.136.140.236",
-      "port": "23291",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
+      "type": "https"
     },
     {
       "ip": "43.218.124.29",
-      "port": "9254",
+      "port": "14108",
       "protocols": [
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
@@ -308,13 +364,13 @@
       "countryCode": "ID",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "http"
     },
     {
       "ip": "43.218.124.29",
-      "port": "39313",
+      "port": "50693",
       "protocols": [
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
@@ -322,7 +378,7 @@
       "countryCode": "ID",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "http"
     }
   ]
 }
