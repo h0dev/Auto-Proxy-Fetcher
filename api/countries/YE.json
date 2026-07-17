@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-07-16T11:08:25.009909",
+  "updated_at": "2026-07-17T10:55:28.953978",
   "total": 1,
   "data": [
     {
-      "ip": "134.35.214.34",
+      "ip": "109.200.172.86",
       "port": "8080",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "YE",
       "isp": "Public Telecommunication Corporation",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
