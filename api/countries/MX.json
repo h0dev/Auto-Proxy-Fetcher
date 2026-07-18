@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-18T19:14:54.428043",
-  "total": 2,
+  "updated_at": "2026-07-18T22:00:20.477192",
+  "total": 6,
   "data": [
     {
       "ip": "165.225.218.43",
@@ -8,6 +8,7 @@
       "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -19,9 +20,29 @@
       "type": "https"
     },
     {
-      "ip": "78.12.252.87",
-      "port": "57710",
+      "ip": "205.164.192.115",
+      "port": "999",
       "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "MULTICARRIER JE S. DE R.L. DE C.V.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "78.12.252.87",
+      "port": "33132",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -30,7 +51,56 @@
       "countryCode": "MX",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "78.12.252.87",
+      "port": "17925",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "78.13.215.130",
+      "port": "33942",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "78.12.252.87",
+      "port": "57710",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }
