@@ -1,15 +1,46 @@
 {
-  "updated_at": "2026-07-17T22:01:34.445183",
-  "total": 4,
+  "updated_at": "2026-07-18T02:52:33.168245",
+  "total": 6,
   "data": [
     {
-      "ip": "95.3.69.222",
-      "port": "8080",
+      "ip": "139.28.240.202",
+      "port": "1082",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "139.28.240.203",
+      "port": "1081",
+      "protocols": [
+        "socks5",
+        "http",
+        "socks4",
         "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "78.186.23.55",
+      "port": "3310",
+      "protocols": [
+        "http"
       ],
       "username": null,
       "password": null,
@@ -17,7 +48,7 @@
       "countryCode": "TR",
       "isp": "Turk Telekom",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "45.155.125.199",
@@ -34,7 +65,7 @@
       "countryCode": "TR",
       "isp": "2e Telekomunikasyon Ltd Sti",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "46.20.1.110",
@@ -64,7 +95,7 @@
       "countryCode": "TR",
       "isp": "Isimtescil Bilisim A.S.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
