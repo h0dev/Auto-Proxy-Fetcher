@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-18T13:29:47.534592",
-  "total": 3,
+  "updated_at": "2026-07-18T16:05:46.400940",
+  "total": 5,
   "data": [
     {
       "ip": "135.87.39.23",
       "port": "80",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Nokia Solutions and Networks Oy",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "193.35.17.153",
+      "port": "8888",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,26 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Nokia Solutions and Networks Oy",
+      "isp": "Play2go International Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "194.76.172.30",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Anton Levin",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "65.109.14.254",
@@ -34,10 +68,10 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "94.156.180.137",
+      "ip": "93.123.30.53",
       "port": "3128",
       "protocols": [
         "http",
@@ -49,7 +83,7 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Serv.host Group Ltd",
+      "isp": "Baykov Ilya Sergeevich",
       "user_type": "business",
       "type": "https"
     }
