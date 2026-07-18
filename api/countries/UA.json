@@ -1,12 +1,45 @@
 {
-  "updated_at": "2026-07-18T02:52:33.255382",
-  "total": 1,
+  "updated_at": "2026-07-18T05:35:24.025755",
+  "total": 3,
   "data": [
     {
-      "ip": "195.138.65.34",
-      "port": "5678",
+      "ip": "31.129.253.30",
+      "port": "39540",
       "protocols": [
-        "socks4",
+        "http",
+        "https",
+        "socks5",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "FOP Samoilenko Igor Olegovich",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "31.43.33.55",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks5",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Ukrainian Telecommunication Group LLC",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "95.85.72.90",
+      "port": "45269",
+      "protocols": [
         "http",
         "https",
         "socks5"
@@ -15,9 +48,9 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "TENET Scientific Production Enterprise LLC",
+      "isp": "G-Core Labs S.A.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
