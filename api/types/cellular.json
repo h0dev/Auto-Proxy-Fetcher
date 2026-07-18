@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-07-18T08:03:49.758849",
+  "updated_at": "2026-07-18T10:27:25.390394",
   "total": 7,
   "data": [
     {
-      "ip": "183.201.114.49",
+      "ip": "112.28.149.152",
+      "port": "8443",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "http"
+    },
+    {
+      "ip": "120.232.115.170",
       "port": "17981",
       "protocols": [
         "http",
@@ -15,35 +32,18 @@
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "IDC ShanXi China Mobile communications corporation",
+      "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
       "type": "https"
     },
     {
-      "ip": "196.204.83.229",
-      "port": "8080",
+      "ip": "120.220.197.197",
+      "port": "59999",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Egypt",
-      "countryCode": "EG",
-      "isp": "Vodafone Data",
-      "user_type": "cellular",
-      "type": "https"
-    },
-    {
-      "ip": "112.28.149.156",
-      "port": "8443",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -51,24 +51,7 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "https"
-    },
-    {
-      "ip": "112.28.149.152",
-      "port": "8443",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Mobile Communications Group Co., Ltd.",
-      "user_type": "cellular",
-      "type": "https"
+      "type": "socks5"
     },
     {
       "ip": "112.31.254.184",
@@ -119,7 +102,21 @@
       "countryCode": "IQ",
       "isp": "Horizon Scope Mobile Telecom WLL",
       "user_type": "cellular",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "223.111.182.16",
+      "port": "9063",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile communications corporation",
+      "user_type": "cellular",
+      "type": "http"
     }
   ]
 }
