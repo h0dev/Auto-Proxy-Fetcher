@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-07-19T16:05:59.619818",
-  "total": 2,
+  "updated_at": "2026-07-19T19:16:34.807851",
+  "total": 4,
   "data": [
+    {
+      "ip": "65.21.61.221",
+      "port": "8080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
     {
       "ip": "65.109.14.254",
       "port": "8080",
@@ -17,7 +34,24 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "93.123.30.53",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "95.217.212.193",
@@ -32,7 +66,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
