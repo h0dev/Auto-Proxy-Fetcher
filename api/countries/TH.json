@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-07-19T13:30:24.195101",
-  "total": 8,
+  "updated_at": "2026-07-19T16:05:59.611260",
+  "total": 10,
   "data": [
     {
-      "ip": "47.81.56.193",
-      "port": "8888",
+      "ip": "202.28.194.139",
+      "port": "31280",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Thailand",
       "countryCode": "TH",
-      "isp": "Alibaba (US) Technology Co., Ltd.",
+      "isp": "UNINET-TH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "119.46.68.228",
@@ -88,8 +88,25 @@
       "type": "socks4"
     },
     {
-      "ip": "43.208.243.207",
-      "port": "36313",
+      "ip": "49.48.90.63",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Thailand",
+      "countryCode": "TH",
+      "isp": "Triple T Broadband Public Company Limited",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "43.208.134.144",
+      "port": "8008",
       "protocols": [
         "socks4",
         "socks5"
@@ -118,8 +135,8 @@
       "type": "socks4"
     },
     {
-      "ip": "43.208.134.144",
-      "port": "8008",
+      "ip": "43.208.243.207",
+      "port": "36313",
       "protocols": [
         "socks4",
         "socks5"
@@ -131,6 +148,20 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "43.208.134.144",
+      "port": "19585",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Thailand",
+      "countryCode": "TH",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }
