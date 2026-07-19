@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-19T08:29:24.651310",
-  "total": 1,
+  "updated_at": "2026-07-19T10:43:04.384231",
+  "total": 2,
   "data": [
     {
       "ip": "176.111.37.216",
@@ -17,7 +17,24 @@
       "countryCode": "UA",
       "isp": "Cogento Backbone Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "37.52.13.164",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Unknown",
+      "user_type": "Unknown",
+      "type": "socks4"
     }
   ]
 }
