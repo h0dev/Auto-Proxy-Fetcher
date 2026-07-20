@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-07-20T14:23:58.436108",
-  "total": 3,
+  "updated_at": "2026-07-20T16:32:06.765019",
+  "total": 4,
   "data": [
     {
-      "ip": "194.182.178.90",
-      "port": "3128",
+      "ip": "88.213.214.254",
+      "port": "4145",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "Akenes SA",
+      "isp": "NETBOX LTD",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "194.182.178.90",
@@ -51,6 +51,23 @@
       "isp": "A1 Bulgaria EAD",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "92.247.31.130",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "A1 Bulgaria EAD",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
