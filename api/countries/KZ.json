@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-20T09:26:44.242596",
-  "total": 2,
+  "updated_at": "2026-07-20T14:23:58.430405",
+  "total": 4,
   "data": [
     {
-      "ip": "2.78.60.10",
-      "port": "3129",
+      "ip": "199.189.255.230",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "HostLab LLC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "199.189.255.230",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Kcell JSC",
+      "isp": "HostLab LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "170.168.101.28",
@@ -34,7 +51,21 @@
       "countryCode": "KZ",
       "isp": "JSC Transtelecom",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "95.182.107.210",
+      "port": "1080",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "TOO Kainar-Media",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
