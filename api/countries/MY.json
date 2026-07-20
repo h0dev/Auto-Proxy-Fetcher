@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-19T10:43:04.384767",
-  "total": 1,
+  "updated_at": "2026-07-20T22:08:16.665344",
+  "total": 2,
   "data": [
     {
-      "ip": "175.139.255.25",
-      "port": "8181",
+      "ip": "47.250.115.134",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Malaysia",
+      "countryCode": "MY",
+      "isp": "Alibaba (US) Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "56.68.116.64",
+      "port": "55508",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Malaysia",
       "countryCode": "MY",
-      "isp": "TM TECHNOLOGY SERVICES SDN. BHD.",
-      "user_type": "business",
-      "type": "https"
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }
