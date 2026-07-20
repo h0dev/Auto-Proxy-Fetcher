@@ -1,10 +1,25 @@
 {
-  "updated_at": "2026-07-19T22:02:51.221077",
-  "total": 10,
+  "updated_at": "2026-07-20T03:56:52.009814",
+  "total": 11,
   "data": [
     {
-      "ip": "147.161.246.36",
-      "port": "10826",
+      "ip": "147.161.246.37",
+      "port": "10082",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "147.161.246.37",
+      "port": "10801",
       "protocols": [
         "http",
         "https"
@@ -33,23 +48,8 @@
       "type": "http"
     },
     {
-      "ip": "147.161.246.37",
-      "port": "10801",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "147.161.246.37",
-      "port": "10082",
+      "ip": "147.161.246.36",
+      "port": "10826",
       "protocols": [
         "http",
         "https"
@@ -128,6 +128,23 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "91.92.155.207",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Akenes SA",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "16.18.37.186",
