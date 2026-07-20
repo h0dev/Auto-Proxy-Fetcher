@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-07-16T11:08:25.006986",
-  "total": 1,
+  "updated_at": "2026-07-20T09:26:44.242219",
+  "total": 2,
   "data": [
     {
-      "ip": "81.12.157.98",
-      "port": "5678",
+      "ip": "172.120.166.156",
+      "port": "443",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Romania",
       "countryCode": "RO",
-      "isp": "Vodafone Romania S.A.",
-      "user_type": "cellular",
-      "type": "socks4"
+      "isp": "M247 Europe SRL",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "172.120.166.205",
+      "port": "443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "M247 Europe SRL",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

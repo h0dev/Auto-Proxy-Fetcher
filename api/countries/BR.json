@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-07-20T03:56:52.012045",
-  "total": 8,
+  "updated_at": "2026-07-20T09:26:44.241454",
+  "total": 10,
   "data": [
     {
-      "ip": "189.91.162.128",
-      "port": "8080",
+      "ip": "209.14.70.124",
+      "port": "80",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "I. L. DE SOUSA",
+      "isp": "QNAX LTDA",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
+    },
+    {
+      "ip": "144.22.165.206",
+      "port": "1088",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Oracle Corporation",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "191.252.1.154",
@@ -34,7 +51,7 @@
       "countryCode": "BR",
       "isp": "Locaweb Servicos de Internet S/A",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "191.7.216.134",
@@ -51,7 +68,7 @@
       "countryCode": "BR",
       "isp": "ONLINE TELECOMUNICACOES LTDA",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "200.150.200.119",
@@ -71,8 +88,8 @@
       "type": "http"
     },
     {
-      "ip": "200.150.200.42",
-      "port": "80",
+      "ip": "45.71.81.73",
+      "port": "9292",
       "protocols": [
         "http",
         "https",
@@ -83,9 +100,25 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "Saveincloud Hospedagem na Internet Ltda",
-      "user_type": "hosting",
+      "isp": "Coelho Tecnologia",
+      "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "45.71.81.17",
+      "port": "9292",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Coelho Tecnologia",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "15.229.231.89",
@@ -118,18 +151,18 @@
       "type": "socks4"
     },
     {
-      "ip": "18.228.228.159",
-      "port": "4655",
+      "ip": "189.91.162.128",
+      "port": "8080",
       "protocols": [
-        "https"
+        "http"
       ],
       "username": null,
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
+      "isp": "I. L. DE SOUSA",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
