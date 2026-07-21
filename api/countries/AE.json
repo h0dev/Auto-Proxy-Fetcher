@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-07-20T22:08:16.664040",
-  "total": 2,
+  "updated_at": "2026-07-21T03:03:27.995220",
+  "total": 3,
   "data": [
     {
-      "ip": "47.91.104.88",
-      "port": "3128",
+      "ip": "45.135.181.68",
+      "port": "1080",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "United Arab Emirates",
       "countryCode": "AE",
-      "isp": "Alibaba (US) Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "https"
+      "isp": "MIRhosting B.V.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "45.135.181.68",
+      "port": "1081",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "isp": "MIRhosting B.V.",
+      "user_type": "hosting",
+      "type": "http"
     },
     {
       "ip": "147.161.160.46",
@@ -32,7 +49,7 @@
       "countryCode": "AE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

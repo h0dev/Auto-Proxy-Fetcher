@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-07-20T22:08:16.665554",
-  "total": 2,
+  "updated_at": "2026-07-21T03:03:27.994384",
+  "total": 3,
   "data": [
     {
       "ip": "38.76.9.0",
       "port": "999",
       "protocols": [
-        "http"
+        "http",
+        "socks5",
+        "socks4",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "VE",
       "isp": "ACT NETWORK, C.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "190.8.164.71",
@@ -31,6 +34,23 @@
       "countryCode": "VE",
       "isp": "CORPORACION FIBEX TELECOM, C.A.",
       "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "191.97.16.71",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Venezuela",
+      "countryCode": "VE",
+      "isp": "INVERSIONES FRITZ 78 C.A.(WIFI SOLUTION)",
+      "user_type": "business",
       "type": "https"
     }
   ]
