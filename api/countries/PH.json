@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-07-21T16:30:18.455266",
-  "total": 3,
+  "updated_at": "2026-07-21T19:42:01.552452",
+  "total": 4,
   "data": [
+    {
+      "ip": "180.190.84.27",
+      "port": "8082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Philippines",
+      "countryCode": "PH",
+      "isp": "Globe Telecoms",
+      "user_type": "residential",
+      "type": "https"
+    },
     {
       "ip": "115.84.248.140",
       "port": "8080",
@@ -17,16 +34,30 @@
       "countryCode": "PH",
       "isp": "Eastern Telecoms Phils., Inc.",
       "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "180.191.233.145",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Philippines",
+      "countryCode": "PH",
+      "isp": "Globe Telecoms",
+      "user_type": "residential",
       "type": "http"
     },
     {
-      "ip": "122.3.127.241",
+      "ip": "49.147.122.156",
       "port": "8082",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
@@ -35,23 +66,6 @@
       "isp": "Philippine Long Distance Telephone Company",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "122.3.127.241",
-      "port": "9999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Philippines",
-      "countryCode": "PH",
-      "isp": "Philippine Long Distance Telephone Company",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
