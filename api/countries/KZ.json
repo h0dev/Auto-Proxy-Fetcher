@@ -1,15 +1,32 @@
 {
-  "updated_at": "2026-07-21T06:08:57.089411",
-  "total": 1,
+  "updated_at": "2026-07-21T11:16:51.981855",
+  "total": 2,
   "data": [
     {
-      "ip": "199.189.255.230",
-      "port": "1080",
+      "ip": "2.78.60.10",
+      "port": "3129",
       "protocols": [
-        "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Kcell JSC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "199.189.255.230",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,7 +34,7 @@
       "countryCode": "KZ",
       "isp": "HostLab LLC",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
