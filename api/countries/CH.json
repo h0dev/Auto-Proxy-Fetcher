@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-22T03:01:06.356250",
-  "total": 17,
+  "updated_at": "2026-07-22T05:59:24.976772",
+  "total": 13,
   "data": [
     {
       "ip": "45.59.122.132",
       "port": "80",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,21 +17,6 @@
       "countryCode": "CH",
       "isp": "RouterHosting LLC",
       "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "147.161.246.37",
-      "port": "10801",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
       "type": "http"
     },
     {
@@ -47,11 +32,11 @@
       "countryCode": "CH",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "147.161.246.36",
-      "port": "10826",
+      "ip": "147.161.246.37",
+      "port": "10801",
       "protocols": [
         "http",
         "https"
@@ -62,11 +47,26 @@
       "countryCode": "CH",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "147.161.246.39",
       "port": "11592",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "147.161.246.36",
+      "port": "10826",
       "protocols": [
         "http",
         "https"
@@ -94,7 +94,7 @@
       "countryCode": "CH",
       "isp": "Oracle Corporation",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "16.62.229.137",
@@ -113,21 +113,6 @@
       "type": "socks4"
     },
     {
-      "ip": "16.62.229.137",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
       "ip": "16.18.37.186",
       "port": "39388",
       "protocols": [
@@ -141,38 +126,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "https"
-    },
-    {
-      "ip": "16.18.37.186",
-      "port": "6742",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "194.182.163.117",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Akenes SA",
-      "user_type": "business",
-      "type": "http"
     },
     {
       "ip": "51.34.28.236",
@@ -190,23 +143,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "91.92.155.207",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Akenes SA",
-      "user_type": "business",
-      "type": "http"
     },
     {
       "ip": "16.18.37.186",
@@ -238,8 +174,8 @@
       "type": "socks5"
     },
     {
-      "ip": "16.62.229.137",
-      "port": "29824",
+      "ip": "16.62.123.236",
+      "port": "46400",
       "protocols": [
         "https"
       ],
@@ -252,8 +188,8 @@
       "type": "https"
     },
     {
-      "ip": "16.62.123.236",
-      "port": "46400",
+      "ip": "16.62.229.137",
+      "port": "29824",
       "protocols": [
         "https"
       ],
