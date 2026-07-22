@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-22T05:59:24.982161",
-  "total": 1,
+  "updated_at": "2026-07-22T08:40:00.673558",
+  "total": 2,
   "data": [
     {
       "ip": "2.78.60.10",
@@ -17,7 +17,24 @@
       "countryCode": "KZ",
       "isp": "Kcell JSC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "170.168.101.28",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "socks5"
     }
   ]
 }
