@@ -1,22 +1,36 @@
 {
-  "updated_at": "2026-07-22T08:40:00.677986",
-  "total": 1,
+  "updated_at": "2026-07-22T14:09:52.162856",
+  "total": 2,
   "data": [
     {
-      "ip": "185.126.114.247",
-      "port": "60001",
+      "ip": "31.43.33.55",
+      "port": "4153",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Server.ua LLC",
-      "user_type": "hosting",
+      "isp": "Ukrainian Telecommunication Group LLC",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "176.97.56.76",
+      "port": "3128",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "PP Zastava Plus",
+      "user_type": "business",
       "type": "http"
     }
   ]
