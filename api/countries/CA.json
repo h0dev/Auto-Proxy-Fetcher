@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T03:23:02.747116",
+  "updated_at": "2026-07-23T08:40:52.552372",
   "total": 39,
   "data": [
     {
@@ -18,6 +18,23 @@
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
       "type": "http"
+    },
+    {
+      "ip": "15.223.237.12",
+      "port": "1828",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "3.99.158.157",
@@ -54,8 +71,8 @@
       "type": "socks4"
     },
     {
-      "ip": "40.177.99.164",
-      "port": "33152",
+      "ip": "99.79.58.74",
+      "port": "25862",
       "protocols": [
         "http",
         "https",
@@ -71,8 +88,25 @@
       "type": "socks4"
     },
     {
-      "ip": "40.176.175.23",
-      "port": "40221",
+      "ip": "15.223.237.12",
+      "port": "16620",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "15.223.237.12",
+      "port": "17035",
       "protocols": [
         "http",
         "https",
@@ -103,59 +137,8 @@
       "type": "http"
     },
     {
-      "ip": "15.223.237.12",
-      "port": "17035",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "15.223.237.12",
-      "port": "16620",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
       "ip": "159.203.61.169",
       "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "159.203.61.169",
-      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -183,6 +166,23 @@
       "countryCode": "CA",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "159.203.61.169",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
       "type": "https"
     },
     {
@@ -203,19 +203,21 @@
       "type": "socks5"
     },
     {
-      "ip": "165.225.212.47",
-      "port": "10135",
+      "ip": "16.52.81.236",
+      "port": "39457",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "165.225.210.46",
@@ -230,28 +232,26 @@
       "countryCode": "CA",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "3.99.158.157",
-      "port": "54809",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
       "type": "https"
     },
     {
-      "ip": "3.99.158.157",
-      "port": "31623",
+      "ip": "165.225.212.47",
+      "port": "10135",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "ZSCALER, INC.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "192.18.158.84",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -262,7 +262,24 @@
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
+      "isp": "Oracle Corporation",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "192.99.19.41",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "OVH SAS",
       "user_type": "hosting",
       "type": "https"
     },
@@ -281,11 +298,28 @@
       "countryCode": "CA",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "3.99.158.157",
+      "port": "54809",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "35.182.12.78",
-      "port": "15618",
+      "port": "4605",
       "protocols": [
         "http",
         "https",
@@ -319,6 +353,40 @@
     },
     {
       "ip": "35.182.12.78",
+      "port": "23834",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "35.182.12.78",
+      "port": "29623",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "35.182.12.78",
       "port": "8181",
       "protocols": [
         "http",
@@ -330,11 +398,96 @@
       "countryCode": "CA",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "35.182.12.78",
+      "port": "221",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "35.182.12.78",
+      "port": "9002",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "40.176.175.23",
       "port": "25367",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.176.175.23",
+      "port": "3912",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.176.175.23",
+      "port": "40221",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.176.175.23",
+      "port": "8118",
       "protocols": [
         "http",
         "https",
@@ -363,74 +516,6 @@
       "countryCode": "CA",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "40.176.175.23",
-      "port": "8118",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "40.177.99.164",
-      "port": "8527",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "40.177.99.164",
-      "port": "48472",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "99.79.58.74",
-      "port": "16415",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
       "type": "socks4"
     },
     {
@@ -446,7 +531,7 @@
       "countryCode": "CA",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "35.182.12.78",
@@ -479,20 +564,6 @@
       "type": "socks4"
     },
     {
-      "ip": "40.177.99.164",
-      "port": "10",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
       "ip": "15.223.237.12",
       "port": "245",
       "protocols": [
@@ -521,48 +592,6 @@
       "type": "https"
     },
     {
-      "ip": "3.99.158.157",
-      "port": "25638",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "35.182.12.78",
-      "port": "40736",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "99.79.58.74",
-      "port": "55361",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
       "ip": "35.183.127.162",
       "port": "44427",
       "protocols": [
@@ -577,8 +606,8 @@
       "type": "https"
     },
     {
-      "ip": "16.52.81.236",
-      "port": "55623",
+      "ip": "3.99.158.157",
+      "port": "25638",
       "protocols": [
         "https"
       ],
@@ -591,22 +620,8 @@
       "type": "https"
     },
     {
-      "ip": "15.223.237.12",
-      "port": "1828",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Canada",
-      "countryCode": "CA",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
       "ip": "99.79.58.74",
-      "port": "25862",
+      "port": "8081",
       "protocols": [
         "http"
       ],
