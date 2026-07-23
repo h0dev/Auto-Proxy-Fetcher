@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-22T22:12:12.855138",
-  "total": 4,
+  "updated_at": "2026-07-23T03:23:02.737116",
+  "total": 6,
   "data": [
     {
       "ip": "139.28.240.201",
       "port": "1082",
       "protocols": [
+        "socks4",
         "socks5",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,13 +20,30 @@
       "type": "socks4"
     },
     {
+      "ip": "139.28.241.247",
+      "port": "1082",
+      "protocols": [
+        "socks5",
+        "http",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
       "ip": "95.3.69.222",
       "port": "8080",
       "protocols": [
         "http",
-        "socks5",
+        "https",
         "socks4",
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -51,7 +68,22 @@
       "countryCode": "TR",
       "isp": "Superonline Iletisim Hizmetleri A.S.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "46.20.1.110",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Dgn Teknoloji A.s.",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "93.89.225.119",

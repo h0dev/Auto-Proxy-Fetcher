@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-22T16:29:26.049493",
-  "total": 1,
+  "updated_at": "2026-07-23T03:23:02.745184",
+  "total": 2,
   "data": [
     {
       "ip": "103.157.200.126",
       "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "Logitech Cable (Private) Limited",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "115.42.67.186",
+      "port": "56534",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "Logitech Cable (Private) Limited",
-      "user_type": "residential",
-      "type": "http"
+      "isp": "Connect Communications",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

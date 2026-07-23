@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-22T22:12:12.857009",
-  "total": 5,
+  "updated_at": "2026-07-23T03:23:02.750045",
+  "total": 3,
   "data": [
     {
       "ip": "220.128.223.136",
@@ -23,10 +23,10 @@
       "ip": "220.128.223.136",
       "port": "8082",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -34,7 +34,7 @@
       "countryCode": "TW",
       "isp": "Data Communication Business Group",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "125.227.169.85",
@@ -52,40 +52,6 @@
       "isp": "Data Communication Business Group",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "164.52.11.194",
-      "port": "18080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Taiwan",
-      "countryCode": "TW",
-      "isp": "CDS Global Cloud Co., Ltd",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "220.128.223.136",
-      "port": "8081",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Taiwan",
-      "countryCode": "TW",
-      "isp": "Data Communication Business Group",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }

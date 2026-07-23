@@ -1,23 +1,37 @@
 {
-  "updated_at": "2026-07-22T22:12:12.867498",
-  "total": 1,
+  "updated_at": "2026-07-23T03:23:02.745359",
+  "total": 2,
   "data": [
     {
-      "ip": "49.156.44.117",
-      "port": "8080",
+      "ip": "103.239.52.100",
+      "port": "1080",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Cambodia",
+      "countryCode": "KH",
+      "isp": "Cogetel Online, Cambodia, ISP",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "111.67.103.162",
+      "port": "1080",
+      "protocols": [
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Cambodia",
       "countryCode": "KH",
-      "isp": "WiCAM Corporation Ltd.",
+      "isp": "Mega Truenet Communication Co., Ltd.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     }
   ]
 }
