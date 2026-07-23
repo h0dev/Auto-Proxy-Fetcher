@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-23T08:40:52.557102",
-  "total": 1,
+  "updated_at": "2026-07-23T11:18:55.478610",
+  "total": 2,
   "data": [
     {
-      "ip": "203.189.150.44",
+      "ip": "175.100.37.171",
       "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Cambodia",
+      "countryCode": "KH",
+      "isp": "ISP/IXP IN CAMBODIA WITH THE BEST VERVICE IN THERE.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "49.156.44.117",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Cambodia",
       "countryCode": "KH",
-      "isp": "Cogetel Online, Cambodia, ISP",
+      "isp": "WiCAM Corporation Ltd.",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     }
   ]
 }
