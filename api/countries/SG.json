@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-23T11:18:55.477376",
-  "total": 84,
+  "updated_at": "2026-07-23T14:15:34.197534",
+  "total": 70,
   "data": [
     {
-      "ip": "128.199.202.122",
-      "port": "8080",
+      "ip": "207.148.71.11",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "The Constant Company, LLC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "159.223.52.199",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -17,28 +34,28 @@
       "countryCode": "SG",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "54.255.249.161",
-      "port": "37486",
+      "ip": "43.160.250.124",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "http",
+        "socks5",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Singapore",
       "countryCode": "SG",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
+      "isp": "Tencent Building, Kejizhongyi Avenue",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
-      "ip": "18.142.95.213",
-      "port": "51580",
+      "ip": "54.255.249.161",
+      "port": "37486",
       "protocols": [
         "http",
         "https",
@@ -68,7 +85,75 @@
       "countryCode": "SG",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "18.142.95.213",
+      "port": "51580",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "101.32.243.189",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Tencent Building, Kejizhongyi Avenue",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "104.248.151.93",
+      "port": "9090",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
       "type": "http"
+    },
+    {
+      "ip": "128.199.121.61",
+      "port": "9090",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "https"
     },
     {
       "ip": "128.199.202.122",
@@ -102,45 +187,11 @@
       "countryCode": "SG",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "128.199.66.186",
       "port": "443",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "128.199.75.57",
-      "port": "443",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "128.199.121.61",
-      "port": "9090",
       "protocols": [
         "http",
         "https",
@@ -170,7 +221,41 @@
       "countryCode": "SG",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "128.199.75.57",
+      "port": "443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "129.226.206.61",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Tencent Building, Kejizhongyi Avenue",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "128.199.202.122",
@@ -188,23 +273,6 @@
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
       "type": "socks5"
-    },
-    {
-      "ip": "13.212.26.15",
-      "port": "50457",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
     },
     {
       "ip": "13.212.26.15",
@@ -255,27 +323,10 @@
       "countryCode": "SG",
       "isp": "The Constant Company, LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "141.0.8.240",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Opera Norway AS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "141.0.11.244",
+      "ip": "141.0.11.241",
       "port": "80",
       "protocols": [
         "http",
@@ -309,6 +360,57 @@
       "type": "http"
     },
     {
+      "ip": "141.0.11.243",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Opera Norway AS",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "141.0.8.95",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Opera Norway AS",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "141.0.8.240",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Opera Norway AS",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
       "ip": "141.0.8.24",
       "port": "80",
       "protocols": [
@@ -323,44 +425,10 @@
       "countryCode": "SG",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "141.0.11.250",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Opera Norway AS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "141.0.9.176",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Opera Norway AS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "141.0.11.254",
       "port": "80",
       "protocols": [
         "http",
@@ -392,24 +460,7 @@
       "type": "http"
     },
     {
-      "ip": "141.0.8.95",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Opera Norway AS",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "141.0.11.241",
+      "ip": "141.0.11.254",
       "port": "80",
       "protocols": [
         "http",
@@ -443,7 +494,7 @@
       "type": "http"
     },
     {
-      "ip": "141.0.11.243",
+      "ip": "141.0.11.244",
       "port": "80",
       "protocols": [
         "http",
@@ -474,7 +525,7 @@
       "countryCode": "SG",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "146.190.80.158",
@@ -491,7 +542,7 @@
       "countryCode": "SG",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "152.42.177.32",
@@ -508,159 +559,6 @@
       "countryCode": "SG",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "152.42.170.187",
-      "port": "9090",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "157.230.40.79",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "159.223.41.216",
-      "port": "9090",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "165.225.113.220",
-      "port": "11213",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.113.220",
-      "port": "10087",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.113.220",
-      "port": "10441",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.113.220",
-      "port": "10679",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.113.220",
-      "port": "10201",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.113.220",
-      "port": "10347",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
       "type": "http"
     },
     {
@@ -678,11 +576,11 @@
       "countryCode": "SG",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "165.225.113.220",
-      "port": "10114",
+      "port": "10201",
       "protocols": [
         "http",
         "https",
@@ -712,11 +610,11 @@
       "countryCode": "SG",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "165.225.113.220",
-      "port": "10723",
+      "port": "10087",
       "protocols": [
         "http",
         "https",
@@ -729,11 +627,11 @@
       "countryCode": "SG",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "165.225.113.220",
-      "port": "10021",
+      "port": "10114",
       "protocols": [
         "http",
         "https",
@@ -763,45 +661,11 @@
       "countryCode": "SG",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "165.225.113.220",
-      "port": "11363",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "165.225.113.220",
-      "port": "11743",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
       "type": "http"
     },
     {
       "ip": "165.225.113.220",
-      "port": "22222",
+      "port": "11213",
       "protocols": [
         "http",
         "https",
@@ -814,57 +678,6 @@
       "countryCode": "SG",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.113.220",
-      "port": "11233",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "165.225.113.220",
-      "port": "11267",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "ZSCALER, INC.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "167.172.76.176",
-      "port": "9090",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
       "type": "https"
     },
     {
@@ -882,11 +695,11 @@
       "countryCode": "SG",
       "isp": "Akamai Connected Cloud",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "178.128.20.207",
-      "port": "80",
+      "ip": "18.142.95.213",
+      "port": "24767",
       "protocols": [
         "http",
         "https",
@@ -897,9 +710,9 @@
       "password": null,
       "country": "Singapore",
       "countryCode": "SG",
-      "isp": "DigitalOcean, LLC",
+      "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "18.142.95.213",
@@ -916,7 +729,7 @@
       "countryCode": "SG",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "194.233.73.105",
@@ -933,7 +746,7 @@
       "countryCode": "SG",
       "isp": "Contabo Asia Private Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "194.233.73.103",
@@ -950,11 +763,11 @@
       "countryCode": "SG",
       "isp": "Contabo Asia Private Limited",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "43.159.29.119",
-      "port": "20101",
+      "ip": "43.159.29.145",
+      "port": "24059",
       "protocols": [
         "http",
         "https",
@@ -984,62 +797,11 @@
       "countryCode": "SG",
       "isp": "Tencent Building, Kejizhongyi Avenue",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "43.159.29.14",
-      "port": "28492",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Tencent Building, Kejizhongyi Avenue",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "43.159.29.145",
-      "port": "24418",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Tencent Building, Kejizhongyi Avenue",
-      "user_type": "business",
       "type": "http"
     },
     {
       "ip": "43.159.29.14",
-      "port": "29380",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Tencent Building, Kejizhongyi Avenue",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "43.159.29.145",
-      "port": "24059",
+      "port": "29295",
       "protocols": [
         "http",
         "https",
@@ -1056,7 +818,24 @@
     },
     {
       "ip": "43.159.29.119",
-      "port": "20009",
+      "port": "20487",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Tencent Building, Kejizhongyi Avenue",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "43.159.29.14",
+      "port": "28492",
       "protocols": [
         "http",
         "https",
@@ -1086,11 +865,11 @@
       "countryCode": "SG",
       "isp": "Tencent Building, Kejizhongyi Avenue",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "43.159.29.14",
-      "port": "29295",
+      "ip": "43.159.29.145",
+      "port": "24418",
       "protocols": [
         "http",
         "https",
@@ -1107,7 +886,7 @@
     },
     {
       "ip": "43.159.29.119",
-      "port": "20487",
+      "port": "20009",
       "protocols": [
         "http",
         "https",
@@ -1123,8 +902,25 @@
       "type": "http"
     },
     {
-      "ip": "43.156.114.4",
-      "port": "80",
+      "ip": "43.159.29.119",
+      "port": "20101",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Tencent Building, Kejizhongyi Avenue",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "43.159.29.14",
+      "port": "29380",
       "protocols": [
         "http",
         "https",
@@ -1157,23 +953,6 @@
       "type": "http"
     },
     {
-      "ip": "43.163.112.8",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Tencent Building, Kejizhongyi Avenue",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
       "ip": "43.159.20.148",
       "port": "24082",
       "protocols": [
@@ -1188,41 +967,7 @@
       "countryCode": "SG",
       "isp": "Tencent Building, Kejizhongyi Avenue",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "43.159.20.148",
-      "port": "24411",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Tencent Building, Kejizhongyi Avenue",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "43.159.20.148",
-      "port": "24225",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Tencent Building, Kejizhongyi Avenue",
-      "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "43.159.20.148",
@@ -1240,6 +985,40 @@
       "isp": "Tencent Building, Kejizhongyi Avenue",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "43.159.20.148",
+      "port": "24411",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Tencent Building, Kejizhongyi Avenue",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "43.159.20.148",
+      "port": "24225",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Tencent Building, Kejizhongyi Avenue",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "47.236.129.49",
@@ -1273,7 +1052,7 @@
       "countryCode": "SG",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "54.255.249.161",
@@ -1290,11 +1069,11 @@
       "countryCode": "SG",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "54.255.249.161",
-      "port": "58255",
+      "port": "41549",
       "protocols": [
         "http",
         "https",
@@ -1324,41 +1103,7 @@
       "countryCode": "SG",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "54.255.249.161",
-      "port": "41549",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "54.255.249.161",
-      "port": "9002",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Singapore",
-      "countryCode": "SG",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "43.160.249.13",
@@ -1373,11 +1118,25 @@
       "countryCode": "SG",
       "isp": "Tencent Building, Kejizhongyi Avenue",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "13.212.26.15",
+      "port": "27048",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Singapore",
+      "countryCode": "SG",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "https"
     },
     {
-      "ip": "54.255.249.161",
-      "port": "5767",
+      "ip": "13.212.26.15",
+      "port": "1384",
       "protocols": [
         "https"
       ],
@@ -1404,10 +1163,10 @@
       "type": "https"
     },
     {
-      "ip": "18.142.95.213",
-      "port": "1891",
+      "ip": "54.255.249.161",
+      "port": "5767",
       "protocols": [
-        "http"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -1415,7 +1174,7 @@
       "countryCode": "SG",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     }
   ]
 }

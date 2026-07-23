@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-23T11:18:55.486266",
-  "total": 1,
+  "updated_at": "2026-07-23T14:15:34.199359",
+  "total": 2,
   "data": [
     {
-      "ip": "31.43.63.70",
-      "port": "4145",
+      "ip": "178.150.77.204",
+      "port": "10801",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Content Delivery Network Ltd",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "185.126.114.247",
+      "port": "60001",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Ukrainian Telecommunication Group LLC",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "Server.ua LLC",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }
