@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-23T19:28:58.097621",
-  "total": 5,
+  "updated_at": "2026-07-23T22:13:40.217440",
+  "total": 6,
   "data": [
     {
       "ip": "56.68.116.64",
@@ -21,9 +21,12 @@
     },
     {
       "ip": "56.68.116.64",
-      "port": "20702",
+      "port": "39139",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -31,13 +34,50 @@
       "countryCode": "MY",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "56.68.116.64",
+      "port": "9443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Malaysia",
+      "countryCode": "MY",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "56.68.116.64",
+      "port": "41757",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Malaysia",
+      "countryCode": "MY",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "56.68.116.64",
       "port": "42566",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -45,13 +85,16 @@
       "countryCode": "MY",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "56.68.116.64",
-      "port": "9398",
+      "port": "20702",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -59,21 +102,7 @@
       "countryCode": "MY",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "56.68.116.64",
-      "port": "39139",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Malaysia",
-      "countryCode": "MY",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
