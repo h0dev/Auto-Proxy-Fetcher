@@ -1,22 +1,39 @@
 {
-  "updated_at": "2026-07-24T08:37:34.179973",
+  "updated_at": "2026-07-24T11:10:42.015137",
   "total": 14,
   "data": [
     {
-      "ip": "177.73.77.19",
-      "port": "4153",
+      "ip": "187.72.215.33",
+      "port": "3128",
       "protocols": [
+        "http",
+        "socks5",
         "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "ALGAR TELECOM S/A",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "15.229.231.89",
+      "port": "34784",
+      "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "AVANZA TELECOM LTDA",
-      "user_type": "residential",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "socks4"
     },
     {
@@ -38,54 +55,8 @@
     },
     {
       "ip": "15.229.231.89",
-      "port": "34784",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "15.229.231.89",
-      "port": "20671",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "15.229.231.89",
       "port": "10826",
       "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "18.228.228.159",
-      "port": "8090",
-      "protocols": [
         "http",
         "https",
         "socks4",
@@ -100,8 +71,8 @@
       "type": "socks4"
     },
     {
-      "ip": "18.228.228.159",
-      "port": "8333",
+      "ip": "168.197.115.54",
+      "port": "4153",
       "protocols": [
         "http",
         "https",
@@ -112,13 +83,13 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
+      "isp": "Une Telecom Ltda",
+      "user_type": "residential",
       "type": "socks4"
     },
     {
-      "ip": "191.252.1.154",
-      "port": "80",
+      "ip": "187.102.16.66",
+      "port": "51327",
       "protocols": [
         "http",
         "https",
@@ -129,9 +100,9 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "Locaweb Servicos de Internet S/A",
-      "user_type": "business",
-      "type": "https"
+      "isp": "GHNET TELECOM LTDA",
+      "user_type": "residential",
+      "type": "socks4"
     },
     {
       "ip": "191.7.216.134",
@@ -151,8 +122,8 @@
       "type": "https"
     },
     {
-      "ip": "200.159.143.38",
-      "port": "8080",
+      "ip": "191.252.1.154",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -163,16 +134,49 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "Winfnet Telecom Wireless Ltda",
-      "user_type": "cellular",
-      "type": "https"
+      "isp": "Locaweb Servicos de Internet S/A",
+      "user_type": "business",
+      "type": "http"
     },
     {
-      "ip": "45.71.81.73",
-      "port": "9292",
+      "ip": "200.150.200.119",
+      "port": "80",
       "protocols": [
         "http",
         "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Saveincloud Hospedagem na Internet Ltda",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "200.150.200.42",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Saveincloud Hospedagem na Internet Ltda",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "45.71.81.17",
+      "port": "9292",
+      "protocols": [
+        "http",
         "socks4",
         "socks5"
       ],
@@ -185,10 +189,11 @@
       "type": "http"
     },
     {
-      "ip": "45.71.81.17",
+      "ip": "45.71.81.73",
       "port": "9292",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
