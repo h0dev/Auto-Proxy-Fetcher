@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-07-24T03:01:22.043869",
+  "updated_at": "2026-07-24T06:00:11.934541",
   "total": 3,
   "data": [
     {
-      "ip": "149.130.182.81",
-      "port": "1080",
+      "ip": "190.0.246.211",
+      "port": "4040",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "Oracle Corporation",
+      "isp": "Media Commerce Partners S.A",
       "user_type": "business",
-      "type": "socks5"
+      "type": "http"
+    },
+    {
+      "ip": "190.0.246.210",
+      "port": "4040",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Media Commerce Partners S.A",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "38.225.225.20",
@@ -34,24 +51,7 @@
       "countryCode": "CO",
       "isp": "SOMOS NETWORKS COLOMBIA S.A.S. BIC",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "64.204.90.177",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Colombia",
-      "countryCode": "CO",
-      "isp": "U2RED S.A.S",
-      "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
