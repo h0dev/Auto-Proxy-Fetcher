@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-07-25T16:12:04.644583",
-  "total": 4,
+  "updated_at": "2026-07-25T19:18:30.641318",
+  "total": 6,
   "data": [
+    {
+      "ip": "135.87.39.23",
+      "port": "443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Nokia Solutions and Networks Oy",
+      "user_type": "business",
+      "type": "http"
+    },
     {
       "ip": "135.87.39.23",
       "port": "9443",
@@ -17,7 +34,7 @@
       "countryCode": "FI",
       "isp": "Nokia Solutions and Networks Oy",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "65.109.14.254",
@@ -37,23 +54,6 @@
       "type": "http"
     },
     {
-      "ip": "65.109.87.121",
-      "port": "18080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
       "ip": "95.217.212.193",
       "port": "8080",
       "protocols": [
@@ -67,6 +67,34 @@
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
       "type": "https"
+    },
+    {
+      "ip": "65.109.218.45",
+      "port": "1080",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "65.109.10.251",
+      "port": "1080",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }
