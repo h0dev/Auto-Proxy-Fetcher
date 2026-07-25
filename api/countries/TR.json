@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-07-25T08:16:55.323606",
-  "total": 13,
+  "updated_at": "2026-07-25T10:42:03.905489",
+  "total": 16,
   "data": [
     {
-      "ip": "95.3.69.222",
-      "port": "8080",
+      "ip": "139.28.240.201",
+      "port": "1082",
       "protocols": [
-        "http",
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Türkiye",
       "countryCode": "TR",
-      "isp": "Turk Telekom",
+      "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "89.145.186.194",
+      "port": "4153",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Yeni Telekom Internet Hizmetleri Ltd. Sirketi",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "45.155.125.199",
@@ -34,7 +51,7 @@
       "countryCode": "TR",
       "isp": "2e Telekomunikasyon Ltd Sti",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "46.20.1.110",
@@ -49,11 +66,11 @@
       "countryCode": "TR",
       "isp": "Dgn Teknoloji A.s.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "88.247.177.8",
-      "port": "3310",
+      "ip": "88.245.138.87",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -66,28 +83,11 @@
       "countryCode": "TR",
       "isp": "Turk Telekom",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "93.180.133.55",
-      "port": "1081",
-      "protocols": [
-        "http",
-        "https",
-        "socks5",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Hzd Teknoloji Ve Inovasyon San. Ve Tic. Ltd. Sti.",
-      "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "93.180.133.57",
-      "port": "1084",
+      "ip": "93.180.133.54",
+      "port": "1082",
       "protocols": [
         "http",
         "https",
@@ -103,11 +103,12 @@
       "type": "socks4"
     },
     {
-      "ip": "93.180.133.58",
-      "port": "1081",
+      "ip": "93.180.133.57",
+      "port": "1082",
       "protocols": [
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -116,38 +117,7 @@
       "countryCode": "TR",
       "isp": "Hzd Teknoloji Ve Inovasyon San. Ve Tic. Ltd. Sti.",
       "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "93.89.225.119",
-      "port": "2082",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Isimtescil Bilisim A.S.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "93.180.133.54",
-      "port": "1081",
-      "protocols": [
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Hzd Teknoloji Ve Inovasyon San. Ve Tic. Ltd. Sti.",
-      "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "93.180.133.56",
@@ -168,7 +138,58 @@
     },
     {
       "ip": "93.180.133.57",
-      "port": "1082",
+      "port": "1083",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Hzd Teknoloji Ve Inovasyon San. Ve Tic. Ltd. Sti.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "93.180.133.57",
+      "port": "1084",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Hzd Teknoloji Ve Inovasyon San. Ve Tic. Ltd. Sti.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "93.180.133.56",
+      "port": "1083",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Hzd Teknoloji Ve Inovasyon San. Ve Tic. Ltd. Sti.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "93.180.133.55",
+      "port": "1081",
       "protocols": [
         "http",
         "https",
@@ -185,7 +206,7 @@
     },
     {
       "ip": "93.180.133.54",
-      "port": "1082",
+      "port": "1081",
       "protocols": [
         "http",
         "https",
@@ -202,9 +223,42 @@
     },
     {
       "ip": "93.180.133.58",
-      "port": "1084",
+      "port": "1081",
       "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Hzd Teknoloji Ve Inovasyon San. Ve Tic. Ltd. Sti.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "93.89.225.119",
+      "port": "2082",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Isimtescil Bilisim A.S.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "93.180.133.56",
+      "port": "1081",
+      "protocols": [
+        "socks5",
+        "http"
       ],
       "username": null,
       "password": null,
