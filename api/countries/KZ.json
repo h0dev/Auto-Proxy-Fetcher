@@ -1,10 +1,44 @@
 {
-  "updated_at": "2026-07-25T22:04:05.871928",
-  "total": 1,
+  "updated_at": "2026-07-26T03:27:38.606765",
+  "total": 3,
   "data": [
     {
-      "ip": "91.224.74.107",
-      "port": "3128",
+      "ip": "78.140.223.167",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Enterprise Cloud Ltd.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "46.247.41.222",
+      "port": "443",
+      "protocols": [
+        "https",
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "PS Internet Company LLP",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "85.198.90.68",
+      "port": "8118",
       "protocols": [
         "http",
         "https",
@@ -15,9 +49,9 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Newserverlife LLC",
-      "user_type": "hosting",
-      "type": "http"
+      "isp": "Itglobal.com Kz Llp",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
