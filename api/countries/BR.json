@@ -1,7 +1,58 @@
 {
-  "updated_at": "2026-07-26T19:22:06.416529",
-  "total": 9,
+  "updated_at": "2026-07-26T22:07:31.743747",
+  "total": 12,
   "data": [
+    {
+      "ip": "201.20.42.46",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Equinix (EMEA) Acquisition Enterprises B.V.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "189.50.138.10",
+      "port": "5678",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "AS28330",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "177.55.191.22",
+      "port": "60606",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "BTT TELECOMUNICACOES S.A.",
+      "user_type": "residential",
+      "type": "socks4"
+    },
     {
       "ip": "191.252.1.154",
       "port": "80",
@@ -34,7 +85,7 @@
       "countryCode": "BR",
       "isp": "ONLINE TELECOMUNICACOES LTDA",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "200.150.200.119",
@@ -51,7 +102,7 @@
       "countryCode": "BR",
       "isp": "Saveincloud Hospedagem na Internet Ltda",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "200.150.203.126",
@@ -68,30 +119,14 @@
       "countryCode": "BR",
       "isp": "Saveincloud Hospedagem na Internet Ltda",
       "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "200.150.200.42",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "Saveincloud Hospedagem na Internet Ltda",
-      "user_type": "hosting",
       "type": "http"
     },
     {
-      "ip": "45.71.81.17",
+      "ip": "45.71.81.73",
       "port": "9292",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -104,11 +139,10 @@
       "type": "http"
     },
     {
-      "ip": "45.71.81.73",
+      "ip": "45.71.81.17",
       "port": "9292",
       "protocols": [
         "http",
-        "https",
         "socks4",
         "socks5"
       ],
@@ -149,6 +183,20 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "18.228.228.159",
+      "port": "4655",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }

@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-07-26T19:22:06.413853",
-  "total": 1,
+  "updated_at": "2026-07-26T22:07:31.745169",
+  "total": 2,
   "data": [
     {
       "ip": "170.168.101.28",
-      "port": "8080",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "91.246.81.230",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -17,7 +34,7 @@
       "countryCode": "KZ",
       "isp": "JSC Transtelecom",
       "user_type": "residential",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
