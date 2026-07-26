@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-07-18T08:03:49.784136",
+  "updated_at": "2026-07-26T19:22:06.417135",
   "total": 1,
   "data": [
     {
-      "ip": "213.6.249.37",
-      "port": "18000",
+      "ip": "213.6.68.210",
+      "port": "4145",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "PS",
       "isp": "Palestine Telecommunications Company (PALTEL)",
       "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
