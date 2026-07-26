@@ -1,18 +1,21 @@
 {
-  "updated_at": "2026-07-26T10:51:32.672388",
+  "updated_at": "2026-07-26T13:42:41.928527",
   "total": 10,
   "data": [
     {
-      "ip": "121.189.181.47",
+      "ip": "221.133.129.35",
       "port": "1080",
       "protocols": [
-        "socks4"
+        "socks4",
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "South Korea",
       "countryCode": "KR",
-      "isp": "Korea Telecom",
+      "isp": "SK Broadband Co Ltd",
       "user_type": "residential",
       "type": "socks4"
     },
@@ -31,15 +34,16 @@
       "countryCode": "KR",
       "isp": "Oracle Corporation",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "43.203.140.58",
-      "port": "16831",
+      "ip": "43.200.174.95",
+      "port": "56580",
       "protocols": [
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -50,13 +54,12 @@
       "type": "socks4"
     },
     {
-      "ip": "43.200.174.95",
-      "port": "56580",
+      "ip": "43.203.140.58",
+      "port": "16831",
       "protocols": [
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,

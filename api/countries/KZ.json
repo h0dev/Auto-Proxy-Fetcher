@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-07-26T10:51:32.671517",
-  "total": 1,
+  "updated_at": "2026-07-26T13:42:41.936069",
+  "total": 2,
   "data": [
     {
-      "ip": "170.168.101.28",
-      "port": "1080",
+      "ip": "46.247.41.222",
+      "port": "443",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "JSC Transtelecom",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "PS Internet Company LLP",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "91.224.74.107",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Newserverlife LLC",
+      "user_type": "hosting",
+      "type": "http"
     }
   ]
 }

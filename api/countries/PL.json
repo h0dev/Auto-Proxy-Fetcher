@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-07-26T03:27:38.603620",
-  "total": 1,
+  "updated_at": "2026-07-26T13:42:41.934125",
+  "total": 2,
   "data": [
     {
-      "ip": "77.83.246.110",
-      "port": "2000",
+      "ip": "185.21.37.53",
+      "port": "8888",
       "protocols": [
-        "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Global Connectivity Solutions Llp",
+      "isp": "Centrum Komputerowe partnet Miroslaw Wolszlegier",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "185.79.243.153",
+      "port": "31382",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "PHU Kario-Sat Sp. z o.o.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
