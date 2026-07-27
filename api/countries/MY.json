@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-07-26T22:07:31.741903",
-  "total": 1,
+  "updated_at": "2026-07-27T22:16:13.471047",
+  "total": 3,
   "data": [
     {
-      "ip": "175.136.239.174",
-      "port": "8181",
+      "ip": "103.1.105.10",
+      "port": "4153",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -17,6 +17,34 @@
       "countryCode": "MY",
       "isp": "TM TECHNOLOGY SERVICES SDN. BHD.",
       "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "56.68.116.64",
+      "port": "42706",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Malaysia",
+      "countryCode": "MY",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "56.68.116.64",
+      "port": "1028",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Malaysia",
+      "countryCode": "MY",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "http"
     }
   ]
