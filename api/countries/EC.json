@@ -1,21 +1,38 @@
 {
-  "updated_at": "2026-07-27T14:50:07.567454",
-  "total": 2,
+  "updated_at": "2026-07-27T17:06:53.045584",
+  "total": 4,
   "data": [
     {
-      "ip": "45.186.6.104",
-      "port": "3128",
+      "ip": "186.5.94.206",
+      "port": "999",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Ecuador",
       "countryCode": "EC",
-      "isp": "PEREZ TITO JULIO CESAR(FASTNETT)",
+      "isp": "Telconet S.A",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "190.15.141.43",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "CEDIA",
       "user_type": "business",
       "type": "http"
     },
@@ -35,6 +52,23 @@
       "isp": "ESMONSA S.A.",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "45.186.6.104",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "PEREZ TITO JULIO CESAR(FASTNETT)",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-27T14:50:07.562866",
-  "total": 34,
+  "updated_at": "2026-07-27T17:06:53.036637",
+  "total": 41,
   "data": [
     {
       "ip": "91.107.166.9",
       "port": "1080",
       "protocols": [
-        "socks4",
         "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -17,24 +17,7 @@
       "countryCode": "DE",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "91.98.86.26",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "socks5",
-        "socks4",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "212.113.104.29",
@@ -51,23 +34,57 @@
       "countryCode": "DE",
       "isp": "Sculk Ltd.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "77.239.96.194",
-      "port": "1081",
+      "ip": "167.86.91.238",
+      "port": "80",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "International Hosting Company Limited",
-      "user_type": "hosting",
+      "isp": "Contabo GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "85.234.100.149",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "31.56.32.59",
+      "port": "10800",
+      "protocols": [
+        "socks4",
+        "http",
+        "socks5",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "LocLix",
+      "user_type": "business",
       "type": "socks5"
     },
     {
@@ -103,8 +120,42 @@
       "type": "https"
     },
     {
+      "ip": "145.239.2.82",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "159.195.65.79",
+      "port": "10001",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "netcup GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
       "ip": "161.35.70.249",
-      "port": "80",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -134,11 +185,11 @@
       "countryCode": "DE",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "161.35.70.249",
-      "port": "8080",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -171,8 +222,8 @@
       "type": "socks5"
     },
     {
-      "ip": "165.225.72.38",
-      "port": "10021",
+      "ip": "162.19.245.203",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -183,13 +234,13 @@
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
       "type": "http"
     },
     {
       "ip": "165.225.72.38",
-      "port": "10035",
+      "port": "10000",
       "protocols": [
         "http",
         "https",
@@ -206,7 +257,58 @@
     },
     {
       "ip": "165.225.72.38",
-      "port": "10005",
+      "port": "10021",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "165.225.72.38",
+      "port": "10012",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "165.225.72.38",
+      "port": "10025",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "165.225.72.38",
+      "port": "10050",
       "protocols": [
         "http",
         "https",
@@ -223,7 +325,41 @@
     },
     {
       "ip": "165.225.72.38",
-      "port": "10025",
+      "port": "10181",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "165.225.72.38",
+      "port": "10111",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "165.225.72.38",
+      "port": "10426",
       "protocols": [
         "http",
         "https",
@@ -253,11 +389,11 @@
       "countryCode": "DE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "165.225.72.38",
-      "port": "10012",
+      "port": "10409",
       "protocols": [
         "http",
         "https",
@@ -274,58 +410,7 @@
     },
     {
       "ip": "165.225.72.38",
-      "port": "10356",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.72.38",
-      "port": "11184",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "165.225.72.38",
-      "port": "10446",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "165.225.72.38",
-      "port": "18000",
+      "port": "10250",
       "protocols": [
         "http",
         "https",
@@ -359,24 +444,7 @@
     },
     {
       "ip": "165.225.72.38",
-      "port": "10111",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "165.225.72.38",
-      "port": "11743",
+      "port": "10005",
       "protocols": [
         "http",
         "https",
@@ -440,7 +508,7 @@
       "countryCode": "DE",
       "isp": "IONOS SE",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "3.121.130.230",
@@ -460,6 +528,40 @@
       "type": "socks4"
     },
     {
+      "ip": "5.182.34.237",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Hostgeb Bilisim Teknolojileri Sanayi Ve Ticaret Limited Sirketi",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "5.182.34.173",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Hostgeb Bilisim Teknolojileri Sanayi Ve Ticaret Limited Sirketi",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
       "ip": "63.179.134.206",
       "port": "26552",
       "protocols": [
@@ -477,6 +579,21 @@
       "type": "socks4"
     },
     {
+      "ip": "63.179.134.206",
+      "port": "43620",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
       "ip": "81.169.135.82",
       "port": "80",
       "protocols": [
@@ -491,7 +608,7 @@
       "countryCode": "DE",
       "isp": "Strato GmbH",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "87.251.77.29",
@@ -508,7 +625,7 @@
       "countryCode": "DE",
       "isp": "Chsl One Ltd",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "91.99.78.151",
