@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-27T03:37:45.212977",
-  "total": 11,
+  "updated_at": "2026-07-27T10:03:29.878081",
+  "total": 10,
   "data": [
     {
       "ip": "152.70.235.185",
@@ -17,11 +17,11 @@
       "countryCode": "KR",
       "isp": "Oracle Corporation",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "43.200.174.95",
-      "port": "56580",
+      "ip": "211.209.210.50",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -32,8 +32,8 @@
       "password": null,
       "country": "South Korea",
       "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
+      "isp": "SK Broadband Co Ltd",
+      "user_type": "residential",
       "type": "socks4"
     },
     {
@@ -53,11 +53,13 @@
       "type": "socks4"
     },
     {
-      "ip": "43.203.140.58",
-      "port": "11720",
+      "ip": "43.200.174.95",
+      "port": "56580",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -65,7 +67,7 @@
       "countryCode": "KR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks5"
     },
     {
       "ip": "43.200.179.23",
@@ -115,7 +117,7 @@
       "countryCode": "KR",
       "isp": "NHNCLOUD",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "15.164.225.200",
@@ -158,20 +160,6 @@
       "countryCode": "KR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "158.180.76.11",
-      "port": "5555",
-      "protocols": [
-        "socks5"
-      ],
-      "username": "socks5",
-      "password": "socks5",
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Oracle Corporation",
-      "user_type": "business",
       "type": "socks5"
     }
   ]

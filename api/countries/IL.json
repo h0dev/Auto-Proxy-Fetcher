@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-27T03:37:45.217254",
-  "total": 4,
+  "updated_at": "2026-07-27T10:03:29.880699",
+  "total": 3,
   "data": [
     {
       "ip": "51.17.154.141",
@@ -36,9 +36,10 @@
     },
     {
       "ip": "51.84.101.19",
-      "port": "29733",
+      "port": "18080",
       "protocols": [
-        "https"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -46,21 +47,7 @@
       "countryCode": "IL",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "51.84.101.19",
-      "port": "11721",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Israel",
-      "countryCode": "IL",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
