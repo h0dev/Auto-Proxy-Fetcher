@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-07-26T22:07:31.736305",
-  "total": 16,
+  "updated_at": "2026-07-27T03:37:45.198167",
+  "total": 28,
   "data": [
     {
-      "ip": "147.45.60.249",
+      "ip": "147.45.60.136",
+      "port": "1082",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "147.45.221.111",
       "port": "1082",
       "protocols": [
         "socks5",
@@ -20,28 +37,11 @@
       "type": "socks4"
     },
     {
-      "ip": "185.239.50.122",
-      "port": "10808",
+      "ip": "147.45.221.112",
+      "port": "1082",
       "protocols": [
-        "http",
-        "socks5",
         "socks4",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
-      "isp": "AdminVPS OOO",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "81.177.165.209",
-      "port": "10808",
-      "protocols": [
         "socks5",
-        "socks4",
         "http",
         "https"
       ],
@@ -49,13 +49,13 @@
       "password": null,
       "country": "Russia",
       "countryCode": "RU",
-      "isp": "JSC RTComm.RU",
+      "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
       "type": "socks4"
     },
     {
-      "ip": "104.171.133.81",
-      "port": "3128",
+      "ip": "153.80.240.37",
+      "port": "8080",
       "protocols": [
         "socks5",
         "socks4",
@@ -66,26 +66,26 @@
       "password": null,
       "country": "Russia",
       "countryCode": "RU",
-      "isp": "Jsc timeweb",
+      "isp": "Global Connectivity Solutions Llp",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "144.31.222.106",
-      "port": "7890",
+      "ip": "91.142.75.202",
+      "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
+        "socks5",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Russia",
       "countryCode": "RU",
-      "isp": "Ablaykhan Akylbekovich Sharimov",
-      "user_type": "business",
-      "type": "socks5"
+      "isp": "Hosting technology LTD",
+      "user_type": "hosting",
+      "type": "https"
     },
     {
       "ip": "185.200.188.234",
@@ -105,21 +105,89 @@
       "type": "http"
     },
     {
-      "ip": "195.19.50.120",
-      "port": "1080",
+      "ip": "185.103.109.21",
+      "port": "10808",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Russia",
       "countryCode": "RU",
-      "isp": "JSC GTNT",
+      "isp": "First Server Limited",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "104.171.133.81",
+      "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Jsc timeweb",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
+    },
+    {
+      "ip": "188.190.153.101",
+      "port": "7890",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Zhigulevsk Cable Network LLC",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "93.100.51.94",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "SkyNet Ltd.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "159.194.228.40",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Beget LLC",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "109.71.11.142",
@@ -135,6 +203,23 @@
       "isp": "JSC Selectel",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "144.31.222.106",
+      "port": "7890",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Ablaykhan Akylbekovich Sharimov",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "158.160.176.150",
@@ -168,7 +253,7 @@
       "countryCode": "RU",
       "isp": "JSC Selectel",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "185.108.18.253",
@@ -182,6 +267,57 @@
       "country": "Russia",
       "countryCode": "RU",
       "isp": "JSC Selectel",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "2.56.178.63",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "UFO Hosting LLC",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "212.103.118.77",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "JSC ER-Telecom Holding",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "217.25.228.102",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "AO IK Informsvyaz-Chernozemye",
       "user_type": "business",
       "type": "https"
     },
@@ -200,10 +336,44 @@
       "countryCode": "RU",
       "isp": "Modern Solutions LTD",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "82.200.66.18",
+      "port": "8090",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Joint Stock Company TransTeleCom",
+      "user_type": "residential",
       "type": "http"
     },
     {
-      "ip": "93.100.51.94",
+      "ip": "85.237.51.73",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Rostelecom",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "85.95.167.198",
       "port": "1080",
       "protocols": [
         "http",
@@ -215,9 +385,26 @@
       "password": null,
       "country": "Russia",
       "countryCode": "RU",
-      "isp": "SkyNet Ltd.",
-      "user_type": "business",
+      "isp": "Rostelecom",
+      "user_type": "residential",
       "type": "socks4"
+    },
+    {
+      "ip": "91.193.240.157",
+      "port": "9877",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Modem Ltd.",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "95.190.193.74",
@@ -237,6 +424,34 @@
       "type": "http"
     },
     {
+      "ip": "46.147.177.49",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "JSC ER-Telecom Holding",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "95.79.48.26",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "JSC ER-Telecom Holding",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
       "ip": "46.17.43.219",
       "port": "7890",
       "protocols": [
@@ -252,20 +467,6 @@
       "isp": "LLC Baxet",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "45.9.42.214",
-      "port": "5555",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
-      "isp": "Beget LLC",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }
