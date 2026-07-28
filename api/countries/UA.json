@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-28T05:55:18.806903",
-  "total": 2,
+  "updated_at": "2026-07-28T08:46:00.881330",
+  "total": 3,
   "data": [
     {
       "ip": "185.126.114.247",
@@ -17,11 +17,28 @@
       "countryCode": "UA",
       "isp": "Server.ua LLC",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "95.85.72.90",
-      "port": "45269",
+      "ip": "185.244.158.4",
+      "port": "3129",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Stargroup LLC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "91.236.138.140",
+      "port": "81",
       "protocols": [
         "http",
         "https",
@@ -32,7 +49,7 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "G-Core Labs S.A.",
+      "isp": "Global Technologies of Ukraine LLC",
       "user_type": "business",
       "type": "https"
     }

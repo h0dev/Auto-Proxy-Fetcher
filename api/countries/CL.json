@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-07-28T05:55:18.814612",
-  "total": 2,
+  "updated_at": "2026-07-28T08:46:00.889458",
+  "total": 3,
   "data": [
     {
       "ip": "45.4.0.26",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "TLINK SPA",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "45.4.2.192",
       "port": "999",
       "protocols": [
         "http",
@@ -34,7 +51,7 @@
       "countryCode": "CL",
       "isp": "TLINK SPA",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
