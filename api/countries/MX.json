@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-07-28T02:53:42.331001",
+  "updated_at": "2026-07-28T05:55:18.797875",
   "total": 11,
   "data": [
+    {
+      "ip": "189.202.204.53",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Operbes, S.A. de C.V.",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "78.13.215.130",
       "port": "21960",
@@ -34,7 +51,7 @@
       "countryCode": "MX",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "205.164.192.115",
@@ -54,8 +71,8 @@
       "type": "http"
     },
     {
-      "ip": "45.235.255.170",
-      "port": "3129",
+      "ip": "38.58.130.128",
+      "port": "999",
       "protocols": [
         "http",
         "https",
@@ -66,13 +83,13 @@
       "password": null,
       "country": "Mexico",
       "countryCode": "MX",
-      "isp": "YUCATAN FIBER PARTNERS",
+      "isp": "RADIOCOMUNICACIONES DE IXMIQUILPAN SA DE CV",
       "user_type": "business",
       "type": "http"
     },
     {
       "ip": "78.12.252.87",
-      "port": "26484",
+      "port": "1838",
       "protocols": [
         "http",
         "https",
@@ -100,11 +117,11 @@
       "countryCode": "MX",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "78.13.215.130",
-      "port": "33942",
+      "port": "12375",
       "protocols": [
         "http",
         "https",
@@ -134,7 +151,24 @@
       "countryCode": "MX",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
+    },
+    {
+      "ip": "78.13.215.130",
+      "port": "33942",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     },
     {
       "ip": "78.12.252.87",
@@ -150,34 +184,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "78.12.252.87",
-      "port": "1838",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.13.215.130",
-      "port": "9942",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
     }
   ]
 }
