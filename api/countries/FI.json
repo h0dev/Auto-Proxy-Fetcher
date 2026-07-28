@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-07-28T11:26:47.923671",
-  "total": 2,
+  "updated_at": "2026-07-28T14:23:12.249900",
+  "total": 4,
   "data": [
     {
       "ip": "135.87.39.23",
-      "port": "80",
+      "port": "443",
       "protocols": [
         "http",
         "https",
@@ -17,7 +17,38 @@
       "countryCode": "FI",
       "isp": "Nokia Solutions and Networks Oy",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "65.109.214.218",
+      "port": "9082",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "65.109.176.0",
+      "port": "2080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
       "ip": "95.217.212.193",
@@ -32,7 +63,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
