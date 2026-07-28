@@ -1,23 +1,39 @@
 {
-  "updated_at": "2026-07-28T08:46:00.882794",
-  "total": 3,
+  "updated_at": "2026-07-28T11:26:47.929747",
+  "total": 6,
   "data": [
     {
-      "ip": "119.18.147.179",
+      "ip": "59.152.97.233",
       "port": "1080",
       "protocols": [
-        "socks4",
+        "socks5",
         "http",
         "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "Race Online Limited",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "103.111.13.66",
+      "port": "8181",
+      "protocols": [
+        "http",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Bangladesh",
       "countryCode": "BD",
-      "isp": "Broad Band Telecom Services Ltd",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "Coronet Corporation Limited",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "103.166.41.16",
@@ -50,6 +66,38 @@
       "countryCode": "BD",
       "isp": "Unknown",
       "user_type": "Unknown",
+      "type": "http"
+    },
+    {
+      "ip": "103.42.203.9",
+      "port": "8181",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "HelloTech Limited",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "103.61.240.62",
+      "port": "8181",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "HelloTech Limited",
+      "user_type": "business",
       "type": "http"
     }
   ]
