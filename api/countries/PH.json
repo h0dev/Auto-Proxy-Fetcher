@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-28T16:49:00.880309",
-  "total": 2,
+  "updated_at": "2026-07-28T19:43:47.097699",
+  "total": 3,
   "data": [
     {
       "ip": "115.84.248.140",
@@ -17,11 +17,28 @@
       "countryCode": "PH",
       "isp": "Eastern Telecoms Phils., Inc.",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "122.3.127.241",
       "port": "8082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Philippines",
+      "countryCode": "PH",
+      "isp": "Philippine Long Distance Telephone Company",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "58.69.182.53",
+      "port": "8085",
       "protocols": [
         "http",
         "https",
