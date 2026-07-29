@@ -1,23 +1,57 @@
 {
-  "updated_at": "2026-07-29T08:54:14.714158",
-  "total": 20,
+  "updated_at": "2026-07-29T11:34:20.527814",
+  "total": 21,
   "data": [
     {
-      "ip": "95.211.64.139",
-      "port": "8888",
+      "ip": "79.132.137.129",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
-      "isp": "LeaseWeb Netherlands B.V.",
+      "isp": "Fornex Hosting S.L.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "77.110.102.252",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
+    },
+    {
+      "ip": "144.124.227.88",
+      "port": "3129",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Servers Tech Fzco",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
       "ip": "95.211.64.139",
@@ -34,27 +68,11 @@
       "countryCode": "NL",
       "isp": "LeaseWeb Netherlands B.V.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "107.189.21.79",
-      "port": "8118",
-      "protocols": [
-        "http",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "RouterHosting LLC",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "141.0.13.236",
-      "port": "80",
+      "ip": "95.211.64.139",
+      "port": "8888",
       "protocols": [
         "http",
         "https",
@@ -65,9 +83,24 @@
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
+      "isp": "LeaseWeb Netherlands B.V.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "141.0.12.41",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "141.0.13.229",
@@ -87,11 +120,13 @@
       "type": "http"
     },
     {
-      "ip": "141.0.12.41",
+      "ip": "141.0.13.236",
       "port": "80",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -99,7 +134,7 @@
       "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "165.225.240.34",
@@ -113,21 +148,6 @@
       "country": "The Netherlands",
       "countryCode": "NL",
       "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "185.224.82.132",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Abelohost BV",
       "user_type": "business",
       "type": "http"
     },
@@ -145,6 +165,53 @@
       "country": "The Netherlands",
       "countryCode": "NL",
       "isp": "Kamatera Inc",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "185.224.82.132",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Abelohost BV",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "185.235.176.102",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Abelohost BV",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "185.26.181.241",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Opera Norway AS",
       "user_type": "business",
       "type": "http"
     },
@@ -164,23 +231,6 @@
       "isp": "Opera Norway AS",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "185.26.181.241",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Opera Norway AS",
-      "user_type": "business",
-      "type": "https"
     },
     {
       "ip": "193.233.211.71",
@@ -213,59 +263,44 @@
       "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "68.183.15.169",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
       "type": "https"
     },
     {
-      "ip": "20.54.179.166",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Microsoft Corporation",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "68.66.251.205",
-      "port": "9000",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "WHG Hosting Services Ltd",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "80.74.25.157",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Clodo Cloud Service Co. L.L.C",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
       "ip": "82.145.209.242",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Opera Norway AS",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "82.145.209.241",
       "port": "80",
       "protocols": [
         "http",
@@ -296,7 +331,7 @@
       "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "82.145.209.254",
@@ -314,23 +349,6 @@
       "isp": "Opera Norway AS",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "82.145.209.241",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Opera Norway AS",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
