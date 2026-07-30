@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-30T11:15:57.550650",
-  "total": 6,
+  "updated_at": "2026-07-30T14:16:21.840462",
+  "total": 8,
   "data": [
     {
       "ip": "185.105.184.45",
       "port": "1110",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -37,8 +37,23 @@
       "type": "https"
     },
     {
-      "ip": "2.180.22.200",
-      "port": "1234",
+      "ip": "213.176.8.227",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "E-Large (HongKong)",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "217.219.30.227",
+      "port": "6565",
       "protocols": [
         "http",
         "https",
@@ -54,7 +69,7 @@
       "type": "https"
     },
     {
-      "ip": "80.75.13.203",
+      "ip": "5.202.44.160",
       "port": "80",
       "protocols": [
         "http",
@@ -66,9 +81,26 @@
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "Afranet",
+      "isp": "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "5.202.40.17",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "95.38.160.79",
@@ -85,11 +117,11 @@
       "countryCode": "IR",
       "isp": "Noyan Abr Arvan Co. ( Private Joint Stock)",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
-      "ip": "37.152.186.164",
-      "port": "123",
+      "ip": "193.141.65.194",
+      "port": "2080",
       "protocols": [
         "http"
       ],
@@ -97,7 +129,7 @@
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "Noyan Abr Arvan Co. ( Private Joint Stock)",
+      "isp": "Green Web Samaneh Novin PJSC",
       "user_type": "business",
       "type": "http"
     }
