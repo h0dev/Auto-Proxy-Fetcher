@@ -1,20 +1,23 @@
 {
-  "updated_at": "2026-07-30T19:43:26.202509",
-  "total": 22,
+  "updated_at": "2026-07-30T22:14:09.782999",
+  "total": 23,
   "data": [
     {
-      "ip": "101.255.107.129",
-      "port": "8086",
+      "ip": "43.218.124.29",
+      "port": "29174",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Indonesia",
       "countryCode": "ID",
-      "isp": "PT Remala Abadi",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "103.110.101.130",
@@ -31,7 +34,7 @@
       "countryCode": "ID",
       "isp": "PT Neutron Mitra Nusantara",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "103.112.163.46",
@@ -48,6 +51,23 @@
       "countryCode": "ID",
       "isp": "PT Cloud Teknologi Nusantara",
       "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "103.130.61.61",
+      "port": "8081",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "PT. Fiqran Solusindo Mediatama",
+      "user_type": "business",
       "type": "http"
     },
     {
@@ -68,23 +88,6 @@
       "type": "http"
     },
     {
-      "ip": "103.130.61.61",
-      "port": "8081",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "PT. Fiqran Solusindo Mediatama",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
       "ip": "103.148.44.116",
       "port": "8882",
       "protocols": [
@@ -99,7 +102,7 @@
       "countryCode": "ID",
       "isp": "PT Buana Visualnet Sentra",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "103.157.117.116",
@@ -119,40 +122,6 @@
       "type": "https"
     },
     {
-      "ip": "103.154.87.12",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "PT Mora Telematika Indonesia",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "103.168.254.26",
-      "port": "1111",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "PT Fahasa Tri Data",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
       "ip": "103.184.167.66",
       "port": "8080",
       "protocols": [
@@ -167,7 +136,7 @@
       "countryCode": "ID",
       "isp": "PT Pricom Media Solusi",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "103.39.49.98",
@@ -184,11 +153,28 @@
       "countryCode": "ID",
       "isp": "PT Mega Mentari Mandiri",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "103.39.51.207",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "PT Mega Mentari Mandiri",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "108.136.140.236",
-      "port": "53269",
+      "port": "33670",
       "protocols": [
         "http",
         "https",
@@ -205,7 +191,24 @@
     },
     {
       "ip": "108.136.140.236",
-      "port": "33670",
+      "port": "41437",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "108.136.140.236",
+      "port": "53269",
       "protocols": [
         "http",
         "https",
@@ -235,7 +238,7 @@
       "countryCode": "ID",
       "isp": "Orion Cyber Internet",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "202.4.186.76",
@@ -252,11 +255,45 @@
       "countryCode": "ID",
       "isp": "Syiah Kuala University (Unsyiah)",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "43.218.124.29",
       "port": "12286",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "46287",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "8989",
       "protocols": [
         "http",
         "https",
@@ -290,20 +327,6 @@
     },
     {
       "ip": "43.218.124.29",
-      "port": "8989",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.218.124.29",
       "port": "38887",
       "protocols": [
         "http",
@@ -316,7 +339,7 @@
       "countryCode": "ID",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks5"
     },
     {
       "ip": "43.218.124.29",
@@ -333,8 +356,8 @@
       "type": "socks4"
     },
     {
-      "ip": "43.218.124.29",
-      "port": "2018",
+      "ip": "108.136.140.236",
+      "port": "8728",
       "protocols": [
         "http"
       ],
@@ -347,8 +370,8 @@
       "type": "http"
     },
     {
-      "ip": "43.218.124.29",
-      "port": "37915",
+      "ip": "103.82.93.98",
+      "port": "3128",
       "protocols": [
         "http"
       ],
@@ -356,7 +379,7 @@
       "password": null,
       "country": "Indonesia",
       "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
+      "isp": "PT Cloud Hosting Indonesia",
       "user_type": "hosting",
       "type": "http"
     }

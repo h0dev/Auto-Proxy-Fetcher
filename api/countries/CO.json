@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-07-30T19:43:26.205963",
-  "total": 3,
+  "updated_at": "2026-07-30T22:14:09.783737",
+  "total": 4,
   "data": [
     {
       "ip": "190.0.246.211",
+      "port": "4040",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Media Commerce Partners S.A",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "190.0.246.210",
       "port": "4040",
       "protocols": [
         "http",
@@ -34,21 +51,24 @@
       "countryCode": "CO",
       "isp": "SOMOS NETWORKS COLOMBIA S.A.S. BIC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "186.0.38.100",
+      "ip": "64.204.90.177",
       "port": "999",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "UNE EPM TELECOMUNICACIONES S.A.",
-      "user_type": "residential",
-      "type": "http"
+      "isp": "U2RED S.A.S",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
