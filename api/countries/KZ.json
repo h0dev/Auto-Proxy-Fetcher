@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-08-01T08:31:37.622676",
+  "updated_at": "2026-08-01T22:05:01.333322",
   "total": 2,
   "data": [
+    {
+      "ip": "170.168.101.28",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "socks5"
+    },
     {
       "ip": "46.247.41.222",
       "port": "443",
@@ -17,21 +34,7 @@
       "countryCode": "KZ",
       "isp": "PS Internet Company LLP",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "90.156.252.177",
-      "port": "1082",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "Nls Astana Llp",
-      "user_type": "business",
-      "type": "socks5"
+      "type": "https"
     }
   ]
 }
