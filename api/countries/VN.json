@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-01T08:31:37.613841",
-  "total": 7,
+  "updated_at": "2026-08-01T10:48:44.206231",
+  "total": 8,
   "data": [
     {
       "ip": "113.160.132.26",
@@ -17,7 +17,24 @@
       "countryCode": "VN",
       "isp": "VNPT Corp",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "27.75.155.238",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Viettel Group",
+      "user_type": "residential",
+      "type": "socks4"
     },
     {
       "ip": "103.162.31.103",
@@ -34,56 +51,24 @@
       "countryCode": "VN",
       "isp": "Bach Kim Network solutions Join stock company",
       "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "116.100.220.22",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "Viettel Corporation",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "117.4.246.169",
-      "port": "3389",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "Viettel Group",
-      "user_type": "residential",
       "type": "http"
     },
     {
-      "ip": "14.238.105.10",
-      "port": "8080",
+      "ip": "103.72.68.111",
+      "port": "1",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "VNPT Corp",
-      "user_type": "residential",
-      "type": "https"
+      "isp": "VPSMMO TECHNOLOGY COMPANY LIMITED",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
       "ip": "14.170.154.10",
@@ -100,21 +85,53 @@
       "countryCode": "VN",
       "isp": "VNPT Corp",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "103.82.23.118",
-      "port": "5236",
+      "ip": "14.238.105.10",
+      "port": "8080",
       "protocols": [
-        "http"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+      "isp": "VNPT Corp",
       "user_type": "residential",
       "type": "http"
+    },
+    {
+      "ip": "171.247.96.51",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Viettel Group",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "103.82.37.110",
+      "port": "49153",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "CLOUDFLY CORPORATION",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }
