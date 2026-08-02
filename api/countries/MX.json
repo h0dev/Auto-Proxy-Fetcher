@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T03:25:43.110247",
+  "updated_at": "2026-08-02T08:34:23.048333",
   "total": 10,
   "data": [
     {
@@ -17,11 +17,25 @@
       "countryCode": "MX",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "187.251.224.167",
-      "port": "8081",
+      "ip": "187.152.25.234",
+      "port": "999",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "UNINET",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "187.190.114.40",
+      "port": "999",
       "protocols": [
         "http",
         "https",
@@ -37,6 +51,23 @@
       "type": "https"
     },
     {
+      "ip": "190.9.48.193",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Konecta de Mexico, S. de R.L. de C.V.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
       "ip": "205.164.192.115",
       "port": "999",
       "protocols": [
@@ -50,40 +81,6 @@
       "country": "Mexico",
       "countryCode": "MX",
       "isp": "MULTICARRIER JE S. DE R.L. DE C.V.",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "207.248.228.166",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Alestra, S. de R.L. de C.V.",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "45.235.255.170",
-      "port": "3129",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "YUCATAN FIBER PARTNERS",
       "user_type": "business",
       "type": "https"
     },
@@ -122,8 +119,8 @@
       "type": "socks4"
     },
     {
-      "ip": "78.12.252.87",
-      "port": "45881",
+      "ip": "78.13.215.130",
+      "port": "33942",
       "protocols": [
         "http",
         "https",
@@ -139,8 +136,8 @@
       "type": "socks4"
     },
     {
-      "ip": "78.13.215.130",
-      "port": "33942",
+      "ip": "78.12.252.87",
+      "port": "45881",
       "protocols": [
         "http",
         "https",
