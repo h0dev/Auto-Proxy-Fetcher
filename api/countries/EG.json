@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-08-02T13:41:40.683561",
+  "updated_at": "2026-08-02T19:21:23.097681",
   "total": 1,
   "data": [
     {
-      "ip": "81.10.102.153",
+      "ip": "41.33.86.242",
       "port": "8080",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "EG",
       "isp": "IDDQD-AS",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
