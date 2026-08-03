@@ -1,11 +1,13 @@
 {
-  "updated_at": "2026-08-03T19:47:20.590080",
-  "total": 13,
+  "updated_at": "2026-08-03T22:17:12.873822",
+  "total": 16,
   "data": [
     {
-      "ip": "159.203.4.27",
-      "port": "80",
+      "ip": "198.8.94.174",
+      "port": "39078",
       "protocols": [
+        "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -13,13 +15,13 @@
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "http"
+      "isp": "Performive LLC",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "159.203.61.169",
-      "port": "80",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -33,6 +35,23 @@
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
       "type": "https"
+    },
+    {
+      "ip": "15.223.237.12",
+      "port": "16620",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "159.203.61.169",
@@ -50,6 +69,38 @@
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
       "type": "https"
+    },
+    {
+      "ip": "159.203.61.169",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "159.203.4.27",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Canada",
+      "countryCode": "CA",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "http"
     },
     {
       "ip": "159.203.61.169",
@@ -96,7 +147,7 @@
       "countryCode": "CA",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "3.99.158.157",
@@ -130,7 +181,7 @@
       "countryCode": "CA",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "35.183.127.162",
@@ -150,21 +201,20 @@
       "type": "socks4"
     },
     {
-      "ip": "51.79.63.111",
-      "port": "3128",
+      "ip": "40.177.99.164",
+      "port": "13250",
       "protocols": [
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Canada",
       "countryCode": "CA",
-      "isp": "OVH SAS",
+      "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "35.182.12.78",
@@ -179,7 +229,7 @@
       "countryCode": "CA",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "99.79.58.74",
@@ -197,10 +247,10 @@
       "type": "socks4"
     },
     {
-      "ip": "40.177.99.164",
-      "port": "10",
+      "ip": "3.99.158.157",
+      "port": "25638",
       "protocols": [
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -208,7 +258,7 @@
       "countryCode": "CA",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "https"
     }
   ]
 }
