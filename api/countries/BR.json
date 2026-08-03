@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-02T22:03:00.398455",
+  "updated_at": "2026-08-03T03:27:49.721050",
   "total": 8,
   "data": [
     {
-      "ip": "191.252.219.129",
-      "port": "8889",
+      "ip": "189.91.162.128",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +15,9 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "Locaweb Servicos de Internet S/A",
+      "isp": "I. L. DE SOUSA",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "191.252.1.154",
@@ -34,7 +34,7 @@
       "countryCode": "BR",
       "isp": "Locaweb Servicos de Internet S/A",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "191.7.216.134",
@@ -51,7 +51,7 @@
       "countryCode": "BR",
       "isp": "ONLINE TELECOMUNICACOES LTDA",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "200.150.200.119",
@@ -71,11 +71,10 @@
       "type": "https"
     },
     {
-      "ip": "45.71.81.73",
+      "ip": "45.71.81.17",
       "port": "9292",
       "protocols": [
         "http",
-        "https",
         "socks4",
         "socks5"
       ],
@@ -88,10 +87,11 @@
       "type": "http"
     },
     {
-      "ip": "45.71.81.17",
+      "ip": "45.71.81.73",
       "port": "9292",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -120,9 +120,10 @@
     },
     {
       "ip": "18.228.228.159",
-      "port": "4655",
+      "port": "41978",
       "protocols": [
-        "https"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -130,7 +131,7 @@
       "countryCode": "BR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
