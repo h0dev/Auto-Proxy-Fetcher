@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-03T09:58:15.931508",
-  "total": 2,
+  "updated_at": "2026-08-03T14:52:42.242449",
+  "total": 3,
   "data": [
     {
       "ip": "147.161.146.15",
@@ -15,7 +15,24 @@
       "countryCode": "NO",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "147.161.146.13",
+      "port": "11197",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Norway",
+      "countryCode": "NO",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "178.72.33.28",
@@ -30,7 +47,7 @@
       "countryCode": "NO",
       "isp": "Lyse Tele",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
