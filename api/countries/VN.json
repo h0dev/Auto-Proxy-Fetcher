@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-04T02:56:57.757870",
-  "total": 4,
+  "updated_at": "2026-08-04T05:56:39.097903",
+  "total": 6,
   "data": [
     {
       "ip": "103.162.31.103",
@@ -17,7 +17,7 @@
       "countryCode": "VN",
       "isp": "Bach Kim Network solutions Join stock company",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "103.72.68.111",
@@ -54,6 +54,23 @@
       "type": "socks5"
     },
     {
+      "ip": "14.170.154.10",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
       "ip": "14.238.105.10",
       "port": "8080",
       "protocols": [
@@ -66,7 +83,24 @@
       "countryCode": "VN",
       "isp": "VNPT Corp",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "171.247.96.51",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Viettel Group",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }

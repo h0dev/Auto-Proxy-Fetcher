@@ -1,24 +1,7 @@
 {
-  "updated_at": "2026-08-04T02:56:57.757182",
+  "updated_at": "2026-08-04T05:56:39.101705",
   "total": 6,
   "data": [
-    {
-      "ip": "81.0.49.104",
-      "port": "18500",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Spain",
-      "countryCode": "ES",
-      "isp": "Xtra Telecom S.A.",
-      "user_type": "residential",
-      "type": "socks5"
-    },
     {
       "ip": "195.88.152.93",
       "port": "80",
@@ -34,7 +17,7 @@
       "countryCode": "ES",
       "isp": "Comvive Servidores S.L.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "51.49.153.183",
@@ -43,6 +26,23 @@
         "http",
         "https",
         "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "51.49.153.183",
+      "port": "14287",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -84,8 +84,8 @@
       "type": "socks5"
     },
     {
-      "ip": "51.92.173.133",
-      "port": "52944",
+      "ip": "51.49.153.183",
+      "port": "29279",
       "protocols": [
         "https"
       ],

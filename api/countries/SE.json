@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-04T02:56:57.758367",
-  "total": 15,
+  "updated_at": "2026-08-04T05:56:39.099290",
+  "total": 19,
   "data": [
     {
       "ip": "13.53.139.178",
@@ -20,8 +20,8 @@
       "type": "socks4"
     },
     {
-      "ip": "13.53.139.178",
-      "port": "11138",
+      "ip": "13.51.196.44",
+      "port": "525",
       "protocols": [
         "http",
         "https",
@@ -34,7 +34,22 @@
       "countryCode": "SE",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
+    },
+    {
+      "ip": "13.51.196.44",
+      "port": "536",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     },
     {
       "ip": "13.60.181.61",
@@ -67,25 +82,27 @@
       "countryCode": "SE",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "13.48.13.125",
-      "port": "3129",
+      "ip": "147.161.188.24",
+      "port": "10801",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Sweden",
       "countryCode": "SE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
     },
     {
-      "ip": "147.161.188.24",
+      "ip": "165.225.192.22",
       "port": "10801",
       "protocols": [
         "http",
@@ -116,7 +133,41 @@
       "countryCode": "SE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "165.225.192.23",
+      "port": "10801",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "165.225.192.26",
+      "port": "10801",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "165.225.192.27",
@@ -150,58 +201,7 @@
       "countryCode": "SE",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.192.23",
-      "port": "10801",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.192.22",
-      "port": "10801",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "165.225.192.26",
-      "port": "10801",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
     },
     {
       "ip": "195.198.199.60",
@@ -218,7 +218,7 @@
       "countryCode": "SE",
       "isp": "Telia Company AB",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "212.113.100.43",
@@ -234,11 +234,55 @@
       "countryCode": "SE",
       "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "109.120.133.180",
-      "port": "1443",
+      "ip": "13.48.13.125",
+      "port": "41481",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.51.196.44",
+      "port": "49023",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.60.163.108",
+      "port": "8300",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.60.163.108",
+      "port": "43485",
       "protocols": [
         "http"
       ],
@@ -246,8 +290,22 @@
       "password": null,
       "country": "Sweden",
       "countryCode": "SE",
-      "isp": "Aeza Group LLC",
-      "user_type": "business",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "13.60.181.61",
+      "port": "10029",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "http"
     }
   ]
