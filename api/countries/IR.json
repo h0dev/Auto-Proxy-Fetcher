@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-04T17:00:22.515741",
-  "total": 2,
+  "updated_at": "2026-08-04T19:47:15.151938",
+  "total": 3,
   "data": [
     {
       "ip": "185.205.203.58",
@@ -17,10 +17,27 @@
       "countryCode": "IR",
       "isp": "NOAVARAN SHABAKEH SABZ MEHREGAN (Ltd.)",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "5.202.44.160",
+      "ip": "217.219.30.227",
+      "port": "6565",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Iran Telecommunication Company PJS",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "80.75.13.203",
       "port": "80",
       "protocols": [
         "http",
@@ -32,9 +49,9 @@
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",
+      "isp": "Afranet",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
