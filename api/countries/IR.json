@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-08-03T22:17:12.884795",
+  "updated_at": "2026-08-04T02:56:57.754410",
   "total": 2,
   "data": [
     {
-      "ip": "2.180.2.241",
-      "port": "80",
+      "ip": "95.38.160.79",
+      "port": "10809",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Noyan Abr Arvan Co. ( Private Joint Stock)",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "93.118.135.176",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -17,22 +34,7 @@
       "countryCode": "IR",
       "isp": "Iran Telecommunication Company PJS",
       "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "213.176.8.227",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "E-Large (HongKong)",
-      "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
