@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-08-04T17:00:22.512307",
-  "total": 1,
+  "updated_at": "2026-08-04T22:21:44.229009",
+  "total": 3,
   "data": [
     {
       "ip": "185.126.114.247",
       "port": "60001",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Server.ua LLC",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "89.19.116.161",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,26 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Server.ua LLC",
-      "user_type": "hosting",
-      "type": "http"
+      "isp": "Grygoriy Chereda",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "91.236.138.140",
+      "port": "81",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Global Technologies of Ukraine LLC",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
