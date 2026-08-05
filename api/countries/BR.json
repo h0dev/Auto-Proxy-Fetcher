@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-04T22:21:44.235112",
-  "total": 13,
+  "updated_at": "2026-08-05T02:53:31.489271",
+  "total": 16,
   "data": [
     {
       "ip": "15.229.231.89",
-      "port": "17244",
+      "port": "26706",
       "protocols": [
         "http",
         "https",
@@ -17,7 +17,7 @@
       "countryCode": "BR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "15.229.231.89",
@@ -38,10 +38,12 @@
     },
     {
       "ip": "15.229.231.89",
-      "port": "20671",
+      "port": "17244",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -49,11 +51,11 @@
       "countryCode": "BR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "18.228.228.159",
-      "port": "8989",
+      "port": "53309",
       "protocols": [
         "http",
         "https",
@@ -81,7 +83,7 @@
       "countryCode": "BR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "191.252.1.154",
@@ -98,7 +100,7 @@
       "countryCode": "BR",
       "isp": "Locaweb Servicos de Internet S/A",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "191.7.216.134",
@@ -118,7 +120,7 @@
       "type": "http"
     },
     {
-      "ip": "200.150.200.119",
+      "ip": "200.150.203.126",
       "port": "80",
       "protocols": [
         "http",
@@ -135,10 +137,11 @@
       "type": "https"
     },
     {
-      "ip": "45.71.81.17",
-      "port": "9292",
+      "ip": "200.150.200.119",
+      "port": "80",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -146,8 +149,8 @@
       "password": null,
       "country": "Brazil",
       "countryCode": "BR",
-      "isp": "Coelho Tecnologia",
-      "user_type": "business",
+      "isp": "Saveincloud Hospedagem na Internet Ltda",
+      "user_type": "hosting",
       "type": "http"
     },
     {
@@ -166,6 +169,22 @@
       "isp": "Coelho Tecnologia",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "45.71.81.17",
+      "port": "9292",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Coelho Tecnologia",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "15.229.231.89",
@@ -210,6 +229,34 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "https"
+    },
+    {
+      "ip": "15.229.231.89",
+      "port": "8236",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "15.229.231.89",
+      "port": "15857",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Brazil",
+      "countryCode": "BR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
     }
   ]
 }
