@@ -1,21 +1,38 @@
 {
-  "updated_at": "2026-08-06T02:56:53.621576",
-  "total": 6,
+  "updated_at": "2026-08-06T05:58:01.207779",
+  "total": 8,
   "data": [
     {
-      "ip": "110.172.29.162",
-      "port": "443",
+      "ip": "14.238.8.63",
+      "port": "9090",
       "protocols": [
+        "http",
         "socks5",
         "socks4",
-        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "VIET DIGITAL TECHNOLOGY LIABILITY COMPANY",
+      "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "163.181.207.170",
+      "port": "9999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Zhejiang Taobao Network Co.,Ltd",
       "user_type": "business",
       "type": "https"
     },
@@ -34,7 +51,7 @@
       "countryCode": "VN",
       "isp": "Bach Kim Network solutions Join stock company",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "103.72.68.111",
@@ -85,11 +102,11 @@
       "countryCode": "VN",
       "isp": "Viettel Group",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "171.253.63.61",
-      "port": "1080",
+      "ip": "14.170.154.10",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -100,9 +117,24 @@
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "Viettel Group",
+      "isp": "VNPT Corp",
       "user_type": "residential",
-      "type": "socks4"
+      "type": "https"
+    },
+    {
+      "ip": "14.238.105.10",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "http"
     }
   ]
 }
