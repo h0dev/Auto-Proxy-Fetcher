@@ -1,12 +1,13 @@
 {
-  "updated_at": "2026-08-07T16:04:14.455363",
-  "total": 1,
+  "updated_at": "2026-08-07T19:07:58.918410",
+  "total": 2,
   "data": [
     {
-      "ip": "78.83.185.6",
-      "port": "9980",
+      "ip": "194.182.178.90",
+      "port": "3128",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -14,9 +15,26 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "A1 Bulgaria EAD",
+      "isp": "Akenes SA",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "194.182.178.90",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "Akenes SA",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
