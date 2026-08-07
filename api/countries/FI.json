@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T10:09:18.972372",
+  "updated_at": "2026-08-07T13:17:25.236424",
   "total": 2,
   "data": [
     {
@@ -7,9 +7,9 @@
       "port": "11112",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,12 +17,14 @@
       "countryCode": "FI",
       "isp": "U1 Digital Services Ltd",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "95.217.212.193",
-      "port": "8080",
+      "ip": "65.109.217.76",
+      "port": "2223",
       "protocols": [
+        "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -32,7 +34,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     }
   ]
 }

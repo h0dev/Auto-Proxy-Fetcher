@@ -1,22 +1,39 @@
 {
-  "updated_at": "2026-08-07T10:09:18.999940",
-  "total": 1,
+  "updated_at": "2026-08-07T13:17:25.243139",
+  "total": 2,
   "data": [
     {
-      "ip": "91.236.138.140",
-      "port": "81",
+      "ip": "194.31.212.115",
+      "port": "1080",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Global Technologies of Ukraine LLC",
+      "isp": "IrpenComunikaciaService LLC",
       "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "185.126.114.109",
+      "port": "60001",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Server.ua LLC",
+      "user_type": "hosting",
       "type": "http"
     }
   ]
