@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-07T19:07:58.905779",
+  "updated_at": "2026-08-08T07:04:51.459135",
   "total": 1,
   "data": [
     {
       "ip": "111.119.162.248",
-      "port": "10925",
+      "port": "10911",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,7 @@
       "countryCode": "PK",
       "isp": "Connect Communications",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
