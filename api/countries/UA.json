@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-08-08T01:57:48.043781",
-  "total": 1,
+  "updated_at": "2026-08-08T04:17:23.307823",
+  "total": 2,
   "data": [
     {
-      "ip": "195.200.245.132",
-      "port": "1080",
+      "ip": "37.52.13.164",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Unknown",
+      "user_type": "Unknown",
+      "type": "socks4"
+    },
+    {
+      "ip": "91.236.138.140",
+      "port": "81",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "PP IF-IX",
+      "isp": "Global Technologies of Ukraine LLC",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
