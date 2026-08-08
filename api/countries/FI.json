@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-08-08T07:04:51.447096",
-  "total": 4,
+  "updated_at": "2026-08-08T09:46:33.415231",
+  "total": 5,
   "data": [
+    {
+      "ip": "45.144.53.63",
+      "port": "5032",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "H2nexus Ltd",
+      "user_type": "business",
+      "type": "https"
+    },
     {
       "ip": "45.144.53.63",
       "port": "5000",
@@ -20,25 +37,8 @@
       "type": "http"
     },
     {
-      "ip": "65.108.203.36",
+      "ip": "65.108.203.35",
       "port": "28080",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "45.144.53.63",
-      "port": "5032",
       "protocols": [
         "http",
         "https",
@@ -49,9 +49,26 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "H2nexus Ltd",
-      "user_type": "business",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
       "type": "http"
+    },
+    {
+      "ip": "65.109.65.238",
+      "port": "28080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "https"
     },
     {
       "ip": "95.217.212.193",
@@ -66,7 +83,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
