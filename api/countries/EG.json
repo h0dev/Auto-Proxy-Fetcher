@@ -1,13 +1,49 @@
 {
-  "updated_at": "2026-08-09T15:40:49.248245",
-  "total": 1,
+  "updated_at": "2026-08-09T18:51:50.139301",
+  "total": 3,
   "data": [
     {
-      "ip": "41.33.219.131",
+      "ip": "197.164.101.12",
       "port": "1976",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Egypt",
+      "countryCode": "EG",
+      "isp": "Link Egypt (Link.NET)",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "197.164.101.12",
+      "port": "1981",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Egypt",
+      "countryCode": "EG",
+      "isp": "Link Egypt (Link.NET)",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "41.33.219.130",
+      "port": "1976",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -15,7 +51,7 @@
       "countryCode": "EG",
       "isp": "IDDQD-AS",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
