@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-08-11T04:27:09.193924",
-  "total": 1,
+  "updated_at": "2026-08-11T07:19:02.300430",
+  "total": 3,
   "data": [
     {
-      "ip": "38.180.2.51",
+      "ip": "194.182.178.90",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "Akenes SA",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "194.182.178.90",
       "port": "1080",
       "protocols": [
         "http",
@@ -15,9 +32,25 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "M247 Europe SRL",
+      "isp": "Akenes SA",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
+    },
+    {
+      "ip": "78.83.185.6",
+      "port": "9980",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "A1 Bulgaria EAD",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
