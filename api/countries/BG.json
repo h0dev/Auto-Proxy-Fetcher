@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-08-11T16:08:34.500781",
-  "total": 4,
+  "updated_at": "2026-08-11T19:10:37.618434",
+  "total": 3,
   "data": [
     {
+      "ip": "84.54.174.189",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "Comnet Bulgaria Holding Ltd.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
       "ip": "194.182.178.90",
-      "port": "3128",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -17,24 +34,7 @@
       "countryCode": "BG",
       "isp": "Akenes SA",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "38.180.2.51",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bulgaria",
-      "countryCode": "BG",
-      "isp": "M247 Europe SRL",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "78.83.185.6",
@@ -51,23 +51,6 @@
       "isp": "A1 Bulgaria EAD",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "79.110.118.15",
-      "port": "8085",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bulgaria",
-      "countryCode": "BG",
-      "isp": "Rutil Ltd.",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
