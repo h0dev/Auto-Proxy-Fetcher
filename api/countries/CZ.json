@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-08-11T10:08:31.149278",
+  "updated_at": "2026-08-11T13:19:01.279193",
   "total": 3,
   "data": [
+    {
+      "ip": "195.133.14.222",
+      "port": "49152",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Timeweb, LLP",
+      "user_type": "business",
+      "type": "https"
+    },
     {
       "ip": "217.198.114.16",
       "port": "80",
@@ -34,21 +51,7 @@
       "countryCode": "CZ",
       "isp": "Coolhousing s.r.o.",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "38.180.235.32",
-      "port": "1080",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Czechia",
-      "countryCode": "CZ",
-      "isp": "M247 Europe SRL",
-      "user_type": "business",
-      "type": "socks5"
+      "type": "http"
     }
   ]
 }
