@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-12T21:55:37.965489",
+  "updated_at": "2026-08-13T02:22:18.695215",
   "total": 7,
   "data": [
     {
-      "ip": "42.96.18.62",
-      "port": "1311",
+      "ip": "171.253.95.238",
+      "port": "1111",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "Branch of Long Van System Solution JSC - Hanoi",
-      "user_type": "business",
-      "type": "https"
+      "isp": "Viettel Group",
+      "user_type": "residential",
+      "type": "socks5"
     },
     {
       "ip": "103.162.31.103",
@@ -34,24 +34,7 @@
       "countryCode": "VN",
       "isp": "Bach Kim Network solutions Join stock company",
       "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "113.179.139.79",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "VNPT Corp",
-      "user_type": "residential",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "14.170.154.10",
@@ -68,7 +51,7 @@
       "countryCode": "VN",
       "isp": "VNPT Corp",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "14.238.105.10",
@@ -86,8 +69,8 @@
       "type": "http"
     },
     {
-      "ip": "163.181.207.226",
-      "port": "9999",
+      "ip": "42.119.154.129",
+      "port": "50001",
       "protocols": [
         "http",
         "https",
@@ -98,12 +81,12 @@
       "password": null,
       "country": "Vietnam",
       "countryCode": "VN",
-      "isp": "Zhejiang Taobao Network Co.,Ltd",
-      "user_type": "business",
+      "isp": "FPT Telecom Company",
+      "user_type": "residential",
       "type": "http"
     },
     {
-      "ip": "171.253.95.24",
+      "ip": "171.253.95.3",
       "port": "2105",
       "protocols": [
         "http"
@@ -115,6 +98,20 @@
       "isp": "Viettel Group",
       "user_type": "residential",
       "type": "http"
+    },
+    {
+      "ip": "171.233.178.27",
+      "port": "1080",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Viettel Group",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }
