@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-08-14T13:19:57.879291",
+  "updated_at": "2026-08-14T16:00:54.799113",
   "total": 12,
   "data": [
     {
-      "ip": "91.226.82.16",
-      "port": "1080",
+      "ip": "37.18.73.60",
+      "port": "5566",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Cloud.ru",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "176.118.232.12",
+      "port": "5678",
       "protocols": [
         "socks4",
         "http",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Russia",
       "countryCode": "RU",
-      "isp": "Internet-Pro LLC",
+      "isp": "Timer, LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "109.71.11.142",
@@ -32,7 +49,7 @@
       "countryCode": "RU",
       "isp": "JSC Selectel",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "176.114.85.85",
@@ -81,7 +98,24 @@
       "countryCode": "RU",
       "isp": "Adman LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "195.19.50.180",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "JSC GTNT",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "45.10.245.79",
@@ -98,11 +132,11 @@
       "countryCode": "RU",
       "isp": "Mt Finance LLC",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "45.144.222.225",
-      "port": "1081",
+      "ip": "79.98.9.7",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -113,9 +147,9 @@
       "password": null,
       "country": "Russia",
       "countryCode": "RU",
-      "isp": "Jsc timeweb",
+      "isp": "Modern Solutions LTD",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "82.200.66.18",
@@ -132,40 +166,6 @@
       "countryCode": "RU",
       "isp": "Joint Stock Company TransTeleCom",
       "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "85.198.81.83",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
-      "isp": "Jsc timeweb",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "95.163.220.107",
-      "port": "10809",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
-      "isp": "Domain names registrar REG.RU, Ltd",
-      "user_type": "business",
       "type": "https"
     },
     {
@@ -183,22 +183,24 @@
       "countryCode": "RU",
       "isp": "Domain names registrar REG.RU, Ltd",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
-      "ip": "185.221.152.76",
-      "port": "1080",
+      "ip": "95.163.220.107",
+      "port": "10809",
       "protocols": [
-        "socks5",
-        "socks4"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Russia",
       "countryCode": "RU",
-      "isp": "EuroByte LLC",
+      "isp": "Domain names registrar REG.RU, Ltd",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
