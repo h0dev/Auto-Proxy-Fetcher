@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-08-15T18:40:07.396404",
-  "total": 2,
+  "updated_at": "2026-08-15T21:29:55.941783",
+  "total": 5,
   "data": [
     {
-      "ip": "181.119.84.104",
+      "ip": "190.85.47.198",
+      "port": "4145",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Telmex Colombia S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "186.148.162.155",
       "port": "999",
       "protocols": [
         "http",
@@ -15,7 +32,41 @@
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "UFINET PANAMA S.A.",
+      "isp": "TV AZTECA SUCURSAL COLOMBIA",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "190.0.246.211",
+      "port": "4040",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Media Commerce Partners S.A",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "190.0.246.210",
+      "port": "4040",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Media Commerce Partners S.A",
       "user_type": "business",
       "type": "http"
     },
@@ -34,7 +85,7 @@
       "countryCode": "CO",
       "isp": "SOMOS NETWORKS COLOMBIA S.A.S. BIC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
