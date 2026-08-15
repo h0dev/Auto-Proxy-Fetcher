@@ -1,15 +1,32 @@
 {
-  "updated_at": "2026-08-15T09:34:16.319148",
-  "total": 2,
+  "updated_at": "2026-08-15T12:48:51.337244",
+  "total": 3,
   "data": [
+    {
+      "ip": "45.144.53.63",
+      "port": "6022",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "H2nexus Cloud Services - Fzco",
+      "user_type": "hosting",
+      "type": "https"
+    },
     {
       "ip": "65.109.217.76",
       "port": "2223",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,7 +34,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "95.217.212.193",
