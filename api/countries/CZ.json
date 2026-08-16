@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-08-16T06:50:26.813852",
-  "total": 1,
+  "updated_at": "2026-08-16T09:35:39.797210",
+  "total": 3,
   "data": [
     {
-      "ip": "195.133.65.238",
-      "port": "10809",
+      "ip": "195.133.14.222",
+      "port": "49152",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Timeweb, LLP",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "217.198.114.16",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,26 @@
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "Chsl One Ltd",
+      "isp": "ZONER a.s.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "87.236.197.18",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Coolhousing s.r.o.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
