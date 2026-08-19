@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-19T12:58:51.244434",
+  "updated_at": "2026-08-19T15:39:56.080657",
   "total": 3,
   "data": [
     {
       "ip": "65.21.252.66",
       "port": "10809",
       "protocols": [
-        "socks4",
-        "http",
         "socks5",
-        "https"
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -20,8 +20,8 @@
       "type": "socks5"
     },
     {
-      "ip": "144.31.143.153",
-      "port": "3128",
+      "ip": "65.21.252.66",
+      "port": "10811",
       "protocols": [
         "http",
         "https",
@@ -32,9 +32,9 @@
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "DpkgSoft International Limited",
-      "user_type": "business",
-      "type": "https"
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
       "ip": "95.217.212.193",
@@ -49,7 +49,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
