@@ -1,21 +1,38 @@
 {
-  "updated_at": "2026-08-19T01:30:50.335021",
-  "total": 108,
+  "updated_at": "2026-08-19T03:55:15.832651",
+  "total": 142,
   "data": [
     {
-      "ip": "216.48.180.178",
-      "port": "8080",
+      "ip": "117.236.124.166",
+      "port": "3128",
       "protocols": [
-        "http",
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
       "password": null,
       "country": "India",
       "countryCode": "IN",
-      "isp": "282, Sector 19",
+      "isp": "National Internet Backbone",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "14.139.235.82",
+      "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "NKN Core Network",
       "user_type": "business",
       "type": "https"
     },
@@ -34,16 +51,27 @@
       "countryCode": "IN",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "3.110.68.130",
+      "port": "1083",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "http"
     },
     {
-      "ip": "13.126.183.60",
-      "port": "28296",
+      "ip": "13.206.73.237",
+      "port": "6902",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
@@ -51,41 +79,7 @@
       "countryCode": "IN",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.235.42.151",
-      "port": "18762",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.126.183.60",
-      "port": "34469",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "103.160.206.162",
@@ -105,6 +99,23 @@
       "type": "http"
     },
     {
+      "ip": "103.165.64.86",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "X3m Infra Pvt Ltd",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
       "ip": "103.21.58.250",
       "port": "2082",
       "protocols": [
@@ -116,6 +127,23 @@
       "country": "India",
       "countryCode": "IN",
       "isp": "PDR",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "113.11.226.69",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Krishna Raghava Online Pvt Ltd",
       "user_type": "business",
       "type": "https"
     },
@@ -154,59 +182,8 @@
       "type": "https"
     },
     {
-      "ip": "13.126.183.60",
-      "port": "8091",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "13.126.183.60",
-      "port": "54159",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "13.126.183.60",
-      "port": "8056",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "13.126.183.60",
-      "port": "2720",
+      "ip": "13.206.73.237",
+      "port": "19172",
       "protocols": [
         "http",
         "https",
@@ -220,91 +197,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "13.126.183.60",
-      "port": "330",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "13.126.183.60",
-      "port": "13044",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "13.126.183.60",
-      "port": "18006",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "13.126.183.60",
-      "port": "21",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.126.183.60",
-      "port": "1552",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
     },
     {
       "ip": "13.206.73.237",
@@ -325,7 +217,41 @@
     },
     {
       "ip": "13.206.73.237",
-      "port": "25362",
+      "port": "30128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.206.73.237",
+      "port": "39300",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.126.183.60",
+      "port": "21",
       "protocols": [
         "http",
         "https",
@@ -372,6 +298,23 @@
       "countryCode": "IN",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "13.126.183.60",
+      "port": "13044",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "socks4"
     },
     {
@@ -389,11 +332,11 @@
       "countryCode": "IN",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
     },
     {
-      "ip": "13.206.73.237",
-      "port": "9615",
+      "ip": "13.126.183.60",
+      "port": "34469",
       "protocols": [
         "http",
         "https",
@@ -409,8 +352,8 @@
       "type": "socks4"
     },
     {
-      "ip": "13.206.73.237",
-      "port": "6671",
+      "ip": "13.126.183.60",
+      "port": "20014",
       "protocols": [
         "http",
         "https",
@@ -426,8 +369,8 @@
       "type": "socks4"
     },
     {
-      "ip": "13.206.73.237",
-      "port": "39300",
+      "ip": "13.126.183.60",
+      "port": "43584",
       "protocols": [
         "http",
         "https",
@@ -443,8 +386,8 @@
       "type": "socks4"
     },
     {
-      "ip": "13.206.73.237",
-      "port": "18119",
+      "ip": "13.126.183.60",
+      "port": "330",
       "protocols": [
         "http",
         "https",
@@ -460,42 +403,8 @@
       "type": "socks4"
     },
     {
-      "ip": "13.206.73.237",
-      "port": "58571",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.206.73.237",
-      "port": "9613",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.206.73.237",
-      "port": "19172",
+      "ip": "13.126.183.60",
+      "port": "18006",
       "protocols": [
         "http",
         "https",
@@ -523,45 +432,62 @@
       "countryCode": "IN",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "13.126.183.60",
+      "port": "2720",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.126.183.60",
+      "port": "1552",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.126.183.60",
+      "port": "28296",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "13.235.42.151",
       "port": "47717",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.235.42.151",
-      "port": "51642",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.235.42.151",
-      "port": "20470",
       "protocols": [
         "http",
         "https",
@@ -611,6 +537,125 @@
       "type": "socks4"
     },
     {
+      "ip": "13.126.183.60",
+      "port": "8091",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.235.42.151",
+      "port": "32289",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.126.183.60",
+      "port": "54159",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.206.73.237",
+      "port": "58571",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.206.73.237",
+      "port": "6671",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.235.42.151",
+      "port": "29472",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.235.42.151",
+      "port": "18762",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
       "ip": "13.235.42.151",
       "port": "18062",
       "protocols": [
@@ -628,8 +673,8 @@
       "type": "socks4"
     },
     {
-      "ip": "13.235.42.151",
-      "port": "8092",
+      "ip": "13.206.73.237",
+      "port": "18119",
       "protocols": [
         "http",
         "https",
@@ -646,7 +691,7 @@
     },
     {
       "ip": "13.235.42.151",
-      "port": "8090",
+      "port": "20470",
       "protocols": [
         "http",
         "https",
@@ -659,11 +704,75 @@
       "countryCode": "IN",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "13.206.73.237",
+      "port": "9615",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.206.73.237",
+      "port": "9613",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.206.73.237",
+      "port": "55487",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "13.206.73.237",
+      "port": "8561",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     },
     {
       "ip": "139.59.1.14",
-      "port": "3128",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -676,11 +785,11 @@
       "countryCode": "IN",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "139.59.1.14",
-      "port": "80",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -708,7 +817,7 @@
       "countryCode": "IN",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "139.59.1.14",
@@ -742,7 +851,7 @@
       "countryCode": "IN",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "165.225.124.36",
@@ -759,7 +868,7 @@
       "countryCode": "IN",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "167.103.19.22",
@@ -776,23 +885,6 @@
       "countryCode": "IN",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "167.71.233.240",
-      "port": "3129",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
       "type": "https"
     },
     {
@@ -809,193 +901,6 @@
       "country": "India",
       "countryCode": "IN",
       "isp": "Akamai Connected Cloud",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "11654",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "19387",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "48972",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "18.61.3.91",
-      "port": "32823",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "40697",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "34560",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.61.3.91",
-      "port": "33531",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "31599",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "18.61.3.91",
-      "port": "58767",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "34971",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "319",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "https"
     },
@@ -1034,25 +939,8 @@
       "type": "socks4"
     },
     {
-      "ip": "18.60.247.31",
-      "port": "48518",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "57798",
+      "ip": "18.61.3.91",
+      "port": "32522",
       "protocols": [
         "http",
         "https",
@@ -1068,8 +956,8 @@
       "type": "socks4"
     },
     {
-      "ip": "18.60.247.31",
-      "port": "37773",
+      "ip": "18.61.3.91",
+      "port": "32823",
       "protocols": [
         "http",
         "https",
@@ -1102,127 +990,8 @@
       "type": "socks4"
     },
     {
-      "ip": "18.60.247.31",
-      "port": "35765",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
       "ip": "18.61.3.91",
-      "port": "17994",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "12348",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.61.3.91",
-      "port": "50059",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "9002",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.61.3.91",
-      "port": "8828",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.60.247.31",
-      "port": "43307",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.61.3.91",
-      "port": "58560",
+      "port": "58767",
       "protocols": [
         "http",
         "https",
@@ -1273,7 +1042,109 @@
     },
     {
       "ip": "18.61.3.91",
+      "port": "58560",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.61.3.91",
+      "port": "33531",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.61.3.91",
+      "port": "17994",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.61.3.91",
+      "port": "50059",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.61.3.91",
       "port": "9355",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.61.3.91",
+      "port": "8828",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "19387",
       "protocols": [
         "http",
         "https",
@@ -1303,7 +1174,160 @@
       "countryCode": "IN",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "11654",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "34971",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "35765",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "319",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "48518",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "57798",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "38571",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "37773",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "43307",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "18.60.247.31",
@@ -1320,7 +1344,126 @@
       "countryCode": "IN",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "34560",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "40697",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.60.247.31",
+      "port": "31599",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.110.68.130",
+      "port": "56066",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.110.68.130",
+      "port": "230",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.110.68.130",
+      "port": "6531",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.110.68.130",
+      "port": "23782",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "36.255.87.222",
@@ -1371,7 +1514,7 @@
       "countryCode": "IN",
       "isp": "Gatik Business Solutions",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "36.255.87.222",
@@ -1392,75 +1535,7 @@
     },
     {
       "ip": "40.192.121.249",
-      "port": "9725",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "40.192.121.249",
       "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "40.192.121.249",
-      "port": "17563",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "40.192.121.249",
-      "port": "10571",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "40.192.121.249",
-      "port": "16830",
       "protocols": [
         "http",
         "https",
@@ -1494,6 +1569,243 @@
     },
     {
       "ip": "40.192.121.249",
+      "port": "8000",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.121.249",
+      "port": "10571",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.120.123",
+      "port": "8456",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.121.249",
+      "port": "9725",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.120.123",
+      "port": "42947",
+      "protocols": [
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.121.249",
+      "port": "17563",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.120.123",
+      "port": "59028",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.120.123",
+      "port": "10795",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.120.123",
+      "port": "25895",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.120.123",
+      "port": "48895",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.120.123",
+      "port": "3305",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.120.123",
+      "port": "35146",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.121.249",
+      "port": "16830",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.120.123",
+      "port": "34656",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "40.192.121.249",
       "port": "1908",
       "protocols": [
         "http",
@@ -1509,8 +1821,382 @@
       "type": "socks5"
     },
     {
-      "ip": "65.2.5.16",
-      "port": "12162",
+      "ip": "43.205.113.210",
+      "port": "9418",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.125.76",
+      "port": "8125",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.242.234",
+      "port": "8827",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.242.234",
+      "port": "8026",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.242.234",
+      "port": "31969",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.113.210",
+      "port": "10209",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.125.76",
+      "port": "19008",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.113.210",
+      "port": "8999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.242.234",
+      "port": "11921",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.113.210",
+      "port": "26811",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.242.234",
+      "port": "29456",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.125.76",
+      "port": "3000",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.125.76",
+      "port": "3129",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.113.210",
+      "port": "4444",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.125.76",
+      "port": "8723",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.125.76",
+      "port": "8083",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.125.76",
+      "port": "170",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.242.234",
+      "port": "50082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.125.76",
+      "port": "52583",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.242.234",
+      "port": "49895",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.242.234",
+      "port": "10944",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.242.234",
+      "port": "9002",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "India",
+      "countryCode": "IN",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.205.242.234",
+      "port": "19925",
       "protocols": [
         "http",
         "https",
@@ -1527,24 +2213,7 @@
     },
     {
       "ip": "65.2.5.16",
-      "port": "9638",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "65.2.5.16",
-      "port": "8104",
+      "port": "46143",
       "protocols": [
         "http",
         "https",
@@ -1558,21 +2227,6 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "65.2.5.16",
-      "port": "51537",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
     },
     {
       "ip": "65.2.5.16",
@@ -1587,16 +2241,14 @@
       "countryCode": "IN",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "65.2.5.16",
-      "port": "1006",
+      "port": "51537",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -1607,8 +2259,8 @@
       "type": "https"
     },
     {
-      "ip": "13.235.42.151",
-      "port": "4793",
+      "ip": "13.206.73.237",
+      "port": "42995",
       "protocols": [
         "socks4",
         "socks5"
@@ -1622,8 +2274,8 @@
       "type": "socks4"
     },
     {
-      "ip": "13.206.73.237",
-      "port": "42995",
+      "ip": "13.235.42.151",
+      "port": "4793",
       "protocols": [
         "socks4",
         "socks5"
@@ -1681,10 +2333,10 @@
       "type": "socks4"
     },
     {
-      "ip": "43.205.125.76",
-      "port": "8050",
+      "ip": "40.192.120.123",
+      "port": "31012",
       "protocols": [
-        "https"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -1692,21 +2344,7 @@
       "countryCode": "IN",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "43.205.113.210",
-      "port": "21784",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
+      "type": "socks5"
     },
     {
       "ip": "65.2.5.16",
@@ -1723,64 +2361,8 @@
       "type": "https"
     },
     {
-      "ip": "43.205.242.234",
-      "port": "43132",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "13.126.183.60",
-      "port": "8118",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "40.192.121.249",
-      "port": "12322",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "43.205.242.234",
-      "port": "8005",
-      "protocols": [
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "India",
-      "countryCode": "IN",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "43.205.125.76",
-      "port": "14585",
+      "ip": "43.205.113.210",
+      "port": "21784",
       "protocols": [
         "https"
       ],
