@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-08-20T01:29:29.512937",
-  "total": 1,
+  "updated_at": "2026-08-20T06:57:04.654152",
+  "total": 2,
   "data": [
     {
-      "ip": "185.32.4.126",
-      "port": "4153",
+      "ip": "88.218.206.170",
+      "port": "22",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Skhron OU",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "185.238.238.37",
+      "port": "58080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "AS Consulting Sp. z o. o.",
+      "isp": "RADIO-NET",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     }
   ]
 }

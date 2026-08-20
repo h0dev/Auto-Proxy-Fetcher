@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-08-20T03:55:13.115682",
-  "total": 4,
+  "updated_at": "2026-08-20T06:57:04.651079",
+  "total": 3,
   "data": [
     {
-      "ip": "213.14.144.16",
-      "port": "3310",
+      "ip": "95.3.69.222",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Turk Telekom",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "185.181.208.220",
+      "port": "443",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Türkiye",
       "countryCode": "TR",
-      "isp": "Superonline Iletisim Hizmetleri A.S.",
+      "isp": "Hostigger INC.",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "45.155.125.199",
@@ -34,37 +51,7 @@
       "countryCode": "TR",
       "isp": "2e Telekomunikasyon Ltd Sti",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "46.20.1.110",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Dgn Teknoloji A.s.",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "93.89.225.119",
-      "port": "2082",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Isimtescil Bilisim A.S.",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
