@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-08-20T06:57:04.652547",
-  "total": 1,
+  "updated_at": "2026-08-20T09:44:01.029388",
+  "total": 3,
   "data": [
     {
-      "ip": "94.131.92.155",
+      "ip": "170.168.101.28",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "212.154.169.90",
       "port": "3128",
       "protocols": [
         "http",
@@ -15,8 +32,25 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "Cloud Services Kazakhstan LLP",
-      "user_type": "hosting",
+      "isp": "JSC Kazakhtelecom",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "82.200.236.130",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Kazakhtelecom",
+      "user_type": "residential",
       "type": "https"
     }
   ]
