@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-08-21T15:42:04.429759",
+  "updated_at": "2026-08-21T18:46:18.080758",
   "total": 2,
   "data": [
     {
-      "ip": "38.19.226.5",
+      "ip": "38.19.226.25",
       "port": "999",
       "protocols": [
         "http",
@@ -17,13 +17,16 @@
       "countryCode": "CO",
       "isp": "Cogent Communications, LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "38.19.226.10",
+      "ip": "38.19.226.5",
       "port": "999",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
