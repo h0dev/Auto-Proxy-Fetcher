@@ -1,20 +1,35 @@
 {
-  "updated_at": "2026-08-22T01:27:52.300353",
-  "total": 1,
+  "updated_at": "2026-08-22T03:50:17.281420",
+  "total": 2,
   "data": [
     {
       "ip": "165.225.218.43",
       "port": "11743",
       "protocols": [
+        "http",
+        "https",
         "socks4",
-        "socks5",
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Mexico",
       "countryCode": "MX",
       "isp": "ZSCALER, INC.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "38.49.156.238",
+      "port": "10101",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "IENTC S DE RL DE CV",
       "user_type": "business",
       "type": "http"
     }
