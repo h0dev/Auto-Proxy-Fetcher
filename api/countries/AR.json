@@ -1,22 +1,40 @@
 {
-  "updated_at": "2026-08-22T01:27:52.300603",
-  "total": 1,
+  "updated_at": "2026-08-22T09:35:58.091173",
+  "total": 2,
   "data": [
     {
-      "ip": "190.122.88.120",
-      "port": "1080",
+      "ip": "45.232.0.2",
+      "port": "8080",
       "protocols": [
+        "http",
+        "https",
         "socks4",
-        "socks5",
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Argentina",
       "countryCode": "AR",
-      "isp": "Servicios y Telecomunicaciones S.A.",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "SISTEMAS INFORMATICOS S.A.S. (INTERFLASH)",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "187.102.219.64",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
