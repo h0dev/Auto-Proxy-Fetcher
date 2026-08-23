@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-23T12:51:49.278969",
+  "updated_at": "2026-08-23T15:31:27.436687",
   "total": 2,
   "data": [
     {
-      "ip": "181.143.37.11",
-      "port": "32767",
+      "ip": "181.78.74.252",
+      "port": "999",
       "protocols": [
         "http",
         "https",
@@ -15,23 +15,26 @@
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "UNE EPM TELECOMUNICACIONES S.A.",
-      "user_type": "residential",
-      "type": "socks4"
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "https"
     },
     {
-      "ip": "38.19.226.10",
+      "ip": "181.78.74.253",
       "port": "999",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "Cogent Communications, LLC",
+      "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
