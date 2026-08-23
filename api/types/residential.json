@@ -1,26 +1,43 @@
 {
-  "updated_at": "2026-08-23T06:52:32.006666",
+  "updated_at": "2026-08-23T09:35:48.722644",
   "total": 22,
   "data": [
     {
-      "ip": "199.7.149.90",
-      "port": "3128",
+      "ip": "151.232.18.66",
+      "port": "5678",
       "protocols": [
-        "http",
-        "socks5",
         "socks4",
-        "https"
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
-      "country": "United States",
-      "countryCode": "US",
-      "isp": "EXO BROADBAND",
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Iran Telecommunication Company PJS",
       "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "113.249.101.123",
+      "ip": "185.70.129.183",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Kompeatelecom Ltd.",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "113.249.103.136",
       "port": "18255",
       "protocols": [
         "http",
@@ -33,57 +50,6 @@
       "country": "China",
       "countryCode": "CN",
       "isp": "Chongqing Telecom",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "95.78.118.172",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
-      "isp": "JSC ER-Telecom Holding",
-      "user_type": "residential",
-      "type": "socks5"
-    },
-    {
-      "ip": "119.18.147.179",
-      "port": "1080",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bangladesh",
-      "countryCode": "BD",
-      "isp": "Broad Band Telecom Services Ltd",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "102.39.214.109",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Africa",
-      "countryCode": "ZA",
-      "isp": "Vox Telecom Ltd",
       "user_type": "residential",
       "type": "https"
     },
@@ -102,7 +68,7 @@
       "countryCode": "PK",
       "isp": "Logitech Cable (Private) Limited",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "103.166.185.237",
@@ -136,7 +102,7 @@
       "countryCode": "PK",
       "isp": "Samz Broadband Networx ( SMC-PRIVATE ) LTD",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "115.84.248.140",
@@ -153,7 +119,7 @@
       "countryCode": "PH",
       "isp": "Eastern Telecoms Phils., Inc.",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "117.4.246.169",
@@ -187,7 +153,7 @@
       "countryCode": "VN",
       "isp": "VNPT Corp",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "14.238.105.10",
@@ -202,11 +168,11 @@
       "countryCode": "VN",
       "isp": "VNPT Corp",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "177.244.44.78",
-      "port": "3128",
+      "ip": "180.167.238.98",
+      "port": "7302",
       "protocols": [
         "http",
         "https",
@@ -215,9 +181,9 @@
       ],
       "username": null,
       "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Mega Cable, S.A. de C.V.",
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Telecom (Group)",
       "user_type": "residential",
       "type": "http"
     },
@@ -239,23 +205,6 @@
       "type": "http"
     },
     {
-      "ip": "180.167.238.98",
-      "port": "7302",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Telecom (Group)",
-      "user_type": "residential",
-      "type": "https"
-    },
-    {
       "ip": "191.7.216.134",
       "port": "8080",
       "protocols": [
@@ -269,6 +218,23 @@
       "country": "Brazil",
       "countryCode": "BR",
       "isp": "ONLINE TELECOMUNICACOES LTDA",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "196.64.96.223",
+      "port": "1111",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Morocco",
+      "countryCode": "MA",
+      "isp": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
       "user_type": "residential",
       "type": "http"
     },
@@ -307,6 +273,23 @@
       "type": "http"
     },
     {
+      "ip": "49.48.96.102",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Thailand",
+      "countryCode": "TH",
+      "isp": "Triple T Broadband Public Company Limited",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
       "ip": "50.238.158.12",
       "port": "8080",
       "protocols": [
@@ -321,7 +304,7 @@
       "countryCode": "US",
       "isp": "Comcast Cable Communications, LLC",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "82.200.66.18",
@@ -338,24 +321,37 @@
       "countryCode": "RU",
       "isp": "Joint Stock Company TransTeleCom",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "85.175.219.236",
-      "port": "1080",
+      "ip": "95.87.84.29",
+      "port": "8080",
       "protocols": [
         "http",
-        "https",
         "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
-      "isp": "Rostelecom",
+      "country": "Kyrgyzstan",
+      "countryCode": "KG",
+      "isp": "Cjsc Saima Telecom",
       "user_type": "residential",
-      "type": "socks5"
+      "type": "http"
+    },
+    {
+      "ip": "196.74.231.36",
+      "port": "2118",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Morocco",
+      "countryCode": "MA",
+      "isp": "Office National des Postes et Telecommunications ONPT (Maroc Telecom) / IAM",
+      "user_type": "residential",
+      "type": "http"
     },
     {
       "ip": "103.127.92.33",

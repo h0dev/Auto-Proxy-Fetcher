@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-23T06:52:32.040208",
+  "updated_at": "2026-08-23T09:35:48.727420",
   "total": 2,
   "data": [
     {
       "ip": "92.113.150.45",
       "port": "1080",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,7 @@
       "countryCode": "DK",
       "isp": "Webdock.io ApS",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "92.113.150.45",
@@ -34,7 +34,7 @@
       "countryCode": "DK",
       "isp": "Webdock.io ApS",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
