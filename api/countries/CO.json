@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T21:29:42.228360",
+  "updated_at": "2026-08-24T01:41:30.281971",
   "total": 3,
   "data": [
     {
@@ -17,7 +17,7 @@
       "countryCode": "CO",
       "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "181.78.74.252",
@@ -37,10 +37,13 @@
       "type": "https"
     },
     {
-      "ip": "38.19.226.10",
+      "ip": "38.19.226.25",
       "port": "999",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -48,7 +51,7 @@
       "countryCode": "CO",
       "isp": "Cogent Communications, LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
