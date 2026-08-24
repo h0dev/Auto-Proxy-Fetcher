@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-08-24T01:41:30.276099",
-  "total": 1,
+  "updated_at": "2026-08-24T09:56:22.771554",
+  "total": 2,
   "data": [
     {
-      "ip": "200.70.56.84",
-      "port": "1080",
+      "ip": "190.122.144.23",
+      "port": "5678",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "Atlantica Video Cable S.A.",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "187.102.219.64",
+      "port": "999",
+      "protocols": [
+        "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Argentina",
       "countryCode": "AR",
-      "isp": "Telefonica de Argentina",
+      "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
