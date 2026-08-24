@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-08-24T18:50:51.757937",
-  "total": 1,
+  "updated_at": "2026-08-24T21:38:39.510215",
+  "total": 2,
   "data": [
     {
       "ip": "103.157.200.126",
       "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "Logitech Cable (Private) Limited",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "103.169.98.234",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "Logitech Cable (Private) Limited",
+      "isp": "Samz Broadband Networx ( SMC-PRIVATE ) LTD",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
