@@ -1,21 +1,35 @@
 {
-  "updated_at": "2026-08-24T09:56:22.770092",
-  "total": 1,
+  "updated_at": "2026-08-25T01:31:24.795675",
+  "total": 2,
   "data": [
     {
-      "ip": "190.97.238.160",
+      "ip": "190.97.236.129",
       "port": "999",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Venezuela",
       "countryCode": "VE",
       "isp": "VIGINET C.A",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "38.25.166.76",
+      "port": "8088",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Venezuela",
+      "countryCode": "VE",
+      "isp": "Airtek Solutions C.A.",
       "user_type": "business",
       "type": "http"
     }
