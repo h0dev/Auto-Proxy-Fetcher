@@ -1,7 +1,39 @@
 {
-  "updated_at": "2026-08-25T09:44:33.886919",
-  "total": 2,
+  "updated_at": "2026-08-25T12:58:31.633470",
+  "total": 4,
   "data": [
+    {
+      "ip": "213.176.8.227",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "E-Large (HongKong)",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "80.75.13.203",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Afranet",
+      "user_type": "business",
+      "type": "https"
+    },
     {
       "ip": "89.44.242.212",
       "port": "10808",
@@ -34,7 +66,7 @@
       "countryCode": "IR",
       "isp": "Noyan Abr Arvan Co. ( Private Joint Stock)",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     }
   ]
 }
