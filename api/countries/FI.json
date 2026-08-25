@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-08-25T12:58:31.618044",
-  "total": 1,
+  "updated_at": "2026-08-25T15:51:18.921696",
+  "total": 2,
   "data": [
     {
-      "ip": "65.21.252.66",
+      "ip": "62.60.236.119",
       "port": "10809",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "socks5"
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "185.93.105.16",
+      "port": "1081",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Scalaxy B.V.",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
