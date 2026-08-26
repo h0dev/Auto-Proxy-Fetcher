@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-26T13:04:12.247802",
-  "total": 1,
+  "updated_at": "2026-08-26T16:25:50.232804",
+  "total": 2,
   "data": [
     {
       "ip": "194.182.187.78",
@@ -17,7 +17,24 @@
       "countryCode": "AT",
       "isp": "Akenes SA",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "194.182.187.78",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Austria",
+      "countryCode": "AT",
+      "isp": "Akenes SA",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
