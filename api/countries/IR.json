@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-08-26T16:25:50.233315",
+  "updated_at": "2026-08-26T19:57:10.187829",
   "total": 4,
   "data": [
     {
-      "ip": "5.202.40.17",
+      "ip": "151.232.18.66",
+      "port": "5678",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Iran Telecommunication Company PJS",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "5.202.44.160",
       "port": "80",
       "protocols": [
         "http",
@@ -16,23 +33,6 @@
       "country": "Iran",
       "countryCode": "IR",
       "isp": "Pishgaman Toseeh Ertebatat Company (Private Joint Stock)",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "80.75.13.203",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "Afranet",
       "user_type": "business",
       "type": "https"
     },
@@ -51,7 +51,7 @@
       "countryCode": "IR",
       "isp": "Pars Abr Toseeh Ertebatat LTD",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "95.38.160.79",
@@ -68,7 +68,7 @@
       "countryCode": "IR",
       "isp": "Noyan Abr Arvan Co. ( Private Joint Stock)",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
