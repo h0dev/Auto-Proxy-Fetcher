@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-25T21:37:38.645651",
+  "updated_at": "2026-08-26T01:41:25.175482",
   "total": 2,
   "data": [
     {
       "ip": "178.253.39.103",
       "port": "10808",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,7 +17,7 @@
       "countryCode": "GR",
       "isp": "First Server Limited",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "178.253.39.103",
@@ -34,7 +34,7 @@
       "countryCode": "GR",
       "isp": "First Server Limited",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
