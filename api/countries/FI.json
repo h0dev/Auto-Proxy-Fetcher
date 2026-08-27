@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-08-26T13:04:12.249878",
+  "updated_at": "2026-08-27T00:38:31.159644",
   "total": 1,
   "data": [
     {
-      "ip": "65.109.212.206",
-      "port": "9094",
+      "ip": "65.109.65.238",
+      "port": "18080",
       "protocols": [
-        "socks4"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
