@@ -1,9 +1,43 @@
 {
-  "updated_at": "2026-08-26T13:04:12.247324",
-  "total": 2,
+  "updated_at": "2026-08-28T00:23:42.153037",
+  "total": 5,
   "data": [
     {
-      "ip": "190.0.246.210",
+      "ip": "181.78.80.222",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "170.238.239.71",
+      "port": "60606",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "INTERNEXA S.A. E.S.P",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "190.0.246.213",
       "port": "4040",
       "protocols": [
         "http",
@@ -17,7 +51,7 @@
       "countryCode": "CO",
       "isp": "Media Commerce Partners S.A",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "190.0.246.211",
@@ -34,7 +68,24 @@
       "countryCode": "CO",
       "isp": "Media Commerce Partners S.A",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "201.184.239.75",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "UNE EPM TELECOMUNICACIONES S.A.",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }
