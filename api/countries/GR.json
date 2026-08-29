@@ -1,24 +1,7 @@
 {
-  "updated_at": "2026-08-29T09:56:13.455349",
+  "updated_at": "2026-08-29T16:33:41.079529",
   "total": 2,
   "data": [
-    {
-      "ip": "178.253.39.103",
-      "port": "10809",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Greece",
-      "countryCode": "GR",
-      "isp": "First Server Limited",
-      "user_type": "hosting",
-      "type": "http"
-    },
     {
       "ip": "178.253.39.103",
       "port": "10808",
@@ -34,7 +17,24 @@
       "countryCode": "GR",
       "isp": "First Server Limited",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "178.253.39.103",
+      "port": "10809",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Greece",
+      "countryCode": "GR",
+      "isp": "First Server Limited",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }
