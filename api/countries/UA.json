@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-08-29T16:33:41.082485",
-  "total": 1,
+  "updated_at": "2026-08-29T20:46:52.849946",
+  "total": 2,
   "data": [
     {
       "ip": "85.193.65.88",
       "port": "8888",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "K-telekom LLC",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "85.209.120.145",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "K-telekom LLC",
+      "isp": "Pembe Gul Isguzar Karagoz",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
     }
   ]
 }
