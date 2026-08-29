@@ -1,9 +1,43 @@
 {
-  "updated_at": "2026-08-29T09:56:13.455414",
-  "total": 2,
+  "updated_at": "2026-08-29T23:12:19.531158",
+  "total": 4,
   "data": [
     {
-      "ip": "181.78.80.222",
+      "ip": "181.78.23.187",
+      "port": "999",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "181.78.74.253",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "181.78.74.252",
       "port": "999",
       "protocols": [
         "http",
@@ -20,8 +54,8 @@
       "type": "http"
     },
     {
-      "ip": "190.0.246.211",
-      "port": "4040",
+      "ip": "186.116.148.52",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -32,9 +66,9 @@
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "Media Commerce Partners S.A",
-      "user_type": "business",
-      "type": "http"
+      "isp": "COLOMBIA TELECOMUNICACIONES S.A. ESP BIC",
+      "user_type": "residential",
+      "type": "https"
     }
   ]
 }
