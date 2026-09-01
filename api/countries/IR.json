@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T14:06:05.115053",
+  "updated_at": "2026-09-01T18:21:01.987345",
   "total": 6,
   "data": [
     {
@@ -17,7 +17,24 @@
       "countryCode": "IR",
       "isp": "Sefroyek Pardaz Engineering PJSC",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "217.114.40.114",
+      "port": "10808",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Vandad Vira Hooman LLC",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "91.223.116.132",
@@ -34,11 +51,11 @@
       "countryCode": "IR",
       "isp": "Dadeh Gostar Parmis PJS Company",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "185.211.57.166",
-      "port": "3128",
+      "ip": "46.100.94.217",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -49,9 +66,9 @@
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "Mahdiar Rafiee",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Iran Telecommunication Company PJS",
+      "user_type": "residential",
+      "type": "socks5"
     },
     {
       "ip": "89.44.242.212",
@@ -68,24 +85,7 @@
       "countryCode": "IR",
       "isp": "Pars Abr Toseeh Ertebatat LTD",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "93.113.233.20",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Iran",
-      "countryCode": "IR",
-      "isp": "Afranet",
-      "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "95.38.160.79",
@@ -102,7 +102,7 @@
       "countryCode": "IR",
       "isp": "Noyan Abr Arvan Co. ( Private Joint Stock)",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
