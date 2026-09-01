@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-01T08:32:35.880919",
-  "total": 5,
+  "updated_at": "2026-09-01T14:06:05.116164",
+  "total": 6,
   "data": [
     {
       "ip": "185.15.198.18",
       "port": "35035",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,8 +20,8 @@
       "type": "https"
     },
     {
-      "ip": "141.98.50.113",
-      "port": "5000",
+      "ip": "141.98.50.119",
+      "port": "6000",
       "protocols": [
         "http",
         "https",
@@ -34,11 +34,11 @@
       "countryCode": "TR",
       "isp": "Savas Anac",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "141.98.50.119",
-      "port": "6000",
+      "ip": "141.98.50.113",
+      "port": "5000",
       "protocols": [
         "http",
         "https",
@@ -69,6 +69,22 @@
       "isp": "Hostigger INC.",
       "user_type": "business",
       "type": "socks4"
+    },
+    {
+      "ip": "195.175.204.134",
+      "port": "3127",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "Turk Telekom",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "45.155.125.199",

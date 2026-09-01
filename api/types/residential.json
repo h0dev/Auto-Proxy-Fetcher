@@ -1,10 +1,44 @@
 {
-  "updated_at": "2026-09-01T08:32:35.856562",
-  "total": 16,
+  "updated_at": "2026-09-01T14:06:05.109630",
+  "total": 23,
   "data": [
     {
-      "ip": "89.151.134.157",
-      "port": "3629",
+      "ip": "188.187.3.75",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "JSC ER-Telecom Holding",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "160.22.17.4",
+      "port": "9988",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "119.18.147.179",
+      "port": "1080",
       "protocols": [
         "socks4",
         "http",
@@ -13,9 +47,9 @@
       ],
       "username": null,
       "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
-      "isp": "Rostelecom",
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "Broad Band Telecom Services Ltd",
       "user_type": "residential",
       "type": "socks4"
     },
@@ -68,7 +102,7 @@
       "countryCode": "PH",
       "isp": "Eastern Telecoms Phils., Inc.",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "117.4.246.169",
@@ -85,7 +119,7 @@
       "countryCode": "VN",
       "isp": "Viettel Group",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "14.170.154.10",
@@ -102,7 +136,7 @@
       "countryCode": "VN",
       "isp": "VNPT Corp",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "170.0.54.182",
@@ -156,37 +190,6 @@
       "type": "socks4"
     },
     {
-      "ip": "187.103.125.104",
-      "port": "61234",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "BR.Digital Telecom",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "188.190.153.101",
-      "port": "7890",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Russia",
-      "countryCode": "RU",
-      "isp": "Zhigulevsk Cable Network LLC",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
       "ip": "191.7.216.134",
       "port": "8080",
       "protocols": [
@@ -204,8 +207,8 @@
       "type": "https"
     },
     {
-      "ip": "201.131.214.1",
-      "port": "5678",
+      "ip": "197.224.185.3",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -214,11 +217,11 @@
       ],
       "username": null,
       "password": null,
-      "country": "Brazil",
-      "countryCode": "BR",
-      "isp": "VIGORA TELECOM",
+      "country": "Mauritius",
+      "countryCode": "MU",
+      "isp": "Mauritius Telecom Ltd",
       "user_type": "residential",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "202.5.50.151",
@@ -238,8 +241,8 @@
       "type": "socks4"
     },
     {
-      "ip": "212.154.169.90",
-      "port": "3128",
+      "ip": "211.209.210.50",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -248,11 +251,45 @@
       ],
       "username": null,
       "password": null,
-      "country": "Kazakhstan",
-      "countryCode": "KZ",
-      "isp": "JSC Kazakhtelecom",
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "SK Broadband Co Ltd",
       "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "212.31.100.138",
+      "port": "4153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Cyprus",
+      "countryCode": "CY",
+      "isp": "Cyprus Telecommunications Authority",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "221.133.129.35",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "SK Broadband Co Ltd",
+      "user_type": "residential",
+      "type": "socks5"
     },
     {
       "ip": "220.243.154.46",
@@ -270,6 +307,91 @@
       "isp": "IDC, China Telecommunications Corporation",
       "user_type": "residential",
       "type": "http"
+    },
+    {
+      "ip": "5.140.110.96",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Rostelecom",
+      "user_type": "residential",
+      "type": "socks5"
+    },
+    {
+      "ip": "50.238.158.12",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United States",
+      "countryCode": "US",
+      "isp": "Comcast Cable Communications, LLC",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "82.200.66.18",
+      "port": "8090",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Joint Stock Company TransTeleCom",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "90.188.92.116",
+      "port": "36335",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Rostelecom",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "95.78.118.172",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "JSC ER-Telecom Holding",
+      "user_type": "residential",
+      "type": "socks5"
     }
   ]
 }
