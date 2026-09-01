@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-09-01T18:21:02.019394",
-  "total": 1,
+  "updated_at": "2026-09-01T23:14:35.517055",
+  "total": 4,
   "data": [
+    {
+      "ip": "195.133.65.238",
+      "port": "10909",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Chsl One Ltd",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "195.133.65.238",
+      "port": "10809",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Chsl One Ltd",
+      "user_type": "business",
+      "type": "http"
+    },
     {
       "ip": "217.198.114.16",
       "port": "80",
@@ -16,6 +50,23 @@
       "country": "Czechia",
       "countryCode": "CZ",
       "isp": "ZONER a.s.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "87.236.197.18",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Coolhousing s.r.o.",
       "user_type": "business",
       "type": "https"
     }
