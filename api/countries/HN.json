@@ -1,20 +1,23 @@
 {
-  "updated_at": "2026-08-30T23:23:48.344449",
+  "updated_at": "2026-09-02T03:48:15.708222",
   "total": 1,
   "data": [
     {
-      "ip": "200.115.189.145",
-      "port": "9096",
+      "ip": "138.59.177.117",
+      "port": "5678",
       "protocols": [
-        "http"
+        "socks4",
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Honduras",
       "countryCode": "HN",
-      "isp": "Velco Globalnetwork",
+      "isp": "INET Communication",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }
