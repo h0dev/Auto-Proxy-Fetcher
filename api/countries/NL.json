@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-09-05T20:12:06.833636",
-  "total": 17,
+  "updated_at": "2026-09-05T22:48:36.709286",
+  "total": 16,
   "data": [
     {
-      "ip": "95.211.174.135",
-      "port": "3128",
+      "ip": "5.129.213.185",
+      "port": "1080",
       "protocols": [
-        "socks5",
         "socks4",
         "http",
-        "https"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
-      "isp": "LeaseWeb Netherlands B.V.",
+      "isp": "Timeweb, LLP",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "5.255.117.127",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "The Infrastructure Group B.V.",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "107.189.21.79",
@@ -36,24 +53,7 @@
       "type": "http"
     },
     {
-      "ip": "108.181.123.87",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Psychz Networks",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "141.0.13.229",
+      "ip": "141.0.13.236",
       "port": "80",
       "protocols": [
         "http",
@@ -70,7 +70,7 @@
       "type": "https"
     },
     {
-      "ip": "141.0.13.236",
+      "ip": "141.0.13.229",
       "port": "80",
       "protocols": [
         "http",
@@ -138,7 +138,7 @@
       "type": "http"
     },
     {
-      "ip": "185.26.180.180",
+      "ip": "185.26.181.241",
       "port": "80",
       "protocols": [
         "http",
@@ -155,7 +155,7 @@
       "type": "https"
     },
     {
-      "ip": "185.26.181.241",
+      "ip": "185.26.180.180",
       "port": "80",
       "protocols": [
         "http",
@@ -206,24 +206,7 @@
       "type": "https"
     },
     {
-      "ip": "68.66.251.205",
-      "port": "9000",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "WHG Hosting Services Ltd",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "82.145.209.242",
+      "ip": "82.145.209.253",
       "port": "80",
       "protocols": [
         "http",
@@ -237,7 +220,7 @@
       "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "82.145.209.241",
@@ -254,7 +237,24 @@
       "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "82.145.209.242",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Opera Norway AS",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "82.145.209.254",
@@ -272,23 +272,6 @@
       "isp": "Opera Norway AS",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "82.145.209.253",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Opera Norway AS",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
