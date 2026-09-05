@@ -1,19 +1,56 @@
 {
-  "updated_at": "2026-09-05T17:19:10.643497",
-  "total": 1,
+  "updated_at": "2026-09-05T20:12:06.834505",
+  "total": 3,
   "data": [
     {
-      "ip": "38.19.238.35",
+      "ip": "181.78.74.253",
       "port": "999",
       "protocols": [
-        "http"
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "RED PLANET TELECOMUNICACIONES S.A.S.",
-      "user_type": "residential",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "181.78.74.252",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "181.78.23.187",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "UFINET PANAMA S.A.",
+      "user_type": "business",
       "type": "http"
     }
   ]
