@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-09-05T22:48:36.729548",
-  "total": 3,
+  "updated_at": "2026-09-06T03:51:02.527735",
+  "total": 2,
   "data": [
     {
       "ip": "37.27.63.151",
       "port": "35931",
       "protocols": [
+        "http",
+        "https",
         "socks4",
-        "socks5",
-        "http"
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -31,20 +32,6 @@
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
       "type": "socks4"
-    },
-    {
-      "ip": "37.27.63.151",
-      "port": "41976",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "socks5"
     }
   ]
 }
