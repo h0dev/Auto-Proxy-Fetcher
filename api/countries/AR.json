@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-05T22:48:36.705855",
-  "total": 1,
+  "updated_at": "2026-09-06T15:17:09.189159",
+  "total": 2,
   "data": [
     {
       "ip": "201.234.24.89",
       "port": "4153",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "https",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -18,6 +18,23 @@
       "isp": "COOPERATIVA DE OBRAS Y SERVICIOS PUBLICOS DE DESPENADEROS LIMITADA",
       "user_type": "business",
       "type": "socks4"
+    },
+    {
+      "ip": "186.22.246.60",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "Telecentro S.A.",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
