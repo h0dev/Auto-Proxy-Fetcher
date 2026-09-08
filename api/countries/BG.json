@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-08T16:24:42.897344",
-  "total": 2,
+  "updated_at": "2026-09-08T20:59:16.820088",
+  "total": 3,
   "data": [
     {
       "ip": "194.182.178.90",
@@ -17,13 +17,14 @@
       "countryCode": "BG",
       "isp": "Akenes SA",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "78.83.185.6",
-      "port": "9980",
+      "ip": "194.182.178.90",
+      "port": "1080",
       "protocols": [
         "http",
+        "https",
         "socks4",
         "socks5"
       ],
@@ -31,9 +32,26 @@
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "A1 Bulgaria EAD",
+      "isp": "Akenes SA",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
+    },
+    {
+      "ip": "77.85.168.253",
+      "port": "4145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "Vivacom Bulgaria EAD",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
