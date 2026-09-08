@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-09-07T21:24:49.911020",
-  "total": 2,
+  "updated_at": "2026-09-08T03:54:55.836618",
+  "total": 4,
   "data": [
     {
       "ip": "170.239.84.103",
       "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "ZAM LTDA.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.4.2.192",
+      "port": "999",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Chile",
       "countryCode": "CL",
-      "isp": "ZAM LTDA.",
+      "isp": "TLINK SPA",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "45.4.0.26",
@@ -35,6 +52,23 @@
       "isp": "TLINK SPA",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "45.4.3.128",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "TLINK SPA",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
