@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-09-09T20:48:15.515568",
-  "total": 2,
+  "updated_at": "2026-09-09T23:09:12.038340",
+  "total": 3,
   "data": [
     {
-      "ip": "190.15.141.43",
-      "port": "80",
+      "ip": "45.238.57.1",
+      "port": "3629",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ecuador",
+      "countryCode": "EC",
+      "isp": "INSTALACION DE SISTEMAS EN REDES INSYSRED S.A.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "157.100.12.152",
+      "port": "999",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "Ecuador",
       "countryCode": "EC",
-      "isp": "CEDIA",
+      "isp": "Telconet S.A",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "45.186.6.104",
@@ -34,7 +51,7 @@
       "countryCode": "EC",
       "isp": "PEREZ TITO JULIO CESAR(FASTNETT)",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
