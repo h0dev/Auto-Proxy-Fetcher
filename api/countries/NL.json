@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-09-09T16:19:45.204076",
-  "total": 13,
+  "updated_at": "2026-09-09T20:48:15.487769",
+  "total": 15,
   "data": [
+    {
+      "ip": "95.211.174.135",
+      "port": "3128",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "LeaseWeb Netherlands B.V.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "5.255.103.55",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "The Infrastructure Group B.V.",
+      "user_type": "business",
+      "type": "socks5"
+    },
     {
       "ip": "141.0.13.229",
       "port": "80",
@@ -88,7 +122,7 @@
       "type": "https"
     },
     {
-      "ip": "185.26.181.241",
+      "ip": "185.26.181.254",
       "port": "80",
       "protocols": [
         "http",
@@ -105,7 +139,7 @@
       "type": "http"
     },
     {
-      "ip": "185.26.181.254",
+      "ip": "185.26.181.241",
       "port": "80",
       "protocols": [
         "http",
@@ -153,24 +187,7 @@
       "countryCode": "NL",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "82.145.209.241",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Opera Norway AS",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "82.145.209.253",
@@ -190,7 +207,7 @@
       "type": "http"
     },
     {
-      "ip": "82.145.209.254",
+      "ip": "82.145.209.242",
       "port": "80",
       "protocols": [
         "http",
@@ -204,10 +221,27 @@
       "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "82.145.209.242",
+      "ip": "82.145.209.241",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Opera Norway AS",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "82.145.209.254",
       "port": "80",
       "protocols": [
         "http",
