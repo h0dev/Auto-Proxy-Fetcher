@@ -1,24 +1,7 @@
 {
-  "updated_at": "2026-09-10T16:11:02.931022",
+  "updated_at": "2026-09-10T20:42:57.425028",
   "total": 3,
   "data": [
-    {
-      "ip": "190.54.100.74",
-      "port": "5678",
-      "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Chile",
-      "countryCode": "CL",
-      "isp": "Telmex Chile Internet S.A.",
-      "user_type": "business",
-      "type": "socks4"
-    },
     {
       "ip": "170.239.84.103",
       "port": "3128",
@@ -34,7 +17,7 @@
       "countryCode": "CL",
       "isp": "ZAM LTDA.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "45.4.0.26",
@@ -51,7 +34,24 @@
       "countryCode": "CL",
       "isp": "TLINK SPA",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "45.4.3.128",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "TLINK SPA",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
