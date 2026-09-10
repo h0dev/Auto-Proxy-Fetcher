@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-10T11:01:15.823794",
-  "total": 2,
+  "updated_at": "2026-09-10T23:05:43.081007",
+  "total": 3,
   "data": [
     {
       "ip": "217.76.245.80",
       "port": "999",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -34,7 +34,24 @@
       "countryCode": "DO",
       "isp": "WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",
       "user_type": "cellular",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "200.125.171.252",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Dominican Republic",
+      "countryCode": "DO",
+      "isp": "WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",
+      "user_type": "cellular",
+      "type": "http"
     }
   ]
 }
