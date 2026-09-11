@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-09-11T03:55:02.584182",
-  "total": 1,
+  "updated_at": "2026-09-11T11:00:04.129420",
+  "total": 2,
   "data": [
     {
-      "ip": "45.144.53.63",
-      "port": "6014",
+      "ip": "109.122.194.122",
+      "port": "9000",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "H2nexus Cloud Services - Fzco",
-      "user_type": "hosting",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "135.181.79.187",
+      "port": "40001",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }
