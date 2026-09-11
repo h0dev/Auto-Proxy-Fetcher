@@ -1,40 +1,74 @@
 {
-  "updated_at": "2026-09-11T16:14:50.595570",
-  "total": 64,
+  "updated_at": "2026-09-11T20:48:31.029243",
+  "total": 59,
   "data": [
     {
-      "ip": "120.92.111.242",
-      "port": "15010",
+      "ip": "202.141.161.50",
+      "port": "10808",
       "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "Chinanet",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "202.141.161.53",
+      "port": "7891",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "Chinanet",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "8.138.217.152",
+      "port": "21001",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "183.164.45.77",
+      "port": "81",
+      "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "Beijing Kingsoft Cloud Internet Technology Co., Ltd",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "134.175.238.113",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "Shenzhen Tencent Computer Systems Company Limited",
+      "isp": "Chinanet",
       "user_type": "business",
-      "type": "socks5"
+      "type": "http"
     },
     {
       "ip": "115.231.181.40",
@@ -54,17 +88,36 @@
       "type": "http"
     },
     {
-      "ip": "210.77.10.245",
-      "port": "10808",
+      "ip": "110.42.111.223",
+      "port": "8889",
       "protocols": [
         "http",
-        "socks4"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "Computer Network Information Center of Chinese Academy of Sciences (CNIC-CAS)",
+      "isp": "NINGBO, ZHEJIANG Province, P.R.China.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "111.192.25.85",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Unicom Beijing Province Network",
       "user_type": "business",
       "type": "http"
     },
@@ -83,78 +136,10 @@
       "countryCode": "CN",
       "isp": "China Unicom Beijing Province Network",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "111.192.43.82",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Unicom Beijing Province Network",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "111.200.188.89",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Unicom Beijing Province Network",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "111.192.19.39",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Unicom Beijing Province Network",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "111.196.31.158",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Unicom Beijing Province Network",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "111.192.25.85",
       "port": "8888",
       "protocols": [
         "http",
@@ -185,27 +170,10 @@
       "countryCode": "CN",
       "isp": "Huawei Cloud Service data center",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "114.64.255.237",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "IDC, China Telecommunications Corporation",
-      "user_type": "residential",
-      "type": "http"
-    },
-    {
-      "ip": "114.249.220.9",
+      "ip": "114.249.220.157",
       "port": "8888",
       "protocols": [
         "http",
@@ -220,57 +188,6 @@
       "isp": "China Unicom Beijing Province Network",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "114.244.223.68",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Unicom Beijing Province Network",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "116.196.93.4",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Unicom Beijing Province Network",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "116.62.202.70",
-      "port": "17900",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "user_type": "business",
-      "type": "http"
     },
     {
       "ip": "116.196.111.171",
@@ -290,8 +207,8 @@
       "type": "socks5"
     },
     {
-      "ip": "118.31.62.231",
-      "port": "3128",
+      "ip": "117.50.179.251",
+      "port": "8081",
       "protocols": [
         "http",
         "https",
@@ -302,7 +219,7 @@
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
+      "isp": "China Unicom Beijing Province Network",
       "user_type": "business",
       "type": "https"
     },
@@ -321,7 +238,7 @@
       "countryCode": "CN",
       "isp": "Huawei Cloud Service data center",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "121.40.189.171",
@@ -342,6 +259,23 @@
     },
     {
       "ip": "123.138.24.114",
+      "port": "9443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "CHINA UNICOM China169 Backbone",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "123.138.24.112",
       "port": "9443",
       "protocols": [
         "http",
@@ -389,27 +323,10 @@
       "countryCode": "CN",
       "isp": "CHINA UNICOM China169 Backbone",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "123.138.24.112",
-      "port": "9443",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "CHINA UNICOM China169 Backbone",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "123.121.122.28",
+      "ip": "123.119.25.143",
       "port": "8888",
       "protocols": [
         "http",
@@ -423,10 +340,10 @@
       "countryCode": "CN",
       "isp": "China Unicom Beijing Province Network",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "123.121.129.198",
+      "ip": "123.113.148.188",
       "port": "8888",
       "protocols": [
         "http",
@@ -440,7 +357,7 @@
       "countryCode": "CN",
       "isp": "China Unicom Beijing Province Network",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "123.121.78.138",
@@ -457,10 +374,10 @@
       "countryCode": "CN",
       "isp": "China Unicom Beijing Province Network",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "123.121.123.216",
+      "ip": "123.119.177.72",
       "port": "8888",
       "protocols": [
         "http",
@@ -474,24 +391,7 @@
       "countryCode": "CN",
       "isp": "China Unicom Beijing Province Network",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "123.121.113.161",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Unicom Beijing Province Network",
-      "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "123.121.210.208",
@@ -507,6 +407,37 @@
       "country": "China",
       "countryCode": "CN",
       "isp": "China Unicom Beijing Province Network",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "123.121.121.123",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Unicom Beijing Province Network",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "123.56.23.242",
+      "port": "3687",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "user_type": "business",
       "type": "http"
     },
@@ -528,8 +459,8 @@
       "type": "http"
     },
     {
-      "ip": "123.121.211.160",
-      "port": "8888",
+      "ip": "124.220.148.234",
+      "port": "1111",
       "protocols": [
         "http",
         "https",
@@ -540,9 +471,26 @@
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "China Unicom Beijing Province Network",
+      "isp": "Shenzhen Tencent Computer Systems Company Limited",
       "user_type": "business",
-      "type": "https"
+      "type": "socks5"
+    },
+    {
+      "ip": "124.220.148.234",
+      "port": "1145",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "Shenzhen Tencent Computer Systems Company Limited",
+      "user_type": "business",
+      "type": "socks5"
     },
     {
       "ip": "139.196.95.28",
@@ -559,24 +507,7 @@
       "countryCode": "CN",
       "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "14.29.168.215",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "Chinanet",
-      "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "159.226.168.11",
@@ -592,23 +523,6 @@
       "country": "China",
       "countryCode": "CN",
       "isp": "Computer Network Information Center of Chinese Academy of Sciences (CNIC-CAS)",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "166.111.185.48",
-      "port": "33336",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Education and Research Network Center",
       "user_type": "business",
       "type": "https"
     },
@@ -661,6 +575,23 @@
       "countryCode": "CN",
       "isp": "CHINATELECOM Jiangsu province Suzhou 5G network",
       "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "182.254.229.175",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "Shenzhen Tencent Computer Systems Company Limited",
+      "user_type": "business",
       "type": "http"
     },
     {
@@ -681,8 +612,8 @@
       "type": "http"
     },
     {
-      "ip": "203.3.113.29",
-      "port": "1080",
+      "ip": "210.16.160.222",
+      "port": "7890",
       "protocols": [
         "http",
         "https",
@@ -693,9 +624,9 @@
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "No.293,Wanbao Avenue",
+      "isp": "Hubei Feixun Network Co., Ltd",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "220.178.229.83",
@@ -712,7 +643,7 @@
       "countryCode": "CN",
       "isp": "Chinanet",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "220.243.154.46",
@@ -766,24 +697,7 @@
       "type": "https"
     },
     {
-      "ip": "221.221.159.97",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Unicom Beijing Province Network",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "221.221.154.122",
+      "ip": "221.221.157.102",
       "port": "8888",
       "protocols": [
         "http",
@@ -800,7 +714,7 @@
       "type": "http"
     },
     {
-      "ip": "221.221.162.189",
+      "ip": "221.221.150.139",
       "port": "8888",
       "protocols": [
         "http",
@@ -814,24 +728,7 @@
       "countryCode": "CN",
       "isp": "China Unicom Beijing Province Network",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "222.128.171.2",
-      "port": "8888",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Unicom Beijing Province Network",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "222.214.219.171",
@@ -851,6 +748,23 @@
       "type": "https"
     },
     {
+      "ip": "36.33.1.106",
+      "port": "39780",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "UNICOM AnHui province network",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
       "ip": "39.103.168.253",
       "port": "5980",
       "protocols": [
@@ -865,11 +779,11 @@
       "countryCode": "CN",
       "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "39.105.27.30",
-      "port": "3128",
+      "ip": "39.105.97.108",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -882,7 +796,7 @@
       "countryCode": "CN",
       "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "39.170.29.226",
@@ -902,8 +816,8 @@
       "type": "socks5"
     },
     {
-      "ip": "39.105.97.108",
-      "port": "80",
+      "ip": "39.106.165.196",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -934,23 +848,6 @@
       "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "47.104.251.205",
-      "port": "1100",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
-      "user_type": "business",
-      "type": "socks5"
     },
     {
       "ip": "47.107.107.24",
@@ -1001,7 +898,7 @@
       "countryCode": "CN",
       "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "47.121.139.13",
@@ -1038,8 +935,8 @@
       "type": "http"
     },
     {
-      "ip": "47.97.171.33",
-      "port": "8080",
+      "ip": "49.87.33.240",
+      "port": "8989",
       "protocols": [
         "http",
         "https",
@@ -1050,9 +947,9 @@
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "Hangzhou Alibaba Advertising Co.,Ltd.",
+      "isp": "Chinanet",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
       "ip": "61.52.131.172",
@@ -1072,19 +969,38 @@
       "type": "socks4"
     },
     {
-      "ip": "183.164.45.77",
-      "port": "81",
+      "ip": "61.149.132.196",
+      "port": "8888",
       "protocols": [
-        "socks5",
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "China",
       "countryCode": "CN",
-      "isp": "Chinanet",
+      "isp": "China Unicom Beijing Province Network",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "61.149.135.125",
+      "port": "8888",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Unicom Beijing Province Network",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
