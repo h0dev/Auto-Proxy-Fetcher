@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-09-11T11:00:04.149155",
+  "updated_at": "2026-09-11T16:14:50.598117",
   "total": 3,
   "data": [
+    {
+      "ip": "212.5.132.74",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "Vivacom Bulgaria EAD",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "194.182.178.90",
       "port": "3128",
@@ -17,7 +34,7 @@
       "countryCode": "BG",
       "isp": "Akenes SA",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "78.83.185.6",
@@ -34,23 +51,6 @@
       "isp": "A1 Bulgaria EAD",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "93.123.118.15",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bulgaria",
-      "countryCode": "BG",
-      "isp": "LLC Vash Kredit Bank",
-      "user_type": "business",
-      "type": "socks5"
     }
   ]
 }
