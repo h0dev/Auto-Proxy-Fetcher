@@ -1,12 +1,15 @@
 {
-  "updated_at": "2026-09-13T04:06:29.522398",
+  "updated_at": "2026-09-13T11:28:38.304530",
   "total": 1,
   "data": [
     {
       "ip": "84.8.216.230",
       "port": "2001",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -14,7 +17,7 @@
       "countryCode": "MA",
       "isp": "Oracle Corporation",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
