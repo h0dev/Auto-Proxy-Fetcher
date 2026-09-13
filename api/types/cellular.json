@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-09-12T22:59:38.298396",
-  "total": 3,
+  "updated_at": "2026-09-13T04:06:29.487036",
+  "total": 4,
   "data": [
+    {
+      "ip": "67.206.213.202",
+      "port": "55555",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Puerto Rico",
+      "countryCode": "PR",
+      "isp": "Liberty Mobile Puerto Rico Inc.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
     {
       "ip": "39.170.29.226",
       "port": "10800",
@@ -20,23 +37,6 @@
       "type": "socks5"
     },
     {
-      "ip": "81.12.169.254",
-      "port": "4153",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Romania",
-      "countryCode": "RO",
-      "isp": "Vodafone Romania S.A.",
-      "user_type": "cellular",
-      "type": "socks4"
-    },
-    {
       "ip": "93.180.221.205",
       "port": "8080",
       "protocols": [
@@ -51,7 +51,22 @@
       "countryCode": "IQ",
       "isp": "Horizon Scope Mobile Telecom WLL",
       "user_type": "cellular",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "112.29.254.217",
+      "port": "15976",
+      "protocols": [
+        "socks4",
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "China",
+      "countryCode": "CN",
+      "isp": "China Mobile Communications Group Co., Ltd.",
+      "user_type": "cellular",
+      "type": "socks4"
     }
   ]
 }
