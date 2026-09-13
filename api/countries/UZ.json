@@ -1,15 +1,32 @@
 {
-  "updated_at": "2026-09-13T04:06:29.508062",
-  "total": 1,
+  "updated_at": "2026-09-13T15:58:34.983352",
+  "total": 2,
   "data": [
     {
-      "ip": "195.158.8.123",
+      "ip": "193.104.179.115",
       "port": "3128",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Uzbekistan",
+      "countryCode": "UZ",
+      "isp": "LLC Bross-telecom",
+      "user_type": "residential",
+      "type": "https"
+    },
+    {
+      "ip": "213.230.108.161",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -17,7 +34,7 @@
       "countryCode": "UZ",
       "isp": "Uzbektelekom Joint Stock Company",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
