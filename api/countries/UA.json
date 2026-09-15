@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-09-15T04:13:36.991775",
-  "total": 2,
+  "updated_at": "2026-09-15T11:29:15.172909",
+  "total": 4,
   "data": [
     {
-      "ip": "188.191.18.66",
-      "port": "1080",
+      "ip": "194.150.232.104",
+      "port": "1051",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Ukranian Optical Systems And Technologies LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "176.120.32.135",
+      "port": "5678",
       "protocols": [
         "http",
         "https",
@@ -15,7 +32,7 @@
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "CrimeaCom South LLC",
+      "isp": "Langate Ltd",
       "user_type": "business",
       "type": "socks4"
     },
@@ -34,7 +51,24 @@
       "countryCode": "UA",
       "isp": "Ukranian Optical Systems And Technologies LLC",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "194.150.232.104",
+      "port": "1071",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Ukranian Optical Systems And Technologies LLC",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
