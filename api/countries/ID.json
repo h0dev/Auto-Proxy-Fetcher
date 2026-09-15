@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-09-15T11:29:15.187061",
-  "total": 57,
+  "updated_at": "2026-09-15T16:40:52.090681",
+  "total": 66,
   "data": [
+    {
+      "ip": "115.85.86.114",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "PT ARTHA TELEKOMINDO",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "117.102.101.52",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "BIZNET NETWORKS",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "59.153.81.234",
       "port": "5678",
@@ -54,40 +88,6 @@
       "type": "http"
     },
     {
-      "ip": "103.154.87.12",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "PT Mora Telematika Indonesia",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "103.157.117.116",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "PT Cloud Teknologi Nusantara",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
       "ip": "103.242.104.221",
       "port": "8080",
       "protocols": [
@@ -102,10 +102,27 @@
       "countryCode": "ID",
       "isp": "PT Lintas Jaringan Nusantara",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "103.39.49.98",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "PT Mega Mentari Mandiri",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "103.39.51.207",
       "port": "8080",
       "protocols": [
         "http",
@@ -140,7 +157,7 @@
     },
     {
       "ip": "108.136.140.236",
-      "port": "10228",
+      "port": "9443",
       "protocols": [
         "http",
         "https",
@@ -157,24 +174,7 @@
     },
     {
       "ip": "108.136.140.236",
-      "port": "8728",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "108.136.140.236",
-      "port": "15960",
+      "port": "58227",
       "protocols": [
         "http",
         "https",
@@ -192,6 +192,23 @@
     {
       "ip": "108.136.140.236",
       "port": "57307",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "108.136.140.236",
+      "port": "50687",
       "protocols": [
         "http",
         "https",
@@ -242,24 +259,7 @@
     },
     {
       "ip": "108.136.140.236",
-      "port": "50687",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "108.136.140.236",
-      "port": "17112",
+      "port": "7453",
       "protocols": [
         "http",
         "https",
@@ -293,7 +293,7 @@
     },
     {
       "ip": "108.136.140.236",
-      "port": "7453",
+      "port": "8728",
       "protocols": [
         "http",
         "https",
@@ -326,8 +326,8 @@
       "type": "socks4"
     },
     {
-      "ip": "110.5.110.158",
-      "port": "8080",
+      "ip": "108.136.140.236",
+      "port": "17112",
       "protocols": [
         "http",
         "https",
@@ -338,9 +338,9 @@
       "password": null,
       "country": "Indonesia",
       "countryCode": "ID",
-      "isp": "Orion Cyber Internet",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     },
     {
       "ip": "120.89.90.210",
@@ -376,23 +376,6 @@
       "type": "socks4"
     },
     {
-      "ip": "154.90.48.21",
-      "port": "9090",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "LIGHT NODE LIMITED",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
       "ip": "31.56.78.144",
       "port": "8080",
       "protocols": [
@@ -407,164 +390,11 @@
       "countryCode": "ID",
       "isp": "PT Perwira Media Solusi",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "15141",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "2018",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "12213",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
     },
     {
       "ip": "43.218.124.29",
       "port": "10839",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "36540",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "23192",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "2580",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "31841",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "22881",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "8010",
       "protocols": [
         "http",
         "https",
@@ -598,7 +428,143 @@
     },
     {
       "ip": "43.218.124.29",
-      "port": "39815",
+      "port": "38887",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "15141",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "22881",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "13863",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "23192",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "3153",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "2018",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "31841",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "2580",
       "protocols": [
         "http",
         "https",
@@ -649,7 +615,24 @@
     },
     {
       "ip": "43.218.124.29",
-      "port": "33813",
+      "port": "6329",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "8010",
       "protocols": [
         "http",
         "https",
@@ -683,7 +666,7 @@
     },
     {
       "ip": "43.218.124.29",
-      "port": "38887",
+      "port": "39815",
       "protocols": [
         "http",
         "https",
@@ -700,7 +683,7 @@
     },
     {
       "ip": "43.218.124.29",
-      "port": "3153",
+      "port": "36540",
       "protocols": [
         "http",
         "https",
@@ -716,8 +699,67 @@
       "type": "socks4"
     },
     {
-      "ip": "108.136.140.236",
-      "port": "16811",
+      "ip": "43.218.124.29",
+      "port": "33813",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "108.136.169.204",
+      "port": "36543",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "108.136.169.204",
+      "port": "55265",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "108.137.124.195",
+      "port": "8713",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "108.137.124.195",
+      "port": "26572",
       "protocols": [
         "socks4"
       ],
@@ -744,48 +786,6 @@
       "type": "socks4"
     },
     {
-      "ip": "108.136.169.204",
-      "port": "30379",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "108.137.124.195",
-      "port": "3867",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "108.136.169.204",
-      "port": "8889",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
       "ip": "108.137.124.195",
       "port": "53910",
       "protocols": [
@@ -800,11 +800,39 @@
       "type": "socks4"
     },
     {
-      "ip": "15.232.45.244",
-      "port": "8304",
+      "ip": "108.137.124.195",
+      "port": "38609",
       "protocols": [
         "socks4",
         "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "108.136.169.204",
+      "port": "4145",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "15.232.152.216",
+      "port": "52803",
+      "protocols": [
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -844,8 +872,8 @@
       "type": "socks4"
     },
     {
-      "ip": "15.232.152.216",
-      "port": "52803",
+      "ip": "15.232.45.244",
+      "port": "39905",
       "protocols": [
         "socks4"
       ],
@@ -860,6 +888,34 @@
     {
       "ip": "16.79.110.168",
       "port": "8788",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "16.79.110.168",
+      "port": "2020",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "8989",
       "protocols": [
         "socks4"
       ],
@@ -887,21 +943,7 @@
     },
     {
       "ip": "43.218.124.29",
-      "port": "57170",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Indonesia",
-      "countryCode": "ID",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.218.124.29",
-      "port": "30877",
+      "port": "10098",
       "protocols": [
         "socks4"
       ],
@@ -927,6 +969,90 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks4"
+    },
+    {
+      "ip": "108.136.140.236",
+      "port": "24250",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "15.232.45.244",
+      "port": "6040",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "108.136.140.236",
+      "port": "16166",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "30877",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "9898",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "43.218.124.29",
+      "port": "38620",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Indonesia",
+      "countryCode": "ID",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }
