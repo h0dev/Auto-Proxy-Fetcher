@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-09-16T16:34:28.621184",
-  "total": 1,
+  "updated_at": "2026-09-16T21:09:49.061218",
+  "total": 3,
   "data": [
     {
       "ip": "194.150.232.104",
       "port": "1051",
       "protocols": [
+        "socks5",
         "socks4",
         "http",
-        "socks5",
         "https"
       ],
       "username": null,
@@ -16,6 +16,40 @@
       "country": "Ukraine",
       "countryCode": "UA",
       "isp": "Ukranian Optical Systems And Technologies LLC",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "134.249.128.111",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Kyivstar PJSC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "176.120.32.135",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Langate Ltd",
       "user_type": "business",
       "type": "socks4"
     }
