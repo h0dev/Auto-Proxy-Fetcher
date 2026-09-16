@@ -1,40 +1,54 @@
 {
-  "updated_at": "2026-09-15T21:07:01.958756",
-  "total": 2,
+  "updated_at": "2026-09-16T04:10:20.807365",
+  "total": 3,
   "data": [
     {
-      "ip": "35.228.49.168",
-      "port": "9443",
+      "ip": "93.123.30.53",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Google LLC",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "65.21.201.149",
+      "port": "8081",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
       "type": "http"
     },
     {
-      "ip": "34.88.38.81",
-      "port": "9443",
+      "ip": "65.108.20.203",
+      "port": "1587",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Google LLC",
+      "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "https"
+      "type": "socks5"
     }
   ]
 }

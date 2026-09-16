@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-15T21:07:01.958880",
-  "total": 3,
+  "updated_at": "2026-09-16T04:10:20.807507",
+  "total": 4,
   "data": [
     {
       "ip": "181.78.23.187",
@@ -17,7 +17,24 @@
       "countryCode": "CO",
       "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "38.51.243.174",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "INTERCOMM DE NARINO SAS",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "181.78.74.252",
@@ -51,7 +68,7 @@
       "countryCode": "CO",
       "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
