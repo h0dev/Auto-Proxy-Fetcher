@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-09-16T21:09:49.071182",
+  "updated_at": "2026-09-17T04:18:16.638695",
   "total": 12,
   "data": [
     {
-      "ip": "88.245.138.87",
+      "ip": "2.56.108.184",
       "port": "1080",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Türkiye",
       "countryCode": "TR",
-      "isp": "Turk Telekom",
+      "isp": "Pembe Gul Isguzar Karagoz",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "185.15.198.18",
@@ -32,7 +32,7 @@
       "countryCode": "TR",
       "isp": "Dedicated Telekomunikasyon Teknoloji Hiz. Tic. San. LTD. STI.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "185.181.208.220",
@@ -66,10 +66,28 @@
       "type": "http"
     },
     {
-      "ip": "45.155.125.166",
+      "ip": "45.155.125.199",
       "port": "17391",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Türkiye",
+      "countryCode": "TR",
+      "isp": "2e Telekomunikasyon Ltd Sti",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.155.125.110",
+      "port": "17391",
+      "protocols": [
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -94,11 +112,10 @@
       "type": "http"
     },
     {
-      "ip": "45.155.125.110",
+      "ip": "45.155.125.122",
       "port": "17391",
       "protocols": [
-        "http",
-        "https"
+        "http"
       ],
       "username": null,
       "password": null,
@@ -106,16 +123,13 @@
       "countryCode": "TR",
       "isp": "2e Telekomunikasyon Ltd Sti",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "45.155.125.199",
+      "ip": "45.155.125.166",
       "port": "17391",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
@@ -166,21 +180,6 @@
       "isp": "Turk Telekom",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "88.249.59.117",
-      "port": "3310",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Türkiye",
-      "countryCode": "TR",
-      "isp": "Turk Telekom",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
