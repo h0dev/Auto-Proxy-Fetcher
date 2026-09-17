@@ -1,32 +1,32 @@
 {
-  "updated_at": "2026-09-17T16:39:04.512965",
-  "total": 35,
+  "updated_at": "2026-09-17T21:12:06.178805",
+  "total": 60,
   "data": [
     {
-      "ip": "103.237.102.191",
-      "port": "11111",
+      "ip": "47.245.165.201",
+      "port": "1080",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "Zenlayer Inc",
+      "isp": "Alibaba (US) Technology Co., Ltd.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "116.202.108.111",
-      "port": "3128",
+      "ip": "5.75.133.113",
+      "port": "10809",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -34,24 +34,24 @@
       "countryCode": "DE",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks5"
     },
     {
-      "ip": "18.157.159.247",
-      "port": "1234",
+      "ip": "5.75.133.113",
+      "port": "10814",
       "protocols": [
-        "https",
+        "socks5",
         "http",
-        "socks4",
-        "socks5"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
+      "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "49.13.22.249",
@@ -71,8 +71,8 @@
       "type": "socks5"
     },
     {
-      "ip": "185.204.170.179",
-      "port": "1142",
+      "ip": "94.156.114.45",
+      "port": "1080",
       "protocols": [
         "socks5",
         "http",
@@ -83,9 +83,26 @@
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "Arvancloud Global Technologies L.L.C",
+      "isp": "Play2go International Limited",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "116.202.108.111",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "116.203.51.18",
@@ -106,7 +123,7 @@
     },
     {
       "ip": "161.35.70.249",
-      "port": "3128",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -123,7 +140,7 @@
     },
     {
       "ip": "161.35.70.249",
-      "port": "80",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -136,7 +153,7 @@
       "countryCode": "DE",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "161.35.70.249",
@@ -173,21 +190,18 @@
       "type": "socks5"
     },
     {
-      "ip": "18.157.159.247",
-      "port": "58263",
+      "ip": "172.104.159.242",
+      "port": "3128",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
+      "isp": "Akamai Connected Cloud",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "18.157.159.247",
@@ -207,8 +221,8 @@
       "type": "socks4"
     },
     {
-      "ip": "18.157.159.247",
-      "port": "3629",
+      "ip": "18.157.123.132",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -221,22 +235,24 @@
       "countryCode": "DE",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "https"
     },
     {
-      "ip": "18.157.159.247",
-      "port": "2293",
+      "ip": "193.158.12.140",
+      "port": "4153",
       "protocols": [
         "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
+      "isp": "Deutsche Telekom AG",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "195.201.34.206",
@@ -273,8 +289,8 @@
       "type": "https"
     },
     {
-      "ip": "3.121.130.230",
-      "port": "8000",
+      "ip": "213.202.217.28",
+      "port": "5555",
       "protocols": [
         "http",
         "https",
@@ -285,94 +301,9 @@
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "3.121.130.230",
-      "port": "34560",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "3.121.130.230",
-      "port": "24486",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "3.121.130.230",
-      "port": "57714",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "3.121.130.230",
-      "port": "8426",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "3.121.130.230",
-      "port": "8787",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
+      "isp": "WIIT AG",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "3.121.130.230",
@@ -406,45 +337,28 @@
       "countryCode": "DE",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "57714",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
       "type": "socks4"
     },
     {
       "ip": "3.121.130.230",
       "port": "47199",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "3.121.130.230",
-      "port": "48007",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "3.121.130.230",
-      "port": "5555",
       "protocols": [
         "http",
         "https",
@@ -478,7 +392,126 @@
     },
     {
       "ip": "3.121.130.230",
+      "port": "8254",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.121.130.230",
       "port": "28160",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "48007",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "8000",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "24486",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "34560",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "8426",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "5555",
       "protocols": [
         "http",
         "https",
@@ -525,11 +558,11 @@
       "countryCode": "DE",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "3.121.130.230",
-      "port": "8254",
+      "ip": "63.180.203.233",
+      "port": "1085",
       "protocols": [
         "http",
         "https",
@@ -542,10 +575,44 @@
       "countryCode": "DE",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "46.249.99.50",
+      "ip": "63.180.203.233",
+      "port": "21252",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "63.180.203.233",
+      "port": "8090",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "81.169.135.82",
       "port": "80",
       "protocols": [
         "http",
@@ -557,13 +624,263 @@
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "BitCommand LLC",
+      "isp": "Strato GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "91.99.248.147",
+      "port": "80",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "91.99.78.151",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "92.5.8.178",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Oracle Corporation",
       "user_type": "business",
       "type": "http"
     },
     {
+      "ip": "18.157.159.247",
+      "port": "47927",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.157.159.247",
+      "port": "49104",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.157.159.247",
+      "port": "43",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
       "ip": "3.121.130.230",
-      "port": "16858",
+      "port": "48716",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "58713",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "40203",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "15850",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "25470",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "12077",
+      "protocols": [
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "148.251.68.232",
+      "port": "8888",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "18.157.159.247",
+      "port": "3629",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "18.157.159.247",
+      "port": "35772",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "18.157.159.247",
+      "port": "22850",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "8199",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "10038",
       "protocols": [
         "socks5"
       ],
@@ -577,7 +894,7 @@
     },
     {
       "ip": "63.180.203.233",
-      "port": "3629",
+      "port": "8880",
       "protocols": [
         "socks5"
       ],
@@ -588,6 +905,62 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "63.180.203.233",
+      "port": "13991",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "18.157.159.247",
+      "port": "2293",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "40955",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "3.121.130.230",
+      "port": "50865",
+      "protocols": [
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }

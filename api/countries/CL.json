@@ -1,21 +1,35 @@
 {
-  "updated_at": "2026-09-17T16:39:04.522989",
-  "total": 3,
+  "updated_at": "2026-09-17T21:12:06.176153",
+  "total": 4,
   "data": [
     {
       "ip": "170.239.84.103",
       "port": "3128",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Chile",
       "countryCode": "CL",
       "isp": "ZAM LTDA.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "201.186.41.108",
+      "port": "999",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Chile",
+      "countryCode": "CL",
+      "isp": "Telefonica del Sur S.A.",
       "user_type": "business",
       "type": "http"
     },
@@ -34,10 +48,10 @@
       "countryCode": "CL",
       "isp": "TLINK SPA",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "45.4.3.128",
+      "ip": "45.4.2.192",
       "port": "999",
       "protocols": [
         "http",
