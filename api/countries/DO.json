@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-09-17T21:12:06.205262",
-  "total": 1,
+  "updated_at": "2026-09-18T20:44:52.541619",
+  "total": 3,
   "data": [
     {
-      "ip": "45.229.33.246",
+      "ip": "217.76.245.80",
+      "port": "999",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Dominican Republic",
+      "countryCode": "DO",
+      "isp": "CENTRIC MOBILITY (CEMO), S.R.L",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "200.125.171.252",
       "port": "999",
       "protocols": [
         "http",
@@ -15,8 +32,25 @@
       "password": null,
       "country": "Dominican Republic",
       "countryCode": "DO",
-      "isp": "GOLD DATA USA INC",
-      "user_type": "business",
+      "isp": "WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",
+      "user_type": "cellular",
+      "type": "http"
+    },
+    {
+      "ip": "200.125.171.254",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Dominican Republic",
+      "countryCode": "DO",
+      "isp": "WIRELESS MULTI SERVICE VARGAS CABRERA, S. R. L",
+      "user_type": "cellular",
       "type": "https"
     }
   ]
