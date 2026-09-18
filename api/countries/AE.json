@@ -1,26 +1,40 @@
 {
-  "updated_at": "2026-09-16T04:10:20.814628",
+  "updated_at": "2026-09-18T04:01:33.787852",
   "total": 3,
   "data": [
     {
-      "ip": "109.169.72.251",
-      "port": "3389",
+      "ip": "104.128.138.101",
+      "port": "1088",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "United Arab Emirates",
       "countryCode": "AE",
-      "isp": "Iomart Managed Services Limited",
+      "isp": "First Server Limited",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "147.161.160.48",
+      "port": "10397",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "172.86.76.137",
+      "ip": "84.235.244.198",
       "port": "3128",
       "protocols": [
         "http",
@@ -32,26 +46,9 @@
       "password": null,
       "country": "United Arab Emirates",
       "countryCode": "AE",
-      "isp": "RouterHosting LLC",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "185.216.87.63",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Arab Emirates",
-      "countryCode": "AE",
-      "isp": "Iron Hosting Centre LTD",
-      "user_type": "hosting",
-      "type": "socks5"
+      "isp": "Oracle Corporation",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
