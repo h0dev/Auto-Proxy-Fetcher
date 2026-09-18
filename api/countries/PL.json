@@ -1,23 +1,20 @@
 {
-  "updated_at": "2026-09-18T20:44:52.548343",
-  "total": 2,
+  "updated_at": "2026-09-18T23:12:38.581615",
+  "total": 3,
   "data": [
     {
-      "ip": "31.42.6.125",
-      "port": "5678",
+      "ip": "178.183.185.25",
+      "port": "3001",
       "protocols": [
-        "socks4",
-        "http",
-        "https",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
       "country": "Poland",
       "countryCode": "PL",
-      "isp": "Marcin Malolepszy @alfanet",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "T-Mobile Polska S.A.",
+      "user_type": "cellular",
+      "type": "http"
     },
     {
       "ip": "185.79.243.153",
@@ -34,7 +31,24 @@
       "countryCode": "PL",
       "isp": "PHU Kario-Sat Sp. z o.o.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "31.42.2.113",
+      "port": "5678",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Marcin Malolepszy @alfanet",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
