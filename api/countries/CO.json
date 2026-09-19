@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-09-19T10:40:08.937525",
-  "total": 1,
+  "updated_at": "2026-09-19T15:43:39.949845",
+  "total": 2,
   "data": [
     {
-      "ip": "181.48.243.194",
-      "port": "4153",
+      "ip": "190.0.246.210",
+      "port": "4040",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "Telmex Colombia S.A.",
+      "isp": "Media Commerce Partners S.A",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "190.0.246.213",
+      "port": "4040",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Media Commerce Partners S.A",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
