@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-09-18T23:12:38.568510",
-  "total": 10,
+  "updated_at": "2026-09-19T04:00:11.631632",
+  "total": 14,
   "data": [
     {
-      "ip": "77.73.68.222",
-      "port": "65000",
+      "ip": "79.134.4.192",
+      "port": "1080",
       "protocols": [
         "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
       "country": "Russia",
       "countryCode": "RU",
-      "isp": "SIA VEESP",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Joint Stock Company TransTeleCom",
+      "user_type": "residential",
+      "type": "socks5"
     },
     {
       "ip": "51.250.22.105",
@@ -37,13 +37,30 @@
       "type": "https"
     },
     {
-      "ip": "5.129.249.123",
-      "port": "1080",
+      "ip": "188.127.224.164",
+      "port": "2080",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "LLC Smart Ape",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "85.198.81.83",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -51,7 +68,7 @@
       "countryCode": "RU",
       "isp": "Jsc timeweb",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "45.132.252.25",
@@ -68,7 +85,7 @@
       "countryCode": "RU",
       "isp": "Ihor Hosting Ltd",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "185.200.188.234",
@@ -85,6 +102,23 @@
       "countryCode": "RU",
       "isp": "Ihor Hosting Ltd",
       "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "138.124.13.10",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
       "type": "http"
     },
     {
@@ -119,7 +153,24 @@
       "countryCode": "RU",
       "isp": "Adman LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "78.24.218.62",
+      "port": "2080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "JSC IOT",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "79.98.9.7",
@@ -139,8 +190,8 @@
       "type": "http"
     },
     {
-      "ip": "89.169.135.131",
-      "port": "80",
+      "ip": "82.200.66.18",
+      "port": "8090",
       "protocols": [
         "http",
         "https",
@@ -151,8 +202,8 @@
       "password": null,
       "country": "Russia",
       "countryCode": "RU",
-      "isp": "Yandex.Cloud LLC",
-      "user_type": "hosting",
+      "isp": "Joint Stock Company TransTeleCom",
+      "user_type": "residential",
       "type": "http"
     },
     {
@@ -170,7 +221,21 @@
       "countryCode": "RU",
       "isp": "Internet-Pro LLC",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "45.87.247.143",
+      "port": "80",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Russia",
+      "countryCode": "RU",
+      "isp": "Alex Group LLC",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
