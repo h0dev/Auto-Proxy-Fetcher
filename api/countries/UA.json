@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-19T04:00:11.648527",
-  "total": 2,
+  "updated_at": "2026-09-19T10:40:08.936188",
+  "total": 3,
   "data": [
     {
-      "ip": "194.150.233.246",
-      "port": "1058",
+      "ip": "194.150.232.104",
+      "port": "1071",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -20,12 +20,27 @@
       "type": "socks4"
     },
     {
-      "ip": "194.150.232.104",
-      "port": "1051",
+      "ip": "78.30.198.160",
+      "port": "8080",
       "protocols": [
-        "socks5",
         "http",
         "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Lancom Ltd.",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "194.150.233.246",
+      "port": "1071",
+      "protocols": [
+        "socks5",
         "socks4"
       ],
       "username": null,
@@ -34,7 +49,7 @@
       "countryCode": "UA",
       "isp": "Ukranian Optical Systems And Technologies LLC",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     }
   ]
 }
