@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-20T04:16:57.056712",
-  "total": 1,
+  "updated_at": "2026-09-20T11:02:47.932951",
+  "total": 2,
   "data": [
     {
       "ip": "194.182.187.78",
-      "port": "3128",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -17,7 +17,21 @@
       "countryCode": "AT",
       "isp": "Akenes SA",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
+    },
+    {
+      "ip": "62.60.239.67",
+      "port": "1080",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Austria",
+      "countryCode": "AT",
+      "isp": "Aeza Group LLC",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
