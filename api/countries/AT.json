@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-09-20T11:02:47.932951",
-  "total": 2,
+  "updated_at": "2026-09-20T15:48:51.839058",
+  "total": 3,
   "data": [
+    {
+      "ip": "159.195.110.240",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Austria",
+      "countryCode": "AT",
+      "isp": "netcup GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
     {
       "ip": "194.182.187.78",
       "port": "1080",
@@ -23,7 +37,9 @@
       "ip": "62.60.239.67",
       "port": "1080",
       "protocols": [
-        "socks5"
+        "socks4",
+        "socks5",
+        "http"
       ],
       "username": null,
       "password": null,
