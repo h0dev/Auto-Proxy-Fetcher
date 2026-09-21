@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-20T23:11:17.817164",
-  "total": 3,
+  "updated_at": "2026-09-21T04:13:49.202756",
+  "total": 4,
   "data": [
     {
       "ip": "188.215.31.189",
       "port": "10808",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,11 +17,11 @@
       "countryCode": "LV",
       "isp": "Cgi Global Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "45.38.198.127",
-      "port": "3128",
+      "ip": "188.253.20.105",
+      "port": "3129",
       "protocols": [
         "http",
         "https",
@@ -32,9 +32,9 @@
       "password": null,
       "country": "Latvia",
       "countryCode": "LV",
-      "isp": "Cloud Software - FZCO",
-      "user_type": "hosting",
-      "type": "http"
+      "isp": "SIA VEESP",
+      "user_type": "business",
+      "type": "https"
     },
     {
       "ip": "89.36.161.56",
@@ -50,6 +50,23 @@
       "country": "Latvia",
       "countryCode": "LV",
       "isp": "Melbikomas UAB",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "92.63.83.23",
+      "port": "3129",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "SIA MWTV",
       "user_type": "business",
       "type": "http"
     }
