@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-09-21T12:29:00.348927",
-  "total": 1,
+  "updated_at": "2026-09-21T20:00:19.132847",
+  "total": 2,
   "data": [
     {
-      "ip": "65.21.252.66",
-      "port": "10809",
+      "ip": "34.88.38.81",
+      "port": "9443",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Hetzner Online GmbH",
+      "isp": "Google LLC",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "http"
+    },
+    {
+      "ip": "35.228.49.168",
+      "port": "9443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Google LLC",
+      "user_type": "hosting",
+      "type": "https"
     }
   ]
 }

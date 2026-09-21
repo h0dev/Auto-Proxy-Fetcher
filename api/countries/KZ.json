@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-09-21T12:29:00.353786",
-  "total": 1,
+  "updated_at": "2026-09-21T20:00:19.121840",
+  "total": 3,
   "data": [
     {
-      "ip": "212.154.169.90",
-      "port": "3128",
+      "ip": "170.168.101.28",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Unknown",
+      "user_type": "Unknown",
+      "type": "socks4"
+    },
+    {
+      "ip": "170.168.101.28",
+      "port": "8080",
       "protocols": [
         "http",
         "https",
@@ -15,9 +32,26 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "JSC Kazakhtelecom",
-      "user_type": "residential",
-      "type": "https"
+      "isp": "Unknown",
+      "user_type": "Unknown",
+      "type": "http"
+    },
+    {
+      "ip": "90.156.252.177",
+      "port": "1082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Nls Astana Llp",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
