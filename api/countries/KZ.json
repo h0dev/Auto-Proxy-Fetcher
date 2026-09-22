@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-09-22T11:19:31.567684",
-  "total": 2,
+  "updated_at": "2026-09-22T16:41:43.729452",
+  "total": 3,
   "data": [
     {
-      "ip": "212.154.169.90",
-      "port": "3128",
+      "ip": "170.168.101.28",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "JSC Kazakhtelecom",
+      "isp": "JSC Transtelecom",
       "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "170.168.101.28",
@@ -35,6 +35,23 @@
       "isp": "JSC Transtelecom",
       "user_type": "residential",
       "type": "https"
+    },
+    {
+      "ip": "31.130.154.118",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "Jsc timeweb",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
