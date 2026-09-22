@@ -1,11 +1,29 @@
 {
-  "updated_at": "2026-09-22T00:01:55.379851",
-  "total": 2,
+  "updated_at": "2026-09-22T04:21:59.551131",
+  "total": 4,
   "data": [
     {
-      "ip": "37.148.117.71",
-      "port": "10808",
+      "ip": "85.133.250.27",
+      "port": "80",
       "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Pars Abr Toseeh Ertebatat LTD",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "213.176.115.104",
+      "port": "1080",
+      "protocols": [
+        "socks5",
         "http",
         "https",
         "socks4"
@@ -14,13 +32,13 @@
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "Aria Shatel PJSC",
+      "isp": "Aeza Group LLC",
       "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
-      "ip": "46.167.136.121",
-      "port": "10808",
+      "ip": "217.219.30.227",
+      "port": "6565",
       "protocols": [
         "http",
         "https",
@@ -31,9 +49,26 @@
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "Parsan Lin Co. PJS",
-      "user_type": "business",
-      "type": "https"
+      "isp": "Iran Telecommunication Company PJS",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "78.38.67.210",
+      "port": "3636",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Iran Telecommunication Company PJS",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }
