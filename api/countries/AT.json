@@ -1,21 +1,7 @@
 {
-  "updated_at": "2026-09-22T16:41:43.747331",
+  "updated_at": "2026-09-22T21:09:36.753982",
   "total": 2,
   "data": [
-    {
-      "ip": "159.195.110.240",
-      "port": "8080",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Austria",
-      "countryCode": "AT",
-      "isp": "netcup GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
     {
       "ip": "194.182.187.78",
       "port": "3128",
@@ -31,7 +17,24 @@
       "countryCode": "AT",
       "isp": "Akenes SA",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "194.182.187.78",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Austria",
+      "countryCode": "AT",
+      "isp": "Akenes SA",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
