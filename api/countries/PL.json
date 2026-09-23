@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-09-23T11:11:40.879530",
-  "total": 1,
+  "updated_at": "2026-09-23T16:32:40.090416",
+  "total": 3,
   "data": [
+    {
+      "ip": "57.128.249.250",
+      "port": "9052",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "OVH SAS",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
     {
       "ip": "185.79.243.153",
       "port": "31382",
@@ -16,6 +33,23 @@
       "country": "Poland",
       "countryCode": "PL",
       "isp": "PHU Kario-Sat Sp. z o.o.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "85.198.229.194",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Poland",
+      "countryCode": "PL",
+      "isp": "Sileman Sp. z o.o.",
       "user_type": "business",
       "type": "http"
     }

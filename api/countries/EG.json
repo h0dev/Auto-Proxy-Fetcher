@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-09-23T11:11:40.876258",
-  "total": 2,
+  "updated_at": "2026-09-23T16:32:40.086604",
+  "total": 3,
   "data": [
     {
-      "ip": "62.193.104.28",
+      "ip": "41.33.126.136",
       "port": "1981",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Egypt",
+      "countryCode": "EG",
+      "isp": "IDDQD-AS",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "62.193.104.28",
+      "port": "1976",
       "protocols": [
         "http",
         "https",
@@ -34,7 +51,7 @@
       "countryCode": "EG",
       "isp": "IDDQD-AS",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
