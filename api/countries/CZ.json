@@ -1,7 +1,41 @@
 {
-  "updated_at": "2026-09-23T04:06:25.779428",
-  "total": 2,
+  "updated_at": "2026-09-23T11:11:40.859970",
+  "total": 3,
   "data": [
+    {
+      "ip": "217.197.151.182",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "O2 Czech Republic, a.s.",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "103.119.19.218",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Mastersoft S.R.L.",
+      "user_type": "business",
+      "type": "https"
+    },
     {
       "ip": "217.198.114.16",
       "port": "80",
@@ -18,23 +52,6 @@
       "isp": "ZONER a.s.",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "84.244.119.36",
-      "port": "23500",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Czechia",
-      "countryCode": "CZ",
-      "isp": "RADIOKOMUNIKACE a.s.",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }
