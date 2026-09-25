@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-25T11:34:03.363652",
+  "updated_at": "2026-09-25T16:58:59.857394",
   "total": 3,
   "data": [
     {
       "ip": "111.119.162.248",
-      "port": "10949",
+      "port": "10929",
       "protocols": [
+        "socks4",
         "socks5",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -21,12 +21,12 @@
     },
     {
       "ip": "111.119.162.248",
-      "port": "10913",
+      "port": "10930",
       "protocols": [
         "socks5",
+        "socks4",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -37,20 +37,20 @@
       "type": "socks4"
     },
     {
-      "ip": "103.169.98.234",
-      "port": "8080",
+      "ip": "111.119.162.248",
+      "port": "10906",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "http",
+        "socks5",
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "Samz Broadband Networx ( SMC-PRIVATE ) LTD",
-      "user_type": "residential",
+      "isp": "Connect Communications",
+      "user_type": "business",
       "type": "http"
     }
   ]
