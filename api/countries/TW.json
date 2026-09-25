@@ -1,15 +1,29 @@
 {
-  "updated_at": "2026-09-25T16:58:59.862047",
-  "total": 1,
+  "updated_at": "2026-09-25T21:22:31.563764",
+  "total": 2,
   "data": [
     {
-      "ip": "125.227.169.85",
-      "port": "38157",
+      "ip": "58.99.117.135",
+      "port": "80",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "isp": "Taiwan Infrastructure Network Technologie",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "114.46.136.63",
+      "port": "8080",
+      "protocols": [
+        "http"
       ],
       "username": null,
       "password": null,
@@ -17,7 +31,7 @@
       "countryCode": "TW",
       "isp": "Data Communication Business Group",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }

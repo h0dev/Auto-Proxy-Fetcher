@@ -1,23 +1,57 @@
 {
-  "updated_at": "2026-09-25T16:58:59.856803",
-  "total": 1,
+  "updated_at": "2026-09-25T21:22:31.560436",
+  "total": 3,
   "data": [
     {
-      "ip": "194.31.108.109",
-      "port": "2080",
+      "ip": "151.232.18.66",
+      "port": "5678",
       "protocols": [
-        "socks4",
         "http",
-        "socks5",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "Avaye Segal Net Co. PJS",
+      "isp": "Iran Telecommunication Company PJS",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "80.75.13.203",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Afranet",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "94.101.187.3",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Noyan Abr Arvan Co. ( Private Joint Stock)",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

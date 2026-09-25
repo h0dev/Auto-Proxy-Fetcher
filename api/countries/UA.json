@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-09-25T16:58:59.882042",
+  "updated_at": "2026-09-25T21:22:31.550635",
   "total": 4,
   "data": [
     {
       "ip": "194.150.233.246",
-      "port": "1058",
+      "port": "1077",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Ukranian Optical Systems And Technologies LLC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "194.150.232.104",
+      "port": "1051",
       "protocols": [
         "socks5",
         "http",
@@ -20,19 +37,19 @@
       "type": "socks5"
     },
     {
-      "ip": "194.150.233.246",
-      "port": "1066",
+      "ip": "134.249.128.111",
+      "port": "1080",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Ukraine",
       "countryCode": "UA",
-      "isp": "Ukranian Optical Systems And Technologies LLC",
+      "isp": "Kyivstar PJSC",
       "user_type": "business",
       "type": "socks4"
     },
@@ -51,24 +68,7 @@
       "countryCode": "UA",
       "isp": "Ukranian Optical Systems And Technologies LLC",
       "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "194.150.233.246",
-      "port": "1070",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "Ukranian Optical Systems And Technologies LLC",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "socks5"
     }
   ]
 }
