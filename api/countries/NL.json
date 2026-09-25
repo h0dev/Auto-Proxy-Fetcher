@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-09-24T21:24:42.895311",
+  "updated_at": "2026-09-25T04:16:55.372598",
   "total": 16,
   "data": [
     {
-      "ip": "95.211.174.135",
-      "port": "3128",
+      "ip": "145.220.227.5",
+      "port": "9050",
       "protocols": [
-        "socks5",
-        "socks4",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "The Netherlands",
       "countryCode": "NL",
-      "isp": "LeaseWeb Netherlands B.V.",
+      "isp": "SURF B.V.",
       "user_type": "business",
-      "type": "https"
+      "type": "socks4"
     },
     {
       "ip": "107.189.21.79",
@@ -50,7 +50,7 @@
       "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "141.0.13.229",
@@ -67,7 +67,7 @@
       "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "185.229.225.22",
@@ -84,10 +84,10 @@
       "countryCode": "NL",
       "isp": "Kamatera Inc",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "185.26.181.254",
+      "ip": "185.26.181.241",
       "port": "80",
       "protocols": [
         "http",
@@ -101,10 +101,10 @@
       "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "185.26.181.241",
+      "ip": "185.26.181.254",
       "port": "80",
       "protocols": [
         "http",
@@ -135,7 +135,24 @@
       "countryCode": "NL",
       "isp": "Opera Norway AS",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "193.242.210.140",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "servinga GmbH",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "195.189.142.132",
@@ -169,7 +186,7 @@
       "countryCode": "NL",
       "isp": "SpectraIP B.V.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "68.183.15.169",
@@ -189,7 +206,7 @@
       "type": "https"
     },
     {
-      "ip": "82.145.209.254",
+      "ip": "82.145.209.241",
       "port": "80",
       "protocols": [
         "http",
@@ -206,7 +223,24 @@
       "type": "http"
     },
     {
-      "ip": "82.145.209.241",
+      "ip": "82.145.209.242",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "isp": "Opera Norway AS",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "82.145.209.254",
       "port": "80",
       "protocols": [
         "http",
@@ -236,37 +270,6 @@
       "country": "The Netherlands",
       "countryCode": "NL",
       "isp": "Opera Norway AS",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "82.145.209.242",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Opera Norway AS",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "193.233.211.220",
-      "port": "8443",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "The Netherlands",
-      "countryCode": "NL",
-      "isp": "Aeza Group LLC",
       "user_type": "business",
       "type": "http"
     }
