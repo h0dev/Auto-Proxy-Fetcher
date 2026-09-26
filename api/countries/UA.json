@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-09-26T11:08:26.507675",
-  "total": 6,
+  "updated_at": "2026-09-26T16:09:40.391427",
+  "total": 5,
   "data": [
     {
-      "ip": "194.150.233.246",
-      "port": "1064",
+      "ip": "194.150.232.104",
+      "port": "1054",
       "protocols": [
-        "socks5"
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "isp": "Ukranian Optical Systems And Technologies LLC",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "194.150.232.104",
+      "port": "1059",
+      "protocols": [
+        "socks5",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -17,8 +35,8 @@
       "type": "socks5"
     },
     {
-      "ip": "194.150.233.246",
-      "port": "1077",
+      "ip": "194.150.232.104",
+      "port": "1071",
       "protocols": [
         "socks4",
         "socks5",
@@ -31,50 +49,16 @@
       "countryCode": "UA",
       "isp": "Ukranian Optical Systems And Technologies LLC",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     },
     {
-      "ip": "194.150.232.194",
-      "port": "1056",
+      "ip": "194.150.233.246",
+      "port": "1071",
       "protocols": [
         "socks5",
         "http",
         "https",
         "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "Ukranian Optical Systems And Technologies LLC",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "194.150.233.246",
-      "port": "1058",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Ukraine",
-      "countryCode": "UA",
-      "isp": "Ukranian Optical Systems And Technologies LLC",
-      "user_type": "business",
-      "type": "socks5"
-    },
-    {
-      "ip": "194.150.233.246",
-      "port": "1070",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
       ],
       "username": null,
       "password": null,
@@ -86,12 +70,12 @@
     },
     {
       "ip": "194.150.232.104",
-      "port": "1054",
+      "port": "1051",
       "protocols": [
+        "socks5",
         "http",
         "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -99,7 +83,7 @@
       "countryCode": "UA",
       "isp": "Ukranian Optical Systems And Technologies LLC",
       "user_type": "business",
-      "type": "socks5"
+      "type": "socks4"
     }
   ]
 }

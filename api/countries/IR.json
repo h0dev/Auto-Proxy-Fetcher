@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-09-26T11:08:26.526055",
-  "total": 1,
+  "updated_at": "2026-09-26T16:09:40.394833",
+  "total": 2,
   "data": [
     {
-      "ip": "217.219.30.227",
-      "port": "6565",
+      "ip": "151.232.18.66",
+      "port": "5678",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Iran",
+      "countryCode": "IR",
+      "isp": "Iran Telecommunication Company PJS",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "80.75.13.203",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -15,8 +32,8 @@
       "password": null,
       "country": "Iran",
       "countryCode": "IR",
-      "isp": "Iran Telecommunication Company PJS",
-      "user_type": "residential",
+      "isp": "Afranet",
+      "user_type": "business",
       "type": "https"
     }
   ]
