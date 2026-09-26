@@ -1,32 +1,15 @@
 {
-  "updated_at": "2026-09-26T16:09:40.379847",
+  "updated_at": "2026-09-26T20:55:15.302417",
   "total": 2,
   "data": [
     {
-      "ip": "188.215.31.189",
-      "port": "10808",
-      "protocols": [
-        "socks4",
-        "http",
-        "socks5",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Latvia",
-      "countryCode": "LV",
-      "isp": "Cgi Global Limited",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
       "ip": "216.173.68.250",
-      "port": "3128",
+      "port": "1080",
       "protocols": [
-        "http",
-        "https",
         "socks4",
-        "socks5"
+        "socks5",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -34,7 +17,24 @@
       "countryCode": "LV",
       "isp": "SIA VEESP",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "188.215.31.189",
+      "port": "10808",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Latvia",
+      "countryCode": "LV",
+      "isp": "Cgi Global Limited",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }
