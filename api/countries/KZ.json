@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-09-26T23:30:58.874654",
-  "total": 1,
+  "updated_at": "2026-09-27T21:12:42.760941",
+  "total": 2,
   "data": [
     {
-      "ip": "37.221.202.30",
+      "ip": "170.168.101.28",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kazakhstan",
+      "countryCode": "KZ",
+      "isp": "JSC Transtelecom",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "170.168.101.28",
       "port": "8080",
       "protocols": [
         "http",
@@ -15,7 +32,7 @@
       "password": null,
       "country": "Kazakhstan",
       "countryCode": "KZ",
-      "isp": "OBIT-telecommunications, LLC",
+      "isp": "JSC Transtelecom",
       "user_type": "residential",
       "type": "http"
     }
