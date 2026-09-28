@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-21T20:00:19.134547",
-  "total": 1,
+  "updated_at": "2026-09-28T13:26:02.079149",
+  "total": 2,
   "data": [
     {
       "ip": "78.110.197.210",
@@ -15,7 +15,23 @@
       "countryCode": "BE",
       "isp": "Dstny BE N.V.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "34.78.79.103",
+      "port": "40001",
+      "protocols": [
+        "socks4",
+        "http",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Belgium",
+      "countryCode": "BE",
+      "isp": "Google LLC",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }
