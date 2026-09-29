@@ -1,21 +1,39 @@
 {
-  "updated_at": "2026-09-29T12:32:21.089831",
-  "total": 1,
+  "updated_at": "2026-09-29T19:57:26.231377",
+  "total": 2,
   "data": [
     {
-      "ip": "206.237.106.160",
-      "port": "8080",
+      "ip": "202.57.46.138",
+      "port": "4145",
       "protocols": [
+        "socks4",
         "http",
-        "socks5",
-        "socks4"
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Philippines",
       "countryCode": "PH",
-      "isp": "PT Herza Digital Indonesia",
+      "isp": "Philippine Global Communications Corporation",
       "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "115.84.248.140",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Philippines",
+      "countryCode": "PH",
+      "isp": "Eastern Telecoms Phils., Inc.",
+      "user_type": "residential",
       "type": "http"
     }
   ]
