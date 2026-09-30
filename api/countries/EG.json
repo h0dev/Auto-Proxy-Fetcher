@@ -1,13 +1,29 @@
 {
-  "updated_at": "2026-09-29T12:32:21.097275",
-  "total": 1,
+  "updated_at": "2026-09-30T17:53:59.291592",
+  "total": 2,
   "data": [
     {
-      "ip": "41.33.86.242",
-      "port": "8080",
+      "ip": "38.60.226.203",
+      "port": "1080",
       "protocols": [
+        "socks5",
         "http",
         "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Egypt",
+      "countryCode": "EG",
+      "isp": "LIGHT NODE LIMITED",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
+      "ip": "41.196.16.226",
+      "port": "1976",
+      "protocols": [
+        "http",
         "socks4",
         "socks5"
       ],
@@ -15,9 +31,9 @@
       "password": null,
       "country": "Egypt",
       "countryCode": "EG",
-      "isp": "IDDQD-AS",
+      "isp": "Link Egypt (Link.NET)",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
