@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-09-29T19:57:26.235787",
-  "total": 2,
+  "updated_at": "2026-09-30T00:15:35.494831",
+  "total": 3,
   "data": [
     {
       "ip": "47.91.104.88",
       "port": "3128",
       "protocols": [
-        "http",
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
@@ -17,11 +17,11 @@
       "countryCode": "AE",
       "isp": "Alibaba (US) Technology Co., Ltd.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "109.169.72.251",
-      "port": "3389",
+      "ip": "135.136.189.169",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -32,9 +32,23 @@
       "password": null,
       "country": "United Arab Emirates",
       "countryCode": "AE",
-      "isp": "Iomart Managed Services Limited",
-      "user_type": "business",
-      "type": "https"
+      "isp": "First Server Limited",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "172.86.76.137",
+      "port": "3128",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "isp": "RouterHosting LLC",
+      "user_type": "hosting",
+      "type": "http"
     }
   ]
 }
