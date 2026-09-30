@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-09-30T17:53:59.292023",
-  "total": 1,
+  "updated_at": "2026-09-30T22:07:19.742660",
+  "total": 2,
   "data": [
     {
-      "ip": "94.72.158.129",
-      "port": "4153",
+      "ip": "194.182.178.90",
+      "port": "3128",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Bulgaria",
       "countryCode": "BG",
-      "isp": "Telehouse EAD",
+      "isp": "Akenes SA",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "194.182.178.90",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "isp": "Akenes SA",
+      "user_type": "business",
+      "type": "socks5"
     }
   ]
 }
