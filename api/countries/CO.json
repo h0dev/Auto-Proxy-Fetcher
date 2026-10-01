@@ -1,23 +1,26 @@
 {
-  "updated_at": "2026-09-30T22:07:19.714967",
-  "total": 5,
+  "updated_at": "2026-10-01T05:06:21.922426",
+  "total": 9,
   "data": [
     {
-      "ip": "181.174.228.175",
-      "port": "999",
+      "ip": "201.184.239.75",
+      "port": "5678",
       "protocols": [
-        "http"
+        "socks4",
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "SINERGY SOLUCIONES INTEGRALES",
-      "user_type": "business",
-      "type": "http"
+      "isp": "UNE EPM TELECOMUNICACIONES S.A.",
+      "user_type": "residential",
+      "type": "socks4"
     },
     {
-      "ip": "181.78.176.147",
+      "ip": "190.14.241.87",
       "port": "999",
       "protocols": [
         "http",
@@ -29,7 +32,7 @@
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "UFINET PANAMA S.A.",
+      "isp": "Media Commerce Partners S.A",
       "user_type": "business",
       "type": "https"
     },
@@ -63,8 +66,8 @@
       "type": "http"
     },
     {
-      "ip": "191.97.8.101",
-      "port": "3128",
+      "ip": "190.0.246.210",
+      "port": "4040",
       "protocols": [
         "http",
         "https",
@@ -75,7 +78,70 @@
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "TV AZTECA SUCURSAL COLOMBIA",
+      "isp": "Media Commerce Partners S.A",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "190.0.246.213",
+      "port": "4040",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Media Commerce Partners S.A",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "190.0.246.211",
+      "port": "4040",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Media Commerce Partners S.A",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "45.172.223.179",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "ATENEA TELECOMUNICACIONES S.A.S",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "170.239.205.52",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "FIBERNET",
       "user_type": "business",
       "type": "http"
     }
