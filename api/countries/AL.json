@@ -1,23 +1,37 @@
 {
-  "updated_at": "2026-10-02T00:42:15.460294",
-  "total": 1,
+  "updated_at": "2026-10-02T09:36:56.060350",
+  "total": 2,
   "data": [
     {
-      "ip": "37.26.86.206",
-      "port": "4145",
+      "ip": "80.78.73.142",
+      "port": "65530",
       "protocols": [
-        "socks4",
         "http",
         "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Albania",
       "countryCode": "AL",
-      "isp": "Albanian Telecommunications Union SH. P.K.",
-      "user_type": "residential",
+      "isp": "Vodafone Albania Sh.A.",
+      "user_type": "cellular",
       "type": "socks4"
+    },
+    {
+      "ip": "85.155.228.112",
+      "port": "3128",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Andrew Kristuli",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
