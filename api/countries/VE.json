@@ -1,9 +1,41 @@
 {
-  "updated_at": "2026-10-01T05:06:21.957182",
-  "total": 1,
+  "updated_at": "2026-10-03T04:39:48.066823",
+  "total": 3,
   "data": [
     {
-      "ip": "38.172.181.0",
+      "ip": "143.255.85.225",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Venezuela",
+      "countryCode": "VE",
+      "isp": "VIGINET C.A",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "190.202.111.206",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Venezuela",
+      "countryCode": "VE",
+      "isp": "CANTV Servicios, Venezuela",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "190.89.29.110",
       "port": "999",
       "protocols": [
         "http",
@@ -15,9 +47,9 @@
       "password": null,
       "country": "Venezuela",
       "countryCode": "VE",
-      "isp": "RED SERVITEL, CA",
-      "user_type": "business",
-      "type": "http"
+      "isp": "CORPORACION FIBEX TELECOM, C.A.",
+      "user_type": "residential",
+      "type": "https"
     }
   ]
 }

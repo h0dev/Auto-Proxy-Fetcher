@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-02T22:04:10.677147",
-  "total": 2,
+  "updated_at": "2026-10-03T04:39:48.053826",
+  "total": 4,
   "data": [
     {
       "ip": "185.190.90.2",
@@ -23,6 +23,23 @@
       "ip": "85.155.228.112",
       "port": "3128",
       "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Andrew Kristuli",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "109.236.45.95",
+      "port": "8989",
+      "protocols": [
         "http",
         "https",
         "socks4",
@@ -32,9 +49,24 @@
       "password": null,
       "country": "Albania",
       "countryCode": "AL",
-      "isp": "Andrew Kristuli",
+      "isp": "Abissnet sh.a.",
       "user_type": "business",
       "type": "http"
+    },
+    {
+      "ip": "45.82.13.77",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Global Connectivity Solutions Llp",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }

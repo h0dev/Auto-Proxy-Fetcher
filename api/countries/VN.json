@@ -1,9 +1,60 @@
 {
-  "updated_at": "2026-10-02T22:04:10.679417",
-  "total": 11,
+  "updated_at": "2026-10-03T04:39:48.044494",
+  "total": 16,
   "data": [
     {
-      "ip": "210.211.113.34",
+      "ip": "160.187.0.89",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "ONLINE DATA COMPANY LIMITED",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "163.181.207.170",
+      "port": "9999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Zhejiang Taobao Network Co.,Ltd",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "171.249.235.114",
+      "port": "5002",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Viettel Group",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "210.211.113.37",
       "port": "80",
       "protocols": [
         "http",
@@ -18,57 +69,6 @@
       "isp": "CHT Compamy Ltd",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "103.45.232.163",
-      "port": "1080",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "Maxserver Company Limited",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "163.181.207.215",
-      "port": "9999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "Zhejiang Taobao Network Co.,Ltd",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "43.109.48.179",
-      "port": "9999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Vietnam",
-      "countryCode": "VN",
-      "isp": "Zhejiang Taobao Network Co.,Ltd",
-      "user_type": "business",
-      "type": "https"
     },
     {
       "ip": "210.211.113.36",
@@ -85,10 +85,44 @@
       "countryCode": "VN",
       "isp": "CHT Compamy Ltd",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "203.205.49.2",
+      "port": "10222",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "CMC Telecom Infrastructure Company",
+      "user_type": "residential",
       "type": "http"
     },
     {
-      "ip": "163.181.207.167",
+      "ip": "103.166.185.54",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VIETNAM POSTS AND TELECOMMUNICATIONS GROUP",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "163.181.207.226",
       "port": "9999",
       "protocols": [
         "http",
@@ -153,6 +187,55 @@
       "type": "http"
     },
     {
+      "ip": "14.170.154.10",
+      "port": "8080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "VNPT Corp",
+      "user_type": "residential",
+      "type": "http"
+    },
+    {
+      "ip": "42.96.19.211",
+      "port": "1314",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Branch of Long Van System Solution JSC - Hanoi",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "42.96.15.210",
+      "port": "60001",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Vietnam",
+      "countryCode": "VN",
+      "isp": "Bach Kim Network solutions Join stock company",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
       "ip": "42.96.15.210",
       "port": "60000",
       "protocols": [
@@ -165,14 +248,13 @@
       "countryCode": "VN",
       "isp": "Bach Kim Network solutions Join stock company",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "42.96.15.210",
-      "port": "60001",
+      "ip": "42.96.12.16",
+      "port": "55555",
       "protocols": [
-        "http",
-        "https"
+        "http"
       ],
       "username": null,
       "password": null,
