@@ -1,10 +1,25 @@
 {
-  "updated_at": "2026-10-03T04:39:48.064947",
-  "total": 1,
+  "updated_at": "2026-10-03T11:25:26.804109",
+  "total": 2,
   "data": [
     {
-      "ip": "217.197.151.182",
-      "port": "5678",
+      "ip": "103.119.19.218",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "isp": "Mastersoft S.R.L.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "217.198.114.16",
+      "port": "80",
       "protocols": [
         "http",
         "https",
@@ -15,9 +30,9 @@
       "password": null,
       "country": "Czechia",
       "countryCode": "CZ",
-      "isp": "O2 Czech Republic, a.s.",
+      "isp": "ZONER a.s.",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }
