@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-03T11:25:26.801157",
-  "total": 2,
+  "updated_at": "2026-10-03T20:53:09.421881",
+  "total": 3,
   "data": [
     {
-      "ip": "119.73.109.210",
-      "port": "1080",
+      "ip": "111.119.162.248",
+      "port": "10959",
       "protocols": [
-        "socks5",
         "http",
+        "socks5",
         "https",
         "socks4"
       ],
@@ -15,9 +15,26 @@
       "password": null,
       "country": "Pakistan",
       "countryCode": "PK",
-      "isp": "Trans World Enterprise Services (Private) Limited",
+      "isp": "Connect Communications",
       "user_type": "business",
-      "type": "socks5"
+      "type": "https"
+    },
+    {
+      "ip": "110.38.234.74",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Pakistan",
+      "countryCode": "PK",
+      "isp": "National WiMAX/IMS environment",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "103.169.98.234",
@@ -34,7 +51,7 @@
       "countryCode": "PK",
       "isp": "Samz Broadband Networx ( SMC-PRIVATE ) LTD",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     }
   ]
 }
