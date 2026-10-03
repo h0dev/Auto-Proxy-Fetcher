@@ -1,41 +1,7 @@
 {
-  "updated_at": "2026-10-03T20:53:09.408866",
-  "total": 15,
+  "updated_at": "2026-10-03T23:44:18.679160",
+  "total": 16,
   "data": [
-    {
-      "ip": "103.88.234.239",
-      "port": "40012",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Latitude.sh",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "103.88.234.239",
-      "port": "40003",
-      "protocols": [
-        "socks4",
-        "socks5",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Latitude.sh",
-      "user_type": "business",
-      "type": "http"
-    },
     {
       "ip": "103.88.234.239",
       "port": "40017",
@@ -51,16 +17,16 @@
       "countryCode": "MX",
       "isp": "Latitude.sh",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "103.88.234.239",
-      "port": "40002",
+      "port": "40012",
       "protocols": [
+        "socks4",
         "socks5",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
@@ -69,23 +35,6 @@
       "isp": "Latitude.sh",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "147.78.1.156",
-      "port": "3128",
-      "protocols": [
-        "socks5",
-        "socks4",
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "BrainStorm Network, Inc",
-      "user_type": "business",
-      "type": "https"
     },
     {
       "ip": "187.149.230.244",
@@ -102,7 +51,24 @@
       "countryCode": "MX",
       "isp": "UNINET",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "148.244.254.66",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Alestra, S. de R.L. de C.V.",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "165.225.218.43",
@@ -119,11 +85,11 @@
       "countryCode": "MX",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "78.12.136.220",
-      "port": "36839",
+      "ip": "187.188.131.169",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -134,9 +100,26 @@
       "password": null,
       "country": "Mexico",
       "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
+      "isp": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",
+      "user_type": "residential",
       "type": "socks4"
+    },
+    {
+      "ip": "189.51.168.165",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Comunicacion por Fibra SA de CV",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "78.12.136.220",
@@ -157,7 +140,41 @@
     },
     {
       "ip": "78.12.136.220",
-      "port": "8880",
+      "port": "36839",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "78.12.136.220",
+      "port": "48996",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "78.12.136.220",
+      "port": "52990",
       "protocols": [
         "http",
         "https",
@@ -190,8 +207,8 @@
       "type": "socks4"
     },
     {
-      "ip": "78.12.246.160",
-      "port": "36745",
+      "ip": "78.12.136.220",
+      "port": "8880",
       "protocols": [
         "http",
         "https",
@@ -225,22 +242,11 @@
     },
     {
       "ip": "78.12.246.160",
-      "port": "50935",
+      "port": "36745",
       "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.12.136.220",
-      "port": "7080",
-      "protocols": [
+        "http",
+        "https",
+        "socks4",
         "socks5"
       ],
       "username": null,
@@ -249,7 +255,21 @@
       "countryCode": "MX",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks5"
+      "type": "socks4"
+    },
+    {
+      "ip": "78.12.136.220",
+      "port": "8443",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }

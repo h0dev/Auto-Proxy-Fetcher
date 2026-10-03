@@ -1,20 +1,23 @@
 {
-  "updated_at": "2026-10-03T20:53:09.424646",
+  "updated_at": "2026-10-03T23:44:18.687669",
   "total": 4,
   "data": [
     {
-      "ip": "103.216.158.70",
-      "port": "10000",
+      "ip": "119.63.95.3",
+      "port": "4153",
       "protocols": [
-        "http"
+        "socks4",
+        "http",
+        "https",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Thailand",
       "countryCode": "TH",
-      "isp": "Bangmod Enterprise Co., Ltd.",
+      "isp": "UIH",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "119.46.68.228",
@@ -31,24 +34,7 @@
       "countryCode": "TH",
       "isp": "TRUE INTERNET Co.,Ltd.",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "203.150.113.52",
-      "port": "5180",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Thailand",
-      "countryCode": "TH",
-      "isp": "Internet Thailand Company Limited",
-      "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     },
     {
       "ip": "27.254.99.183",
@@ -65,7 +51,21 @@
       "countryCode": "TH",
       "isp": "CS LOXINFO Public Company Limited.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "49.48.44.214",
+      "port": "8080",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Thailand",
+      "countryCode": "TH",
+      "isp": "Triple T Broadband Public Company Limited",
+      "user_type": "residential",
+      "type": "http"
     }
   ]
 }

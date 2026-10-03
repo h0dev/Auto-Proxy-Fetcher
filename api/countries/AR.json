@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-10-03T20:53:09.422463",
-  "total": 5,
+  "updated_at": "2026-10-03T23:44:18.682532",
+  "total": 6,
   "data": [
     {
-      "ip": "190.229.64.252",
-      "port": "443",
+      "ip": "190.182.137.250",
+      "port": "1085",
       "protocols": [
+        "socks4",
         "socks5",
         "http",
-        "https",
-        "socks4"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Argentina",
       "countryCode": "AR",
-      "isp": "Telecom Argentina S.A.",
+      "isp": "Red Intercable Digital S.A.",
       "user_type": "residential",
-      "type": "https"
+      "type": "socks4"
+    },
+    {
+      "ip": "200.70.56.84",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "Telefonica de Argentina",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "187.102.219.42",
@@ -34,7 +51,24 @@
       "countryCode": "AR",
       "isp": "CRETTON LISANDRO MAXIMILIANO (MISIOTECH)",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "45.175.160.97",
+      "port": "999",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Argentina",
+      "countryCode": "AR",
+      "isp": "Unknown",
+      "user_type": "Unknown",
+      "type": "https"
     },
     {
       "ip": "45.175.160.86",
@@ -55,23 +89,6 @@
     },
     {
       "ip": "45.175.160.77",
-      "port": "999",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Argentina",
-      "countryCode": "AR",
-      "isp": "Unknown",
-      "user_type": "Unknown",
-      "type": "https"
-    },
-    {
-      "ip": "45.175.160.97",
       "port": "999",
       "protocols": [
         "http",
