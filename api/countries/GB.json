@@ -1,14 +1,31 @@
 {
-  "updated_at": "2026-10-03T23:44:18.680836",
-  "total": 16,
+  "updated_at": "2026-10-04T05:10:42.426606",
+  "total": 13,
   "data": [
+    {
+      "ip": "134.209.29.120",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
     {
       "ip": "213.171.212.110",
       "port": "8080",
       "protocols": [
-        "http",
         "socks5",
         "socks4",
+        "http",
         "https"
       ],
       "username": null,
@@ -17,7 +34,7 @@
       "countryCode": "GB",
       "isp": "IONOS SE",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "134.209.29.120",
@@ -37,110 +54,8 @@
       "type": "https"
     },
     {
-      "ip": "134.209.29.120",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "134.209.29.120",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "18.170.45.5",
-      "port": "3294",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.170.45.5",
-      "port": "6022",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.170.45.5",
-      "port": "47843",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.170.45.5",
-      "port": "4228",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
       "ip": "18.175.170.244",
-      "port": "38598",
+      "port": "8086",
       "protocols": [
         "http",
         "https",
@@ -174,7 +89,7 @@
     },
     {
       "ip": "18.175.170.244",
-      "port": "3128",
+      "port": "38598",
       "protocols": [
         "http",
         "https",
@@ -191,7 +106,75 @@
     },
     {
       "ip": "18.175.170.244",
-      "port": "8086",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.170.45.5",
+      "port": "47843",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.170.45.5",
+      "port": "6022",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.170.45.5",
+      "port": "3294",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "18.170.45.5",
+      "port": "4228",
       "protocols": [
         "http",
         "https",
@@ -221,7 +204,7 @@
       "countryCode": "GB",
       "isp": "Merula Limited",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "194.146.49.36",
@@ -238,35 +221,7 @@
       "countryCode": "GB",
       "isp": "QuickHostUK Limited",
       "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "18.175.170.244",
-      "port": "2657",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "18.175.170.244",
-      "port": "5483",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
+      "type": "https"
     }
   ]
 }

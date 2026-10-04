@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-10-03T23:44:18.679160",
-  "total": 16,
+  "updated_at": "2026-10-04T05:10:42.423454",
+  "total": 21,
   "data": [
     {
       "ip": "103.88.234.239",
-      "port": "40017",
+      "port": "40008",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Latitude.sh",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "103.88.234.239",
+      "port": "40016",
       "protocols": [
         "socks4",
         "socks5",
@@ -21,12 +38,12 @@
     },
     {
       "ip": "103.88.234.239",
-      "port": "40012",
+      "port": "40002",
       "protocols": [
-        "socks4",
         "socks5",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -34,24 +51,24 @@
       "countryCode": "MX",
       "isp": "Latitude.sh",
       "user_type": "business",
-      "type": "socks4"
+      "type": "https"
     },
     {
-      "ip": "187.149.230.244",
-      "port": "999",
+      "ip": "147.78.1.156",
+      "port": "3128",
       "protocols": [
         "http",
-        "https",
+        "socks5",
         "socks4",
-        "socks5"
+        "https"
       ],
       "username": null,
       "password": null,
       "country": "Mexico",
       "countryCode": "MX",
-      "isp": "UNINET",
+      "isp": "BrainStorm Network, Inc",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "148.244.254.66",
@@ -68,7 +85,7 @@
       "countryCode": "MX",
       "isp": "Alestra, S. de R.L. de C.V.",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "165.225.218.43",
@@ -86,23 +103,6 @@
       "isp": "ZSCALER, INC.",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "187.188.131.169",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V.",
-      "user_type": "residential",
-      "type": "socks4"
     },
     {
       "ip": "189.51.168.165",
@@ -140,7 +140,41 @@
     },
     {
       "ip": "78.12.136.220",
+      "port": "29615",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "78.12.136.220",
       "port": "36839",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "78.12.136.220",
+      "port": "8880",
       "protocols": [
         "http",
         "https",
@@ -190,40 +224,6 @@
       "type": "socks4"
     },
     {
-      "ip": "78.12.136.220",
-      "port": "29615",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "78.12.136.220",
-      "port": "8880",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
       "ip": "78.12.246.160",
       "port": "32770",
       "protocols": [
@@ -258,10 +258,10 @@
       "type": "socks4"
     },
     {
-      "ip": "78.12.136.220",
-      "port": "8443",
+      "ip": "78.14.19.3",
+      "port": "13472",
       "protocols": [
-        "socks4"
+        "http"
       ],
       "username": null,
       "password": null,
@@ -269,7 +269,77 @@
       "countryCode": "MX",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "78.12.246.160",
+      "port": "50935",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "78.12.246.160",
+      "port": "1947",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "78.12.246.160",
+      "port": "38718",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "78.12.246.160",
+      "port": "45458",
+      "protocols": [
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "89.42.71.195",
+      "port": "999",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "OPTICAL LINE TERMINAL SAS DE CV",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
