@@ -1,13 +1,30 @@
 {
-  "updated_at": "2026-10-04T18:38:51.991022",
-  "total": 1,
+  "updated_at": "2026-10-04T23:58:44.989083",
+  "total": 4,
   "data": [
     {
-      "ip": "157.180.24.140",
-      "port": "11080",
+      "ip": "65.109.219.108",
+      "port": "2000",
       "protocols": [
-        "socks4",
         "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "65.21.201.149",
+      "port": "8081",
+      "protocols": [
+        "socks5",
+        "socks4",
         "http",
         "https"
       ],
@@ -17,7 +34,41 @@
       "countryCode": "FI",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "65.21.252.66",
+      "port": "10805",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
+    },
+    {
+      "ip": "65.21.252.66",
+      "port": "10809",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Finland",
+      "countryCode": "FI",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }
