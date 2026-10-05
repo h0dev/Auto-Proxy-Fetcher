@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-04T23:58:44.993904",
-  "total": 1,
+  "updated_at": "2026-10-05T04:56:55.813162",
+  "total": 2,
   "data": [
     {
       "ip": "156.225.31.18",
       "port": "7890",
       "protocols": [
-        "socks5",
         "socks4",
+        "socks5",
         "http",
         "https"
       ],
@@ -18,6 +18,21 @@
       "isp": "cognetcloud INC",
       "user_type": "hosting",
       "type": "http"
+    },
+    {
+      "ip": "156.238.240.81",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "cognetcloud INC",
+      "user_type": "hosting",
+      "type": "socks5"
     }
   ]
 }

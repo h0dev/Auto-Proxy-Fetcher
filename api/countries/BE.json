@@ -1,20 +1,23 @@
 {
-  "updated_at": "2026-10-03T04:39:48.068548",
+  "updated_at": "2026-10-05T04:56:55.829461",
   "total": 1,
   "data": [
     {
-      "ip": "165.225.12.17",
-      "port": "11703",
+      "ip": "188.190.10.47",
+      "port": "1080",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Belgium",
       "countryCode": "BE",
-      "isp": "Zscaler Switzerland GmbH",
+      "isp": "EDIS GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "socks5"
     }
   ]
 }
