@@ -1,38 +1,23 @@
 {
-  "updated_at": "2026-10-05T04:56:55.809891",
-  "total": 29,
+  "updated_at": "2026-10-05T14:09:22.651763",
+  "total": 26,
   "data": [
     {
-      "ip": "103.88.234.239",
-      "port": "40012",
+      "ip": "204.157.104.16",
+      "port": "999",
       "protocols": [
-        "socks4",
-        "socks5",
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Mexico",
       "countryCode": "MX",
-      "isp": "Latitude.sh",
+      "isp": "WISTARIP S DE RL DE CV",
       "user_type": "business",
       "type": "http"
-    },
-    {
-      "ip": "201.130.108.251",
-      "port": "3128",
-      "protocols": [
-        "http",
-        "https"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "UNINET",
-      "user_type": "business",
-      "type": "https"
     },
     {
       "ip": "103.88.234.239",
@@ -49,7 +34,75 @@
       "countryCode": "MX",
       "isp": "Latitude.sh",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "103.88.234.239",
+      "port": "40003",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Latitude.sh",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "103.88.234.239",
+      "port": "40005",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Latitude.sh",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "103.88.234.239",
+      "port": "40016",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Latitude.sh",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "103.88.234.239",
+      "port": "40014",
+      "protocols": [
+        "socks4",
+        "socks5",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Latitude.sh",
+      "user_type": "business",
+      "type": "http"
     },
     {
       "ip": "147.78.1.156",
@@ -70,12 +123,12 @@
     },
     {
       "ip": "103.88.234.239",
-      "port": "40003",
+      "port": "40002",
       "protocols": [
-        "socks4",
         "socks5",
         "http",
-        "https"
+        "https",
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -83,24 +136,7 @@
       "countryCode": "MX",
       "isp": "Latitude.sh",
       "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "38.19.111.74",
-      "port": "8080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "TECNOLOGIAS FEM",
-      "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "165.225.218.43",
@@ -117,11 +153,11 @@
       "countryCode": "MX",
       "isp": "ZSCALER, INC.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "78.12.136.220",
-      "port": "29615",
+      "port": "15713",
       "protocols": [
         "http",
         "https",
@@ -137,8 +173,22 @@
       "type": "socks4"
     },
     {
+      "ip": "78.12.246.160",
+      "port": "38009",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
       "ip": "78.12.136.220",
-      "port": "15713",
+      "port": "48996",
       "protocols": [
         "http",
         "https",
@@ -171,13 +221,11 @@
       "type": "socks4"
     },
     {
-      "ip": "78.12.136.220",
-      "port": "52990",
+      "ip": "78.12.246.160",
+      "port": "48870",
       "protocols": [
         "http",
-        "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -189,7 +237,7 @@
     },
     {
       "ip": "78.12.136.220",
-      "port": "48996",
+      "port": "52990",
       "protocols": [
         "http",
         "https",
@@ -220,7 +268,35 @@
     },
     {
       "ip": "78.12.246.160",
-      "port": "38009",
+      "port": "30064",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "78.12.246.160",
+      "port": "4748",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Mexico",
+      "countryCode": "MX",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "78.12.246.160",
+      "port": "8103",
       "protocols": [
         "http"
       ],
@@ -247,8 +323,8 @@
       "type": "http"
     },
     {
-      "ip": "78.14.19.3",
-      "port": "21186",
+      "ip": "78.12.246.160",
+      "port": "54647",
       "protocols": [
         "http"
       ],
@@ -261,8 +337,8 @@
       "type": "http"
     },
     {
-      "ip": "78.14.19.3",
-      "port": "14096",
+      "ip": "78.12.246.160",
+      "port": "50935",
       "protocols": [
         "http"
       ],
@@ -275,8 +351,8 @@
       "type": "http"
     },
     {
-      "ip": "78.14.19.3",
-      "port": "12350",
+      "ip": "78.12.246.160",
+      "port": "6832",
       "protocols": [
         "http"
       ],
@@ -289,10 +365,10 @@
       "type": "http"
     },
     {
-      "ip": "78.14.19.3",
-      "port": "39402",
+      "ip": "78.12.136.220",
+      "port": "17732",
       "protocols": [
-        "http"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -300,13 +376,13 @@
       "countryCode": "MX",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "78.14.19.3",
-      "port": "24668",
+      "ip": "78.12.246.160",
+      "port": "21705",
       "protocols": [
-        "http"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -314,13 +390,13 @@
       "countryCode": "MX",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
-      "ip": "78.14.19.3",
-      "port": "1655",
+      "ip": "78.12.246.160",
+      "port": "7371",
       "protocols": [
-        "http"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -328,119 +404,7 @@
       "countryCode": "MX",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.14.19.3",
-      "port": "28608",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.14.19.3",
-      "port": "46686",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.14.19.3",
-      "port": "52767",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.14.19.3",
-      "port": "53866",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.14.19.3",
-      "port": "8254",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.14.19.3",
-      "port": "2348",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.14.19.3",
-      "port": "53609",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "78.14.19.3",
-      "port": "8447",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Mexico",
-      "countryCode": "MX",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }

@@ -1,15 +1,32 @@
 {
-  "updated_at": "2026-10-05T04:56:55.805154",
-  "total": 5,
+  "updated_at": "2026-10-05T14:09:22.643149",
+  "total": 7,
   "data": [
     {
-      "ip": "120.232.115.57",
-      "port": "17981",
+      "ip": "81.12.157.98",
+      "port": "5678",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Romania",
+      "countryCode": "RO",
+      "isp": "Vodafone Romania S.A.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
+    {
+      "ip": "120.232.115.170",
+      "port": "17981",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
       "username": null,
       "password": null,
@@ -17,10 +34,10 @@
       "countryCode": "CN",
       "isp": "China Mobile Communications Group Co., Ltd.",
       "user_type": "cellular",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "120.232.115.170",
+      "ip": "120.232.115.57",
       "port": "17981",
       "protocols": [
         "http",
@@ -51,11 +68,11 @@
       "countryCode": "CN",
       "isp": "China Mobile communications corporation",
       "user_type": "cellular",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "196.204.83.232",
-      "port": "1976",
+      "ip": "196.204.3.21",
+      "port": "1981",
       "protocols": [
         "http",
         "https",
@@ -71,8 +88,8 @@
       "type": "http"
     },
     {
-      "ip": "183.250.109.213",
-      "port": "7302",
+      "ip": "80.78.73.142",
+      "port": "65530",
       "protocols": [
         "http",
         "https",
@@ -81,11 +98,28 @@
       ],
       "username": null,
       "password": null,
-      "country": "China",
-      "countryCode": "CN",
-      "isp": "China Mobile Communications Group Co., Ltd.",
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Vodafone Albania Sh.A.",
       "user_type": "cellular",
-      "type": "https"
+      "type": "socks4"
+    },
+    {
+      "ip": "84.119.198.99",
+      "port": "443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Vodafone GmbH",
+      "user_type": "cellular",
+      "type": "http"
     }
   ]
 }
