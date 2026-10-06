@@ -1,14 +1,31 @@
 {
-  "updated_at": "2026-10-06T05:44:17.239236",
-  "total": 1,
+  "updated_at": "2026-10-06T13:08:38.373443",
+  "total": 3,
   "data": [
+    {
+      "ip": "80.78.74.8",
+      "port": "65530",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Vodafone Albania Sh.A.",
+      "user_type": "cellular",
+      "type": "socks4"
+    },
     {
       "ip": "85.155.228.112",
       "port": "3128",
       "protocols": [
+        "http",
         "socks5",
         "socks4",
-        "http",
         "https"
       ],
       "username": null,
@@ -17,7 +34,24 @@
       "countryCode": "AL",
       "isp": "Andrew Kristuli",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
+    },
+    {
+      "ip": "80.78.73.142",
+      "port": "65530",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Albania",
+      "countryCode": "AL",
+      "isp": "Vodafone Albania Sh.A.",
+      "user_type": "cellular",
+      "type": "socks4"
     }
   ]
 }

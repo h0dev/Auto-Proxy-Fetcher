@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-06T05:44:17.240792",
-  "total": 2,
+  "updated_at": "2026-10-06T13:08:38.369938",
+  "total": 5,
   "data": [
     {
-      "ip": "181.78.80.222",
-      "port": "999",
+      "ip": "181.78.67.162",
+      "port": "1080",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -17,7 +17,7 @@
       "countryCode": "CO",
       "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "149.130.173.58",
@@ -33,6 +33,57 @@
       "isp": "Oracle Corporation",
       "user_type": "business",
       "type": "https"
+    },
+    {
+      "ip": "190.0.246.210",
+      "port": "4040",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Media Commerce Partners S.A",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "190.0.246.213",
+      "port": "4040",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Media Commerce Partners S.A",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "190.0.246.211",
+      "port": "4040",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "Media Commerce Partners S.A",
+      "user_type": "business",
+      "type": "http"
     }
   ]
 }
