@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-10-06T20:11:42.322653",
-  "total": 1,
+  "updated_at": "2026-10-07T10:06:14.251619",
+  "total": 2,
   "data": [
     {
-      "ip": "154.79.251.168",
-      "port": "1080",
+      "ip": "102.208.166.30",
+      "port": "8082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Kenya",
+      "countryCode": "KE",
+      "isp": "Alwen Networks Co. Limited",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "102.0.28.78",
+      "port": "8083",
       "protocols": [
         "http",
         "https",
@@ -17,7 +34,7 @@
       "countryCode": "KE",
       "isp": "Airtel Networks Kenya Limited",
       "user_type": "business",
-      "type": "socks4"
+      "type": "http"
     }
   ]
 }

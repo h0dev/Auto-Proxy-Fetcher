@@ -1,14 +1,13 @@
 {
-  "updated_at": "2026-10-07T00:35:46.901992",
-  "total": 1,
+  "updated_at": "2026-10-07T10:06:14.237934",
+  "total": 3,
   "data": [
     {
-      "ip": "156.225.31.18",
-      "port": "7890",
+      "ip": "154.222.24.226",
+      "port": "8888",
       "protocols": [
-        "socks5",
         "http",
-        "https",
+        "socks5",
         "socks4"
       ],
       "username": null,
@@ -17,7 +16,41 @@
       "countryCode": "SC",
       "isp": "cognetcloud INC",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "http"
+    },
+    {
+      "ip": "156.225.31.18",
+      "port": "7890",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "cognetcloud INC",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "45.9.122.181",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Seychelles",
+      "countryCode": "SC",
+      "isp": "GEOCOM LLC",
+      "user_type": "business",
+      "type": "https"
     }
   ]
 }
