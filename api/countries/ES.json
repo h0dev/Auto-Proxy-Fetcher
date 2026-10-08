@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-10-08T00:55:20.508929",
-  "total": 6,
+  "updated_at": "2026-10-08T10:18:44.990513",
+  "total": 7,
   "data": [
     {
       "ip": "15.217.214.40",
       "port": "19210",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Spain",
+      "countryCode": "ES",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "15.217.107.97",
+      "port": "7014",
       "protocols": [
         "http",
         "https",
@@ -51,7 +68,7 @@
       "countryCode": "ES",
       "isp": "Comvive Servidores S.L.",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "51.94.221.175",
@@ -71,13 +88,10 @@
       "type": "socks4"
     },
     {
-      "ip": "51.94.221.175",
-      "port": "34547",
+      "ip": "15.217.214.40",
+      "port": "31784",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "socks4"
       ],
       "username": null,
       "password": null,
@@ -88,12 +102,9 @@
       "type": "socks4"
     },
     {
-      "ip": "51.94.221.175",
-      "port": "26592",
+      "ip": "15.217.214.40",
+      "port": "57666",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
@@ -102,7 +113,7 @@
       "countryCode": "ES",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "socks5"
     }
   ]
 }

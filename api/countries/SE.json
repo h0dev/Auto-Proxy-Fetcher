@@ -1,60 +1,26 @@
 {
-  "updated_at": "2026-10-08T00:55:20.508472",
-  "total": 8,
+  "updated_at": "2026-10-08T10:18:44.980519",
+  "total": 7,
   "data": [
     {
+      "ip": "171.25.158.95",
+      "port": "1080",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Patrik Lagerman",
+      "user_type": "business",
+      "type": "socks5"
+    },
+    {
       "ip": "147.161.188.24",
-      "port": "10801",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.192.26",
-      "port": "10801",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.192.22",
-      "port": "10801",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Sweden",
-      "countryCode": "SE",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.192.21",
       "port": "10801",
       "protocols": [
         "http",
@@ -88,7 +54,7 @@
       "type": "https"
     },
     {
-      "ip": "165.225.192.23",
+      "ip": "165.225.192.26",
       "port": "10801",
       "protocols": [
         "http",
@@ -105,7 +71,24 @@
       "type": "https"
     },
     {
-      "ip": "165.225.192.27",
+      "ip": "165.225.192.21",
+      "port": "10801",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Sweden",
+      "countryCode": "SE",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "165.225.192.23",
       "port": "10801",
       "protocols": [
         "http",
@@ -136,7 +119,7 @@
       "countryCode": "SE",
       "isp": "Telia Company AB",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
