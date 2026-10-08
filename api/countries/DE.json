@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-10-07T18:46:32.852507",
-  "total": 35,
+  "updated_at": "2026-10-08T00:55:20.496846",
+  "total": 27,
   "data": [
     {
-      "ip": "47.91.65.23",
-      "port": "3128",
+      "ip": "103.237.102.191",
+      "port": "11111",
+      "protocols": [
+        "http",
+        "socks5",
+        "socks4",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Zenlayer Inc",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "157.90.113.23",
+      "port": "9052",
       "protocols": [
         "socks5",
         "socks4",
@@ -15,9 +32,26 @@
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "Alibaba (US) Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "91.107.179.68",
+      "port": "10809",
+      "protocols": [
+        "socks5",
+        "http",
+        "https",
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Hetzner Online GmbH",
+      "user_type": "hosting",
+      "type": "socks5"
     },
     {
       "ip": "161.35.70.249",
@@ -34,16 +68,16 @@
       "countryCode": "DE",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "49.13.22.249",
-      "port": "10802",
+      "ip": "167.233.243.116",
+      "port": "3129",
       "protocols": [
-        "socks5",
         "http",
         "https",
-        "socks4"
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
@@ -51,41 +85,7 @@
       "countryCode": "DE",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "49.13.22.249",
-      "port": "10803",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "77.239.96.194",
-      "port": "1081",
-      "protocols": [
-        "socks5",
-        "http",
-        "https",
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "International Hosting Company Limited",
-      "user_type": "hosting",
-      "type": "socks5"
+      "type": "http"
     },
     {
       "ip": "161.35.70.249",
@@ -102,7 +102,7 @@
       "countryCode": "DE",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "116.203.51.18",
@@ -112,20 +112,6 @@
         "https",
         "socks4",
         "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Hetzner Online GmbH",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "136.243.174.46",
-      "port": "80",
-      "protocols": [
-        "http"
       ],
       "username": null,
       "password": null,
@@ -180,7 +166,7 @@
       "countryCode": "DE",
       "isp": "DigitalOcean, LLC",
       "user_type": "hosting",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "165.22.94.118",
@@ -194,20 +180,6 @@
       "country": "Germany",
       "countryCode": "DE",
       "isp": "DigitalOcean, LLC",
-      "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "167.233.243.116",
-      "port": "3128",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
       "type": "http"
     },
@@ -244,8 +216,8 @@
       "type": "socks4"
     },
     {
-      "ip": "188.40.250.20",
-      "port": "8118",
+      "ip": "18.157.123.132",
+      "port": "3128",
       "protocols": [
         "http",
         "https",
@@ -256,13 +228,13 @@
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "Hetzner Online GmbH",
+      "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "http"
     },
     {
-      "ip": "195.201.34.206",
-      "port": "80",
+      "ip": "188.40.250.20",
+      "port": "8118",
       "protocols": [
         "http",
         "https",
@@ -278,17 +250,19 @@
       "type": "https"
     },
     {
-      "ip": "206.81.18.237",
-      "port": "443",
+      "ip": "195.201.34.206",
+      "port": "80",
       "protocols": [
         "http",
-        "https"
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "DigitalOcean, LLC",
+      "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
       "type": "https"
     },
@@ -310,7 +284,7 @@
       "type": "https"
     },
     {
-      "ip": "38.60.211.138",
+      "ip": "31.76.127.171",
       "port": "3128",
       "protocols": [
         "http"
@@ -319,8 +293,8 @@
       "password": null,
       "country": "Germany",
       "countryCode": "DE",
-      "isp": "LIGHT NODE LIMITED",
-      "user_type": "business",
+      "isp": "H2nexus Cloud Services - Fzco",
+      "user_type": "hosting",
       "type": "http"
     },
     {
@@ -341,6 +315,20 @@
       "type": "socks4"
     },
     {
+      "ip": "63.180.203.233",
+      "port": "52312",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
       "ip": "81.169.135.82",
       "port": "80",
       "protocols": [
@@ -355,7 +343,7 @@
       "countryCode": "DE",
       "isp": "Strato GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "88.198.216.95",
@@ -385,7 +373,7 @@
       "countryCode": "DE",
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "91.99.78.151",
@@ -403,118 +391,6 @@
       "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
       "type": "http"
-    },
-    {
-      "ip": "18.157.159.247",
-      "port": "21087",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.157.159.247",
-      "port": "53914",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "63.180.203.233",
-      "port": "33003",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "63.180.203.233",
-      "port": "9353",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "63.180.203.233",
-      "port": "15666",
-      "protocols": [
-        "socks4"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "18.157.159.247",
-      "port": "8880",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "18.157.159.247",
-      "port": "2293",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
-    },
-    {
-      "ip": "18.157.159.247",
-      "port": "17803",
-      "protocols": [
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Germany",
-      "countryCode": "DE",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks5"
     },
     {
       "ip": "193.124.91.106",
@@ -543,6 +419,20 @@
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
       "type": "socks5"
+    },
+    {
+      "ip": "176.97.210.116",
+      "port": "9094",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Germany",
+      "countryCode": "DE",
+      "isp": "Tube-Hosting",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }
