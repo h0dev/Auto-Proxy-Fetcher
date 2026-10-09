@@ -1,20 +1,23 @@
 {
-  "updated_at": "2026-10-08T10:18:44.991407",
+  "updated_at": "2026-10-09T10:19:47.490075",
   "total": 1,
   "data": [
     {
-      "ip": "185.104.187.130",
-      "port": "8081",
+      "ip": "178.48.13.177",
+      "port": "80",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
-      "username": "afY491o7YfK00koaXQD9kTHpVWy-f5IgWR3z4P9YeMEkX2kJOASdWemzvI_CSbUvoXw609MC0WdYefYZbCn32A==",
-      "password": "1",
+      "username": null,
+      "password": null,
       "country": "Hungary",
       "countryCode": "HU",
-      "isp": "M247 Europe SRL",
-      "user_type": "business",
-      "type": "http"
+      "isp": "2Connect Telecommunications Infrastructure & Network Services Ltd.",
+      "user_type": "residential",
+      "type": "socks4"
     }
   ]
 }
