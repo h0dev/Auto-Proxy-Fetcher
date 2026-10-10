@@ -1,10 +1,27 @@
 {
-  "updated_at": "2026-10-09T18:15:55.584959",
-  "total": 49,
+  "updated_at": "2026-10-10T00:41:16.199555",
+  "total": 42,
   "data": [
     {
       "ip": "8.213.151.128",
       "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Alibaba (US) Technology Co., Ltd.",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "221.164.102.22",
+      "port": "8080",
       "protocols": [
         "http",
         "socks5",
@@ -15,9 +32,9 @@
       "password": null,
       "country": "South Korea",
       "countryCode": "KR",
-      "isp": "Alibaba (US) Technology Co., Ltd.",
-      "user_type": "business",
-      "type": "http"
+      "isp": "Korea Telecom",
+      "user_type": "residential",
+      "type": "https"
     },
     {
       "ip": "146.56.158.84",
@@ -37,8 +54,42 @@
       "type": "socks5"
     },
     {
-      "ip": "43.202.114.177",
-      "port": "15757",
+      "ip": "203.252.142.217",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Konkuk University",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "115.139.106.254",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "LG POWERCOMM",
+      "user_type": "business",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.209.65.136",
+      "port": "16151",
       "protocols": [
         "http",
         "https",
@@ -56,40 +107,6 @@
     {
       "ip": "13.209.65.136",
       "port": "38930",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "10000",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.209.65.136",
-      "port": "24259",
       "protocols": [
         "http",
         "https",
@@ -140,7 +157,7 @@
     },
     {
       "ip": "13.209.65.136",
-      "port": "55854",
+      "port": "4929",
       "protocols": [
         "http",
         "https",
@@ -153,11 +170,11 @@
       "countryCode": "KR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "13.209.65.136",
-      "port": "8081",
+      "port": "8118",
       "protocols": [
         "http",
         "https",
@@ -170,11 +187,11 @@
       "countryCode": "KR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
+      "type": "socks5"
     },
     {
       "ip": "13.209.65.136",
-      "port": "8013",
+      "port": "9215",
       "protocols": [
         "http",
         "https",
@@ -187,58 +204,7 @@
       "countryCode": "KR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.209.65.136",
-      "port": "32870",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "13.209.65.136",
-      "port": "8781",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "203.252.142.217",
-      "port": "80",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Konkuk University",
-      "user_type": "business",
-      "type": "https"
+      "type": "socks5"
     },
     {
       "ip": "27.102.118.93",
@@ -259,7 +225,124 @@
     },
     {
       "ip": "43.200.174.95",
+      "port": "32898",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.200.174.95",
+      "port": "1256",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.200.174.95",
+      "port": "20518",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.200.174.95",
       "port": "26247",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.200.174.95",
+      "port": "10195",
+      "protocols": [
+        "http",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "43.200.174.95",
+      "port": "55957",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.200.174.95",
+      "port": "47159",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.200.174.95",
+      "port": "49978",
       "protocols": [
         "http",
         "https",
@@ -292,8 +375,25 @@
       "type": "socks4"
     },
     {
-      "ip": "43.200.174.95",
-      "port": "32898",
+      "ip": "43.202.114.177",
+      "port": "35829",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.202.114.177",
+      "port": "41901",
       "protocols": [
         "http",
         "https",
@@ -310,7 +410,24 @@
     },
     {
       "ip": "43.200.174.95",
-      "port": "49978",
+      "port": "8083",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.200.174.95",
+      "port": "34728",
       "protocols": [
         "http",
         "https",
@@ -361,7 +478,7 @@
     },
     {
       "ip": "43.200.174.95",
-      "port": "8083",
+      "port": "46461",
       "protocols": [
         "http",
         "https",
@@ -374,263 +491,7 @@
       "countryCode": "KR",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "14755",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.200.174.95",
-      "port": "9927",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.200.174.95",
-      "port": "9002",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "8120",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "socks4"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "1443",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "46173",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "8003",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "10808",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "35829",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "8447",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "31192",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "5907",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "7428",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "40010",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "11368",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "4921",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "43.202.114.177",
-      "port": "4308",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "South Korea",
-      "countryCode": "KR",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
+      "type": "socks5"
     },
     {
       "ip": "54.117.6.131",
@@ -651,7 +512,7 @@
     },
     {
       "ip": "54.117.6.131",
-      "port": "27912",
+      "port": "2389",
       "protocols": [
         "http",
         "https",
@@ -668,7 +529,24 @@
     },
     {
       "ip": "54.117.6.131",
-      "port": "22699",
+      "port": "33030",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "54.117.6.131",
+      "port": "41029",
       "protocols": [
         "http",
         "https",
@@ -685,7 +563,21 @@
     },
     {
       "ip": "13.209.65.136",
-      "port": "46730",
+      "port": "8998",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "13.209.65.136",
+      "port": "8443",
       "protocols": [
         "socks4"
       ],
@@ -699,7 +591,7 @@
     },
     {
       "ip": "43.200.174.95",
-      "port": "2797",
+      "port": "8082",
       "protocols": [
         "socks4"
       ],
@@ -712,8 +604,8 @@
       "type": "socks4"
     },
     {
-      "ip": "54.117.6.131",
-      "port": "31911",
+      "ip": "43.200.174.95",
+      "port": "22226",
       "protocols": [
         "socks4"
       ],
@@ -726,8 +618,8 @@
       "type": "socks4"
     },
     {
-      "ip": "54.117.6.131",
-      "port": "9892",
+      "ip": "43.200.174.95",
+      "port": "57361",
       "protocols": [
         "socks4"
       ],
@@ -740,8 +632,8 @@
       "type": "socks4"
     },
     {
-      "ip": "54.117.6.131",
-      "port": "8322",
+      "ip": "43.200.174.95",
+      "port": "36442",
       "protocols": [
         "socks4"
       ],
@@ -754,8 +646,22 @@
       "type": "socks4"
     },
     {
-      "ip": "13.209.65.136",
-      "port": "48562",
+      "ip": "43.200.174.95",
+      "port": "8689",
+      "protocols": [
+        "socks4"
+      ],
+      "username": null,
+      "password": null,
+      "country": "South Korea",
+      "countryCode": "KR",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "socks4"
+    },
+    {
+      "ip": "43.200.174.95",
+      "port": "3879",
       "protocols": [
         "socks5"
       ],
@@ -768,8 +674,8 @@
       "type": "socks5"
     },
     {
-      "ip": "13.209.65.136",
-      "port": "35040",
+      "ip": "43.200.174.95",
+      "port": "59994",
       "protocols": [
         "socks5"
       ],
