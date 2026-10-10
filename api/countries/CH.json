@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T09:41:52.678384",
+  "updated_at": "2026-10-10T17:14:15.679285",
   "total": 46,
   "data": [
     {
@@ -17,11 +17,28 @@
       "countryCode": "CH",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "147.161.246.16",
-      "port": "11111",
+      "port": "22222",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "147.161.246.16",
+      "port": "9443",
       "protocols": [
         "http",
         "https",
@@ -39,23 +56,6 @@
     {
       "ip": "147.161.246.16",
       "port": "10000",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "147.161.246.16",
-      "port": "22222",
       "protocols": [
         "http",
         "https",
@@ -88,8 +88,25 @@
       "type": "http"
     },
     {
+      "ip": "147.161.246.16",
+      "port": "11111",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
       "ip": "147.161.246.36",
-      "port": "10826",
+      "port": "10123",
       "protocols": [
         "http",
         "https",
@@ -105,8 +122,8 @@
       "type": "https"
     },
     {
-      "ip": "147.161.246.16",
-      "port": "9443",
+      "ip": "147.161.246.36",
+      "port": "10826",
       "protocols": [
         "http",
         "https",
@@ -140,7 +157,7 @@
     },
     {
       "ip": "147.161.246.36",
-      "port": "10123",
+      "port": "11769",
       "protocols": [
         "http",
         "https",
@@ -153,11 +170,28 @@
       "countryCode": "CH",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
-      "ip": "147.161.246.36",
-      "port": "11769",
+      "ip": "147.161.246.37",
+      "port": "10000",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "147.161.246.37",
+      "port": "10050",
       "protocols": [
         "http",
         "https",
@@ -191,75 +225,7 @@
     },
     {
       "ip": "147.161.246.37",
-      "port": "10000",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "147.161.246.37",
       "port": "10088",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "147.161.246.37",
-      "port": "10050",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "147.161.246.37",
-      "port": "10674",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "147.161.246.37",
-      "port": "10082",
       "protocols": [
         "http",
         "https",
@@ -306,11 +272,11 @@
       "countryCode": "CH",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "147.161.246.37",
-      "port": "10800",
+      "port": "10674",
       "protocols": [
         "http",
         "https",
@@ -324,57 +290,6 @@
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
       "type": "https"
-    },
-    {
-      "ip": "147.161.246.37",
-      "port": "11379",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "147.161.246.37",
-      "port": "11453",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "147.161.246.37",
-      "port": "10196",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
     },
     {
       "ip": "147.161.246.37",
@@ -391,11 +306,11 @@
       "countryCode": "CH",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "147.161.246.37",
-      "port": "11248",
+      "port": "10800",
       "protocols": [
         "http",
         "https",
@@ -429,7 +344,7 @@
     },
     {
       "ip": "147.161.246.37",
-      "port": "12345",
+      "port": "11248",
       "protocols": [
         "http",
         "https",
@@ -446,24 +361,7 @@
     },
     {
       "ip": "147.161.246.37",
-      "port": "9443",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "147.161.246.37",
-      "port": "12125",
+      "port": "11379",
       "protocols": [
         "http",
         "https",
@@ -480,7 +378,7 @@
     },
     {
       "ip": "147.161.246.37",
-      "port": "22222",
+      "port": "11453",
       "protocols": [
         "http",
         "https",
@@ -510,11 +408,62 @@
       "countryCode": "CH",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "147.161.246.37",
+      "port": "22222",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
       "type": "http"
     },
     {
-      "ip": "147.161.246.39",
-      "port": "10000",
+      "ip": "147.161.246.37",
+      "port": "9443",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "147.161.246.37",
+      "port": "10082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "147.161.246.37",
+      "port": "10196",
       "protocols": [
         "http",
         "https",
@@ -531,7 +480,24 @@
     },
     {
       "ip": "147.161.246.39",
-      "port": "11111",
+      "port": "10082",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "147.161.246.39",
+      "port": "10088",
       "protocols": [
         "http",
         "https",
@@ -565,23 +531,6 @@
     },
     {
       "ip": "147.161.246.39",
-      "port": "11592",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "147.161.246.39",
       "port": "10800",
       "protocols": [
         "http",
@@ -599,7 +548,7 @@
     },
     {
       "ip": "147.161.246.39",
-      "port": "22222",
+      "port": "11111",
       "protocols": [
         "http",
         "https",
@@ -616,91 +565,6 @@
     },
     {
       "ip": "147.161.246.39",
-      "port": "10088",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "147.161.246.39",
-      "port": "10082",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "147.161.246.39",
-      "port": "12345",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "165.225.66.38",
-      "port": "10088",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "http"
-    },
-    {
-      "ip": "165.225.66.38",
-      "port": "12345",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Switzerland",
-      "countryCode": "CH",
-      "isp": "Zscaler Switzerland GmbH",
-      "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "165.225.66.38",
       "port": "10000",
       "protocols": [
         "http",
@@ -714,11 +578,113 @@
       "countryCode": "CH",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "147.161.246.37",
+      "port": "12345",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "147.161.246.37",
+      "port": "12125",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "147.161.246.39",
+      "port": "11592",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "147.161.246.39",
+      "port": "12345",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "147.161.246.39",
+      "port": "22222",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
+      "ip": "152.67.74.74",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Oracle Corporation",
+      "user_type": "business",
       "type": "http"
     },
     {
       "ip": "165.225.66.38",
-      "port": "22222",
+      "port": "10000",
       "protocols": [
         "http",
         "https",
@@ -765,11 +731,11 @@
       "countryCode": "CH",
       "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "185.191.239.248",
-      "port": "3128",
+      "ip": "165.225.66.38",
+      "port": "22222",
       "protocols": [
         "http",
         "https",
@@ -780,7 +746,41 @@
       "password": null,
       "country": "Switzerland",
       "countryCode": "CH",
-      "isp": "GRUPO PANAGLOBAL 15 S.A",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "165.225.66.38",
+      "port": "10088",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "165.225.66.38",
+      "port": "12345",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "isp": "Zscaler Switzerland GmbH",
       "user_type": "business",
       "type": "http"
     }

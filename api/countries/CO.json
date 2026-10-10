@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T09:41:52.679072",
+  "updated_at": "2026-10-10T17:14:15.679934",
   "total": 2,
   "data": [
     {
@@ -15,21 +15,24 @@
       "countryCode": "CO",
       "isp": "Oracle Corporation",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "161.10.122.13",
-      "port": "999",
+      "ip": "177.253.136.162",
+      "port": "5678",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "COLOMBIA TELECOMUNICACIONES S.A. ESP BIC",
+      "isp": "UNE EPM TELECOMUNICACIONES S.A.",
       "user_type": "residential",
-      "type": "http"
+      "type": "socks4"
     }
   ]
 }

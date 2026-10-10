@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T09:41:52.677853",
+  "updated_at": "2026-10-10T17:14:15.677575",
   "total": 2,
   "data": [
     {
@@ -17,21 +17,24 @@
       "countryCode": "PH",
       "isp": "Eastern Telecoms Phils., Inc.",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
-      "ip": "139.135.65.158",
-      "port": "8082",
+      "ip": "180.191.231.247",
+      "port": "8989",
       "protocols": [
-        "http"
+        "http",
+        "https",
+        "socks4",
+        "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Philippines",
       "countryCode": "PH",
-      "isp": "DITO TELECOMMUNITY CORP.",
+      "isp": "Globe Telecoms",
       "user_type": "residential",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
