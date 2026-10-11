@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-10-10T21:28:13.319272",
-  "total": 6,
+  "updated_at": "2026-10-11T05:02:02.882866",
+  "total": 9,
   "data": [
+    {
+      "ip": "45.115.115.37",
+      "port": "9090",
+      "protocols": [
+        "socks5",
+        "socks4",
+        "http",
+        "https"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "Drik ICT Ltd",
+      "user_type": "business",
+      "type": "socks4"
+    },
     {
       "ip": "202.5.50.151",
       "port": "1080",
@@ -16,23 +33,6 @@
       "country": "Bangladesh",
       "countryCode": "BD",
       "isp": "Broad Band Telecom Services Ltd",
-      "user_type": "residential",
-      "type": "socks4"
-    },
-    {
-      "ip": "103.155.42.38",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bangladesh",
-      "countryCode": "BD",
-      "isp": "Chauddagram Broadband",
       "user_type": "residential",
       "type": "socks4"
     },
@@ -54,8 +54,40 @@
       "type": "socks4"
     },
     {
-      "ip": "103.66.176.45",
-      "port": "32251",
+      "ip": "103.42.203.9",
+      "port": "8181",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "HelloTech Limited",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "103.61.240.62",
+      "port": "8181",
+      "protocols": [
+        "http",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "HelloTech Limited",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "119.18.147.179",
+      "port": "1080",
       "protocols": [
         "http",
         "https",
@@ -66,26 +98,23 @@
       "password": null,
       "country": "Bangladesh",
       "countryCode": "BD",
-      "isp": "Muhammad Nasir t/a Dhaka Information Technology",
-      "user_type": "business",
+      "isp": "Broad Band Telecom Services Ltd",
+      "user_type": "residential",
       "type": "socks4"
     },
     {
-      "ip": "118.179.135.69",
-      "port": "9090",
+      "ip": "175.29.174.174",
+      "port": "2525",
       "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
+        "http"
       ],
       "username": null,
       "password": null,
       "country": "Bangladesh",
       "countryCode": "BD",
-      "isp": "AmberIT Limited",
-      "user_type": "business",
-      "type": "socks4"
+      "isp": "Access Telecom (BD) Ltd.",
+      "user_type": "residential",
+      "type": "http"
     },
     {
       "ip": "202.4.126.9",
@@ -102,7 +131,24 @@
       "countryCode": "BD",
       "isp": "AmberIT Limited",
       "user_type": "business",
-      "type": "https"
+      "type": "http"
+    },
+    {
+      "ip": "27.147.161.10",
+      "port": "1080",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "Link3 Technologies Ltd.",
+      "user_type": "business",
+      "type": "socks4"
     }
   ]
 }

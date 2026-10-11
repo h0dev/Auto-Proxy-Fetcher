@@ -1,23 +1,40 @@
 {
-  "updated_at": "2026-10-10T21:28:13.319557",
-  "total": 2,
+  "updated_at": "2026-10-11T05:02:02.886733",
+  "total": 4,
   "data": [
     {
-      "ip": "190.242.58.148",
-      "port": "999",
+      "ip": "181.78.67.99",
+      "port": "1080",
       "protocols": [
+        "socks4",
         "http",
         "https",
-        "socks4",
         "socks5"
       ],
       "username": null,
       "password": null,
       "country": "Colombia",
       "countryCode": "CO",
-      "isp": "LIBERTY NETWORKS DE COLOMBIA S.A.S",
+      "isp": "UFINET PANAMA S.A.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
+    },
+    {
+      "ip": "200.10.31.74",
+      "port": "49992",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "SUPER REDES S.A.S",
+      "user_type": "business",
+      "type": "socks4"
     },
     {
       "ip": "149.130.173.58",
@@ -31,6 +48,23 @@
       "country": "Colombia",
       "countryCode": "CO",
       "isp": "Oracle Corporation",
+      "user_type": "business",
+      "type": "http"
+    },
+    {
+      "ip": "200.10.30.5",
+      "port": "8083",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Colombia",
+      "countryCode": "CO",
+      "isp": "SUPER REDES S.A.S",
       "user_type": "business",
       "type": "http"
     }
