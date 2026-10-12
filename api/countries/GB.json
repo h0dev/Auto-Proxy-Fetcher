@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T10:34:20.510026",
+  "updated_at": "2026-10-12T21:11:17.262310",
   "total": 17,
   "data": [
     {
@@ -37,6 +37,40 @@
       "type": "https"
     },
     {
+      "ip": "134.209.29.120",
+      "port": "80",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "DigitalOcean, LLC",
+      "user_type": "hosting",
+      "type": "https"
+    },
+    {
+      "ip": "138.124.125.198",
+      "port": "3128",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Baykov Ilya Sergeevich",
+      "user_type": "business",
+      "type": "https"
+    },
+    {
       "ip": "167.99.85.66",
       "port": "443",
       "protocols": [
@@ -66,112 +100,11 @@
       "countryCode": "GB",
       "isp": "Akamai Connected Cloud",
       "user_type": "hosting",
-      "type": "https"
-    },
-    {
-      "ip": "18.170.45.5",
-      "port": "26887",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
       "type": "http"
-    },
-    {
-      "ip": "18.170.45.5",
-      "port": "6022",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "https"
     },
     {
       "ip": "18.170.45.5",
       "port": "9894",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "18.170.45.5",
-      "port": "9595",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "18.175.170.244",
-      "port": "4308",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "18.170.45.5",
-      "port": "34353",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "18.175.170.244",
-      "port": "3680",
-      "protocols": [
-        "http"
-      ],
-      "username": null,
-      "password": null,
-      "country": "United Kingdom",
-      "countryCode": "GB",
-      "isp": "Amazon.com, Inc.",
-      "user_type": "hosting",
-      "type": "http"
-    },
-    {
-      "ip": "18.170.45.5",
-      "port": "21448",
       "protocols": [
         "http"
       ],
@@ -198,11 +131,11 @@
       "countryCode": "GB",
       "isp": "Amazon.com, Inc.",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "18.170.45.5",
-      "port": "41032",
+      "port": "21448",
       "protocols": [
         "http"
       ],
@@ -216,7 +149,80 @@
     },
     {
       "ip": "18.170.45.5",
+      "port": "34353",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "18.170.45.5",
+      "port": "6022",
+      "protocols": [
+        "http",
+        "https",
+        "socks4",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "18.170.45.5",
       "port": "37237",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "18.170.45.5",
+      "port": "8689",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "18.170.45.5",
+      "port": "26887",
+      "protocols": [
+        "http"
+      ],
+      "username": null,
+      "password": null,
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "isp": "Amazon.com, Inc.",
+      "user_type": "hosting",
+      "type": "http"
+    },
+    {
+      "ip": "18.170.45.5",
+      "port": "9595",
       "protocols": [
         "http"
       ],
@@ -243,7 +249,7 @@
       "countryCode": "GB",
       "isp": "Merula Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     },
     {
       "ip": "194.146.49.36",
@@ -260,7 +266,7 @@
       "countryCode": "GB",
       "isp": "QuickHostUK Limited",
       "user_type": "business",
-      "type": "http"
+      "type": "https"
     }
   ]
 }
