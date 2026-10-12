@@ -1,9 +1,26 @@
 {
-  "updated_at": "2026-10-11T19:30:37.845004",
-  "total": 4,
+  "updated_at": "2026-10-12T00:24:44.649126",
+  "total": 3,
   "data": [
     {
       "ip": "202.5.50.151",
+      "port": "1080",
+      "protocols": [
+        "socks4",
+        "http",
+        "https",
+        "socks5"
+      ],
+      "username": null,
+      "password": null,
+      "country": "Bangladesh",
+      "countryCode": "BD",
+      "isp": "Broad Band Telecom Services Ltd",
+      "user_type": "residential",
+      "type": "socks4"
+    },
+    {
+      "ip": "119.18.147.179",
       "port": "1080",
       "protocols": [
         "socks4",
@@ -35,40 +52,6 @@
       "isp": "Race Online Limited",
       "user_type": "business",
       "type": "socks4"
-    },
-    {
-      "ip": "103.42.202.190",
-      "port": "1080",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bangladesh",
-      "countryCode": "BD",
-      "isp": "HelloTech Limited",
-      "user_type": "business",
-      "type": "socks4"
-    },
-    {
-      "ip": "202.4.126.9",
-      "port": "81",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Bangladesh",
-      "countryCode": "BD",
-      "isp": "AmberIT Limited",
-      "user_type": "business",
-      "type": "https"
     }
   ]
 }
