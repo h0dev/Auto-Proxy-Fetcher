@@ -1,20 +1,23 @@
 {
-  "updated_at": "2026-10-13T16:53:14.608287",
-  "total": 4,
+  "updated_at": "2026-10-13T22:31:57.772019",
+  "total": 3,
   "data": [
     {
-      "ip": "194.34.134.21",
-      "port": "8081",
+      "ip": "65.21.252.66",
+      "port": "10802",
       "protocols": [
-        "http"
+        "socks5",
+        "http",
+        "https",
+        "socks4"
       ],
-      "username": "afY491o7YfK00koaXQD9kZEdkpejdNdWorckcybVX-jZiHwDPIjmI6_6z9aHJEHCoXw609MC0WdYefYZbCn32A==",
-      "password": "1",
+      "username": null,
+      "password": null,
       "country": "Finland",
       "countryCode": "FI",
-      "isp": "Oy Crea Nova Hosting Solution Ltd",
+      "isp": "Hetzner Online GmbH",
       "user_type": "hosting",
-      "type": "http"
+      "type": "socks5"
     },
     {
       "ip": "34.88.38.81",
@@ -47,20 +50,6 @@
       "isp": "Google LLC",
       "user_type": "hosting",
       "type": "https"
-    },
-    {
-      "ip": "83.143.242.74",
-      "port": "8081",
-      "protocols": [
-        "http"
-      ],
-      "username": "afY491o7YfK00koaXQD9kZEdkpejdNdWorckcybVX-jPv3ulroTTF6xl2dPDoxUZoXw609MC0WdYefYZbCn32A==",
-      "password": "1",
-      "country": "Finland",
-      "countryCode": "FI",
-      "isp": "M247 Europe SRL",
-      "user_type": "business",
-      "type": "http"
     }
   ]
 }

@@ -1,20 +1,23 @@
 {
-  "updated_at": "2026-10-13T16:53:14.599649",
-  "total": 4,
+  "updated_at": "2026-10-13T22:31:57.774586",
+  "total": 3,
   "data": [
     {
-      "ip": "103.103.0.21",
-      "port": "8081",
+      "ip": "47.80.86.165",
+      "port": "10808",
       "protocols": [
-        "http"
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
-      "username": "afY491o7YfK00koaXQD9kZEdkpejdNdWorckcybVX-ipCrzTs4pZfsmk_TJJY6i9oXw609MC0WdYefYZbCn32A==",
-      "password": "1",
+      "username": null,
+      "password": null,
       "country": "Philippines",
       "countryCode": "PH",
-      "isp": "Web.com.ph Inc.",
+      "isp": "Alibaba (US) Technology Co., Ltd.",
       "user_type": "business",
-      "type": "http"
+      "type": "socks4"
     },
     {
       "ip": "115.84.248.140",
@@ -31,7 +34,7 @@
       "countryCode": "PH",
       "isp": "Eastern Telecoms Phils., Inc.",
       "user_type": "residential",
-      "type": "https"
+      "type": "http"
     },
     {
       "ip": "122.2.48.121",
@@ -48,23 +51,6 @@
       "countryCode": "PH",
       "isp": "Philippine Long Distance Telephone Company",
       "user_type": "business",
-      "type": "https"
-    },
-    {
-      "ip": "203.177.217.222",
-      "port": "8082",
-      "protocols": [
-        "http",
-        "https",
-        "socks4",
-        "socks5"
-      ],
-      "username": null,
-      "password": null,
-      "country": "Philippines",
-      "countryCode": "PH",
-      "isp": "Globe Telecoms",
-      "user_type": "residential",
       "type": "http"
     }
   ]
