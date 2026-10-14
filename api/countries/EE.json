@@ -1,20 +1,23 @@
 {
-  "updated_at": "2026-10-13T16:53:14.609676",
+  "updated_at": "2026-10-14T04:18:52.761595",
   "total": 1,
   "data": [
     {
-      "ip": "46.22.223.178",
-      "port": "8081",
+      "ip": "146.19.143.200",
+      "port": "1080",
       "protocols": [
-        "http"
+        "socks5",
+        "socks4",
+        "http",
+        "https"
       ],
-      "username": "afY491o7YfK00koaXQD9kZEdkpejdNdWorckcybVX-i568LymG5RskhXh0q5S7wMoXw609MC0WdYefYZbCn32A==",
-      "password": "1",
+      "username": null,
+      "password": null,
       "country": "Estonia",
       "countryCode": "EE",
-      "isp": "Aktsiaselts WaveCom",
-      "user_type": "business",
-      "type": "http"
+      "isp": "BlueVPS OU",
+      "user_type": "hosting",
+      "type": "socks4"
     }
   ]
 }
